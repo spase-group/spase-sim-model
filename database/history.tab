@@ -242,4 +242,5 @@
 243	2.0.2	2009-11-18	T.King	Modified definitions for "Observatory" and "Instrument".	
 244	2.0.3	2010-02-04	T.King	Added "Former-PI" to dictionary and to "Role" enumeration; Added "Note" to "Person".	Decided durinng the telecon on 2010-02-04
 245	2.0.3	2010-03-19	T.King	Updated definitions for "Number Flux", "Energy Flux", "Differential", and "Integral"; Added "Dust" to "Measurement Type" enumeration; 	Decided durinng the telecon on 2010-03-18
+246	2.1.0	2010-03-19	T.King	Released.	Decided durinng the telecon on 2010-03-18
 254					
