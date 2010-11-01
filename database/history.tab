@@ -180,4 +180,18 @@
 181	1.3.0	2008-05-22	T.King	Added "EIT Waves" to dictionary and "Phenomenon Type".	Decided during telecon on 2008-05-22.
 182	1.3.0	2008-05-22	T.King	Fixed spelling of "Plasma Frequency" in the "Photon Qualifier" list.	
 183	1.3.0	2008-05-22	T.King	Removed "Array" from the Field, Photon and Particle qualifier lists.	Decided during telecon on 2008-05-22.
+184	1.3.1	2008-07-21	T.King	Updated description of duration type.	Editorial correction
+185	1.3.1	2008-07-31	T.King	Added "Set" to "Physical Parameter"	Decided during the telecon on 2008-06-26
+186	1.3.1	2008-07-31	T.King	Added "Source" dictionary and to "Granule", Removed URL, Checksum and Data Extent from Granule (now in Source)	Decided during the telecon on 2008-06-26
+187	1.3.1	2008-07-31	T.King	Added "Source Type" as a list with possible values of Data, Layout, Ancillary, Browse and Thumbnail.	Decided during the telecon on 2008-06-26
+188	1.3.1	2008-07-31	T.King	Added "Qualifier" as a unified list of all qualifiers. Removed "Field Qualifier", "Photon Qualifier" and "Particle Qualifier" from the dictionary. Replaced each with "Qualifier" in the ontology. Added "Qualifier" to "Support"	Decided during the telecon on 2008-07-231
+189	1.3.1	2008-07-31	T.King	Added "Trace" to the dictionary and to the "Qualifier" list.	Decided during the telecon on 2008-07-31
+190	1.3.1	2008-07-31	T.King	Added "Ion Drift" and "Dust Detector" to the dictionary and to the "Instrument Type" list.	Decided during the telecon on 2008-07-31
+191	1.3.1	2008-07-31	T.King	Added "Platform" to the dictionary and to the "Instrument Type" list, remove "Ephemeris" from the "Instrument Type" list.	Decided during the telecon on 2008-07-31
+192	1.3.1	2008-09-04	T.King	Added "Rendering Hints" with elements Format, AxisLabel, DisplayType, ScaleMin, ScaleMax, ScaleType and related enumerated values.	Decided during the telecon on 2008-08-21
+193	1.3.1	2008-09-04	T.King	Added "Symmetric" to the dictionary and to Qualifier.	Decided during the telecon on 2008-08-21
+194	1.3.1	2008-09-04	T.King	Changed "Physical Parameter" to "Parameter".	Decided during the telecon on 2008-09-04
+195	1.3.1	2008-09-04	T.King	Removed "Measured" and shifted containers under "Measured" up one level.	Decided during the telecon on 2008-09-04
+196	1.3.1	2008-09-04	T.King	Added "Velocity" to "Support Quantity".	Decided during the telecon on 2008-09-04
+197	1.3.1	2008-09-04	T.King	Added "Count Rate" to the dictionary and to "Particle Quantity".	Decided during the telecon on 2008-09-04
 254					

@@ -155,6 +155,8 @@ Dave Winningham, <david@cluster.space.swri.edu>
 <b>University of California, Los Angeles (UCLA)</b>
 <dd>
 <br>
+Lee Frost Bargatze, <lfb@igpp.ucla.edu>
+<br>
 Steven Joy, <sjoy@igpp.ucla.edu>
 <br>
 Todd King, <tking@igpp.ucla.edu> 
