@@ -194,4 +194,7 @@
 195	1.3.1	2008-09-04	T.King	Removed "Measured" and shifted containers under "Measured" up one level.	Decided during the telecon on 2008-09-04
 196	1.3.1	2008-09-04	T.King	Added "Velocity" to "Support Quantity".	Decided during the telecon on 2008-09-04
 197	1.3.1	2008-09-04	T.King	Added "Count Rate" to the dictionary and to "Particle Quantity".	Decided during the telecon on 2008-09-04
+198	1.3.2	2008-10-07	T.King	Removed "Charged Particle Flux" from Measurement Type and the dictionary.	Decided during the telecon on 2008-09-18
+199	1.3.2	2008-10-07	T.King	Added "Interstellar" to dictionary and Region.	Decided during the telecon on 2008-09-18
+200	1.3.2	2008-10-15	T.King	Changed "Format" under "Rendering Hints" to "Value Format" to eliminate name conflict with "Format".	
 254					
