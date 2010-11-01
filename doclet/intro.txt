@@ -39,7 +39,7 @@ observation and modeling in the domain of solar and space physics.
 These products typically consist of related collections of files that 
 will be accessed, in whole or in part, by science users. Types of 
 products include numerical datasets, display data plots, images, 
-software, documentation, and event lists ("catalogues"). Products are a 
+software, documentation, and event lists ("catalogs"). Products are a 
 subset of a larger class of "Resources" that includes Spacecraft, 
 Instruments, Repositories, and even People, that can be described by 
 their own set of terms, and then referred to in product descriptions, 
@@ -241,7 +241,7 @@ consist of the Product Types:
 <br>
 	Display Data, and
 <br>
-	Catalogue 
+	Catalog 
 </dd>
 
 and the Resource Types that support these: 
@@ -255,9 +255,13 @@ and the Resource Types that support these:
 <br>
 	Repository,
 <br>
-	Granule, and
+	Service,
 <br>
-	Person. 
+	Granule, 
+<br>
+	Person, and
+<br>
+   Extension. 
 </dd>
 
 Each of these types has its own set of terms. The present 
@@ -269,7 +273,7 @@ to supplement the metadata.
 
 A set of Elements (the general model term for what could roughly be 
 termed a keyword) is common to all Resource descriptions (with the 
-exception of Granule and Person); they are 
+exception of Granule, Person and Extension); they are 
 grouped in a Resource Header, consisting primarily of:
 
 <dd>
@@ -382,8 +386,6 @@ are described by the Headers plus other elements, including:
 <br>
 	Temporal Description (time range available, resolution)
 <br>
-	Instrument Region (where was the instrument)
-<br>
 	Observed Region (the source of data)
 <br>
 	Physical Parameter (very useful)
@@ -392,14 +394,15 @@ are described by the Headers plus other elements, including:
 Other elements are part of a Numerical Data resource and can be used to 
 provide additional details.
 
-Each Physical Parameter is a description
-for a the physical quantity that the provider 
-wishes to advertise in the product. This could consist of one entry 
-describing image data as being a full-Sun image in white light, or it 
-could contain many entries for the various parameters (density, 
-temperature, velocity, variance in these, error bars, and quality flags) 
-for a thermal plasma product. Each Physical Parameter would be 
-described by a standard set of elements including:
+Each Physical Parameter segment of a Product Descriptor is a 
+description of a physical quantity that the provider wishes to
+advertise in the product. The Product Descriptor could have just 
+one such segment describing image data as being a full-Sun image 
+in white light, or it could contain many segments for the various 
+parameters (density, temperature, velocity, variance in these, 
+error bars, and quality flags) for a thermal plasma product. 
+Each Physical Parameter would be described by a standard set of 
+elements including:
 
 <dd>
 	Name
@@ -437,15 +440,17 @@ Measured parameters are organized into four categories:
    Mixed: which are composite or derived quantities. 
 </dd>
 
-Support parameters are organized into three categories: 
+Support parameters are characterized by its intrinsic type though an enumeration which includes: 
 
 <dd>
    Positional: the location of a observation
 <br>
    Temporal: the time of a observation
 <br> 
-   Other: importan, but unclassified parameters
+   Other: important, but unclassified parameters
 </dd>
+
+with details of the parameter provided though the Structure information.
 
 Each category has its own set of elements (and enumerated) lists
 based on the natural taxonomy of the physical world.
@@ -465,18 +470,18 @@ part of a Display Data Product. The Display Data resource can be associated
 of the Numerical Data resource to the Association ID in the Resource Header
 of Display Data resource.
 
-<h2>Catalogue Resources</h2>
-Catalogues can include complete listings of files and the times they 
-cover, but this is not the main intent here. Rather, a Catalogue will 
+<h2>Catalog Resources</h2>
+Catalogs can include complete listings of files and the times they 
+cover, but this is not the main intent here. Rather, a Catalog will 
 typically consist of a set of start and stop times for "events" which 
 can be anything from Coronal Mass Ejection occurrences in SOHO images, to 
 intervals when data are available in a particular product, to 
 identifications of when a spacecraft is in a particular region such as 
-the Earth’s magnetosheath. These types of catalogues are already being 
+the Earth’s magnetosheath. These types of catalogs are already being 
 used for assistance in data searches by VSO and EGSO. 
 
-Another type of catalogue is one that provides summary or statistical 
-information for a Numerical Data resource. In this case the catalogue
+Another type of catalog is one that provides summary or statistical 
+information for a Numerical Data resource. In this case the catalog
 can be associated with the Numerical Data resource by using the 
 Association ID in the Resource Header.
 
@@ -485,23 +490,36 @@ Granules are a special type of resource which describes a piece of
 another resource such as a Numerical Data resource or Display Data resource.
 A Granule must reference which resource it is assocated with through its 
 Parent ID element. The Granule inherits all the attributes of the parent
-resource. 
+resource. A Granule may be composed of one or more physical pieces (files) 
+which are considered inseperable. For example, a data storage format that
+maintains metadata and binary data in seperate, but tightly coupled files.
+Granules should not be used to group files that have simple relationships
+or which are associated through a parent resource. For example, each file
+containing a time interval data for a Numerical Data resource would each
+be considered a Granule.
+
+<h2>Extension</h2>
+An Extension resource contains other metadata which is not part of the SPASE
+data model. The contents of this element are defined by individual usage.
+The organization and content are constrained by the implementation. 
+For example, in an XML representation of the SPASE metadata the content 
+must conform to the XML specications. 
 
 <h2>Other Resource Types</h2>
 The "nonproduct" Resource types are generally self-explanatory. They are:
 
 <dd>
-   Instrument
+   Instrument: A device which is used to sense and parameterize a physical phenomenon.
 <br>
    Observatory: A spacecraft, a cluster of spacecraft, groundbased chains, etc.
 <br>
-   Person
+   Person: An individual human being.
 <br>
    Respository: A storage point for resources
 <br>
    Registry: An inventory of available resources
 <br>
-   Service
+   Service: A location or facility that can perform a well defined task.
 </dd>
 
 <h2>Future Direction</h2>

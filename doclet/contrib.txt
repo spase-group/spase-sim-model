@@ -65,7 +65,9 @@ Michele Weiss, <michele.weiss@jhuapl.edu>
 <b>Goddard Space Flight Center (GSFC)</b>
 <dd>
 <br>
-Dieter Bilitza (RSTX), <bilitza@mail630.gsfc.nasa.gov>
+Ed Bell (PSGS), <ed.bell@gsfc.nasa.gov>
+<br>
+Dieter Bilitza (RITSS), <bilitza@mail630.gsfc.nasa.gov>
 <br>
 Bobby Candey,  <candey@mail630.gsfc.nasa.gov>
 <br>
@@ -77,11 +79,13 @@ Joe Hourcle (EITI), <oneiros@grace.nascom.nasa.gov>
 <br>
 Mona Kessel, <kessel@ndadsb-f.gsfc.nasa.gov>
 <br>
-Joe King, <jking@mail630.gsfc.nasa.gov>
+Joe King (PSGS), <jking@mail630.gsfc.nasa.gov>
 <br>
 Terry Kucera, <kucera@stars.gsfc.nasa.gov>
 <br>
 Bob McGuire, <rmcguire@pop600.gsfc.nasa.gov>
+<br>
+Jan Merka, <jan.merka@gsfc.nasa.gov>
 <br>
 Lou Reich (CSC), <lreich@pop500.gsfc.nasa.gov>
 <br>
@@ -93,7 +97,7 @@ Dave Sibeck <dsibeck@pop600.gsfc.nasa.gov>
 <br>
 Adam Szabo, <aszabo@pop600.gsfc.nasa.gov>
 <br>
-Jim Thieman (NSSDC), <james.r.thieman@nasa.gov>
+Jim Thieman, <james.r.thieman@nasa.gov>
 <br>
 Karen North, <Karen.C.North@nasa.gov>
 <br>
@@ -116,12 +120,6 @@ Chuck Holmes, <cholmes@mail.hq.nasa.gov>
 <dd>
 <br> 
 Eric Kihn, <eric.a.kihn@noaa.gov>
-</dd>
-
-<b>QSS Group, Inc.</b>
-<dd>
-<br>
-Ed Bell, <ed.bell@gsfc.nasa.gov>
 </dd>
 
 <b>Rutherford Appleton Laboratory (RAL)</b>
