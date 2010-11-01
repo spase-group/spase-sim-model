@@ -1,0 +1,84 @@
+1	0.99.1	2005-06-23	T.King	Removed duplicate entries.	
+2	0.99.1	2005-06-23	T.King	Added Chris Harvey's definitions for Electron Drift.	
+3	0.99.1	2005-06-23	T.King	Particle Correlator and Spacecraft Potential Control.	
+4	0.99.1	2005-06-23	T.King	Released.	
+5	0.99.2	2005-07-07	T.King	Corrected "Numerical Data" entry under Product	
+6	0.99.2	2005-07-07	T.King	Released.	
+7	0.99.3	2005-08-03	T.King	Added definitions supplied by J. Thieman, C. Harvey and T.King; Significant revision of document as suggested by Joe Hourcle	
+8	0.99.4	2005-08-08	T.King	Restructured the taxonomy of elements to match the one suggested by A. Roberts.	
+9	0.99.4	2005-08-08	T.King	Added definitions for new elements introduced in the new taxonomy.	
+10	0.99.4	2005-08-08	T.King	Released.	
+11	0.99.5	2005-08-26	T.King	Clarified some definitions and corrected typographical errors based on comments from J. Thieman and J. Hourcle.	
+12	0.99.5	2005-08-26	T.King	Changed data types of "Integer" to "Count" and "Double" to "Numeric".	
+13	0.99.5	2005-08-26	T.King	Added document elements to product resources.	
+14	0.99.5	2005-08-26	T.King	Added catalog, display data to top list.	
+15	0.99.5	2005-08-26	T.King	Included region descriptions from J. King with additions suggested by K. Reardon.	
+16	0.99.5	2005-08-26	T.King	Add parameters loosely based on a model proposed by A.Roberts.	
+17	0.99.5	2005-08-26	T.King	Released.	
+18	0.99.6	2005-09-07	T.King	Removed "Provider" and "Manufacture" resources and replaced with ID pointers.	
+19	0.99.7	2005-09-08	T.King	Under Parameter add Description, Tensor Order.	
+20	0.99.7	2005-09-08	T.King	Change Photon Context and Particle Context to Independent Variable.	
+21	0.99.7	2005-09-08	T.King	Move Wavelength and Wave Number under Photon Independent Variable.	
+22	0.99.7	2005-09-08	T.King	Drop Speed from Particle Independent Variable.	
+23	0.99.7	2005-09-08	T.King	Move Polar Angle under Particle Independent Variable.	
+24	0.99.7	2005-09-08	T.King	Add Analysis Method under Field/Electric and Field/Magnetic.	
+25	0.99.7	2005-09-08	T.King	Add Wave Form, Spectra etc. under Analysis Method.	
+26	0.99.7	2005-09-08	T.King	Add Near 1AU under Heliosphere; Add Body under Atmosphere-Ionosphere, Magnetosphere and Ground.	
+27	0.99.7	2005-09-08	T.King	Add all planets + Moon under Body.	
+28	0.99.7	2005-09-08	T.King	Update definition of Magnetotail, etc. to be generic, add Earth examples.	
+29	0.99.7	2005-09-08	T.King	Change "Acceptable abbreviation" to "Conventional abbreviation" since abbreviations are not supported in the model.	
+30	0.99.7	2005-09-08	T.King	Released.	
+31	0.99.8	2005-11-03	T.King	General clean-up and alignment with the schema agreed upon at the APL meeting (Nov 2-4, 2005)	
+32	0.99.8	2005-11-03	T.King	Released.	
+33	0.99.9	2005-11-18	T.King	Released.	
+34	1.0.0	2005-11-22	T.King, and others	Incorporate comments from consortium members on the "final" draft before the release of version 1.0.	
+35	1.0.0	2005-11-22	T.King	Added Phenomenon Type list and defined terms in the list.	
+36	1.0.0	2005-11-22	T.King	Released.	
+37	1.0.1	2006-01-03	T.King	Changes in value type for elements: Exposure, InputResourceID, RepositoryName, Size.	
+38	1.0.1	2006-01-03	T.King	Added elements: Pressure.	
+39	1.0.1	2006-01-03	T.King	Released.	
+40	1.0.2	2006-03-07	T.King	Added "Project Scientist" to dictionary and "Role".	
+41	1.0.2	2006-03-07	T.King	Added "Caveats" under "Instrument".	
+42	1.0.2	2006-03-07	T.King	Added "Repository" resource class.	
+43	1.0.2	2006-03-07	T.King	Added "Registry" resource class.	
+44	1.0.2	2006-03-07	T.King	Released.	
+45	1.0.3	2006-04-27	T.King	Added "Earth" as a enumeration with "Magnetosphere" as a member.	
+46	1.0.3	2006-04-27	T.King	Changed "Observed Region" and "Instrument Region" to enumerations.	
+47	1.0.3	2006-04-27	T.King	Changed definition of "Item" to indicate it is a value of an enumeration.	
+48	1.0.3	2006-04-27	T.King	Move "Access Rights" under "Access Information".	
+49	1.0.3	2006-04-27	T.King	Made "Acknowledgement optional.	
+50	1.0.3	2006-04-27	T.King	Change "HF Radar" to "Radar".	
+51	1.0.3	2006-04-27	T.King	Added "NCAR" as a "Format".	
+52	1.0.3	2006-04-27	T.King	Dropped N, Z, Q from dictionary.	
+53	1.0.3	2006-04-27	T.King	Moved Mass and Size under "Particle Physical Quantity" and changed to type item.	
+54	1.0.3	2006-04-27	T.King	Added "Near Earth" under "Heliosphere" and added "Outside Bowshock" and "Orbital" under "Near Earth".	
+55	1.0.3	2006-04-27	T.King	Changed "Spectral Range Name" to "Spectral Range" for consistency.	
+56	1.0.3	2006-04-27	T.King	Correct links to "Stoke's Parameters".	
+57	1.0.3	2006-04-27	T.King	Released.	
+58	1.1.0	2006-08-31	T.King	Removed "Orbital".	
+59	1.1.0	2006-08-31	T.King	Modified definition of "Near Earth".	
+60	1.1.0	2006-08-31	T.King	Changed "Instrument type" to allow multiple occurrences.	
+61	1.1.0	2006-08-31	T.King	Made data type of "Mixed" text.	
+62	1.1.0	2006-08-31	T.King	Added "Service" resource class.	
+63	1.1.0	2006-08-31	T.King	Updated description of "Resource ID".	
+64	1.1.0	2006-08-31	T.King	Added MAT_4, MAT_6, MAT_7 and VOTable as a Format.	
+65	1.1.0	2006-08-31	T.King	Added J2000 as a coordinate system.	
+66	1.1.0	2006-08-31	T.King	Added Base64 as an Encoding.	
+67	1.1.0	2006-08-31	T.King	Added Parent ID, Energy Range, Frequency Range, Azimuthal Angle Range, Polar Angle Range, Atomic Number Range, Integral, Differential, Low and High.	
+68	1.1.0	2006-08-31	T.King	Remove Coordinate System from Particle Physical Parameter.	
+69	1.1.0	2006-08-31	T.King	Updated Pressure definition.	
+70	1.1.0	2006-08-31	T.King	Add ObservatoryID under Instrument.	
+71	1.1.0	2006-08-31	T.King	Remove Observatory ID from Numerical Data and Display Data.	
+72	1.1.0	2006-08-31	T.King	Changed definition of Investigation Name.	
+73	1.1.0	2006-08-31	T.King	Remove Access Right from Display Data.	
+74	1.1.0	2006-08-31	T.King	Change Repository Name to Repository ID under Access Information.	
+75	1.1.0	2006-08-31	T.King	Added Granule.	
+76	1.1.0	2006-08-31	T.King	Added Parameter Key under Physical Parameter.	
+77	1.1.0	2006-08-31	T.King	Add Release Date to Resource Header, Person, and Granule.	
+78	1.1.0	2006-08-31	T.King	Changed "alias" to "alternate name".	
+79	1.1.0	2006-08-31	T.King	Removed "Instrument Name" and "Observatory Name".	
+80	1.1.0	2006-08-31	T.King	Added ChargeState to Particle Quantity.	
+81	1.1.0	2006-08-31	T.King	Add Field Component container.	
+82	1.1.0	2006-08-31	T.King	Add Statistics to Phenomenon Type.	
+83	1.1.0	2006-08-31	T.King	Released.	
+254					

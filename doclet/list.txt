@@ -1,0 +1,5 @@
+<h1>Enumeration of Selected Quantities</h1>
+Lists are either "open" or "closed". The items in a "closed" list are determined by the SPASE model 
+and definitions of each item is in the SPASE data dictionary. The items in an "open" list are 
+determined by an external control authority. The URL for the control authority is indicated in the definition
+of each "open" list.

@@ -1,0 +1,158 @@
+<b>Consortium Members:</b>
+
+<b>Augsburg College </b>
+<dd>
+<br>
+Mark Engebretson, <engebret@augsburg.edu> 
+<br>
+Noel Petit, <petit@augsburg.edu>
+</dd>
+
+<b>California Institute of Technology (CalTech)</b>
+<dd>
+<br>
+Andrew Davis, <ad@srl.caltech.edu>
+</dd>
+
+<b>Centre de Données de la Physique des Plasmas (CDPP)</b>
+<dd>
+<br>
+Michel Gangloff, <gangloff@cesr.fr>
+<br>
+Christopher Harvey, <christopher.harvey@cesr.fr>
+<br>
+Claude Huc, <claude.huc@cnes.fr>
+<br>
+Thierry Levoir, <thierry.levoir@cnes.fr>
+</dd>
+
+<b>Istituto Nazionale di Astrofisica (INAF)</b>
+<dd>
+<br>
+Kevin Reardon, <kreardon@arcetri.astro.it>
+</dd>
+
+<b>Japan Aerospace eXploration Agency (JAXA) - STP/Ehime</b>
+<dd>
+<br>
+Yasumasa Kasaba, <kasaba@stp.isas.jaxa.jp>
+<br>
+Ken T. Murata,  STP/Ehime, <murata@cite.ehime-u.ac.jp>
+</dd>
+
+<b>Jet Propulsion Laboratory (JPL)</b>
+<dd>
+<br>
+Dan Crichton, <dan.crichton@jpl.nasa.gov>
+<br>
+Steven Hughes, <j.steven.hughes@jpl.nasa.gov>
+</dd>
+
+<b>John Hopkins University/Applied Physics Laboratory (JHU/APL)</b>
+<dd>
+<br>
+Rose Daley, <rose.daley@jhuapl.edu>
+<br>
+Brand Fortner, <brand.fortner@jhuapl.edu>
+<br>
+Stu Nylund, <stu.nylund@jhuapl.edu>
+<br>
+Jon Vandergriff, <jon.vandergriff@jhuapl.edu>
+<br>
+Michele Weiss, <michele.weiss@jhuapl.edu>
+</dd>
+
+<b>Goddard Space Flight Center (GSFC)</b>
+<dd>
+<br>
+Dieter Bilitza (RSTX), <bilitza@mail630.gsfc.nasa.gov>
+<br>
+Bobby Candey,  <candey@mail630.gsfc.nasa.gov>
+<br>
+Carl Cornwell (Aquilent), <carl.cornwell@aquilent.com>
+<br>
+Joe Gurman, <gurman@grace.nascom.nasa.gov>
+<br>
+Joe Hourcle (EITI), <oneiros@grace.nascom.nasa.gov>
+<br>
+Mona Kessel, <kessel@ndadsb-f.gsfc.nasa.gov>
+<br>
+Joe King, <jking@mail630.gsfc.nasa.gov>
+<br>
+Terry Kucera, <kucera@stars.gsfc.nasa.gov>
+<br>
+Bob McGuire, <rmcguire@pop600.gsfc.nasa.gov>
+<br>
+Lou Reich (CSC), <lreich@pop500.gsfc.nasa.gov>
+<br>
+Aaron Roberts, <roberts@vayu.gsfc.nasa.gov>
+<br>
+Don Sawyer, <donald.sawyer@gsfc.nasa.gov>
+<br>
+Dave Sibeck <dsibeck@pop600.gsfc.nasa.gov>
+<br>
+Adam Szabo, <aszabo@pop600.gsfc.nasa.gov>
+<br>
+Jim Thieman (NSSDC), <james.r.thieman@nasa.gov>
+<br>
+Karen North, <Karen.C.North@nasa.gov>
+<br>
+Aaron Smith (Aquilent), <aaron.smith@aquilent.com>
+<br>
+Isaac Verghese (Aquilent), <Isaac.Verghese@aquilent.com>
+<br>
+Vasili Rezapkin (Aquilent), <vasili.rezapkin@aquilent.com>
+</dd>
+
+<b>National Aeronautics and Space Administration (NASA) HQ</b>
+<dd>
+<br>
+Joe Bredekamp, <jbredeka@mail.hq.nasa.gov>
+<br>
+Chuck Holmes, <cholmes@mail.hq.nasa.gov>
+</dd>
+
+<b>National Oceanic and Atmospheric Administration (NOAA)</b>
+<dd>
+<br> 
+Eric Kihn, <eric.a.kihn@noaa.gov>
+</dd>
+
+<b>QSS Group, Inc.</b>
+<dd>
+<br>
+Ed Bell, <ed.bell@gsfc.nasa.gov>
+</dd>
+
+<b>Rutherford Appleton Laboratory (RAL)</b>
+<dd>
+<br>
+Chris Perry, <c.h.perry@rl.ac.uk>
+<br>
+Phil Richards, <P.J.Richards@rl.ac.uk> 
+</dd>
+
+<b>Stanford University</b>
+<dd>
+<br>
+Rick Bogart, <rbogart@stanford.edu>
+</dd>
+
+<b>Southwest Research Institute (SwRI)</b>
+<dd>
+<br>
+Joey Mukherjee, <jmukherjee@swri.org>
+<br>
+Dave Winningham, <david@cluster.space.swri.edu>
+</dd>
+
+<b>University of California, Los Angeles (UCLA)</b>
+<dd>
+<br>
+Steven Joy, <sjoy@igpp.ucla.edu>
+<br>
+Todd King, <tking@igpp.ucla.edu> 
+<br>
+Ray Walker, <rwalker@igpp.ucla.edu>
+</dd>
+

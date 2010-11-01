@@ -1,0 +1,47 @@
+<h1>Executive Summary</h1>
+The Solar and Space Physics communities need a unified data environment 
+to facilitate finding, retrieving, formatting, and obtaining basic 
+information about data essential for their research. With the 
+increasing requirement for data from multiple sources, this need has 
+become acute. A unified method to describe data and other resources is 
+the key to achieving this unified environment. The SPASE (Space Physics 
+Archive Search and Extract) Data Model provides a basic set of terms and 
+values organised in a simple and homogeneous way, to facilitate access 
+to Solar and Space Physics resources. The SPASE Data Model 
+is comparable to the data models developed by the Planetary Data System 
+(PDS) and the International Virtual Observatory Alliance (IVOA) for 
+planetary and astronomical data, respectively. The SPASE Model will 
+provide the detailed information at the parameter level required for 
+Solar and Space Physics applications.
+
+The SPASE consortium is an international team of space and solar 
+physicists and information scientists. It first examined many existing 
+data models, but found none to be adequate. A set of terms based on a 
+half-dozen or so of the most complete of such models was refined based 
+on applying the model at various levels of detail to a large number of 
+existing products to arrive at the current version. The major creators 
+of SPASE-based product descriptions are expected to be domain-based 
+Virtual Observatories ("VxOs"), data centers, and individual data and 
+model providers. The SPASE Data Model will continue to evolve in a 
+controlled way as data and service providers and benefiting researchers 
+suggest improvements to extend its framework of common standards. 
+Success of the model will be measured by the extent of community support 
+and use. 
+
+The present Data Model provides enough detail to allow a scientist to 
+understand the content of Data Products (e.g., a set of files for 
+3 second resolution Geotail magnetic field data for1992 to 2005), together 
+with essential retrieval and contact information. A typical use would 
+be to have a collection of descriptions stored in one or more related 
+internet-based registries of products; these could be queried with 
+specifically designed search engines which link users to the data they 
+need. The Data Model also provides constructs for describing components of 
+a data delivery system. This includes repositories, registries and services.
+
+This document provides potential users of SPASE with the Data Model for 
+review and use. Sections 2 and 3 provide an overview of the origins and 
+the concepts of the data model. Section 4 presents the set of elements 
+in a hierarchy that shows the natural relationships among them. This is 
+followed by usage suggestion and pedagogic examples in Section 5 and 6, and 
+by the complete set of definitions of terms and enumerated lists in 
+Section 7.

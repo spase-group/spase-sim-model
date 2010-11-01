@@ -1,0 +1,153 @@
+<h1>Examples</h1>
+As an example let us describe a person using SPASE metadata. This person is "John Smith" 
+from Smith Foundation. 
+While the SPASE data model is implementation neutral, XML representation is preferred. 
+This example uses the SPASE XML form.
+
+<pre>
+ <?xml version="1.0" encoding="UTF-8" ?> 
+ <Spase>
+    <Person>
+      <ResourceID>spase://person/jsmith@smith.org</ResourceID>
+      <PersonName>John Smith</PersonName>
+      <OrganizationName>Smith Foundation</OrganizationName>
+      <Address>1 Main St., Smithville, MA</Address>
+      <Email>jsmith@smith.org</Email>
+      <PhoneNumber>1-800-555-1212</PhoneNumber>
+   </Person>
+ </Spase>
+</pre>
+
+For a more extensive example let us consider a collection of numerical data from the magnetometer 
+on the ACE spacecraft. This data set has been averaged to 1 minute intervals (cadence) 
+and spans the beginning of the mission to the end of 2004 (1997-09-01 through 2004-12-31). 
+The ACE spacecraft orbits the L1 point between the Earth and the Sun. While the SPASE data model
+is implementation neutral, XML representation is preferred. This example uses the SPASE XML form.
+The presented URLs are fictitious and will not direct you to the actual data.
+
+<pre>
+ <?xml version="1.0" encoding="UTF-8" ?> 
+ <Spase>
+   <version>1.1.0</version>
+   <NumericalData>
+      <ResourceID>spase://UCLA/ACEMAG200301</ResourceID>
+      <ReleaseDate>2006-07-26T00:00:00.000</ReleaseDate>
+      <ResourceHeader>
+         <ResourceName>ACEMAG200301</ResourceName>
+         <Acknowledgement>                                             
+            User will acknowledge the data producer and instrument P.I. in any     
+            publication resulting from the use of these data.
+         </Acknowledgement>
+       <Description>
+          ACE MFI 1-minute averaged magnetic-field data in GSE coordinates
+          from Jan 2003. These data have been derived from the 16 second 
+          resolution ACE MFI which were linearly interpolated to a 1-minute 
+          time grid with time stamps at second zero of each minute.
+       </Description>
+       
+       <Contact>
+          <Role>Principal Investigator</Role>
+          <PersonID>spase://person/nfness@bartol.udel.edu</PersonID>
+       </Contact>
+     
+       <Contact>
+          <Role>Co-Investigator</Role>
+          <PresonID>spase://person/Charles.Smith@unh.edu</PersonID>
+       </Contact>
+     
+       <Contact>
+          <Role>Data Producer</Role>
+          <PresonID>spase://person/jweygand@igpp.ucla.edu</PresonID>
+       </Contact>
+    </ResourceHeader>
+    
+    <AccessInformation>
+       <AccessRights>Open</AccessRights>
+       <Format>text</Format>
+       <Encoding>GZIP</Encoding>
+       <AccessURL>
+          <URL>http://www.igpp.ucla.edu/getResource?format=text&id=spase://UCLA/ACEMAG200301</URL>
+       </AccessURL>
+    </AccessInformation>
+  
+    <AccessInformation>
+       <AccessRights>Open</AccessRights>
+       <Format>Matlab 7</Format>
+       <Encoding>None</Encoding>
+       <AccessURL>
+          <URL>http://www.igpp.ucla.edu/getResource?format=matlab7&id=spase://UCLA/ACEMAG200301</URL>
+       </AccessURL>
+    </AccessInformation>
+  
+    <InstrumentID>spase://nssdc/ACE_MFI</InstrumentID>
+    <MeasurementType>Magnetic Field</MeasurementType>
+   
+    <TemporalDescription>
+       <TimeSpan>
+         <StartDate>1997-01-01T00:00</StartDate>
+         <EndDate>2004-01-31T23:59</EndDate>
+       </TimeSpan>
+       <Cadence>PT00:01:00</Cadence>
+    </TemporalDescription>
+  
+    <InstrumentRegion>Heliosphere.NearEarth</InstrumentRegion>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+  
+    <PhysicalParameter>
+       <Name>SAMPLE_TIME_UTC</Name>
+       <ParameterKey>time</ParameterKey>
+       <Description>
+        Sample UTC in the form DD MM YYYY hh mm ss where
+          DD   = day of month (01-31)
+          MM   = month of year (01-12)
+          YYYY = Gregorian Year AD
+          hh   = hour of day     (00:23)
+          mm   = minute of hour  (00-59)
+          ss   = second of minute (00-60).
+       </Description>
+       <Support>
+         <Temporal>UTC</Temporal>
+       </Support>
+    </PhysicalParameter>
+  
+    <PhysicalParameter>
+       <Name>MAGNETIC_FIELD_VECTOR</Name>
+       <Units>nT</Units>
+       <CoordinateSystem>
+          <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+          <CoordinateSystemName>GSE</CoordinateSystemName>
+       </CoordinateSystem>
+       <Description>
+           Magnetic field vector in GSE Coordinates (Bx, By, Bz).
+       </Description>
+       <Measured> 
+          <Field>
+             <FieldQualifier>Vector</FieldQualifier>
+             <FieldPhysicalQuantity>Magnetic</FieldPhysicalQuantity>
+         </Field>
+      </Measured>
+    </PhysicalParameter>
+  
+    <PhysicalParameter>
+       <Name>SPACECRAFT_POSITION_VECTOR</Name>
+       <CoordinateSystem>
+          <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+          <CoordinateSystemName>GSE</CoordinateSystemName>
+       </CoordinateSystem>
+       <Units>EARTH RADII</Units>
+       <UnitsConversion>6378.16 km</UnitsConversion>
+       <Description>
+          ACE spacecraft location in GSE coordinates (X,Y,Z)."
+       </Description>
+       <Support>
+         <Positional>
+            <Orientation>X</Orientation>
+            <Orientation>Y</Orientation>
+            <Orientation>Z</Orientation>
+         </Positional>
+       </Support>
+    </PhysicalParameter>
+
+   </NumericalData>
+ </Spase>
+</pre>

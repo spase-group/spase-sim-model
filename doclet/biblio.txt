@@ -1,0 +1,51 @@
+<h1>Bibliography</h1>
+National Solar Observatory Sacramento Peak
+<br>
+<dd>
+<a href=http://www.sunspot.noao.edu/sunspot/pr/glossary.html>http://www.sunspot.noao.edu/sunspot/pr/glossary.html</a>
+</dd>
+
+Terms and Definitions
+<br>
+<dd>
+<a href=http://www.pgd.hawaii.edu/eschool/glossary.htm>http://www.pgd.hawaii.edu/eschool/glossary.htm</a>
+</dd>
+
+International System of Units (SI)
+<br>
+<dd>
+<a href=http://www.bipm.fr/en/si>http://www.bipm.fr/en/si</a>
+<br>
+Base units:  
+<a href=http://www.bipm.fr/en/si/si_brochure/chapter2/2-1/#symbols>http://www.bipm.fr/en/si/si_brochure/chapter2/2-1/#symbols</a>
+<br>
+and those for Common derived units:  
+<a href=http://www.bipm.fr/en/si/derived_units/2-2-2.html>http://www.bipm.fr/en/si/derived_units/2-2-2.html</a>
+</dd>
+
+ISO 8601:2004 - Date Format
+<br>
+<dd>
+<a href=http://en.wikipedia.org/wiki/ISO_8601>http://en.wikipedia.org/wiki/ISO_8601</a>
+<br>
+- or -
+<br>
+<a href=http://www.iso.ch/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=40874>http://www.iso.ch/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=40874</a>
+<br>
+- or -
+<br>
+<a href=http://www.iso.org/iso/en/prods-services/popstds/datesandtime.html>http://www.iso.org/iso/en/prods-services/popstds/datesandtime.html</a>
+</dd>
+
+RFC 3339 - Date and Time on the Internet 
+<br>
+<dd>
+	The basis for the ISO 8601 standard.
+<a href=http://www.iso.org/iso/en/prods-services/popstds/datesandtime.html>http://www.ietf.org/rfc/rfc3339.txt</a>
+</dd>
+
+RFC 1014 - XDR: External Data Representation standard
+<br>
+<dd>
+<a href=http://www.faqs.org/rfcs/rfc1014.html>http://www.faqs.org/rfcs/rfc1014.html</a>
+</dd>
