@@ -1,260 +1,260 @@
-2.0.1	1.1.0	Access Information	Access Rights	03	0	
-2.0.1	1.1.0	Access Information	Access URL	04	+	
-2.0.1	1.1.0	Access Information	Acknowledgement	08	0	
-2.0.1	1.1.0	Access Information	Availability	02	0	
-2.0.1	1.2.0	Access Information	Data Extent	07	0	
-2.0.1	1.1.0	Access Information	Encoding	06	0	
-2.0.1	1.1.0	Access Information	Format	05	1	
-2.0.1	1.1.0	Access Information	Repository ID	01	1	
-2.0.1	1.1.0	Access URL	Description	03	0	
-2.0.1	1.3.0	Access URL	Language	04	0	
-2.0.1	1.1.0	Access URL	Name	01	0	
-2.0.1	1.1.0	Access URL	URL	02	1	
-2.0.1	1.3.4	Annotation	Annotation Type	04	1	
-2.0.1	1.3.4	Annotation	Classification Method	06	0	
-2.0.1	1.3.4	Annotation	Confidence Rating	07	0	
-2.0.1	1.3.4	Annotation	Extension	10	*	
-2.0.1	1.3.4	Annotation	Image URL	03	0	
-2.0.1	1.3.4	Annotation	Observation Extent	09	*	
-2.0.1	1.3.4	Annotation	Phenomenon Type	05	0	
-2.0.1	1.3.4	Annotation	Resource Header	02	1	
-2.0.1	1.3.4	Annotation	Resource ID	01	1	
-2.0.1	1.3.4	Annotation	Time Span	08	*	
-2.0.1	1.3.3	Association	Association ID	01	0	
-2.0.1	1.3.3	Association	Association Type	02	0	
-2.0.1	1.3.3	Association	Note	03	0	
-2.0.1	1.1.0	Azimuthal Angle Range	Bin	04	*	
-2.0.1	1.1.0	Azimuthal Angle Range	High	02	1	
-2.0.1	1.1.0	Azimuthal Angle Range	Low	01	1	
-2.0.1	1.1.0	Azimuthal Angle Range	Units	03	1	
-2.0.1	1.3.0	Bin	Band Name	01	0	
-2.0.1	1.1.0	Bin	High	03	1	
-2.0.1	1.1.0	Bin	Low	02	1	
-2.0.1	1.1.0	Catalog	Access Information	03	+	
-2.0.1	1.1.0	Catalog	Caveats	09	0	
-2.0.1	1.3.0	Catalog	Extension	13	*	
-2.0.1	1.1.0	Catalog	Input Resource ID	11	*	
-2.0.1	1.1.0	Catalog	Instrument ID	06	*	
-2.0.1	1.1.0	Catalog	Keyword	10	*	
-2.0.1	1.3.0	Catalog	Parameter	12	*	
-2.0.1	1.1.0	Catalog	Phenomenon Type	07	+	
-2.0.1	1.1.0	Catalog	Provider Resource Name	04	0	
-2.0.1	1.1.0	Catalog	Provider Version	05	0	
-2.0.1	1.1.0	Catalog	Resource Header	02	1	
-2.0.1	1.1.0	Catalog	Resource ID	01	1	
-2.0.1	1.1.0	Catalog	Time Span	08	0	
-2.0.1	1.2.0	Checksum	Hash Function	02	1	
-2.0.1	1.2.0	Checksum	Hash Value	01	1	
-2.0.1	1.1.0	Contact	Person ID	01	1	
-2.0.1	1.1.0	Contact	Role	02	+	
-2.0.1	1.1.0	Coordinate System	Coordinate Representation	01	0	
-2.0.1	1.1.0	Coordinate System	Coordinate System Name	02	0	
-2.0.1	1.2.0	Data Extent	Per	03	0	
-2.0.1	1.3.0	Data Extent	Quantity	01	1	
-2.0.1	1.2.0	Data Extent	Units	02	0	
-2.0.1	1.1.0	Display Data	Access Information	03	+	
-2.0.1	1.1.0	Display Data	Caveats	14	0	
-2.0.1	1.1.0	Display Data	Display Cadence	12	0	
-2.0.1	1.3.0	Display Data	Extension	18	*	
-2.0.1	1.1.0	Display Data	Input Resource ID	16	*	
-2.0.1	1.1.0	Display Data	Instrument ID	08	*	
-2.0.1	1.1.0	Display Data	Keyword	15	*	
-2.0.1	1.1.0	Display Data	Measurement Type	09	+	
-2.0.1	1.1.0	Display Data	Observed Region	13	*	
-2.0.1	1.3.0	Display Data	Parameter	17	*	
-2.0.1	1.1.0	Display Data	Processing Level	04	0	
-2.0.1	1.1.0	Display Data	Provider Processing Level	06	0	
-2.0.1	1.1.0	Display Data	Provider Resource Name	05	0	
-2.0.1	1.1.0	Display Data	Provider Version	07	0	
-2.0.1	1.1.0	Display Data	Resource Header	02	1	
-2.0.1	1.1.0	Display Data	Resource ID	01	1	
-2.0.1	1.1.0	Display Data	Spectral Range	11	*	
-2.0.1	1.1.0	Display Data	Temporal Description	10	0	
-2.0.1	1.3.0	Document	Access Information	03	+	
-2.0.1	1.3.0	Document	Document Type	05	1	
-2.0.1	1.3.0	Document	Input Resource ID	06	*	
-2.0.1	1.3.0	Document	Keyword	04	*	
-2.0.1	1.3.0	Document	Resource Header	02	1	
-2.0.1	1.3.0	Document	Resource ID	01	1	
-2.0.1	1.3.0	Element	Fill Value	09	0	
-2.0.1	1.2.0	Element	Index	03	1	
-2.0.1	1.2.0	Element	Name	01	1	
-2.0.1	1.2.0	Element	Parameter Key	04	0	
-2.0.1	1.2.0	Element	Qualifier	02	*	
-2.0.1	1.3.0	Element	Units	05	0	
-2.0.1	1.3.0	Element	Units Conversion	06	0	
-2.0.1	1.3.0	Element	Valid Max	08	0	
-2.0.1	1.3.0	Element	Valid Min	07	0	
-2.0.1	1.1.0	Energy Range	Bin	04	*	
-2.0.1	1.1.0	Energy Range	High	02	1	
-2.0.1	1.1.0	Energy Range	Low	01	1	
-2.0.1	1.1.0	Energy Range	Units	03	1	
-2.0.1	1.1.0	Field	Field Quantity	02	1	
-2.0.1	1.1.0	Field	Frequency Range	03	0	
-2.0.1	1.3.1	Field	Qualifier	01	*	
-2.0.1	1.1.0	Frequency Range	Bin	05	*	
-2.0.1	1.1.0	Frequency Range	High	03	1	
-2.0.1	1.1.0	Frequency Range	Low	02	1	
-2.0.1	1.3.0	Frequency Range	Spectral Range	01	0	
-2.0.1	1.1.0	Frequency Range	Units	04	1	
-2.0.1	1.2.0	Granule	Expiration Date	03	0	
-2.0.1	1.1.0	Granule	Parent ID	04	1	
-2.0.1	1.1.0	Granule	Prior ID	05	*	
-2.0.1	1.1.0	Granule	Release Date	02	1	
-2.0.1	1.1.0	Granule	Resource ID	01	1	
-2.0.1	1.3.1	Granule	Source	08	+	
-2.0.1	1.1.0	Granule	Start Date	06	1	
-2.0.1	1.1.0	Granule	Stop Date	07	1	
-2.0.1	1.1.0	Information URL	Description	03	0	
-2.0.1	1.3.4	Information URL	Language	04	0	
-2.0.1	1.1.0	Information URL	Name	01	0	
-2.0.1	1.1.0	Information URL	URL	02	1	
-2.0.1	1.1.0	Instrument	Caveats	06	0	
-2.0.1	1.3.0	Instrument	Extension	07	*	
-2.0.1	1.1.0	Instrument	Instrument Type	03	+	
-2.0.1	1.1.0	Instrument	Investigation Name	04	1	
-2.0.1	1.1.0	Instrument	Observatory ID	05	1	
-2.0.1	1.1.0	Instrument	Resource Header	02	1	
-2.0.1	1.1.0	Instrument	Resource ID	01	1	
-2.0.1	1.2.0	Location	Coordinate System Name	02	0	
-2.0.1	1.2.0	Location	Elevation	05	0	
-2.0.1	1.2.0	Location	Latitude	03	0	
-2.0.1	1.2.0	Location	Longitude	04	0	
-2.0.1	1.2.0	Location	Observatory Region	01	+	
-2.0.1	1.3.5	Mixed	Mixed Quantity	02	1	
-2.0.1	1.3.6	Mixed	Particle Type	02	*	
-2.0.1	1.3.5	Mixed	Qualifier	01	*	
-2.0.1	1.1.0	Numerical Data	Access Information	03	+	
-2.0.1	1.1.0	Numerical Data	Caveats	13	0	
-2.0.1	1.3.0	Numerical Data	Extension	17	*	
-2.0.1	1.1.0	Numerical Data	Input Resource ID	15	*	
-2.0.1	1.1.0	Numerical Data	Instrument ID	08	*	
-2.0.1	1.1.0	Numerical Data	Keyword	14	*	
-2.0.1	1.1.0	Numerical Data	Measurement Type	09	+	
-2.0.1	1.1.0	Numerical Data	Observed Region	12	*	
-2.0.1	1.1.0	Numerical Data	Parameter	16	*	
-2.0.1	1.1.0	Numerical Data	Processing Level	04	0	
-2.0.1	1.1.0	Numerical Data	Provider Processing Level	06	0	
-2.0.1	1.1.0	Numerical Data	Provider Resource Name	05	0	
-2.0.1	1.1.0	Numerical Data	Provider Version	07	0	
-2.0.1	1.1.0	Numerical Data	Resource Header	02	1	
-2.0.1	1.1.0	Numerical Data	Resource ID	01	1	
-2.0.1	1.1.0	Numerical Data	Spectral Range	11	*	
-2.0.1	1.1.0	Numerical Data	Temporal Description	10	0	
-2.0.1	1.3.6	Observation Extent	Note	04	*	
-2.0.1	1.3.6	Observation Extent	Observed Region	01	0	
-2.0.1	1.3.6	Observation Extent	Start Location	02	1	
-2.0.1	1.3.6	Observation Extent	Stop Location	03	1	
-2.0.1	1.3.0	Observatory	Extension	05	*	
-2.0.1	1.1.0	Observatory	Location	04	1	
-2.0.1	1.1.0	Observatory	Observatory Group	03	*	
-2.0.1	1.1.0	Observatory	Resource Header	02	1	
-2.0.1	1.1.0	Observatory	Resource ID	01	1	
-2.0.1	1.1.0	Parameter	Cadence	06	0	
-2.0.1	1.1.0	Parameter	Caveats	05	0	
-2.0.1	1.1.0	Parameter	Coordinate System	09	0	
-2.0.1	1.1.0	Parameter	Description	04	0	
-2.0.1	1.1.0	Parameter	Field	15	1	ParameterEntity
-2.0.1	1.2.0	Parameter	Fill Value	14	0	
-2.0.1	1.1.0	Parameter	Mixed	18	1	ParameterEntity
-2.0.1	1.1.0	Parameter	Name	01	1	
-2.0.1	1.1.0	Parameter	Parameter Key	03	0	
-2.0.1	1.1.0	Parameter	Particle	16	1	ParameterEntity
-2.0.1	1.1.0	Parameter	Rendering Hints	10	*	
-2.0.1	1.1.0	Parameter	Set	02	*	
-2.0.1	1.1.0	Parameter	Structure	11	0	
-2.0.1	1.1.0	Parameter	Support	19	1	ParameterEntity
-2.0.1	1.1.0	Parameter	Units	07	0	
-2.0.1	1.1.0	Parameter	Units Conversion	08	0	
-2.0.1	1.2.0	Parameter	Valid Max	13	0	
-2.0.1	1.2.0	Parameter	Valid Min	12	0	
-2.0.1	1.1.0	Parameter	Wave	17	1	ParameterEntity
-2.0.1	1.1.0	Particle	Atomic Number	04	*	
-2.0.1	1.1.0	Particle	Azimuthal Angle Range	06	0	
-2.0.1	1.1.0	Particle	Energy Range	05	0	
-2.0.1	1.1.0	Particle	Particle Quantity	03	1	
-2.0.1	1.1.0	Particle	Particle Type	01	+	
-2.0.1	1.1.0	Particle	Polar Angle Range	07	0	
-2.0.1	1.3.1	Particle	Qualifier	02	*	
-2.0.1	1.1.0	Person	Address	05	0	
-2.0.1	1.1.0	Person	Email	06	*	
-2.0.1	1.3.0	Person	Extension	09	*	
-2.0.1	1.3.0	Person	Fax Number	08	0	
-2.0.1	1.1.0	Person	Organization Name	04	1	
-2.0.1	1.1.0	Person	Person Name	03	0	
-2.0.1	1.1.0	Person	Phone Number	07	*	
-2.0.1	1.1.0	Person	Release Date	02	0	
-2.0.1	1.1.0	Person	Resource ID	01	1	
-2.0.1	1.1.0	Polar Angle Range	Bin	04	*	
-2.0.1	1.1.0	Polar Angle Range	High	02	1	
-2.0.1	1.1.0	Polar Angle Range	Low	01	1	
-2.0.1	1.1.0	Polar Angle Range	Units	03	1	
-2.0.1	1.3.4	Registry	Access URL	03	1	
-2.0.1	1.3.0	Registry	Extension	04	*	
-2.0.1	1.1.0	Registry	Resource Header	02	1	
-2.0.1	1.1.0	Registry	Resource ID	01	1	
-2.0.1	1.3.1	Rendering Hints	Axis Label	02	0	
-2.0.1	1.3.1	Rendering Hints	Display Type	01	0	
-2.0.1	1.3.1	Rendering Hints	Scale Max	05	0	
-2.0.1	1.3.1	Rendering Hints	Scale Min	04	0	
-2.0.1	1.3.1	Rendering Hints	Scale Type	06	0	
-2.0.1	1.3.1	Rendering Hints	Value Format	03	0	
-2.0.1	1.3.4	Repository	Access URL	03	1	
-2.0.1	1.3.0	Repository	Extension	04	*	
-2.0.1	1.1.0	Repository	Resource Header	02	1	
-2.0.1	1.1.0	Repository	Resource ID	01	1	
-2.0.1	1.1.0	Resource Header	Acknowledgement	06	0	
-2.0.1	1.1.0	Resource Header	Alternate Name	02	*	
-2.0.1	1.3.3	Resource Header	Association	09	*	
-2.0.1	1.1.0	Resource Header	Contact	07	+	
-2.0.1	1.1.0	Resource Header	Description	05	1	
-2.0.1	1.2.0	Resource Header	Expiration Date	04	0	
-2.0.1	1.1.0	Resource Header	Information URL	08	*	
-2.0.1	1.1.0	Resource Header	Prior ID	10	*	
-2.0.1	1.1.0	Resource Header	Release Date	03	1	
-2.0.1	1.1.0	Resource Header	Resource Name	01	1	
-2.0.1	1.1.0	Service	Access URL	03	1	
-2.0.1	1.3.0	Service	Extension	04	*	
-2.0.1	1.1.0	Service	Resource Header	02	1	
-2.0.1	1.1.0	Service	Resource ID	01	1	
-2.0.1	1.3.1	Source	Checksum	04	0	
-2.0.1	1.3.1	Source	Data Extent	05	0	
-2.0.1	1.3.1	Source	Mirror URL	03	*	
-2.0.1	1.3.1	Source	Source Type	01	1	
-2.0.1	1.3.1	Source	URL	02	1	
-2.0.1	1.1.0	Spase	Annotation	13	+	ResourceEntity
-2.0.1	1.1.0	Spase	Catalog	02	+	ResourceEntity
-2.0.1	1.1.0	Spase	Display Data	03	+	ResourceEntity
-2.0.1	1.3.0	Spase	Document	05	+	ResourceEntity
-2.0.1	1.1.0	Spase	Granule	06	+	ResourceEntity
-2.0.1	1.1.0	Spase	Instrument	07	+	ResourceEntity
-2.0.1	1.1.0	Spase	Numerical Data	04	+	ResourceEntity
-2.0.1	1.1.0	Spase	Observatory	08	+	ResourceEntity
-2.0.1	1.1.0	Spase	Person	09	+	ResourceEntity
-2.0.1	1.1.0	Spase	Registry	10	+	ResourceEntity
-2.0.1	1.1.0	Spase	Repository	11	+	ResourceEntity
-2.0.1	1.1.0	Spase	Service	12	+	ResourceEntity
-2.0.1	1.1.0	Spase	Version	01	1	
-2.0.1	1.2.0	Structure	Description	02	0	
-2.0.1	1.2.0	Structure	Element	03	*	
-2.0.1	1.2.0	Structure	Size	01	0	
-2.0.1	1.3.1	Support	Qualifier	01	*	
-2.0.1	1.3.0	Support	Support Quantity	02	1	
-2.0.1	1.1.0	Temporal Description	Cadence	02	0	
-2.0.1	1.1.0	Temporal Description	Exposure	03	0	
-2.0.1	1.1.0	Temporal Description	Time Span	01	1	
-2.0.1	1.2.0	Time Span	Note	04	*	
-2.0.1	1.1.0	Time Span	Relative Stop Date	03	1	StopDateEntity
-2.0.1	1.1.0	Time Span	Start Date	01	1	
-2.0.1	1.1.0	Time Span	Stop Date	02	1	StopDateEntity
-2.0.1	1.3.5	Wave	Energy Range	03	0	
-2.0.1	1.3.5	Wave	Frequency Range	05	0	
-2.0.1	1.3.5	Wave	Qualifier	01	*	
-2.0.1	1.3.5	Wave	Wave Quantity	02	1	
-2.0.1	1.3.5	Wave	Wave Type	01	1	
-2.0.1	1.3.5	Wave	Wavelength Range	04	0	
-2.0.1	1.3.0	Wavelength Range	Bin	05	*	
-2.0.1	1.3.0	Wavelength Range	High	03	1	
-2.0.1	1.3.0	Wavelength Range	Low	02	1	
-2.0.1	1.3.0	Wavelength Range	Spectral Range	01	0	
-2.0.1	1.3.0	Wavelength Range	Units	04	1	
+2.0.2	1.1.0	Access Information	Access Rights	03	0	
+2.0.2	1.1.0	Access Information	Access URL	04	+	
+2.0.2	1.1.0	Access Information	Acknowledgement	08	0	
+2.0.2	1.1.0	Access Information	Availability	02	0	
+2.0.2	1.2.0	Access Information	Data Extent	07	0	
+2.0.2	1.1.0	Access Information	Encoding	06	0	
+2.0.2	1.1.0	Access Information	Format	05	1	
+2.0.2	1.1.0	Access Information	Repository ID	01	1	
+2.0.2	1.1.0	Access URL	Description	03	0	
+2.0.2	1.3.0	Access URL	Language	04	0	
+2.0.2	1.1.0	Access URL	Name	01	0	
+2.0.2	1.1.0	Access URL	URL	02	1	
+2.0.2	1.3.4	Annotation	Annotation Type	04	1	
+2.0.2	1.3.4	Annotation	Classification Method	06	0	
+2.0.2	1.3.4	Annotation	Confidence Rating	07	0	
+2.0.2	1.3.4	Annotation	Extension	10	*	
+2.0.2	1.3.4	Annotation	Image URL	03	0	
+2.0.2	1.3.4	Annotation	Observation Extent	09	*	
+2.0.2	1.3.4	Annotation	Phenomenon Type	05	0	
+2.0.2	1.3.4	Annotation	Resource Header	02	1	
+2.0.2	1.3.4	Annotation	Resource ID	01	1	
+2.0.2	1.3.4	Annotation	Time Span	08	*	
+2.0.2	1.3.3	Association	Association ID	01	0	
+2.0.2	1.3.3	Association	Association Type	02	0	
+2.0.2	1.3.3	Association	Note	03	0	
+2.0.2	1.1.0	Azimuthal Angle Range	Bin	04	*	
+2.0.2	1.1.0	Azimuthal Angle Range	High	02	1	
+2.0.2	1.1.0	Azimuthal Angle Range	Low	01	1	
+2.0.2	1.1.0	Azimuthal Angle Range	Units	03	1	
+2.0.2	1.3.0	Bin	Band Name	01	0	
+2.0.2	1.1.0	Bin	High	03	1	
+2.0.2	1.1.0	Bin	Low	02	1	
+2.0.2	1.1.0	Catalog	Access Information	03	+	
+2.0.2	1.1.0	Catalog	Caveats	09	0	
+2.0.2	1.3.0	Catalog	Extension	13	*	
+2.0.2	1.1.0	Catalog	Input Resource ID	11	*	
+2.0.2	1.1.0	Catalog	Instrument ID	06	*	
+2.0.2	1.1.0	Catalog	Keyword	10	*	
+2.0.2	1.3.0	Catalog	Parameter	12	*	
+2.0.2	1.1.0	Catalog	Phenomenon Type	07	+	
+2.0.2	1.1.0	Catalog	Provider Resource Name	04	0	
+2.0.2	1.1.0	Catalog	Provider Version	05	0	
+2.0.2	1.1.0	Catalog	Resource Header	02	1	
+2.0.2	1.1.0	Catalog	Resource ID	01	1	
+2.0.2	1.1.0	Catalog	Time Span	08	0	
+2.0.2	1.2.0	Checksum	Hash Function	02	1	
+2.0.2	1.2.0	Checksum	Hash Value	01	1	
+2.0.2	1.1.0	Contact	Person ID	01	1	
+2.0.2	1.1.0	Contact	Role	02	+	
+2.0.2	1.1.0	Coordinate System	Coordinate Representation	01	0	
+2.0.2	1.1.0	Coordinate System	Coordinate System Name	02	0	
+2.0.2	1.2.0	Data Extent	Per	03	0	
+2.0.2	1.3.0	Data Extent	Quantity	01	1	
+2.0.2	1.2.0	Data Extent	Units	02	0	
+2.0.2	1.1.0	Display Data	Access Information	03	+	
+2.0.2	1.1.0	Display Data	Caveats	14	0	
+2.0.2	1.1.0	Display Data	Display Cadence	12	0	
+2.0.2	1.3.0	Display Data	Extension	18	*	
+2.0.2	1.1.0	Display Data	Input Resource ID	16	*	
+2.0.2	1.1.0	Display Data	Instrument ID	08	*	
+2.0.2	1.1.0	Display Data	Keyword	15	*	
+2.0.2	1.1.0	Display Data	Measurement Type	09	+	
+2.0.2	1.1.0	Display Data	Observed Region	13	*	
+2.0.2	1.3.0	Display Data	Parameter	17	*	
+2.0.2	1.1.0	Display Data	Processing Level	04	0	
+2.0.2	1.1.0	Display Data	Provider Processing Level	06	0	
+2.0.2	1.1.0	Display Data	Provider Resource Name	05	0	
+2.0.2	1.1.0	Display Data	Provider Version	07	0	
+2.0.2	1.1.0	Display Data	Resource Header	02	1	
+2.0.2	1.1.0	Display Data	Resource ID	01	1	
+2.0.2	1.1.0	Display Data	Spectral Range	11	*	
+2.0.2	1.1.0	Display Data	Temporal Description	10	0	
+2.0.2	1.3.0	Document	Access Information	03	+	
+2.0.2	1.3.0	Document	Document Type	05	1	
+2.0.2	1.3.0	Document	Input Resource ID	06	*	
+2.0.2	1.3.0	Document	Keyword	04	*	
+2.0.2	1.3.0	Document	Resource Header	02	1	
+2.0.2	1.3.0	Document	Resource ID	01	1	
+2.0.2	1.3.0	Element	Fill Value	09	0	
+2.0.2	1.2.0	Element	Index	03	1	
+2.0.2	1.2.0	Element	Name	01	1	
+2.0.2	1.2.0	Element	Parameter Key	04	0	
+2.0.2	1.2.0	Element	Qualifier	02	*	
+2.0.2	1.3.0	Element	Units	05	0	
+2.0.2	1.3.0	Element	Units Conversion	06	0	
+2.0.2	1.3.0	Element	Valid Max	08	0	
+2.0.2	1.3.0	Element	Valid Min	07	0	
+2.0.2	1.1.0	Energy Range	Bin	04	*	
+2.0.2	1.1.0	Energy Range	High	02	1	
+2.0.2	1.1.0	Energy Range	Low	01	1	
+2.0.2	1.1.0	Energy Range	Units	03	1	
+2.0.2	1.1.0	Field	Field Quantity	02	1	
+2.0.2	1.1.0	Field	Frequency Range	03	0	
+2.0.2	1.3.1	Field	Qualifier	01	*	
+2.0.2	1.1.0	Frequency Range	Bin	05	*	
+2.0.2	1.1.0	Frequency Range	High	03	1	
+2.0.2	1.1.0	Frequency Range	Low	02	1	
+2.0.2	1.3.0	Frequency Range	Spectral Range	01	0	
+2.0.2	1.1.0	Frequency Range	Units	04	1	
+2.0.2	1.2.0	Granule	Expiration Date	03	0	
+2.0.2	1.1.0	Granule	Parent ID	04	1	
+2.0.2	1.1.0	Granule	Prior ID	05	*	
+2.0.2	1.1.0	Granule	Release Date	02	1	
+2.0.2	1.1.0	Granule	Resource ID	01	1	
+2.0.2	1.3.1	Granule	Source	08	+	
+2.0.2	1.1.0	Granule	Start Date	06	1	
+2.0.2	1.1.0	Granule	Stop Date	07	1	
+2.0.2	1.1.0	Information URL	Description	03	0	
+2.0.2	1.3.4	Information URL	Language	04	0	
+2.0.2	1.1.0	Information URL	Name	01	0	
+2.0.2	1.1.0	Information URL	URL	02	1	
+2.0.2	1.1.0	Instrument	Caveats	06	0	
+2.0.2	1.3.0	Instrument	Extension	07	*	
+2.0.2	1.1.0	Instrument	Instrument Type	03	+	
+2.0.2	1.1.0	Instrument	Investigation Name	04	1	
+2.0.2	1.1.0	Instrument	Observatory ID	05	1	
+2.0.2	1.1.0	Instrument	Resource Header	02	1	
+2.0.2	1.1.0	Instrument	Resource ID	01	1	
+2.0.2	1.2.0	Location	Coordinate System Name	02	0	
+2.0.2	1.2.0	Location	Elevation	05	0	
+2.0.2	1.2.0	Location	Latitude	03	0	
+2.0.2	1.2.0	Location	Longitude	04	0	
+2.0.2	1.2.0	Location	Observatory Region	01	+	
+2.0.2	1.3.5	Mixed	Mixed Quantity	02	1	
+2.0.2	1.3.6	Mixed	Particle Type	02	*	
+2.0.2	1.3.5	Mixed	Qualifier	01	*	
+2.0.2	1.1.0	Numerical Data	Access Information	03	+	
+2.0.2	1.1.0	Numerical Data	Caveats	13	0	
+2.0.2	1.3.0	Numerical Data	Extension	17	*	
+2.0.2	1.1.0	Numerical Data	Input Resource ID	15	*	
+2.0.2	1.1.0	Numerical Data	Instrument ID	08	*	
+2.0.2	1.1.0	Numerical Data	Keyword	14	*	
+2.0.2	1.1.0	Numerical Data	Measurement Type	09	+	
+2.0.2	1.1.0	Numerical Data	Observed Region	12	*	
+2.0.2	1.1.0	Numerical Data	Parameter	16	*	
+2.0.2	1.1.0	Numerical Data	Processing Level	04	0	
+2.0.2	1.1.0	Numerical Data	Provider Processing Level	06	0	
+2.0.2	1.1.0	Numerical Data	Provider Resource Name	05	0	
+2.0.2	1.1.0	Numerical Data	Provider Version	07	0	
+2.0.2	1.1.0	Numerical Data	Resource Header	02	1	
+2.0.2	1.1.0	Numerical Data	Resource ID	01	1	
+2.0.2	1.1.0	Numerical Data	Spectral Range	11	*	
+2.0.2	1.1.0	Numerical Data	Temporal Description	10	0	
+2.0.2	1.3.6	Observation Extent	Note	04	*	
+2.0.2	1.3.6	Observation Extent	Observed Region	01	0	
+2.0.2	1.3.6	Observation Extent	Start Location	02	1	
+2.0.2	1.3.6	Observation Extent	Stop Location	03	1	
+2.0.2	1.3.0	Observatory	Extension	05	*	
+2.0.2	1.1.0	Observatory	Location	04	1	
+2.0.2	1.1.0	Observatory	Observatory Group	03	*	
+2.0.2	1.1.0	Observatory	Resource Header	02	1	
+2.0.2	1.1.0	Observatory	Resource ID	01	1	
+2.0.2	1.1.0	Parameter	Cadence	06	0	
+2.0.2	1.1.0	Parameter	Caveats	05	0	
+2.0.2	1.1.0	Parameter	Coordinate System	09	0	
+2.0.2	1.1.0	Parameter	Description	04	0	
+2.0.2	1.1.0	Parameter	Field	15	1	ParameterEntity
+2.0.2	1.2.0	Parameter	Fill Value	14	0	
+2.0.2	1.1.0	Parameter	Mixed	18	1	ParameterEntity
+2.0.2	1.1.0	Parameter	Name	01	1	
+2.0.2	1.1.0	Parameter	Parameter Key	03	0	
+2.0.2	1.1.0	Parameter	Particle	16	1	ParameterEntity
+2.0.2	1.1.0	Parameter	Rendering Hints	10	*	
+2.0.2	1.1.0	Parameter	Set	02	*	
+2.0.2	1.1.0	Parameter	Structure	11	0	
+2.0.2	1.1.0	Parameter	Support	19	1	ParameterEntity
+2.0.2	1.1.0	Parameter	Units	07	0	
+2.0.2	1.1.0	Parameter	Units Conversion	08	0	
+2.0.2	1.2.0	Parameter	Valid Max	13	0	
+2.0.2	1.2.0	Parameter	Valid Min	12	0	
+2.0.2	1.1.0	Parameter	Wave	17	1	ParameterEntity
+2.0.2	1.1.0	Particle	Atomic Number	04	*	
+2.0.2	1.1.0	Particle	Azimuthal Angle Range	06	0	
+2.0.2	1.1.0	Particle	Energy Range	05	0	
+2.0.2	1.1.0	Particle	Particle Quantity	03	1	
+2.0.2	1.1.0	Particle	Particle Type	01	+	
+2.0.2	1.1.0	Particle	Polar Angle Range	07	0	
+2.0.2	1.3.1	Particle	Qualifier	02	*	
+2.0.2	1.1.0	Person	Address	05	0	
+2.0.2	1.1.0	Person	Email	06	*	
+2.0.2	1.3.0	Person	Extension	09	*	
+2.0.2	1.3.0	Person	Fax Number	08	0	
+2.0.2	1.1.0	Person	Organization Name	04	1	
+2.0.2	1.1.0	Person	Person Name	03	0	
+2.0.2	1.1.0	Person	Phone Number	07	*	
+2.0.2	1.1.0	Person	Release Date	02	0	
+2.0.2	1.1.0	Person	Resource ID	01	1	
+2.0.2	1.1.0	Polar Angle Range	Bin	04	*	
+2.0.2	1.1.0	Polar Angle Range	High	02	1	
+2.0.2	1.1.0	Polar Angle Range	Low	01	1	
+2.0.2	1.1.0	Polar Angle Range	Units	03	1	
+2.0.2	1.3.4	Registry	Access URL	03	1	
+2.0.2	1.3.0	Registry	Extension	04	*	
+2.0.2	1.1.0	Registry	Resource Header	02	1	
+2.0.2	1.1.0	Registry	Resource ID	01	1	
+2.0.2	1.3.1	Rendering Hints	Axis Label	02	0	
+2.0.2	1.3.1	Rendering Hints	Display Type	01	0	
+2.0.2	1.3.1	Rendering Hints	Scale Max	05	0	
+2.0.2	1.3.1	Rendering Hints	Scale Min	04	0	
+2.0.2	1.3.1	Rendering Hints	Scale Type	06	0	
+2.0.2	1.3.1	Rendering Hints	Value Format	03	0	
+2.0.2	1.3.4	Repository	Access URL	03	1	
+2.0.2	1.3.0	Repository	Extension	04	*	
+2.0.2	1.1.0	Repository	Resource Header	02	1	
+2.0.2	1.1.0	Repository	Resource ID	01	1	
+2.0.2	1.1.0	Resource Header	Acknowledgement	06	0	
+2.0.2	1.1.0	Resource Header	Alternate Name	02	*	
+2.0.2	1.3.3	Resource Header	Association	09	*	
+2.0.2	1.1.0	Resource Header	Contact	07	+	
+2.0.2	1.1.0	Resource Header	Description	05	1	
+2.0.2	1.2.0	Resource Header	Expiration Date	04	0	
+2.0.2	1.1.0	Resource Header	Information URL	08	*	
+2.0.2	1.1.0	Resource Header	Prior ID	10	*	
+2.0.2	1.1.0	Resource Header	Release Date	03	1	
+2.0.2	1.1.0	Resource Header	Resource Name	01	1	
+2.0.2	1.1.0	Service	Access URL	03	1	
+2.0.2	1.3.0	Service	Extension	04	*	
+2.0.2	1.1.0	Service	Resource Header	02	1	
+2.0.2	1.1.0	Service	Resource ID	01	1	
+2.0.2	1.3.1	Source	Checksum	04	0	
+2.0.2	1.3.1	Source	Data Extent	05	0	
+2.0.2	1.3.1	Source	Mirror URL	03	*	
+2.0.2	1.3.1	Source	Source Type	01	1	
+2.0.2	1.3.1	Source	URL	02	1	
+2.0.2	1.1.0	Spase	Annotation	13	+	ResourceEntity
+2.0.2	1.1.0	Spase	Catalog	02	+	ResourceEntity
+2.0.2	1.1.0	Spase	Display Data	03	+	ResourceEntity
+2.0.2	1.3.0	Spase	Document	05	+	ResourceEntity
+2.0.2	1.1.0	Spase	Granule	06	+	ResourceEntity
+2.0.2	1.1.0	Spase	Instrument	07	+	ResourceEntity
+2.0.2	1.1.0	Spase	Numerical Data	04	+	ResourceEntity
+2.0.2	1.1.0	Spase	Observatory	08	+	ResourceEntity
+2.0.2	1.1.0	Spase	Person	09	+	ResourceEntity
+2.0.2	1.1.0	Spase	Registry	10	+	ResourceEntity
+2.0.2	1.1.0	Spase	Repository	11	+	ResourceEntity
+2.0.2	1.1.0	Spase	Service	12	+	ResourceEntity
+2.0.2	1.1.0	Spase	Version	01	1	
+2.0.2	1.2.0	Structure	Description	02	0	
+2.0.2	1.2.0	Structure	Element	03	*	
+2.0.2	1.2.0	Structure	Size	01	0	
+2.0.2	1.3.1	Support	Qualifier	01	*	
+2.0.2	1.3.0	Support	Support Quantity	02	1	
+2.0.2	1.1.0	Temporal Description	Cadence	02	0	
+2.0.2	1.1.0	Temporal Description	Exposure	03	0	
+2.0.2	1.1.0	Temporal Description	Time Span	01	1	
+2.0.2	1.2.0	Time Span	Note	04	*	
+2.0.2	1.1.0	Time Span	Relative Stop Date	03	1	StopDateEntity
+2.0.2	1.1.0	Time Span	Start Date	01	1	
+2.0.2	1.1.0	Time Span	Stop Date	02	1	StopDateEntity
+2.0.2	1.3.5	Wave	Energy Range	03	0	
+2.0.2	1.3.5	Wave	Frequency Range	05	0	
+2.0.2	1.3.5	Wave	Qualifier	01	*	
+2.0.2	1.3.5	Wave	Wave Quantity	02	1	
+2.0.2	1.3.5	Wave	Wave Type	01	1	
+2.0.2	1.3.5	Wave	Wavelength Range	04	0	
+2.0.2	1.3.0	Wavelength Range	Bin	05	*	
+2.0.2	1.3.0	Wavelength Range	High	03	1	
+2.0.2	1.3.0	Wavelength Range	Low	02	1	
+2.0.2	1.3.0	Wavelength Range	Spectral Range	01	0	
+2.0.2	1.3.0	Wavelength Range	Units	04	1	

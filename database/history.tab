@@ -236,4 +236,8 @@
 237	2.0.1	2009-07-12	T.King	Update the description of "Index" data type to explain wild cards.	Circulated in e-mail after the telecon on 2009-07-02
 238	2.0.1	2009-07-12	T.King	Added "Sound Speed" to dictionary and to "Particle Quantity".	Decided in e-mail in June 2009
 239	2.0.1	2009-07-12	T.King	Updates to the definition "Access URL", "Data Extent", "Polar" and "Sonic Mach Number".	
+240	2.0.2	2009-09-24	T.King	Added "Atomic Number Detected", "Mass Number" and "Charge State" to dictionary and to "Particle Quantity" enumeration. Also added "Direction Angle" to "Particle Quantity".	
+241	2.0.2	2009-10-08	T.King	Added "Arrival Direction" to dictionary and to "Particle Quantity" enumeration. Added "Instrument Mode" to dictionary and "Support Quantity". Updated definitions of "Charge State" and "Atomic Number Detected".	
+242	2.0.2	2009-11-05	T.King	Added "Stream Interaction Region" to dictionary and to "Phenomenon Type" enumeration. Updated definition of "Coronal Mass Ejection".	
+243	2.0.2	2009-11-18	T.King	Modified definitions for "Observatory" and "Instrument".	
 254					
