@@ -124,6 +124,7 @@
 124	1.2.0	2007-05-22	T.King	Added ITM regions under Near Surface.	
 125	1.2.0	2007-05-22	T.King	Remove Instrument Region from NumericalData.	
 126	1.2.0	2007-05-22	T.King	Added WGS84 as a Coordinate System Name.	
+127	1.2.2	2008-08-14	T.King	Released.	
 128	1.2.1	2008-03-20	T.King	Added SpacecraftOrbitPlane to CoordinateSystemName.	
 129	1.2.1	2008-03-20	T.King	Added Parallel and PhaseAngle to FieldQualifier.	
 130	1.2.1	2008-03-20	T.King	Added Current, GyroFrequency, Energy, PlasmaFrequency to the appropriate ParticleQuantity, FieldQuantity, or PhotonQuantity.	
@@ -139,4 +140,15 @@
 140	1.2.1	2008-03-20	T.King	Updated definitions of Vector and Size.	
 141	1.2.1	2008-03-20	T.King	Removed Flux and Intensity.	
 142	1.2.1	2008-03-20	T.King	Released.	
+143	1.2.2	2008-07-31	L.Bargatze	Change "Plasmafrequency" to "Plasma Frequency".	Permitted during 2008 June 26 telecon.
+144	1.2.2	2008-07-31	L.Bargatze	Change "Plasmafrequency" to "Plasma Frequency".	Permitted during 2008 June 26 telecon.
+145	1.2.2	2008-07-31	L.Bargatze	Change "Retarding Potential Analyser" to "Retarding Potential Analyzer"	Permitted during 2008 June 26 telecon.
+146	1.2.2	2008-07-31	L.Bargatze	Change "Time-of-flight" to "Time of flight".	Permitted during 2008 June 26 telecon.
+147	1.2.2	2008-07-31	L.Bargatze	Change "Observatory Group" to "Observatory Name".	Permitted during 2008 June 26 telecon.
+148	1.2.2	2008-07-31	L.Bargatze	Removed "Offline" from "Medium".	Permitted during 2008 June 26 telecon.
+149	1.2.2	2008-07-31	L.Bargatze	Remove "Field Component" from lists.	Permitted during 2008 June 26 telecon.
+150	1.2.2	2008-07-31	L.Bargatze	Remove "Near Earth" as a list.	Permitted during 2008 June 26 telecon.
+151	1.2.2	2008-07-31	L.Bargatze	Added "Ionosphere" as a list.	Permitted during 2008 June 26 telecon.
+152	1.2.2	2008-07-31	L.Bargatze	Azimuthal Angle,Dayside,Electric Field Instrument,Frequency,High Latitude,Low Latitude,Nightside,Polar Angle,Provider ID,Provider Release Date,RTF,SGI,Soft X-rays,Spatial Range,TeX,Wavelength,Wavenumber,XDR	Permitted during 2008 June 26 telecon.
+153	1.2.2	2008-07-31	L.Bargatze	Added Repository ID and Stop Date	Permitted during 2008 June 26 telecon.
 254					

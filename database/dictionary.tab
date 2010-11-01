@@ -1,425 +1,423 @@
-1.2.1	1.0.0	Access Information	Container				Attributes of the resource which pertain to how to acquire the resource, availability and storage format.
-1.2.1	1.0.0	Access Rights	Enumeration	Access Rights			Permissions granted or denied by the host of a product to allow other users to access and use the resource.
-1.2.1	1.0.0	Access URL	Container				Attributes of the method of acquiring a resource including a URL, name and description.
-1.2.1	1.0.0	Acknowledgement	Text				The individual, group or organization which should be acknowledged when the data is used in or contributes to a presentation or publication.
-1.2.1	1.0.0	Activity Index	Item				An indication, derived from one or more measurements, of the level of activity of an object or region, such as sunspot number, F10.7 flux, Dst, or the Polar Cap Indices.
-1.2.1	1.0.0	Address	Text				Directions for finding some location; written on letters or packages that are to be delivered to that location.
-1.2.1	1.0.0	Aerosol	Item				A suspension of fine solid or liquid particles in gas.
-1.2.1	1.0.0	Alfven Mach Number	Item				The ratio of the bulk flow speed to the Alfven speed.
-1.2.1	1.0.0	Alpha Particle	Item				A positively charged nuclear particle that consists of two protons and two neutrons.
-1.2.1	1.1.0	Alternate Name	Text				An alternative or shortened name used to refer to a resource. This includes acronyms, expanded names or synonym for a resource. 
-1.2.1	1.2.1	Anisotropy	Item				Direction-dependent property. 
-1.2.1	1.0.0	Antenna	Enumeration	Antenna			A sensor used to measure electric potential.
-1.2.1	1.2.1	Archive Specialist	Item				An individual who is an expert on a collection of resources and may also be knowledgable of the phenomenon and related physics represented by the resources. This includes librarians, curators, archive scientists and other experts.
-1.2.1	1.2.0	Array	Item				A sequence of values corresponding to the elements in a rectilinear, n-dimension matrix. Each value can be referenced by a unique index.
-1.2.1	1.0.0	ASCII	Item				A sequence of characters that adheres to American Standard Code for Information Interchange (ASCII) which is an 7-bit character-coding scheme.
-1.2.1	1.1.0	Association ID	Text				The resource identifier for a resource with which this resource is closely associated.
-1.2.1	1.2.0	Asteroid	Item				A small extraterrestrial body consisting mostly of rock and metal that is in orbit around the sun.
-1.2.1	1.1.0	Atmosphere	Item				The neutral gases surrounding a body that extends from the surface and is bound to the body by virtue of the gravitational attraction.
-1.2.1	1.1.0	Atomic Number	Numeric				The the number of protons in the nucleus of an atom.
-1.2.1	1.2.0	Aurora	Item				An atmospheric phenomenon consisting of bands of light caused by charged solar particles following the earth's magnetic lines of force.
-1.2.1	1.1.0	Auroral Region	Item				The region in the atmospheric where electrically-charged particles bombarding the upper atmosphere of a planet in the presence of a magnetic field produce an opitcal phenomenum.
-1.2.1	1.0.0	Availability	Enumeration	Availability			An indication of the method or service which may be used to access the resource.
-1.2.1	1.0.0	Average	Item				The statistical mean; the sum of a set of values divided by the number of values in the set.
-1.2.1	1.0.0	Average Charge State	Item				A measure of the composite deficit (positive) or excess (negative) of electrons with respect to protons.
-1.2.1	1.0.0	AVI	Item				Audio Video Interleave (AVI) a digital format for movies that conforms to the Microsoft Windows Resource Interchange File Format (RIFF).
-1.2.1	1.0.0	Azimuthal Angle	Item				The horizontal angular distance from a reference direction. For a vector (X,Y,Z) in any coordinate system, the azimuthal angle is arctan(Y/X).
-1.2.1	1.1.0	Azimuthal Angle Range	Container				The range of possible azimuthal angles for a group of energy observations.  Default units are degrees.
-1.2.1	1.1.0	Base64	Item				A data encoding scheme whereby binary-encoded data is converted to printable ASCII characters. It is defined as a MIME content transfer encoding for use in internet e-mail. The only characters used are the upper- and lower-case Roman alphabet characters (A–Z, a–z), the numerals (0–9), and the "+" and "/" symbols, with the "=" symbol as a special suffix (padding) code.
-1.2.1	1.1.0	Bin	Container				A grouping of observations according to a band or window of a common attribute.
-1.2.1	1.0.0	Binary	Item				A direct representation of the bits which may be stored in memory on a computer.
-1.2.1	1.0.0	Bow Shock Crossing	Item				A crossing of the boundary between the undisturbed (except for foreshock effects) solar wind and the shocked, decelerated solar wind of the magnetosheath.
-1.2.1	1.0.0	Bytes	Numeric				The number of bytes expressed as a fractional number in the associated units.
-1.2.1	1.0.0	BZIP2	Item				An open standard algorithm by Julian Seward using Burrows-Wheeler block sorting and Huffman coding. See <http://www.bzip.org/>
-1.2.1	1.2.1	Ca-K	Item				A spectrum with a wavelength of range centered near 393.5 nm. VSO nickname: Ca-K image with range of 391.9 nm to 395.2 nm.
-1.2.1	1.0.0	Cadence	Duration				The time interval between the start of successive measurements.
-1.2.1	1.0.0	Calibrated	 Item				Data wherein sensor outputs have been convolved with instrument response function, often irreversibly, to yield physical parameter values.
-1.2.1	1.2.1	Carrington	Item				A coordinate system which is centered at the Sun and is "fixed" with repsect to the synodic rotation rate; the mean synodic value is about 27.2753 days. The Astronomical Almanac gives a value for Carrington longitude of 349.03 degrees at 0000 UT on 1 January 1995.
-1.2.1	1.0.0	Cartesian	Item				A coordinate system in which the position of a point is determined by its distance from two or three mutually perpendicular axes.
-1.2.1	1.0.0	Catalog	Container				A tabular listing of events or observational notes, especially those that have utility in aiding a user in locating data. Catalogues include lists of events, files in a product, and data availability.
-1.2.1	1.0.0	Caveats	Text				Information which may be important in the avoidance of misuse of the resource. This includes things such as instrument maladies, corruption or contamination.
-1.2.1	1.0.0	CDF	Item				Common Data Format (CDF). A binary storage format developed at Goddard Space Flight Center (GSFC).
-1.2.1	1.0.0	CEF	Item				Cluster Exchange Format (CEF) is a self-documenting ASCII format designed for the exchange of data. There are two versions of CEF which are not totally compatible.
-1.2.1	1.0.0	CEF 1	Item				Cluster Exchange Format (CEF), version 1, is a self-documenting ASCII format designed for the exchange of data. The metadata contains information compatible with the ISTP recommendations for CDF.
-1.2.1	1.0.0	CEF 2	Item				Cluster Exchange Format (CEF), version 2, is a self-documenting ASCII format designed for the exchange of data and introduced for Cluster Active Archive. Compared to version 1, the metadata description of vectors and tensors is different.
-1.2.1	1.0.0	CGM	Item				Corrected Geomagnetic - A coordinate system from a spatial point with GEO radial distance and geomagnetic latitude and longitude, follow the epoch-appropriate IGRF/DGRF model field vector through to the point where the field line crosses the geomagnetic dipole equatorial plane. Then trace the dipole magnetic field vector Earthward from that point on the equatorial plane, in the same hemisphere as the original point, until the initial radial distance is reached. Designate the dipole latitude and longitude at that point as the CGM latitude and longitude of the original point. See <http://nssdc.gsfc.nasa.gov/space/cgm/cgmm_des.html>
-1.2.1	1.0.0	Channeltron	Item				An instrument that detects electrons, ions, and UV-radiation, according to the principle of a secondary emission multiplier. It is typically used in electron spectroscopy and mass spectrometry.
-1.2.1	1.2.1	Characteristic	Item				A quanity which can be easily identified and measured in a given environment.
-1.2.1	1.0.0	Charged Particle Flux	Item				Measurements of fluxes of charged or ionized particles at above thermal energies, including relativistic particles of solar and galactic origin. May give simple fluxes, but more complete distributions are sometimes possible. Composition measurements may also be made.
-1.2.1	1.2.0	Checksum	Container				A computed value that is dependent upon the contents of a digital data object. Primarily used to check whether errors or alterations have occurred during the transmission or storage of a data object.
-1.2.1	1.0.0	Chromosphere	Item				The region of the Sun's (or a star's) atmosphere above the temperature minimum and below the Transition Region.  The solar chromosphere is approximately 400 km to 2100 km above the photosphere, and characterized by temperatures from 4500 - 28000 K.
-1.2.1	1.0.0	Circular	Item				Relative to polarization, right-hand circularly polarized light is defined such that the electric field is rotating clockwise as seen by an observer towards whom the wave is moving. Left-hand circularly polarized light is defined such that the electric field is rotating counterclockwise as seen by an observer towards whom the wave is moving. The polarization of magnetohydrodynamic waves is specified with respect to the ambient mean magnetic field : right-hand polarized waves have a transverse electric field component which turns in a right-handed sense (that of the gyrating electrons) around the magnetic field.
-1.2.1	1.0.0	Co-Investigator	Item				An individual who is a scientific peer and major participant for an investigation.
-1.2.1	1.2.0	Comet	Item				A relatively small extraterrestrial body consisting of a frozen mass that travels around the sun in a highly elliptical orbit.
-1.2.1	1.0.0	Component	Enumeration	Component			A part of a multi-part entity, e.g., the components of a vector.
-1.2.1	1.0.0	Contact	Container				The person or organization who may be able to provide special assistance or serve as a channel for communication for additional information about a resource.
-1.2.1	1.0.0	Coordinate Representation	Enumeration	Coordinate Representation			The method or form for specifying a given point in a given coordinate system
-1.2.1	1.0.0	Coordinate System	Container				Specification of the origin and orientation of axes against which the location of some point is given and the representative form of each point.
-1.2.1	1.0.0	Coordinate System Name	Enumeration	Coordinate System Name			Identifies the coordinate system in which the position, direction or observation has been expressed.
-1.2.1	1.0.0	Corona	Item				The outermost atmospheric region of the Sun or a star, characterized by ionization temperatures above 10^5 K.  The solar corona starts at about 2100 km above the photosphere; there is no generally defined upper limit.
-1.2.1	1.0.0	Coronal Mass Ejection	Item				A solar event which involves a burst of plasma which is ejected from the Sun into the interplanetary medium.
-1.2.1	1.2.1	Coronograph	Item				An instrument which can image things very close to the Sun by using a disk to block the Sun's bright surface which reveals the faint solar corona and other celetrial objects.
-1.2.1	1.0.0	Counts	Item				An enumeration of the number of detection events occurring in a particle detector per unit time or over detector accumulation times.
-1.2.1	1.0.0	Cross Spectrum	Item				The Fourier transform of the cross correlation of two physical or empirical observations.
-1.2.1	1.2.1	Current	Item				The flow of electrons through a conductor caused by a potential difference.
-1.2.1	1.0.0	Cylindrical	Item				A system of curvilinear coordinates in which the position of a point in space is determined by its perpendicular distance from a given line, its distance from a selected reference plane perpendicular to this line, and its angular distance from a selected reference line when projected onto this plane.
-1.2.1	1.2.0	D-Region	Item				The layer of the ionosphere that exists approximately 50 to 95 km above the surface of the Earth.  One of several layers in the ionosphere. 
-1.2.1	1.2.0	Data Extent	Container				The area of storage in a file system required to store the contents of a resource. The data extent is expressed in unitized bytes. 
-1.2.1	1.0.0	Data Producer	Item				An individual who generated the resource and is familiar with its provenance.
-1.2.1	1.0.0	Dayside	Item				Sunward of a dawn-dusk meridian, either on the surface of, or above, some reference body.
-1.2.1	1.2.0	Deputy-PI	Item				An individual who is an administrative or scientific leader for an investigation operting under the supervision of a Princial Investigator. 
-1.2.1	1.0.0	Description	Text				A detailed description of the resource which should include discussions of the main quantities in the resource, possible uses and search terms. A description should also include whether any corrections (i.e, geometry, inertial) have been applied to it.
-1.2.1	1.0.0	Deviation	Item				The difference between an observed value and the expected value of a quantity.
-1.2.1	1.1.0	Differential	Item				A flux measurement within a given energy and solid-angle range.
-1.2.1	1.0.0	Display Cadence	Duration				The time interval between the successive display elements.
-1.2.1	1.0.0	Display Data	Container				A graphical representation of data wherein the underlying numeric values are not (readily) accessible for analysis.. Examples are line plots and spectrograms.
-1.2.1	1.0.0	DM	Item				Dipole Meridian - A coordinate system centered at the observation point. Z axis is parallel to the Earth's dipole axis, positive northward. X is in the plane defined by Z and the line linking the observation point with the Earth's center. Y is positive eastward. See <http://cdpp.cnes.fr/00428.pdf>
-1.2.1	1.0.0	Dopplergram	Item				A map or image depicting the spatial distribution of line-of-sight velocities of the observed object.
-1.2.1	1.0.0	Double Sphere	Item				A dipole antenna of which the active (sensor) elements are small spheres located at the ends of two wires deployed in the equatorial plane, on opposite sides of a spinning spacecraft.
-1.2.1	1.0.0	Dust	Item				Free microscopic particles of solid material.
-1.2.1	1.2.0	E-Region	Item				A layer of ionised gas occurring at 90-150km above the ground. One of several layers in the ionosphere. Also called the The Kennelly-Heaviside layer.
-1.2.1	1.1.0	Earth	Enumeration	Earth			The third planet from the sun in our solar system.
-1.2.1	1.0.0	Electric	Item				The physical attribute that exerts an electrical force.
-1.2.1	1.0.0	Electric Field	Item				Measurements of electric field vectors (sometimes not all components) as a time series.
-1.2.1	1.0.0	Electric Field Instrument	Enumeration	Electric Field			An intrument which measuree electric field properties.
-1.2.1	1.0.0	Electron	Item				An elementary particle consisting of a charge of negative electricity equal to about 1.602 x 10**(-19) Coulomb and having a mass when at rest of about 9.109534 x 10**(-28) gram.
-1.2.1	1.0.0	Electron Drift Instrument	Item				An active experiment to measure the electron drift velocity based on sensing the displacement of a weak beam of electrons after one gyration in the ambient magnetic field.
-1.2.1	1.0.0	Electrostatic Analyser	Item				An instrument which uses charged plates to analyze the mass, charge and kinetic energies of charged particles which enter the instrument.
-1.2.1	1.2.0	Element	Container				A component or indiviual unit of a multiple value quantity such as an array or vector.
-1.2.1	1.2.0	Elevation	Numeric				The distance in meters above (positive) or below (negative) the "zero elevation" defined by the World Geodetic System reference frame (WGS84).
-1.2.1	1.0.0	Email	Text				The electronic address at which the individual may be contacted expressed in the form "local-part@domain".
-1.2.1	1.0.0	Emissivity	Item				The ratio of radiant energy from a material to that from a blackbody at the same kinetic temperature
-1.2.1	1.0.0	Encoding	Enumeration	Encoding			A set of unambiguous rules that establishes the representation of information within a file.
-1.2.1	1.0.0	End Date	DateTime				The specification of a stopping point in time.
-1.2.1	1.0.0	Energetic Particle Instrument	Enumeration	Energetic Particle Instrument			An instrument that measures fluxes of charged particles as a function of time, direction of motion, mass, charge and/or species.
-1.2.1	1.0.0	Energetic Particles	Item				Pieces of matter that are moving very fast. Energetic particles include protons, electrons, neutrons, neutrinos, the nuclei of atoms, and other sub-atomic particles.
-1.2.1	1.0.0	Energetic Solar Particle Event	Item				An enhancement of interplanetary fluxes of energetic ions accelerated by interplanetary shocks and/or solar flares.
-1.2.1	1.0.0	Energy	Item				The capacity for doing work as measured by the capability of doing work (potential energy) or the conversion of this capability to motion (kinetic energy)
-1.2.1	1.2.1	Energy Density	Item				The amount of energy per unit volume.
-1.2.1	1.2.1	Energy Flux	Item				The amount of energy passing through a unit area in a unit time.
-1.2.1	1.1.0	Energy Range	Container				The minimum and maximum energy values of the particles represented by a given "physical parameter" description.
-1.2.1	1.2.0	Ephemeris	Item				The spatial coordinates of a body as a function of time. When used as an Instrument Type it represents the process or methods used to generate spatial coordinates.
-1.2.1	1.2.0	Equatorial Region	Item				A region centered on the equator and limited in latitude by approximately 23 degrees north and south of the equator.
-1.2.1	1.0.0	Equivalent Width	Item				The area of the spectral line profile divided by the peak height or depth.
-1.2.1	1.2.0	Expiration Date	DateTime				The date and time when a resource is no longer available. If the Expiration Date is specified then it indicates that resource should not be made available after that time. However, this is only advisory and in practice a resource description should be unpublished to eliminate access to a resource.
-1.2.1	1.0.0	Exposure	Duration				The time interval over which an individual measurement is taken.
-1.2.1	1.2.0	Extension	Container				A container of other metadata which is not part of the SPASE data model. The contents of this element are defined by individual usage. The organization and content are constrained by the implementation. For example, in an XML representation of the SPASE metadata the content must conform to the XML specications.
-1.2.1	1.2.1	Extreme Ultraviolet	Item				A spectrum with a wavelength range of 10.0 nm to 125.0nm. VSO nickname: EUV image with a range of of 10.0 nm to 125.0 nm
-1.2.1	1.2.0	F-Region	Item				A layer that contains ionized gases at a height of around 150–800 km above sea level, placing it in the thermosphere. the F region has the highest concentration of free electrons and ions anywhere in the atmosphere. It may be thought of as comprising two layers, the F1-and F2-layers.  One of several layers in the ionosphere. Also known as the Appleton layer.
-1.2.1	1.0.0	Faraday Cup	Item				An instrument consisting of an electrode from which electrical current is measured while a charged particle beam (electrons or ions) impinges on it. Used to determine energy spectrum and sometimes ion composition of the impinging particles.
-1.2.1	1.2.1	Fax Number	Text				The symbols and numerals required to send a facsimile (FAX) to an individual by telephone. The string may contain punctuation marks such as dash (-) or dot (.) to separate fields within the string.
-1.2.1	1.0.0	Field	Container				The space around a radiating body within which its electromagnetic attributes can exert force on another similar body that is not in direct contact.
-1.2.1	1.0.0	Field Qualifier	Enumeration	Field Qualifier			Characterizes the directional and statistical aspects of the field observation.
-1.2.1	1.1.0	Field Quantity	Enumeration	Field Quantity			The physical attribute of the field.
-1.2.1	1.2.0	FillValue	Text				A value that indidicates that a qunatity is undefined.
-1.2.1	1.0.0	Fit	Item				Values that make an model agree with the data.
-1.2.1	1.0.0	FITS	Item				Flexible Image Transport System (FITS) is a digital format primarily designed to store scientific data sets consisting of multi-dimensional arrays (1-D spectra, 2-D images or 3-D data cubes) and 2-dimensional tables containing rows and columns of data.
-1.2.1	1.2.1	Flow Speed	Item				The rate at which particles or energy is passing through a unit area in a unit time.
-1.2.1	1.0.0	Flux Feedback	Item				A search coil whose bandwidth and signal/noise ratio are increased by the application of negative feedback at the sensor (flux) level by driving a collocated coil with a signal from the preamplifier.
-1.2.1	1.0.0	Forbush Decrease	Item				A rapid decrease in the observed galactic cosmic ray intensity following the passage of an outwardly convecting interplanetary magnetic field disturbance, such as those associated with large CME's, that sweep some galactic cosmic rays away from Earth.
-1.2.1	1.0.0	Format	Enumeration	Format			The organization of data according to preset specifications. The value is selected from a list of accepted names for known, well documented formats.
-1.2.1	1.0.0	Fourier Transform Spectrograph	Item				An instrument that determines the spectra of a radiative source, using time-domain measurements and a Fourier transform.
-1.2.1	1.0.0	Frequency	Item				(1) The number of occurrences within a given time period. (2) Vibrations per second of the photon field; may be given as a single number, multiple numbers, or as ranges.
-1.2.1	1.1.0	Frequency Range	Container				The range of possible values for the observed frequency.
-1.2.1	1.0.0	Gamma Rays	Item				Photons with a wavelength range: 0.00001 to 0.001 nm
-1.2.1	1.0.0	GEI	Item				Geocentric Equatorial Inertial - A coordinate system where the Z axis is along Earth's spin vector, positive northward. X axis points towards the first point of Aries (from the Earth towards the Sun at the vernal equinox). See Russell, 1971
-1.2.1	1.2.1	Geiger-Mueller Tube	Item				An instrument which measures density of ionizing radiation based on interactions with a gas.
-1.2.1	1.0.0	General Contact	Item				An individual who can provide information on a range of subjects or who can direct you to a domain expert.
-1.2.1	1.0.0	GEO	Item				Geographic - geocentric corotating - A coordinate system where the Z axis is along Earth's spin vector, positive northward. X axis lies in Greenwich meridian, positive towards Greenwich. See Russell, 1971.
-1.2.1	1.0.0	Geomagnetic Storm	Item				A magnetospheric disturbance typically defined by variations in the horizontal component of the Earth's surface magnetic field.  The variation typically starts with a field enhancement associated with a solar wind pressure pulse and continues with a field depression associated with an enhancement of the diamagnetic magnetospheric ring current.
-1.2.1	1.0.0	GIF	Item				Graphic Interchange Format (GIF) first introduced in 1987 by CompuServe. GIF uses LZW compression and images are limited to 256 colours.
-1.2.1	1.1.0	Granule	Container				An accessible portion of another resource. A Granule may be composed of one or more physical pieces (files) which are considered inseperable. For example, a data storage format that maintains metadata and binary data in seperate, but tightly coupled files. Granules should not be used to group files that have simple relationships or which are associated through a parent resource. For example, each file containing a time interval data for a Numerical Data resource would each be considered a Granule. The ParentID of a Granule resource must be a NumericalData resource. The attributes of a Granule supersede the corresponding attributes in the NumericalData resource.
-1.2.1	1.0.0	GSE	Item				Geocentric Solar Ecliptic - A coordinate system where the X axis is from Earth to Sun. Z axis is normal to the ecliptic, positive northward. See Russell, 1971.
-1.2.1	1.0.0	GSEQ	Item				Geocentric Solar Equatorial - A coordinate system where the X axis is from Earth to Sun. Y axis is parallel to solar equatorial plane. Z axis is positive northward. See Russell, 1971
-1.2.1	1.0.0	GSM	Item				Geocentric Solar Magnetospheric - A coordinate system where the X axis is from Earth to Sun, Z axis is northward in a plane containing the X axis and the geomagnetic dipole axis. See Russell, 1971
-1.2.1	1.2.1	Gyrofrequency	Item				The frequency with which a charged particle (as an electron) executes spiral gyrations in moving obliquely across a magnetic field 
-1.2.1	1.0.0	GZIP	Item				An open standard algorithm distributed by GHU based on LZ77 and Huffman coding. See <http://www.gnu.org/software/gzip/gzip.html> or <http://www.gzip.org/>
-1.2.1	1.2.1	H-alpha	Item				A spectrum with a wavelength range centered at 656.3 nm. VSO nickname: H-alpha image with a spectrum range of of 655.8 nm to 656.8 nm. 
-1.2.1	1.0.0	HAE	Item				Heliocentric Aries Ecliptic - A coordinate system where the Z axis is normal to the ecliptic plane, positive northward. X axis is positive towards the first point of Aries (from Earth to Sun at vernal equinox). Same as SE below. See Hapgood, 1992.
-1.2.1	1.0.0	Hard X-rays	Item				Photons with a wavelength range: 0.001 to 0.1 nm
-1.2.1	1.2.0	Hash Function	Enumeration	Hash Function			 A function or algorithm that converts a digital data object into a hash value. Typically the hash value is small and concise when compared to the digital data object.
-1.2.1	1.2.0	Hash Value	Text				The value calculated by a hash function, e.g. the message digest of a digital data object.
-1.2.1	1.2.1	HCI	Item				Heliographic Carrington Inertial.
-1.2.1	1.0.0	HDF	Item				Hierarchical Data Format
-1.2.1	1.0.0	HDF 4	Item				Hierarchical Data Format, Version 4
-1.2.1	1.0.0	HDF 5	Item				Hierarchical Data Format, Version 5
-1.2.1	1.2.1	He-10830	Item				A spectrum with a wavelength range centered at 1082.9 nm. VSO nickname: He 10830 image with a range of 1082.5 nm to 1083.3 nm.
-1.2.1	1.0.0	Heat Flux	Item				Flow of thermal energy through a gas or plasma; typically computed as third moment of a distribution function.
-1.2.1	1.0.0	HEE	Item				Heliocentric Earth Ecliptic - A coordinate system where the Z axis is normal to the ecliptic plane, positive northward. X axis points from Sun to Earth. See Hapgood, 1992
-1.2.1	1.0.0	HEEQ	Item				Heliocentric Earth Equatorial - A coordinate system where the Z axis is normal to the solar equatorial plane, positive northward. X axis is generally Earthward in the plane defined by the Z axis and the Sun-Earth direction. See Hapgood, 1992.
-1.2.1	1.0.0	Heliosphere	Enumeration	Heliosphere			The solar atmosphere extending roughly from the outer corona to the edge of the solar plasma at the heliopause separating primarily solar plasma from interstellar plasma.
-1.2.1	1.0.0	HG	Item				Heliographic - A heliocentric rotating coordinate system where the Z axis is normal to the solar equatorial plane, positive northward. X, Y axes rotate with a 25.38 day period. The zero longitude (X axis) is defined as the longitude that passed through the ascending node of the solar equator on the ecliptic plane on 1 January, 1854 at 12 UT. See <http://nssdc.gsfc.nasa.gov/space/helios/coor_des.html>
-1.2.1	1.0.0	HGI	Item				Heliographic Inertial - A heliocentric coordinate system where the Z axis is normal to the solar equatorial plane, positive northward. X axis is along the intersection line between solar equatorial and ecliptic planes. The X axis was positive at SE longitude of 74.367 deg on Jan 1, 1900. (See SE below.) See <http://nssdc.gsfc.nasa.gov/space/helios/coor_des.html>
-1.2.1	1.1.0	High	Numeric				The largest value within a range of possible values.
-1.2.1	1.0.0	High Latitude	Item				The region located poleward of 60 degrees of latitude.
-1.2.1	1.0.0	HTML	Item				A text file containing structured information represented in the HyperText Mark-up Language (HTML). See <http://www.w3.org/MarkUp/>
-1.2.1	1.0.0	IDFS	Item				Instrument Data File Set (IDFS) is a set of files written in a prescribed format which contain data, timing data, and meta-data. IDFS was developed at Southwest Research Institute (SwRI).
-1.2.1	1.0.0	IDL	Item				Interactive Data Language (IDL) save set. IDL is a proprietary format.
-1.2.1	1.0.0	Image Intensity	Item				Measurements of the two-dimensional distribution of the intensity of photons from some region or object such as the Sun or the polar auroral regions; can be in any wavelength band, and polarized, etc.
-1.2.1	1.0.0	Imager	Enumeration	Imager			An instrument which samples the radiation from an area at one or more spectral ranges emitted or reflected by an object.
-1.2.1	1.2.1	Imaging Spectrometer	Item				An instrument which is a multispectral scanner with a very large number of channels (64-256 channels) with very narrow band widths.
-1.2.1	1.2.0	Index	Sequence				The location of an item in an array or vetor. An index can be multivalued to represent the location in a multidimensional object.
-1.2.1	1.0.0	Information URL	Container				Attributes of the method of acquiring additional information.
-1.2.1	1.0.0	Infrared	Item				Photons with a wavelength range: 760 to 1.00x10^6 nm
-1.2.1	1.0.0	Inner	Item				The region of the heliosphere extending radially out from the "surface" of the Sun to 1 AU.
-1.2.1	1.0.0	Input Resource ID	Text				The resource identifier for a resource which was used to generate this resource.
-1.2.1	1.0.0	Instrument	Container				A device which is used to sense and parameterize a physical phenomenon.
-1.2.1	1.0.0	Instrument ID	Text				The identifier of an Instrument resource.
-1.2.1	1.2.0	Instrument Status	Item				A quantity directly related to the operation or function of an instrument.
-1.2.1	1.0.0	Instrument Type	Enumeration	Instrument Type			A characterization of an integrated collection of software and hardware containing one or more sensors and associated controls used to produce data on an environment.
-1.2.1	1.1.0	Integral	Item				The summation of values above a given threshold and over area or solid-angle range.
-1.2.1	1.2.1	Interferometer	Item				An instrument which measures the difference between two or more waves.
-1.2.1	1.0.0	Interior	Item				The region inside the body which is not visible from outside the body.
-1.2.1	1.0.0	Interplanetary Shock	Item				A shock propagating generally antisunward through the slower solar wind, often seen in front of CME-associated plasma clouds.
-1.2.1	1.0.0	Investigation Name	Text				The name given to the contract or engagement which enabled the data to be produced. Each investigation is associated with a Principal Investigator or Guest Investigator who was responsible for the original proposal.  For single PI missions each major subsystem having its own identified Team Leader may also be classed as an "Investigation" for the purposes of data archiving.
-1.2.1	1.0.0	Ion	Item				An atom that has acquired a net electric charge by gaining or losing one or more electrons.(Note: Z>2)
-1.2.1	1.0.0	Ion Composition	Item				In situ measurements of the relative flux or density of electrically charged particles in the space environment. May give simple fluxes, but full distribution functions are sometimes measured.
-1.2.1	1.1.0	Ionosphere	Enumeration	Ionosphere			The charged or ionized gases surrounding a body that are nominally bound to the body by virtue of the gravitational attraction..
-1.2.1	1.0.0	Irradiance	Item				A radiometric term for the power of electromagnetic radiation at a surface, per unit area. "Irradiance" is used when the electromagnetic radiation is incident on the surface. The SI unit of irradiance is watts per square meter (W·m-2).
-1.2.1	1.1.0	J2000	Item				An astronomical coordinate system which uses the mean equator and equinox of Julian date 2451545.0 TT (Terrestrial Time), or January 1, 2000, noon TT. (aka J2000) to define a celestial reference frame.
-1.2.1	1.0.0	JPEG	Item				A binary format for still images defined by the Joint Photographic Experts Group
-1.2.1	1.2.0	Jupiter	Item				The fifth planet from the sun in our solar system.
-1.2.1	1.2.1	K-7699	Item				A spectrum with a wavelength range centerd at 769.9 nm. VSO nickname: K-7699 dopplergram with a range of 769.8 nm to 770.0 nm.
-1.2.1	1.0.0	Keyword	Text				A word or phrase that is relevant to the resource but does not exist in other documentary information.
-1.2.1	1.0.0	Langmuir Probe	Item				A monopole antenna associated with an instrument. The instrument applies a potential to the antenna which is swept to determine the voltage/current characteristic. This provides information about the plasma surrounding the probe and spacecraft.
-1.2.1	1.2.0	Latitude	Numeric				The location of a place on Earth specified as an angle east (positive) or west (negative) of a north-south line called the Prime Meridian defined by the coordinate system in use.
-1.2.1	1.0.0	LGM	Item				Local Geomagnetic - A coordinate system used mainly for Earth surface or near Earth surface magnetic field data. X axis northward from observation point in a geographic meridian. Z axis downward towards Earth's center. In this system, H (total horizontal component) = SQRT (Bx**2 + By**2) and D (declination angle) = arctan (By/Bx)
-1.2.1	1.0.0	Line Depth	Item				In spectra, a measure of the amount of absorption for a particular wavelength or frequency in the spectrum
-1.2.1	1.0.0	Line of Sight	Item				The line of sight is the line that connects the observer with the observed object. This expression is often used with measurements of Doppler velocity and magnetic field in magnetograms, where only the component of the vector field directed along the line of sight is measured.
-1.2.1	1.0.0	Linear	Item				Relative to polarization, confinement of the E-field vector to a given plane
-1.2.1	1.2.0	Location	Container				A position in space definable by a regional referencing system and geographic coordinates.
-1.2.1	1.0.0	Long Wire	Item				A dipole antenna whose active (sensor) elements are two wires deployed in the equatorial plane on opposite sides of a spinning spacecraft, and whose length is several times greater than the spacecraft diameter.
-1.2.1	1.2.0	Longitude	Numeric				The location of a place on Earth specified as an angle north (positive) or south (negative) of the equator defined by the coordinate system in use.
-1.2.1	1.1.0	Low	Numeric				The smallest value within a range of possible values.
-1.2.1	1.0.0	Low Latitude	Item				The region located at or anti-poleward of 60 degrees of latitude.
-1.2.1	1.0.0	MAG	Item				Geomagnetic - geocentric. Z axis is parallel to the geomagnetic dipole axis, positive north. X is in the plane defined by the Z axis and the Earth's rotation axis. If N is a unit vector from the Earth's center to the north geographic pole, the signs of the X and Y axes are given by Y = N x Z, X = Y x Z.. See Russell, 1971, and <http://cdpp.cnes.fr/00428.pdf>
-1.2.1	1.0.0	Magnetic	Item				The physical attribute attributed to a magnet or its equivalent.
-1.2.1	1.0.0	Magnetic Field	Item				Measurements of magnetic field vectors (sometimes not all components) as time series; can be space- or ground-based. Also, [Zeeman splitting, etc. based]: A region of space near a magnetized body where magnetic forces can be detected [as measured by methods such as Zeeman splitting, etc.]
-1.2.1	1.0.0	Magnetogram	Item				Measurements of the vector or line-of-sight magnetic field determined from remote sensing measurements of the detailed structure of spectral lines, including their splitting and polarization. ("Magnetogram.")
-1.2.1	1.0.0	Magnetometer	Enumeration	Magnetometer			An instrument which measures the ambient magnetic field.
-1.2.1	1.0.0	Magnetopause Crossing	Item				A crossing of the interface between the shocked solar wind in the magnetosheath and the magnetic field and plasma in the magnetosphere.
-1.2.1	1.0.0	Magnetosheath	Item				The region between the bow shock and the magnetopause, characterized by very turbulent plasma.
-1.2.1	1.0.0	Magnetosphere	Enumeration	Magnetosphere			The region of space above the atmosphere or surface of the planet, and bounded by the magnetopause, that is under the direct influence of the planet's magnetic field.
-1.2.1	1.0.0	Magnetotail	Item				The region on the night side of the body where the magnetic filed is stretched backwards by the force of the solar wind. For Earth, the magnetotail begins at a night-side radial distance of 10 Re (X > -10Re).
-1.2.1	1.0.0	Magnitude	Item				A measure of the strength or size of a vector quantity.
-1.2.1	1.0.0	Main	Item				The region of the magnetosphere where the magnetic field lines are closed, but does not include the gaseous region gravitationally bound to the body.
-1.2.1	1.2.0	Mars	Item				The forth planet from the sun in our solar system.
-1.2.1	1.0.0	Mass	Item				The measure of inertia (mass) of individual objects (e.g., aerosols).
-1.2.1	1.0.0	Mass Density	Item				The mass of particles per unit volume.
-1.2.1	1.0.0	Mass Spectrometer	Item				An instrument which distinguishes chemical species in terms of their different isotopic masses.
-1.2.1	1.1.0	MATLAB_4	Item				MATLAB Workspace save set, version 4. MAT-files are double-precision, binary, MATLAB format files. MATLAB is a proprietary product of The MathWorks. 
-1.2.1	1.1.0	MATLAB_6	Item				MATLAB Workspace save set, version 6. MAT-files are double-precision, binary, MATLAB format files. MATLAB is a proprietary product of The MathWorks. 
-1.2.1	1.1.0	MATLAB_7	Item				MATLAB Workspace save set, version 7. MAT-files are double-precision, binary, MATLAB format files. Version 7 includes data compression and Unicode encoding. MATLAB is a proprietary product of The MathWorks. 
-1.2.1	1.2.0	MD5	Item				Message Digest 5 (MD5) is a 128-bit message digest algorithm created in 1991 by Professor Ronald Rivest.
-1.2.1	1.0.0	Measured	Container				Attributes of observations obtained from an instrument or sensor.
-1.2.1	1.0.0	Measurement Type	Enumeration	Measurement Type			A characterization of the quantitative assessment of a phenomenon.
-1.2.1	1.2.0	Mercury	Item				The first planet from the sun in our solar system.
-1.2.1	1.2.0	Mesosphere	Item				The layer of the atmosphere that extends from the Stratosphere to a range of 80 km to 85 km, temperature decreasing with height.
-1.2.1	1.2.0	Metadata Contact	Item				An individual who can affect a change in the metadata describing a resource.
-1.2.1	1.0.0	MFA	Item				Magnetic Field Aligned - A coordinate system spacecraft-centered system with Z in the direction of the ambient magnetic field vector. X is in the plane defined by Z and the spacecraft-Sun line, positive sunward. See <http://cdpp.cnes.fr/00428.pdf>
-1.2.1	1.0.0	Microchannel Plate	Item				An instrument used for the detection of elementary particles, ions, ultraviolet rays and soft X-rays constructed from very thin conductive glass capillaries.
-1.2.1	1.0.0	Microwave	Item				Photons with a wavelength range: 1.00x10^6 to 1.50x10^7 nm
-1.2.1	1.0.0	Mixed	Text				A measured observation which is derived from a combination of two or more individual measurements.
-1.2.1	1.0.0	Mode Amplitude	Item				In helioseismology the magnitude of oscillation of waves of a particular geometry.
-1.2.1	1.0.0	Molecule	Item				A group of atoms so united and combined by chemical affinity that they form a complete, integrated whole, being the smallest portion of any particular compound that can exist in a free state
-1.2.1	1.0.0	Moment	Item				Parameters determined by integration over a distribution function convolved with a power of velocity.
-1.2.1	1.0.0	MPEG	Item				A digital format for movies defined by the Motion Picture Experts Group
-1.2.1	1.2.1	Multispectral Imager	Item				An instrument which captures images at multiple spectral ranges.
-1.2.1	1.2.1	Na-D	Item				A spectrum with a wavelength range of centered at 589.3 nm. VSO nickname: Na-D image with a range of 588.8 nm to 589.8 nm.
-1.2.1	1.0.0	Name	Text				A language unit by which a person or thing is known.
-1.2.1	1.1.0	NCAR	Item				The National Center for Atmospheric Research (NCAR) format. A complete description of that standard is given in appendix C of the "Report on Establishment & Operation of the Incoherent- Scatter Data Base", dated August 23, 1984, obtainable from NCAR, P.O. Box 3000 Boulder, Colorado 80307-3000. 
-1.2.1	1.1.0	Near Earth	Item				The heliospheric region near the Earth which extends to and includes the area near the L1 and L2 Lagrange point.
-1.2.1	1.0.0	Near Surface	Enumeration	Near Surface			The gaseous and possibly ionized environment of a body extending from the surface to some specified altitude.  For the Earth, this altitude is 2000 km. 
-1.2.1	1.2.0	Neptune	Item				The seventh planet from the sun in our solar system.
-1.2.1	1.0.0	NetCDF	Item				Unidata Program Center's Network Common Data Form (NetCDF). A self-describing data portable data format for array-oriented data access. See <http://my.unidata.ucar.edu/content/software/netcdf>
-1.2.1	1.0.0	Neutral	Item				Either a particle, an object, or a system that has a net electric charge of zero
-1.2.1	1.2.1	Neutral Atom Imager	Item				An instrument which measures the quantity and properties of neutral particles over a range of angles. Measured properties can include mass and energy.
-1.2.1	1.0.0	Neutral Atom Images	Item				Measurements of neutral atom fluxes as a function of look direction; often related to remote energetic charged particles that lose their charge through charge-exchange and then reach the detector on a line.
-1.2.1	1.0.0	Neutral Gas	Item				Measurements of neutral atomic and molecular components of a gas.
-1.2.1	1.2.1	Neutral Particle Detector	Item				An instrument which measures the quantity and properties of neutral particles. Measured properties can include mass and plasma bulk densities.
-1.2.1	1.2.1	Ni-6768	Item				A spectrum with a wavelength range centered at 676.8 nm. VSO nickname: Ni-6768 dopplergram with a range of of 676.7 nm to 676.9 nm.
-1.2.1	1.0.0	Nightside	Item				Anti-Sunward of a dawn-dusk meridian, either on the surface of, or above, some reference body.
-1.2.1	1.0.0	None	Item				A lack or absence of anything.
-1.2.1	1.2.0	Note	Text				Information which is useful or important for the understanding of a value or parameter. 
-1.2.1	1.0.0	Number Density	Item				The number of particles per unit volume.
-1.2.1	1.2.1	Number Flux	Item				The number of particles passing through a unit area in a unit time.
-1.2.1	1.0.0	Numerical Data	Container				Data stored as numerical values in a specified format.
-1.2.1	1.0.0	Observatory	Container				 The host (spacecraft, network, facility) for instruments making observations.
-1.2.1	1.0.0	Observatory Group	Text				A set of programmatically related observatories. The value is taken from an approved list of observatory group names.
-1.2.1	1.0.0	Observatory ID	Text				The identifier of an Observatory resource.
-1.2.1	1.2.0	Observatory Region	Enumeration	Region			A spatial location distinguished by certain natural features or physical characteristics where an observatory is located.
-1.2.1	1.0.0	Observed Region	Enumeration	Region			The portion of space measured by the instrument at the time of an observation. A region is distinguished by certain natural features or physical characteristics. It is the location of the observatory for in situ data, the location or region sensed by remote sensing observatories and the location-of-relevance for parameters that are derived from observational data.
-1.2.1	1.0.0	Offline	Text				Not directly accessible electronically. This includes resources which may to be moved to an online status in response to a given request.
-1.2.1	1.0.0	Online	Item				Directly accessible electronically.
-1.2.1	1.0.0	Open	Item				Access is granted to everyone.
-1.2.1	1.0.0	Optical	Item				Photons with a wavelength range: 380 to 760 nm
-1.2.1	1.0.0	Organization Name	Text				A unit within a company or other entity (e.g., Government agency or branch of service) within which many projects are managed as a whole.
-1.2.1	1.0.0	Other	Item				Values, such as flags, that are not time tags, location data or measured or derived parameters.
-1.2.1	1.0.0	Outer	Item				The region of the heliosphere from, but not including, 1 AU to the farthest extent of the heliosphere (heliopause).
-1.2.1	1.0.0	Parallel	Item				Having the same direction as a given direction
-1.2.1	1.1.0	Parameter Key	Text				The name or identfier which can be used to access the parameter in the resource. The associated value is dependent on the service used to access the resource.
-1.2.1	1.1.0	Parent ID	Text				The resource identifier for a resource that a resource is a part of. The resource inherits the attributes of the referenced resource. Attributes defined in the resource override attributes of the parent in the manner perscribed by the containing resource.
-1.2.1	1.0.0	Particle	Container				A description of the types of particles observed in the measurement. This includes both direct observations and inferred observations.
-1.2.1	1.0.0	Particle Correlator	Item				An instrument which correlates particle flux to help identify wave/particle interactions.
-1.2.1	1.0.0	Particle Qualifier	Enumeration	Particle Qualifier			Characterizes the directional and statistical aspects of the particle observation.
-1.2.1	1.1.0	Particle Quantity	Enumeration	Particle Quantity			A characterization of the physical properties of the particle.
-1.2.1	1.0.0	Particle Type	Enumeration	Particle Type			A characterization of the kind of particle observed by the measurement.
-1.2.1	1.0.0	PDF	Item				A document expressed in the Portable Document Format (PDF) as defined by Adobe.
-1.2.1	1.0.0	Peak	Item				The maximum value for the quantity in question, over a period of time which is usually equal to the cadence.
-1.2.1	1.2.0	Per	Duration				The time interval over which a characterization applies. For example, the number of bytes generated each day.
-1.2.1	1.0.0	Perpendicular	Item				At right angles to a given direction.
-1.2.1	1.0.0	Person	Container				An individual human being.
-1.2.1	1.0.0	Person ID	Text				The identifier assigned to a Person description.
-1.2.1	1.0.0	Person Name	Text				The words used to address an individual.
-1.2.1	1.2.1	Phase Angle	Item				Phase difference between two or more waves, normally expressed in degrees.
-1.2.1	1.0.0	Phase-Space Density	Item				The number of particles per unit volume in the six-dimensional space of position and velocity.
-1.2.1	1.0.0	Phenomenon Type	Enumeration	Phenomenon Type			The characteristics or categorization of an event type.
-1.2.1	1.2.0	Phi	Item				The angle between the meridian of a vector and the zero meridian of the coordinate system in which the vector is expressed. Equivalently, the angle between the projection of a position or measured vector into the X-Y plane and X-axis in the coordinate system in which the vector is expressed. Also referred to as the azimuthal angle or "longitude". Mathematically: Phi = arctan(y/x) 
-1.2.1	1.0.0	Phone Number	Text				The symbols and numerals required to contact an individual by telephone. The string may contain punctuation marks such as dash (-) or dot (.) to separate fields within the string.
-1.2.1	1.2.1	Photometer	Item				An instrument which measures the strength of electromagnetic radiation in the range from ultraviolet to infrared and including the visible spectrum.
-1.2.1	1.0.0	Photon	Container				Photon (radio through gamma-rays): the fundamental particle or quantum of electromagnetic radiation (radiant energy)
-1.2.1	1.0.0	Photon Qualifier	Enumeration	Photon Qualifier			Characterizes the directional and statistical aspects of the photon observation.
-1.2.1	1.1.0	Photon Quantity	Enumeration	Photon Quantity			A characterization of the physical properties of the photon.
-1.2.1	1.2.1	Photopolarimeter	Item				An instrument which measures the intensity and polarization or radiant energy. A photopolarimeter is a combination of a photometer and a polarimeter.
-1.2.1	1.0.0	Photosphere	Item				The atmospheric layer of the Sun or a star from which continuum radiation, especially optical, is emitted to space.  For the Sun, the photosphere is about 500 km thick.
-1.2.1	1.0.0	Physical Parameter	Container				A container of information regarding a parameter whose values are part of the product. Every product contains or can be related to one or more parameters.
-1.2.1	1.0.0	Plasma Beta	Item				The ratio of the plasma pressure to the magnetic pressure.
-1.2.1	1.2.1	Plasma Frequency	Item				The frequency with which a plasma oscillates.
-1.2.1	1.2.0	Plasmasphere	Item				A region of the magnetosphere consisting of low energy (cool) plasma. It is located above the ionosphere. The outer boundary of the plasmasphere is known as the plasmapause, which is defined by an order of magnitude drop in plasma density.
-1.2.1	1.2.0	Pluto	Item				The ninth (sub)planet from the sun in our solar system.
-1.2.1	1.0.0	PNG	Item				A digital format for still images. Portable Network Graphics (PNG)
-1.2.1	1.1.0	Polar	Item				The region near the pole of a body. For a magnetosphere the polar region is the area where magnetic field lines are open and includes the aural zone.
-1.2.1	1.0.0	Polar Angle	Item				The angle between the Z axis and the given vector direction.
-1.2.1	1.1.0	Polar Angle Range	Container				The range of possible polar angles for a group of energy observations. Defaults units are degrees.
-1.2.1	1.2.0	Polar Cap	Item				The areas of the globe surrounding the poles and consisting of the region north of 60 degrees north latitude an the region south of 60 degrees south latitude.
-1.2.1	1.0.0	Polarization	Item				Direction of the electric vector of an electromagnetic wave. The wave can be linearly polarized in any direction perpendicular to the direction of travel, circularly polarized (clockwise or counterclockwise), unpolarized, or mixtures of the above.
-1.2.1	1.0.0	Positional	Item				The specification of the location of an object or measurement within a reference coordinate system. The position is usually expressed as a set of values corresponding to the location along a set of orthogonal axes together with the date/time of the observation.
-1.2.1	1.2.0	Postscript	Item				A page description programming language created by Adobe Systems Inc. that is a device-independent industry standard for representing text and graphics.
-1.2.1	1.0.0	Potential	Item				A field which obeys Laplace's Equation.
-1.2.1	1.0.0	Poynting Flux	Item				The rate of energy transport per unit area per steradian.
-1.2.1	1.1.0	Pressure	Item				The force per unit area exerted by a particle distribution or field.
-1.2.1	1.0.0	Principal Investigator	Item				An individual who is the administrative and scientific lead for an investigation.
-1.2.1	1.2.0	Prior ID	Text				The resource identifier for a resource that is superceeded or replaced by a resource.
-1.2.1	1.2.0	Processing Level	Enumeration	Processing Level			The standard classification of the processing performed on the product.
-1.2.1	1.0.0	Profile	Item				Measurements of a quantity as a function of height above an object such as the limb of a body.
-1.2.1	1.1.0	Project Scientist	Item				An individual who is an expert in the phenomenon and related physics explored by the project. A project scientist may also have a manageral role within the project.
-1.2.1	1.2.1	Proportional Counter	Item				An instrument which measures energy of ionization radiation based on interactions with a gas.
-1.2.1	1.0.0	Proton	Item				An elementary particle that is a constituent of all atomic nuclei, that carries a positive charge numerically equal to the charge of an electron, and that has a mass of 1.673 x 10**(-24) gram.
-1.2.1	1.0.0	Provider ID	Item				The identifier for a Contact resource for the person or organization who provided the resource.
-1.2.1	1.0.0	Provider Processing Level	Text				The provider specific classification of the processing performed on the product.
-1.2.1	1.0.0	Provider Release Date	DateTime				The date and time the resource was made available by the provider. The Provider Release Date is relevant only to the product life-cycle of the provider and does not influence access to the described resource.
-1.2.1	1.0.0	Provider Resource Name	Text				A short textual description of a resource used by the provider which may be used to identify a resource.
-1.2.1	1.0.0	Provider Version	Text				Describes the release or edition of the product used by the provider. The formation rule may vary between providers. It is intended to aid in queries to the provider regarding the product.
-1.2.1	1.0.0	Quadrispherical Analyser	Item				An instrument used for the 3-D detection of plasma, energetic electrons and ions, and for positive-ion composition measurements.
-1.2.1	1.0.0	QuickTime	Item				A format for digital movies, as defined by Apple Computer. See <http://developer.apple.com/quicktime/>
-1.2.1	1.1.0	R	Item				The component of a vector in the radial direction from the center of the coordinate system.
-1.2.1	1.0.0	Radar	Item				An instrument that uses directional properties of returned power to infer spatial and/or other characteristics of a remote object.
-1.2.1	1.0.0	Radiance	Item				A radiometric measurement that describe the amount of electromagnetic radiation that passes through or is emitted from a particular area, and falls within a given solid angle in a specified direction. They are used to characterize both emission from diffuse sources and reflection from diffuse surfaces. The SI unit of radiance is watts per steradian per square meter (W·sr-1·m-2).
-1.2.1	1.1.0	Radiation Belt	Item				The region within a magnetosphere where high-energy particles could potentially be trapped in a magnetic field.
-1.2.1	1.0.0	Radio and Plasma Waves	Item				Measurements of electric and/or magnetic fields using electric or magnetic antennas at frequencies anywhere between the spacecraft spin frequency and the characteristic frequencies of the ambient plasma.  The output can be waveform, power spectral density, or other statistical parameters.
-1.2.1	1.0.0	Radio Frequency	Item				Photons with a wavelength range: 100,000 to 1.00x10^11 nm
-1.2.1	1.0.0	Radio Soundings	Item				Measurements of plasma density, magnetic field and possibly other parameters of the space environment by active probing of the plasma by radio waves.
-1.2.1	1.2.1	Radiometer	Item				An instrument for detecting or measuring radiant energy. Radiometers are commonly limited to infrared radiation.
-1.2.1	1.1.0	Ratio	Item				The relative magnitudes of two quantities.
-1.2.1	1.1.0	Registry	Container				A location or facility where resources are cataloged.
-1.2.1	1.1.0	Relative End Date	Duration				An indication of the nominal end date relative to the present. 
-1.2.1	1.1.0	Release Date	DateTime				The date and time when a resource is made available. The availability of a resource coincides with the release of a resource description. If the Release Date is specified as a future date then it indicates that resource should not be made available until that time. However, this is only advisory and in practice the Release Date should be the actual date the resource description was published.
-1.2.1	1.1.0	Remote 1AU	Item				The heliospheric region near the Earth's orbit, but exclusive of the region near the Earth.
-1.2.1	1.1.0	Repository	Container				A location or facility where resources are stored.
-1.2.1	1.0.0	Resonance Sounder	Item				A combination of a radio receiver and a pulsed transmitter used to study the plasma surrounding a spacecraft by identifying resonances or cut-offs (of the wave dispersion relation), whose frequencies are related to the ambient plasma density and magnetic field. When the transmitter is off it is essentially a high frequency-resolution spectral power receiver.
-1.2.1	1.0.0	Resource Header	Container				Attributes of a resource which pertain to the provider of the resource and descriptive information about the resource.
-1.2.1	1.0.0	Resource ID	Text				A Resource ID is a URI that has the form "scheme://authority/path" where "scheme" is "spase" for those resources administered through the SPASE framework, "authority" is the unique identifier for the resource provider registered within the SPASE framework and "path" is the unique identifier of the resource within the context of the "authority". The resource ID must be unique within the SPASE framework.
-1.2.1	1.0.0	Resource Name	Text				A short textual description of a resource which may be useful when read by a person.
-1.2.1	1.0.0	Restricted	Item				Access to the product is regulated and requires some form of identification.
-1.2.1	1.2.1	Retarding Potential Analyzer	Item				An instrument which measures ion temperatures and ion concentrations using aplanr ion trap.
-1.2.1	1.2.1	Riometer	Item				An instrument which measure the signal strength in various directions of the galatic radio signals. Variations in these signals are influenced by solar flare activity and geomagnetic storm and substorm processes.
-1.2.1	1.0.0	Role	Enumeration	Role			The assigned or assumed function or position of an individual.
-1.2.1	1.0.0	RTF	Item				Rich Text Format (RTF). Structured information as defined by Microsoft.
-1.2.1	1.0.0	RTN	Item				Radial Tangential Normal. Typically centered at a spacecraft. Used for IMF and plasma V vectors. R (radial) axis is radially away from the Sun, T (tangential) axis is normal to the plane formed by R and the Sun's spin vector, positive in the direction of planetary motion. N (normal) is R x T.
-1.2.1	1.2.0	Saturn	Item				The sixth planet from the sun in our solar system.
-1.2.1	1.0.0	SC	Item				Spacecraft - A coordinate system defined by the spacecraft geometry and/or spin. Often has Z axis parallel to spacecraft spin vector. X and Y axes may or may not corotate with the spacecraft. See SR and SR2 below.
-1.2.1	1.2.0	Scalar	Item				A quantity that is completely specified by its magnitude and has no direction.
-1.2.1	1.0.0	Scientist	Item				An individual who is an expert in the phenomenon and related physics represented by the resource.
-1.2.1	1.2.1	Scintillation Detector	Item				An instrument which detects flouresences of a material which is exceited by high energy (ionizing) electromagnetic or charged particle radiation.
-1.2.1	1.0.0	SE	Item				Solar Ecliptic - A heliocentric coordinate system where the Z axis is normal to the ecliptic plane, positive northward. X axis is positive towards the first point of Aries (from Earth to Sun at vernal equinox). Same as HAE above. See <http://nssdc.gsfc.nasa.gov/space/helios/coor_des.html>
-1.2.1	1.0.0	Search Coil	Enumeration	Search Coil			An instrument which measures the time variation of the magnetic flux threading a loop by measurement of the electric potential difference induced between the ends of the wire.
-1.2.1	1.1.0	Service	Container				A location or facility that can perform a well defined task.
-1.2.1	1.0.0	SGI	Item				Binary data compatible with Silicon Graphic platforms.
-1.2.1	1.2.0	SHA1	Item				Secure Hash Algorithm (SHA), a 160-bit message digest algorithm developed by the NSA and described in Federal Information Processing Standard (FIPS) publication 180-1. 
-1.2.1	1.2.0	SHA256	Item				Secure Hash Algorithm (SHA), a 256-bit message digest algorithm developed by the NSA and described in Federal Information Processing Standard (FIPS) publication 180-1. 
-1.2.1	1.0.0	Size	Sequence				The number of elements in each dimension of a multi-dimensional array. =1 for a scalar; = n for a vector, the number of vector elements; = (m, n, p ...),   Note that the number of elements in the size of an N-dimensional array conveys the array's dimensionality while the product of those numbers conveys the total number of elements in the array. When size is used to describe a tensor it is the number of elements in the tensor. As such it has a limited set of values. A tensor of rank 1 has a size of 3, rank 2 a size of 9, rank 3 a size of 27 and rank n a size of 3^n.
-1.2.1	1.0.0	SM	Item				Solar Magnetic - A geocentric coordinate system where the Z axis is northward along Earth's dipole axis, X axis is in plane of z axis and Earth-Sun line, positive sunward. See Russell, 1971.
-1.2.1	1.0.0	Soft X-rays	Item				Range: 0.1 <= x < 10 nm; Conventional abbreviation: XUV; VSO nickname: Soft X-ray image
-1.2.1	1.0.0	Solar Flare	Item				An explosive event in the Sun's atmosphere which produces electromagnetic radiation across the electromagnetic spectrum at multiple wavelengths from long-wave radio to the shortest wavelength gamma rays.
-1.2.1	1.0.0	Solar Wind Extreme	Item				Intervals of unusually large or small values of solar wind attributes such as flow speed and ion density.
-1.2.1	1.0.0	Sonic Mach Number	Item				The ratio of the bulk flow speed to the speed of sound in the medium.
-1.2.1	1.2.0	South Atlantic Anomaly Region	Item				The region where Earth's inner van Allen radiation belt makes its closest approach to the planet's surface. The result is that, for a given altitude, the radiation intensity is higher over this region than elsewhere.
-1.2.1	1.2.1	Spacecraft Orbit Plane	Item				A coordinate system where X lies in the orbit plane normal to and in the direction of motion of the spacecraft, Z in normal to the orbit plane and Y completes the triad in a right-handed coordinate system.
-1.2.1	1.0.0	Spacecraft Potential Control	Item				An instrument to control the electric potential of a spacecraft with respect to the ambient plasma by emitting a variable current of positive ions.
-1.2.1	1.0.0	SPASE	Container				Space Physics Archive Search and Extract (SPASE). The outermost container or envelope for SPASE metadata. This indicates the start of the SPASE metadata.
-1.2.1	1.0.0	Spatial Range	Item				A description, in an appropriate coordinate system, of the positions of the elements of an image; may be done using a reference and relative positions, or with bins giving the description of a 2-D grid.
-1.2.1	1.0.0	Spectral Power Receiver	Item				A radio receiver which determines the power spectral density of the electric or magnetic field, or both, at one or more frequencies.
-1.2.1	1.1.0	Spectral Range	Enumeration	Spectral Range			The general term used to describe wavelengths or frequencies within a given span of values for those quantities.
-1.2.1	1.0.0	Spectrometer	Item				An instrument that measures the component wavelengths of light or other electromagnetic radiation into its component wavelengths.
-1.2.1	1.0.0	Spectrum	Item				Measurements of the intensity of radiation as a function of frequency or wavelength.
-1.2.1	1.0.0	Spherical	Item				A system of curvilinear coordinates characterized by an azimuthal angle (longitude),  a polar angle (latitude), and a distance (radius) from a point to the origin.
-1.2.1	1.0.0	SR	Item				Spin Reference - A special case of a Spacecraft (SC) coordinate system for a spinning spacecraft. Z is parallel to the spacecraft spin vector. X and Y rotate with the spacecraft. See <http://cdpp.cnes.fr/00428.pdf>
-1.2.1	1.0.0	SR2	Item				Spin Reference 2 - A special case of a Spacecraft (SC) coordinate system for a spinning spacecraft. Z is parallel to the spacecraft spin vector. X is in the plane defined by Z and the spacecraft-Sun line, positive sunward. See <http://cdpp.cnes.fr/00428.pdf>
-1.2.1	1.0.0	SSE	Item				Spacecraft Solar Ecliptic - A coordinate system used for deep space spacecraft, for example Helios. - X axis from spacecraft to Sun. Z axis normal to ecliptic plane, positive northward. Note: Angle between normals to ecliptic and to Helios orbit plane ~ 0.25 deg.
-1.2.1	1.2.0	Standard Deviation	Item				The square root of the average of the squares of deviations about the mean of a set of data. Standard deviation is a statistical measure of spread or variability.
-1.2.1	1.0.0	Start Date	DateTime				The specification of a starting point in time.
-1.2.1	1.0.0	Stoke's Parameters	Item				The four coordinates (usually called I, Q, U, and V) relative to a particular basis for the representation of the polarization state of an electromagnetic wave propagating through space.
-1.2.1	1.2.0	Stratosphere	Item				The layer of the atmosphere that extends from the troposphere to about 30 km, temperature increases with height. The stratosphere contains the ozone layer. 
-1.2.1	1.2.0	Structure	Container				The organization and relationship of individual values within a quantity.
-1.2.1	1.2.0	Structure Type	Enumeration	Structure Type			The classification of the organization of a structure.
-1.2.1	1.2.0	Substorm	Item				A process by which plasma in the magnetotail becomes energized at a fast rate.
-1.2.1	1.0.0	Sun	Enumeration	Sun			The star upon which our solar system is centered.
-1.2.1	1.0.0	Support	Enumeration	Support			Information useful in understanding the context of an observation, typically observed or measured coincidentally with a physical observation.
-1.2.1	1.0.0	Surface	Item				The outermost area of a solid object.
-1.2.1	1.0.0	Team Member	Item				An individual who is a major participant in an investigation.
-1.2.1	1.0.0	Technical Contact	Item				An individual who can provide specific information with regard to the resource or supporting software
-1.2.1	1.0.0	Temperature	Item				A measure of the kinetic energy of random motion with respect to the average. Temperature is properly defined only for an equilibrium particle distribution (Maxwellian distribution).
-1.2.1	1.0.0	Temporal	Item				Pertaining to time.
-1.2.1	1.0.0	Temporal Description	Container				A characterization of the time over which the measurement was taken.
-1.2.1	1.2.0	Tensor	Item				A generalized linear "quantity" or "geometrical entity" that can be expressed as a multi-dimensional array relative to a choice of basis of the particular space on which it is defined.
-1.2.1	1.0.0	TeX	Item				A document expressed in the typesetting language TeX originally defined by Donald Knuth.
-1.2.1	1.0.0	Text	Item				ASCII text
-1.2.1	1.0.0	Thermal Plasma	Item				Measurements of the plasma in the energy regime where the most of the plasma occurs.  May be the basic fluxes in the form of distribution functions or the derived bulk parameters (density, flow velocity, etc.).
-1.2.1	1.0.0	Thermal Speed	Item				For a Maxwellian distribution, the difference between the mean speed and the speed within which ~69% (one sigma) of all the members of the speed distribution occur.
-1.2.1	1.2.0	Thermosphere	Item				The layer of the atmosphere that extends from the Mesosphere to 640+ km, temperature increasing with height.
-1.2.1	1.2.0	Theta	Item				For spatial points, the angular distance from a meridian normal to the equator.  Also referred to as the zenith angle or "latitude". As a "latitude" angles range from +90 to -90 with zero at the equator and positive angles are in the direction designated as "North." An alternate range of values is often called "co-latitude" where values range from 0 to +180 as measured from the "north" pole. Mathematically: Theta = arctan(sqrt(x^2 + y^2)/z)
-1.2.1	1.0.0	TIFF	Item				A binary format for still pictures. Tagged Image Format File (TIFF). Originally developed by Aldus and now controlled by Adobe.
-1.2.1	1.2.1	Time Of Flight	Item				An instrument which measures the time it takes for a particle to travel between two detectors.
-1.2.1	1.1.0	Time Span	Container				The duration of an interval in time.
-1.2.1	1.2.0	Topside	Item				The region at the upper most areas of the ionosphere.
-1.2.1	1.0.0	Transition Region	Item				A very narrow (<100 km) layer between the chromosphere and the corona where the temperature rises abruptly from about 8000 to about 500,000 K.
-1.2.1	1.2.0	Troposphere	Item				The lowest layer of the atmosphere which begins at the surface and extends to between 7 km (4.4 mi) at the poles and 17 km (10.6 mi) at the equator, with some variation due to weather factors.
-1.2.1	1.0.0	UDF	Item				Universal Data Format (UDF). The Optical Technology Storage Association's Universal Disk Format, based on ISO 13346. See <http://www.osta.org/specs/index.htm>
-1.2.1	1.0.0	Ultraviolet	Item				Photons with a wavelength range: 10 to 400 nm.
-1.2.1	1.0.0	Uncalibrated	Item				Duplicate data are removed from the data stream and data are time ordered. Values are not adjusted for any potential biases or external factors.
-1.2.1	1.2.0	Uncertainty	Item				A statistically defined discrepancy between a measured quantity and the true value of that quantity that cannot be corrected by calculation or calibration.
-1.2.1	1.0.0	Unicode	Item				Text in multi-byte Unicode format.
-1.2.1	1.0.0	Units	Text				A description of the standardized measurement increments in which a value is specified. The description is represented as a mathematical phrase. Units should be represented by widely accepted representation. For example, units should conform to the International System of Units (SI) which is maintained by BIPM (Bureau International des Poids et Mesures (see <http://www.bipm.fr/> ) when appropriate or use tokens like "Re" to represent units of the Radius of the Earth. Within a phrase the circumflex (^) is used to indicate a power, a star (*) is used to indicate multiplication and a slash (/) division. When symbols are not separated by a mathematical operator, multiplication is assumed. Symbols for base units can be found at: <http://www.bipm.fr/en/si/si_brochure/chapter2/2-1/#symbols> and those for common derived units can be found at: <http://www.bipm.fr/en/si/derived_units/2-2-2.html>
-1.2.1	1.0.0	Units Conversion	Text				The multiplicative factor for converting a unit into International System of Units (SI) units. The factor is expressed in the form "number > x", where "number" is a numerical value and "x" is the appropriate SI units. The basic SI units are Enumerated: m (meter), N (newton), kg (kilogram), Pa (pascal), s (second), Hz (hertz), A (ampere), V (volt), K (kelvin), W (watt), rad (radian), J (joule), sr (steradian), C (coulomb), T (tesla), ohm (ohm), mho (mho or seimens), H (henry), and F (farad). Two useful units which are not SI units are: degree (angle), and unitless (no units). An example is: "1.0E-5>T" which converts the units, presumable nT, to tesla. Another example is: "1.0e-1>km/s" which converts a velocity expressed in meters per second to kilometers per second.
-1.2.1	1.2.1	Unspecified	Item				A value which is not provided.
-1.2.1	1.2.0	Uranus	Item				The eigth planet from the sun in our solar system.
-1.2.1	1.0.0	URL	Text				Uniform Resource Locator (URL) is the global address of documents and other resources on the World Wide Web. The first part of the address indicates what protocol to use, and the second part specifies the IP address or the domain name where the resource is located followed by the pathname of the resource. A URL is specified in the form protocol://server.domain.name:port/pathname. Example protocols are HTTP or FTP, server domain name is the Internet name.
-1.2.1	1.2.0	ValidMax	Text				The largest legitmate value.
-1.2.1	1.2.0	ValidMin	Text				The smallest legitmate value.
-1.2.1	1.0.0	Variance	Item				A measure of dispersion of a set of data points around their mean value. The expectation value of the squared deviations from the mean.
-1.2.1	1.0.0	Vector	Item				A set of parameter values each along some independent variable (e.g., components of a field in three orthogonal spatial directions; atmospheric temperature values at several altitudes, or at a given latitude and longitude;).
-1.2.1	1.0.0	Velocity	Item				Rate of change of position. Also used for the average velocity of a collection of particles, also referred to as "bulk velocity".
-1.2.1	1.2.0	Venus	Item				The second planet from the sun in our solar system.
-1.2.1	1.0.0	Version	Text				Indicates the release identifier. When used to indicate the release of the SPASE data model, it is a in the form Major.Minor.Fix where Major: A significant change in the architecture of the model or rewrite of the implementation. This includes major changes in design or implementation language. This number starts at 0 (zero). Minor: An addition of terms or features that require changes in documentation/external API. This number starts at 0 (zero). Fix: Any change that doesn't require documentation/external API changes. This number starts at 0 (zero).
-1.2.1	1.1.0	VOTable	Item				A proposed XML standard designed as a flexible storage and exchange format for tabular data.
-1.2.1	1.0.0	Waveform Receiver	Item				A radio receiver which outputs the value of one or more components of the electric and/or magnetic field as a function of time.
-1.2.1	1.0.0	Wavelength	Item				The distance between successive points of equal amplitude and phase on a wave (for example, crest to crest or trough to trough)
-1.2.1	1.0.0	Wavenumber	Item				A quantity that is inversely proportional to the wavelength of a wave.
-1.2.1	1.2.0	WGS84	Item				The World Geodetic System (WGS) defines a reference frame for the earth, for use in geodesy and navigation. The WGS84 uses the zero meridian as defined by the Bureau International de l'Heure.
-1.2.1	1.1.0	X	Item				The component of a vector along the X-axis in a cartessian coordinate system.
-1.2.1	1.0.0	X-Rays	Item				Photons with a wavelength range: 0.001 <= x < 10 nm
-1.2.1	1.0.0	XDR	Item				Binary data in the eXternal Data Representation (XDR) format. See RFC 1014 <http://www.faqs.org/rfcs/rfc1014.html>
-1.2.1	1.0.0	XML	Item				eXtensible Mark-up Language (XML). A structured format for representing information. See <http://www.w3.org/XML/>
-1.2.1	1.1.0	Y	Item				The component of a vector along the Y-axis in a cartessian coordinate system.
-1.2.1	1.0.0	Z	Item				The component of a vector along the Z-axis in a cartessian coordinate system.
-1.2.1	1.0.0	ZIP	Item				An open standard for compression which is a variation of the LZW method and was originally used in the PKZIP utility.
+1.2.2	1.0.0	Access Information	Container				Attributes of the resource which pertain to how to acquire the resource, availability and storage format.
+1.2.2	1.0.0	Access Rights	Enumeration	Access Rights			Permissions granted or denied by the host of a product to allow other users to access and use the resource.
+1.2.2	1.0.0	Access URL	Container				Attributes of the method of acquiring a resource including a URL, name and description.
+1.2.2	1.0.0	Acknowledgement	Text				The individual, group or organization which should be acknowledged when the data is used in or contributes to a presentation or publication.
+1.2.2	1.3.0	Active Region	Item				A localized, transient volume of the solar atmosphere in which PLAGEs, SUNSPOTS, FACULAe, FLAREs, etc. may be observed.
+1.2.2	1.0.0	Activity Index	Item				An indication, derived from one or more measurements, of the level of activity of an object or region, such as sunspot number, F10.7 flux, Dst, or the Polar Cap Indices.
+1.2.2	1.0.0	Address	Text				Directions for finding some location; written on letters or packages that are to be delivered to that location.
+1.2.2	1.0.0	Aerosol	Item				A suspension of fine solid or liquid particles in gas.
+1.2.2	1.0.0	Alfven Mach Number	Item				The ratio of the bulk flow speed to the Alfven speed.
+1.2.2	1.0.0	Alpha Particle	Item				A positively charged nuclear particle that consists of two protons and two neutrons.
+1.2.2	1.1.0	Alternate Name	Text				An alternative or shortened name used to refer to a resource. This includes acronyms, expanded names or synonym for a resource.
+1.2.2	1.2.1	Anisotropy	Item				Direction-dependent property.
+1.2.2	1.0.0	Antenna	Item				A sensor used to measure electric potential.
+1.2.2	1.2.1	Archive Specialist	Item				An individual who is an expert on a collection of resources and may also be knowledgable of the phenomenon and related physics represented by the resources. This includes librarians, curators, archive scientists and other experts.
+1.2.2	1.2.0	Array	Item				A sequence of values corresponding to the elements in a rectilinear, n-dimension matrix. Each value can be referenced by a unique index.
+1.2.2	1.0.0	ASCII	Item				A sequence of characters that adheres to American Standard Code for Information Interchange (ASCII) which is an 7-bit character-coding scheme.
+1.2.2	1.1.0	Association ID	Text				The resource identifier for a resource with which this resource is closely associated.
+1.2.2	1.2.0	Asteroid	Item				A small extraterrestrial body consisting mostly of rock and metal that is in orbit around the sun.
+1.2.2	1.1.0	Atmosphere	Item				The neutral gases surrounding a body that extends from the surface and is bound to the body by virtue of the gravitational attraction.
+1.2.2	1.1.0	Atomic Number	Numeric				The the number of protons in the nucleus of an atom.
+1.2.2	1.2.0	Aurora	Item				An atmospheric phenomenon consisting of bands of light caused by charged solar particles following the earth's magnetic lines of force.
+1.2.2	1.1.0	Auroral Region	Item				The region in the atmospheric where electrically-charged particles bombarding the upper atmosphere of a planet in the presence of a magnetic field produce an opitcal phenomenum.
+1.2.2	1.0.0	Availability	Enumeration	Availability			An indication of the method or service which may be used to access the resource.
+1.2.2	1.0.0	Average	Item				The statistical mean; the sum of a set of values divided by the number of values in the set.
+1.2.2	1.0.0	Average Charge State	Item				A measure of the composite deficit (positive) or excess (negative) of electrons with respect to protons.
+1.2.2	1.0.0	AVI	Item				Audio Video Interleave (AVI) a digital format for movies that conforms to the Microsoft Windows Resource Interchange File Format (RIFF).
+1.2.2	1.1.0	Azimuthal Angle Range	Container				The range of possible azimuthal angles for a group of energy observations.  Default units are degrees.
+1.2.2	1.1.0	Base64	Item				A data encoding scheme whereby binary-encoded data is converted to printable ASCII characters. It is defined as a MIME content transfer encoding for use in internet e-mail. The only characters used are the upper- and lower-case Roman alphabet characters (A–Z, a–z), the numerals (0–9), and the "+" and "/" symbols, with the "=" symbol as a special suffix (padding) code.
+1.2.2	1.1.0	Bin	Container				A grouping of observations according to a band or window of a common attribute.
+1.2.2	1.0.0	Binary	Item				A direct representation of the bits which may be stored in memory on a computer.
+1.2.2	1.0.0	Bow Shock Crossing	Item				A crossing of the boundary between the undisturbed (except for foreshock effects) solar wind and the shocked, decelerated solar wind of the magnetosheath.
+1.2.2	1.0.0	Bytes	Numeric				The number of bytes expressed as a fractional number in the associated units.
+1.2.2	1.0.0	BZIP2	Item				An open standard algorithm by Julian Seward using Burrows-Wheeler block sorting and Huffman coding. See <http://www.bzip.org/>
+1.2.2	1.2.1	Ca-K	Item				A spectrum with a wavelength of range centered near 393.5 nm. VSO nickname: Ca-K image with range of 391.9 nm to 395.2 nm.
+1.2.2	1.0.0	Cadence	Duration				The time interval between the start of successive measurements.
+1.2.2	1.0.0	Calibrated	Item				Data wherein sensor outputs have been convolved with instrument response function, often irreversibly, to yield physical parameter values.
+1.2.2	1.2.1	Carrington	Item				A coordinate system which is centered at the Sun and is "fixed" with repsect to the synodic rotation rate; the mean synodic value is about 27.2753 days. The Astronomical Almanac gives a value for Carrington longitude of 349.03 degrees at 0000 UT on 1 January 1995.
+1.2.2	1.0.0	Cartesian	Item				A coordinate system in which the position of a point is determined by its distance from two or three mutually perpendicular axes.
+1.2.2	1.0.0	Catalog	Container				A tabular listing of events or observational notes, especially those that have utility in aiding a user in locating data. Catalogues include lists of events, files in a product, and data availability.
+1.2.2	1.0.0	Caveats	Text				Information which may be important in the avoidance of misuse of the resource. This includes things such as instrument maladies, corruption or contamination.
+1.2.2	1.0.0	CDF	Item				Common Data Format (CDF). A binary storage format developed at Goddard Space Flight Center (GSFC).
+1.2.2	1.0.0	CEF	Item				Cluster Exchange Format (CEF) is a self-documenting ASCII format designed for the exchange of data. There are two versions of CEF which are not totally compatible.
+1.2.2	1.0.0	CEF 1	Item				Cluster Exchange Format (CEF), version 1, is a self-documenting ASCII format designed for the exchange of data. The metadata contains information compatible with the ISTP recommendations for CDF.
+1.2.2	1.0.0	CEF 2	Item				Cluster Exchange Format (CEF), version 2, is a self-documenting ASCII format designed for the exchange of data and introduced for Cluster Active Archive. Compared to version 1, the metadata description of vectors and tensors is different.
+1.2.2	1.0.0	CGM	Item				Corrected Geomagnetic - A coordinate system from a spatial point with GEO radial distance and geomagnetic latitude and longitude, follow the epoch-appropriate IGRF/DGRF model field vector through to the point where the field line crosses the geomagnetic dipole equatorial plane. Then trace the dipole magnetic field vector Earthward from that point on the equatorial plane, in the same hemisphere as the original point, until the initial radial distance is reached. Designate the dipole latitude and longitude at that point as the CGM latitude and longitude of the original point. See <http://nssdc.gsfc.nasa.gov/space/cgm/cgmm_des.html>
+1.2.2	1.0.0	Channeltron	Item				An instrument that detects electrons, ions, and UV-radiation, according to the principle of a secondary emission multiplier. It is typically used in electron spectroscopy and mass spectrometry.
+1.2.2	1.2.1	Characteristic	Item				A quanity which can be easily identified and measured in a given environment.
+1.2.2	1.0.0	Charged Particle Flux	Item				Measurements of fluxes of charged or ionized particles at above thermal energies, including relativistic particles of solar and galactic origin. May give simple fluxes, but more complete distributions are sometimes possible. Composition measurements may also be made.
+1.2.2	1.2.0	Checksum	Container				A computed value that is dependent upon the contents of a digital data object. Primarily used to check whether errors or alterations have occurred during the transmission or storage of a data object.
+1.2.2	1.0.0	Chromosphere	Item				The region of the Sun's (or a star's) atmosphere above the temperature minimum and below the Transition Region.  The solar chromosphere is approximately 400 km to 2100 km above the photosphere, and characterized by temperatures from 4500 - 28000 K.
+1.2.2	1.0.0	Circular	Item				Relative to polarization, right-hand circularly polarized light is defined such that the electric field is rotating clockwise as seen by an observer towards whom the wave is moving. Left-hand circularly polarized light is defined such that the electric field is rotating counterclockwise as seen by an observer towards whom the wave is moving. The polarization of magnetohydrodynamic waves is specified with respect to the ambient mean magnetic field : right-hand polarized waves have a transverse electric field component which turns in a right-handed sense (that of the gyrating electrons) around the magnetic field.
+1.2.2	1.0.0	Co-Investigator	Item				An individual who is a scientific peer and major participant for an investigation.
+1.2.2	1.2.0	Comet	Item				A relatively small extraterrestrial body consisting of a frozen mass that travels around the sun in a highly elliptical orbit.
+1.2.2	1.0.0	Component	Enumeration	Component			A part of a multi-part entity, e.g., the components of a vector.
+1.2.2	1.0.0	Contact	Container				The person or organization who may be able to provide special assistance or serve as a channel for communication for additional information about a resource.
+1.2.2	1.3.0	Contributor	Item				An entity responsible for making contributions to the content of the resource.
+1.2.2	1.0.0	Coordinate Representation	Enumeration	Coordinate Representation			The method or form for specifying a given point in a given coordinate system
+1.2.2	1.0.0	Coordinate System	Container				Specification of the origin and orientation of axes against which the location of some point is given and the representative form of each point.
+1.2.2	1.0.0	Coordinate System Name	Enumeration	Coordinate System Name			Identifies the coordinate system in which the position, direction or observation has been expressed.
+1.2.2	1.0.0	Corona	Item				The outermost atmospheric region of the Sun or a star, characterized by ionization temperatures above 10^5 K.  The solar corona starts at about 2100 km above the photosphere; there is no generally defined upper limit.
+1.2.2	1.3.0	Coronal Hole	Item				An extended region of the corona, exceptionally low in density and associated with unipolar photospheric regions. A coronal hole can be an "open" magnetic field in the corona and (perhaps) inner heliosphere which has a faster than average outflow (wind); A region of lower than "quiet" ion and electron density in the corona; or a region of lower peak electron temperature in the corona than in the "quiet" corona.
+1.2.2	1.0.0	Coronal Mass Ejection	Item				A solar event which involves a burst of plasma which is ejected from the Sun into the interplanetary medium.
+1.2.2	1.2.1	Coronograph	Item				An instrument which can image things very close to the Sun by using a disk to block the Sun's bright surface which reveals the faint solar corona and other celetrial objects.
+1.2.2	1.0.0	Counts	Item				An enumeration of the number of detection events occurring in a particle detector per unit time or over detector accumulation times.
+1.2.2	1.0.0	Cross Spectrum	Item				The Fourier transform of the cross correlation of two physical or empirical observations.
+1.2.2	1.2.1	Current	Item				The flow of electrons through a conductor caused by a potential difference.
+1.2.2	1.0.0	Cylindrical	Item				A system of curvilinear coordinates in which the position of a point in space is determined by its perpendicular distance from a given line, its distance from a selected reference plane perpendicular to this line, and its angular distance from a selected reference line when projected onto this plane.
+1.2.2	1.2.0	D-Region	Item				The layer of the ionosphere that exists approximately 50 to 95 km above the surface of the Earth.  One of several layers in the ionosphere.
+1.2.2	1.2.0	Data Extent	Container				The area of storage in a file system required to store the contents of a resource. The data extent is expressed in unitized bytes.
+1.2.2	1.0.0	Data Producer	Item				An individual who generated the resource and is familiar with its provenance.
+1.2.2	1.2.0	Deputy-PI	Item				An individual who is an administrative or scientific leader for an investigation operting under the supervision of a Princial Investigator.
+1.2.2	1.0.0	Description	Text				A detailed description of the resource which should include discussions of the main quantities in the resource, possible uses and search terms. A description should also include whether any corrections (i.e, geometry, inertial) have been applied to it.
+1.2.2	1.0.0	Deviation	Item				The difference between an observed value and the expected value of a quantity.
+1.2.2	1.1.0	Differential	Item				A flux measurement within a given energy and solid-angle range.
+1.2.2	1.0.0	Display Cadence	Duration				The time interval between the successive display elements.
+1.2.2	1.0.0	Display Data	Container				A graphical representation of data wherein the underlying numeric values are not (readily) accessible for analysis.. Examples are line plots and spectrograms.
+1.2.2	1.0.0	DM	Item				Dipole Meridian - A coordinate system centered at the observation point. Z axis is parallel to the Earth's dipole axis, positive northward. X is in the plane defined by Z and the line linking the observation point with the Earth's center. Y is positive eastward. See <http://cdpp.cnes.fr/00428.pdf>
+1.2.2	1.0.0	Dopplergram	Item				A map or image depicting the spatial distribution of line-of-sight velocities of the observed object.
+1.2.2	1.0.0	Double Sphere	Item				A dipole antenna of which the active (sensor) elements are small spheres located at the ends of two wires deployed in the equatorial plane, on opposite sides of a spinning spacecraft.
+1.2.2	1.0.0	Dust	Item				Free microscopic particles of solid material.
+1.2.2	1.2.0	E-Region	Item				A layer of ionised gas occurring at 90-150km above the ground. One of several layers in the ionosphere. Also called the The Kennelly-Heaviside layer.
+1.2.2	1.1.0	Earth	Enumeration	Earth			The third planet from the sun in our solar system.
+1.2.2	1.3.0	EIT Wave	Item				A wave in the corona of the Sun which produce shock waves on the Sun’s chromosphere (Moreton Waves). EIT Waves are produced by large solar flare and expand outward at about 1,000 km/s. It usually appears as a slowly moving diffuse arc of brightening in H-alpha, and may travel for several hundred thousand km.
+1.2.2	1.0.0	Electric	Item				The physical attribute that exerts an electrical force.
+1.2.2	1.0.0	Electric Field	Item				Measurements of electric field vectors (sometimes not all components) as a time series.
+1.2.2	1.3.0	Electromagnetic	Item				The physical attribute that is or is caused by a mutual interaction of electric and magnetic fields.
+1.2.2	1.0.0	Electron	Item				An elementary particle consisting of a charge of negative electricity equal to about 1.602 x 10**(-19) Coulomb and having a mass when at rest of about 9.109534 x 10**(-28) gram.
+1.2.2	1.0.0	Electron Drift Instrument	Item				An active experiment to measure the electron drift velocity based on sensing the displacement of a weak beam of electrons after one gyration in the ambient magnetic field.
+1.2.2	1.0.0	Electrostatic Analyser	Item				An instrument which uses charged plates to analyze the mass, charge and kinetic energies of charged particles which enter the instrument.
+1.2.2	1.2.0	Element	Container				A component or indiviual unit of a multiple value quantity such as an array or vector.
+1.2.2	1.2.0	Elevation	Numeric				The distance in meters above (positive) or below (negative) the "zero elevation" defined by the World Geodetic System reference frame (WGS84).
+1.2.2	1.0.0	Email	Text				The electronic address at which the individual may be contacted expressed in the form "local-part@domain".
+1.2.2	1.0.0	Emissivity	Item				The ratio of radiant energy from a material to that from a blackbody at the same kinetic temperature
+1.2.2	1.0.0	Encoding	Enumeration	Encoding			A set of unambiguous rules that establishes the representation of information within a file.
+1.2.2	1.0.0	End Date	DateTime				The specification of a stopping point in time.
+1.2.2	1.0.0	Energetic Particle Instrument	Item				An instrument that measures fluxes of charged particles as a function of time, direction of motion, mass, charge and/or species.
+1.2.2	1.0.0	Energetic Particles	Item				Pieces of matter that are moving very fast. Energetic particles include protons, electrons, neutrons, neutrinos, the nuclei of atoms, and other sub-atomic particles.
+1.2.2	1.0.0	Energetic Solar Particle Event	Item				An enhancement of interplanetary fluxes of energetic ions accelerated by interplanetary shocks and/or solar flares.
+1.2.2	1.0.0	Energy	Item				The capacity for doing work as measured by the capability of doing work (potential energy) or the conversion of this capability to motion (kinetic energy)
+1.2.2	1.2.1	Energy Density	Item				The amount of energy per unit volume.
+1.2.2	1.2.1	Energy Flux	Item				The amount of energy passing through a unit area in a unit time.
+1.2.2	1.1.0	Energy Range	Container				The minimum and maximum energy values of the particles represented by a given "physical parameter" description.
+1.2.2	1.2.0	Ephemeris	Item				The spatial coordinates of a body as a function of time. When used as an Instrument Type it represents the process or methods used to generate spatial coordinates.
+1.2.2	1.2.0	Equatorial Region	Item				A region centered on the equator and limited in latitude by approximately 23 degrees north and south of the equator.
+1.2.2	1.0.0	Equivalent Width	Item				The area of the spectral line profile divided by the peak height or depth.
+1.2.2	1.2.0	Expiration Date	DateTime				The date and time when a resource is no longer available. If the Expiration Date is specified then it indicates that resource should not be made available after that time. However, this is only advisory and in practice a resource description should be unpublished to eliminate access to a resource.
+1.2.2	1.0.0	Exposure	Duration				The time interval over which an individual measurement is taken.
+1.2.2	1.2.0	Extension	Text				A container of other metadata which is not part of the SPASE data model. The contents of this element are defined by individual usage. The organization and content are constrained by the implementation. For example, in an XML representation of the SPASE metadata the content must conform to the XML specications.
+1.2.2	1.2.1	Extreme Ultraviolet	Item				A spectrum with a wavelength range of 10.0 nm to 125.0nm. VSO nickname: EUV image with a range of of 10.0 nm to 125.0 nm
+1.2.2	1.2.0	F-Region	Item				A layer that contains ionized gases at a height of around 150–800 km above sea level, placing it in the thermosphere. the F region has the highest concentration of free electrons and ions anywhere in the atmosphere. It may be thought of as comprising two layers, the F1-and F2-layers.  One of several layers in the ionosphere. Also known as the Appleton layer.
+1.2.2	1.0.0	Faraday Cup	Item				An instrument consisting of an electrode from which electrical current is measured while a charged particle beam (electrons or ions) impinges on it. Used to determine energy spectrum and sometimes ion composition of the impinging particles.
+1.2.2	1.0.0	Field	Container				The space around a radiating body within which its electromagnetic attributes can exert force on another similar body that is not in direct contact.
+1.2.2	1.0.0	Field Qualifier	Enumeration	Field Qualifier			Characterizes the directional and statistical aspects of the field observation.
+1.2.2	1.1.0	Field Quantity	Enumeration	Field Quantity			The physical attribute of the field.
+1.2.2	1.2.0	Fill Value	Text				A value that indidicates that a qunatity is undefined.
+1.2.2	1.0.0	Fit	Item				Values that make an model agree with the data.
+1.2.2	1.0.0	FITS	Item				Flexible Image Transport System (FITS) is a digital format primarily designed to store scientific data sets consisting of multi-dimensional arrays (1-D spectra, 2-D images or 3-D data cubes) and 2-dimensional tables containing rows and columns of data.
+1.2.2	1.2.1	Flow Speed	Item				The rate at which particles or energy is passing through a unit area in a unit time.
+1.2.2	1.0.0	Flux Feedback	Item				A search coil whose bandwidth and signal/noise ratio are increased by the application of negative feedback at the sensor (flux) level by driving a collocated coil with a signal from the preamplifier.
+1.2.2	1.0.0	Forbush Decrease	Item				A rapid decrease in the observed galactic cosmic ray intensity following the passage of an outwardly convecting interplanetary magnetic field disturbance, such as those associated with large CME's, that sweep some galactic cosmic rays away from Earth.
+1.2.2	1.0.0	Format	Enumeration	Format			The organization of data according to preset specifications. The value is selected from a list of accepted names for known, well documented formats.
+1.2.2	1.0.0	Fourier Transform Spectrograph	Item				An instrument that determines the spectra of a radiative source, using time-domain measurements and a Fourier transform.
+1.2.2	1.1.0	Frequency Range	Container				The range of possible values for the observed frequency.
+1.2.2	1.0.0	Gamma Rays	Item				Photons with a wavelength range: 0.00001 to 0.001 nm
+1.2.2	1.0.0	GEI	Item				Geocentric Equatorial Inertial - A coordinate system where the Z axis is along Earth's spin vector, positive northward. X axis points towards the first point of Aries (from the Earth towards the Sun at the vernal equinox). See Russell, 1971
+1.2.2	1.2.1	Geiger-Mueller Tube	Item				An instrument which measures density of ionizing radiation based on interactions with a gas.
+1.2.2	1.0.0	General Contact	Item				An individual who can provide information on a range of subjects or who can direct you to a domain expert.
+1.2.2	1.0.0	GEO	Item				Geographic - geocentric corotating - A coordinate system where the Z axis is along Earth's spin vector, positive northward. X axis lies in Greenwich meridian, positive towards Greenwich. See Russell, 1971.
+1.2.2	1.0.0	Geomagnetic Storm	Item				A magnetospheric disturbance typically defined by variations in the horizontal component of the Earth's surface magnetic field.  The variation typically starts with a field enhancement associated with a solar wind pressure pulse and continues with a field depression associated with an enhancement of the diamagnetic magnetospheric ring current.
+1.2.2	1.0.0	GIF	Item				Graphic Interchange Format (GIF) first introduced in 1987 by CompuServe. GIF uses LZW compression and images are limited to 256 colours.
+1.2.2	1.1.0	Granule	Container				An accessible portion of another resource. A Granule may be composed of one or more physical pieces (files) which are considered inseperable. For example, a data storage format that maintains metadata and binary data in seperate, but tightly coupled files. Granules should not be used to group files that have simple relationships or which are associated through a parent resource. For example, each file containing a time interval data for a Numerical Data resource would each be considered a Granule. The ParentID of a Granule resource must be a NumericalData resource. The attributes of a Granule supersede the corresponding attributes in the NumericalData resource.
+1.2.2	1.0.0	GSE	Item				Geocentric Solar Ecliptic - A coordinate system where the X axis is from Earth to Sun. Z axis is normal to the ecliptic, positive northward. See Russell, 1971.
+1.2.2	1.0.0	GSEQ	Item				Geocentric Solar Equatorial - A coordinate system where the X axis is from Earth to Sun. Y axis is parallel to solar equatorial plane. Z axis is positive northward. See Russell, 1971
+1.2.2	1.0.0	GSM	Item				Geocentric Solar Magnetospheric - A coordinate system where the X axis is from Earth to Sun, Z axis is northward in a plane containing the X axis and the geomagnetic dipole axis. See Russell, 1971
+1.2.2	1.2.1	Gyrofrequency	Item				The frequency with which a charged particle (as an electron) executes spiral gyrations in moving obliquely across a magnetic field
+1.2.2	1.0.0	GZIP	Item				An open standard algorithm distributed by GHU based on LZ77 and Huffman coding. See <http://www.gnu.org/software/gzip/gzip.html> or <http://www.gzip.org/>
+1.2.2	1.2.1	H-alpha	Item				A spectrum with a wavelength range centered at 656.3 nm. VSO nickname: H-alpha image with a spectrum range of of 655.8 nm to 656.8 nm.
+1.2.2	1.0.0	HAE	Item				Heliocentric Aries Ecliptic - A coordinate system where the Z axis is normal to the ecliptic plane, positive northward. X axis is positive towards the first point of Aries (from Earth to Sun at vernal equinox). Same as SE below. See Hapgood, 1992.
+1.2.2	1.0.0	Hard X-rays	Item				Photons with a wavelength range: 0.001 to 0.1 nm
+1.2.2	1.2.0	Hash Function	Enumeration	Hash Function			A function or algorithm that converts a digital data object into a hash value. Typically the hash value is small and concise when compared to the digital data object.
+1.2.2	1.2.0	Hash Value	Text				The value calculated by a hash function, e.g. the message digest of a digital data object.
+1.2.2	1.2.1	HCI	Item				Heliographic Carrington Inertial.
+1.2.2	1.0.0	HDF	Item				Hierarchical Data Format
+1.2.2	1.0.0	HDF 4	Item				Hierarchical Data Format, Version 4
+1.2.2	1.0.0	HDF 5	Item				Hierarchical Data Format, Version 5
+1.2.2	1.2.1	He-10830	Item				A spectrum with a wavelength range centered at 1082.9 nm. VSO nickname: He 10830 image with a range of 1082.5 nm to 1083.3 nm.
+1.2.2	1.0.0	Heat Flux	Item				Flow of thermal energy through a gas or plasma; typically computed as third moment of a distribution function.
+1.2.2	1.0.0	HEE	Item				Heliocentric Earth Ecliptic - A coordinate system where the Z axis is normal to the ecliptic plane, positive northward. X axis points from Sun to Earth. See Hapgood, 1992
+1.2.2	1.0.0	HEEQ	Item				Heliocentric Earth Equatorial - A coordinate system where the Z axis is normal to the solar equatorial plane, positive northward. X axis is generally Earthward in the plane defined by the Z axis and the Sun-Earth direction. See Hapgood, 1992.
+1.2.2	1.0.0	Heliosphere	Enumeration	Heliosphere			The solar atmosphere extending roughly from the outer corona to the edge of the solar plasma at the heliopause separating primarily solar plasma from interstellar plasma.
+1.2.2	1.0.0	HG	Item				Heliographic - A heliocentric rotating coordinate system where the Z axis is normal to the solar equatorial plane, positive northward. X, Y axes rotate with a 25.38 day period. The zero longitude (X axis) is defined as the longitude that passed through the ascending node of the solar equator on the ecliptic plane on 1 January, 1854 at 12 UT. See <http://nssdc.gsfc.nasa.gov/space/helios/coor_des.html>
+1.2.2	1.0.0	HGI	Item				Heliographic Inertial - A heliocentric coordinate system where the Z axis is normal to the solar equatorial plane, positive northward. X axis is along the intersection line between solar equatorial and ecliptic planes. The X axis was positive at SE longitude of 74.367 deg on Jan 1, 1900. (See SE below.) See <http://nssdc.gsfc.nasa.gov/space/helios/coor_des.html>
+1.2.2	1.1.0	High	Numeric				The largest value within a range of possible values.
+1.2.2	1.0.0	HTML	Item				A text file containing structured information represented in the HyperText Mark-up Language (HTML). See <http://www.w3.org/MarkUp/>
+1.2.2	1.0.0	IDFS	Item				Instrument Data File Set (IDFS) is a set of files written in a prescribed format which contain data, timing data, and meta-data. IDFS was developed at Southwest Research Institute (SwRI).
+1.2.2	1.0.0	IDL	Item				Interactive Data Language (IDL) save set. IDL is a proprietary format.
+1.2.2	1.0.0	Image Intensity	Item				Measurements of the two-dimensional distribution of the intensity of photons from some region or object such as the Sun or the polar auroral regions; can be in any wavelength band, and polarized, etc.
+1.2.2	1.0.0	Imager	Item				An instrument which samples the radiation from an area at one or more spectral ranges emitted or reflected by an object.
+1.2.2	1.2.1	Imaging Spectrometer	Item				An instrument which is a multispectral scanner with a very large number of channels (64-256 channels) with very narrow band widths.
+1.2.2	1.2.0	Index	Sequence				The location of an item in an array or vetor. An index can be multivalued to represent the location in a multidimensional object.
+1.2.2	1.0.0	Information URL	Container				Attributes of the method of acquiring additional information.
+1.2.2	1.0.0	Infrared	Item				Photons with a wavelength range: 760 to 1.00x10^6 nm
+1.2.2	1.0.0	Inner	Item				The region of the heliosphere extending radially out from the "surface" of the Sun to 1 AU.
+1.2.2	1.0.0	Input Resource ID	Text				The resource identifier for a resource which was used to generate this resource.
+1.2.2	1.0.0	Instrument	Container				A device which is used to sense and parameterize a physical phenomenon.
+1.2.2	1.0.0	Instrument ID	Text				The identifier of an Instrument resource.
+1.2.2	1.2.0	Instrument Status	Item				A quantity directly related to the operation or function of an instrument.
+1.2.2	1.0.0	Instrument Type	Enumeration	Instrument Type			A characterization of an integrated collection of software and hardware containing one or more sensors and associated controls used to produce data on an environment.
+1.2.2	1.1.0	Integral	Item				The summation of values above a given threshold and over area or solid-angle range.
+1.2.2	1.2.1	Interferometer	Item				An instrument which measures the difference between two or more waves.
+1.2.2	1.0.0	Interior	Item				The region inside the body which is not visible from outside the body.
+1.2.2	1.0.0	Interplanetary Shock	Item				A shock propagating generally antisunward through the slower solar wind, often seen in front of CME-associated plasma clouds.
+1.2.2	1.0.0	Investigation Name	Text				The name given to the contract or engagement which enabled the data to be produced. Each investigation is associated with a Principal Investigator or Guest Investigator who was responsible for the original proposal.  For single PI missions each major subsystem having its own identified Team Leader may also be classed as an "Investigation" for the purposes of data archiving.
+1.2.2	1.0.0	Ion	Item				An atom that has acquired a net electric charge by gaining or losing one or more electrons.(Note: Z>2)
+1.2.2	1.0.0	Ion Composition	Item				In situ measurements of the relative flux or density of electrically charged particles in the space environment. May give simple fluxes, but full distribution functions are sometimes measured.
+1.2.2	1.1.0	Ionosphere	Enumeration	Ionosphere			The charged or ionized gases surrounding a body that are nominally bound to the body by virtue of the gravitational attraction..
+1.2.2	1.0.0	Irradiance	Item				A radiometric term for the power of electromagnetic radiation at a surface, per unit area. "Irradiance" is used when the electromagnetic radiation is incident on the surface. The SI unit of irradiance is watts per square meter (W·m-2).
+1.2.2	1.1.0	J2000	Item				An astronomical coordinate system which uses the mean equator and equinox of Julian date 2451545.0 TT (Terrestrial Time), or January 1, 2000, noon TT. (aka J2000) to define a celestial reference frame.
+1.2.2	1.0.0	JPEG	Item				A binary format for still images defined by the Joint Photographic Experts Group
+1.2.2	1.2.0	Jupiter	Item				The fifth planet from the sun in our solar system.
+1.2.2	1.2.1	K-7699	Item				A spectrum with a wavelength range centerd at 769.9 nm. VSO nickname: K-7699 dopplergram with a range of 769.8 nm to 770.0 nm.
+1.2.2	1.0.0	Keyword	Text				A word or phrase that is relevant to the resource but does not exist in other documentary information.
+1.2.2	1.0.0	Langmuir Probe	Item				A monopole antenna associated with an instrument. The instrument applies a potential to the antenna which is swept to determine the voltage/current characteristic. This provides information about the plasma surrounding the probe and spacecraft.
+1.2.2	1.2.0	Latitude	Numeric				The location of a place on Earth specified as an angle east (positive) or west (negative) of a north-south line called the Prime Meridian defined by the coordinate system in use.
+1.2.2	1.0.0	LGM	Item				Local Geomagnetic - A coordinate system used mainly for Earth surface or near Earth surface magnetic field data. X axis northward from observation point in a geographic meridian. Z axis downward towards Earth's center. In this system, H (total horizontal component) = SQRT (Bx**2 + By**2) and D (declination angle) = arctan (By/Bx)
+1.2.2	1.0.0	Line Depth	Item				In spectra, a measure of the amount of absorption for a particular wavelength or frequency in the spectrum
+1.2.2	1.0.0	Line-of-Sight	Item				The line of sight is the line that connects the observer with the observed object. This expression is often used with measurements of Doppler velocity and magnetic field in magnetograms, where only the component of the vector field directed along the line of sight is measured.
+1.2.2	1.0.0	Linear	Item				Relative to polarization, confinement of the E-field vector to a given plane
+1.2.2	1.2.0	Location	Container				A position in space definable by a regional referencing system and geographic coordinates.
+1.2.2	1.0.0	Long Wire	Item				A dipole antenna whose active (sensor) elements are two wires deployed in the equatorial plane on opposite sides of a spinning spacecraft, and whose length is several times greater than the spacecraft diameter.
+1.2.2	1.2.0	Longitude	Numeric				The location of a place on Earth specified as an angle north (positive) or south (negative) of the equator defined by the coordinate system in use.
+1.2.2	1.1.0	Low	Numeric				The smallest value within a range of possible values.
+1.2.2	1.0.0	MAG	Item				Geomagnetic - geocentric. Z axis is parallel to the geomagnetic dipole axis, positive north. X is in the plane defined by the Z axis and the Earth's rotation axis. If N is a unit vector from the Earth's center to the north geographic pole, the signs of the X and Y axes are given by Y = N x Z, X = Y x Z.. See Russell, 1971, and <http://cdpp.cnes.fr/00428.pdf>
+1.2.2	1.0.0	Magnetic	Item				The physical attribute attributed to a magnet or its equivalent.
+1.2.2	1.3.0	Magnetic Cloud	Item				A transient event observed in the solar wind characterized as a region of enhanced magnetic field strength, smooth rotation of the magnetic field vector and low proton density and temperature.
+1.2.2	1.0.0	Magnetic Field	Item				Measurements of magnetic field vectors (sometimes not all components) as time series; can be space- or ground-based. Also, [Zeeman splitting, etc. based]: A region of space near a magnetized body where magnetic forces can be detected [as measured by methods such as Zeeman splitting, etc.]
+1.2.2	1.0.0	Magnetogram	Item				Measurements of the vector or line-of-sight magnetic field determined from remote sensing measurements of the detailed structure of spectral lines, including their splitting and polarization. ("Magnetogram.")
+1.2.2	1.0.0	Magnetometer	Item				An instrument which measures the ambient magnetic field.
+1.2.2	1.0.0	Magnetopause Crossing	Item				A crossing of the interface between the shocked solar wind in the magnetosheath and the magnetic field and plasma in the magnetosphere.
+1.2.2	1.0.0	Magnetosheath	Item				The region between the bow shock and the magnetopause, characterized by very turbulent plasma.
+1.2.2	1.0.0	Magnetosphere	Enumeration	Magnetosphere			The region of space above the atmosphere or surface of the planet, and bounded by the magnetopause, that is under the direct influence of the planet's magnetic field.
+1.2.2	1.0.0	Magnetotail	Item				The region on the night side of the body where the magnetic filed is stretched backwards by the force of the solar wind. For Earth, the magnetotail begins at a night-side radial distance of 10 Re (X > -10Re).
+1.2.2	1.0.0	Magnitude	Item				A measure of the strength or size of a vector quantity.
+1.2.2	1.0.0	Main	Item				The region of the magnetosphere where the magnetic field lines are closed, but does not include the gaseous region gravitationally bound to the body.
+1.2.2	1.2.0	Mars	Item				The forth planet from the sun in our solar system.
+1.2.2	1.0.0	Mass	Item				The measure of inertia (mass) of individual objects (e.g., aerosols).
+1.2.2	1.0.0	Mass Density	Item				The mass of particles per unit volume.
+1.2.2	1.0.0	Mass Spectrometer	Item				An instrument which distinguishes chemical species in terms of their different isotopic masses.
+1.2.2	1.1.0	MATLAB_4	Item				MATLAB Workspace save set, version 4. MAT-files are double-precision, binary, MATLAB format files. MATLAB is a proprietary product of The MathWorks.
+1.2.2	1.1.0	MATLAB_6	Item				MATLAB Workspace save set, version 6. MAT-files are double-precision, binary, MATLAB format files. MATLAB is a proprietary product of The MathWorks.
+1.2.2	1.1.0	MATLAB_7	Item				MATLAB Workspace save set, version 7. MAT-files are double-precision, binary, MATLAB format files. Version 7 includes data compression and Unicode encoding. MATLAB is a proprietary product of The MathWorks.
+1.2.2	1.2.0	MD5	Item				Message Digest 5 (MD5) is a 128-bit message digest algorithm created in 1991 by Professor Ronald Rivest.
+1.2.2	1.0.0	Measured	Container				Attributes of observations obtained from an instrument or sensor.
+1.2.2	1.0.0	Measurement Type	Enumeration	Measurement Type			A characterization of the quantitative assessment of a phenomenon.
+1.2.2	1.2.0	Mercury	Item				The first planet from the sun in our solar system.
+1.2.2	1.2.0	Mesosphere	Item				The layer of the atmosphere that extends from the Stratosphere to a range of 80 km to 85 km, temperature decreasing with height.
+1.2.2	1.2.0	Metadata Contact	Item				An individual who can affect a change in the metadata describing a resource.
+1.2.2	1.0.0	MFA	Item				Magnetic Field Aligned - A coordinate system spacecraft-centered system with Z in the direction of the ambient magnetic field vector. X is in the plane defined by Z and the spacecraft-Sun line, positive sunward. See <http://cdpp.cnes.fr/00428.pdf>
+1.2.2	1.0.0	Microchannel Plate	Item				An instrument used for the detection of elementary particles, ions, ultraviolet rays and soft X-rays constructed from very thin conductive glass capillaries.
+1.2.2	1.0.0	Microwave	Item				Photons with a wavelength range: 1.00x10^6 to 1.50x10^7 nm
+1.2.2	1.0.0	Mixed	Text				A measured observation which is derived from a combination of two or more individual measurements.
+1.2.2	1.0.0	Mode Amplitude	Item				In helioseismology the magnitude of oscillation of waves of a particular geometry.
+1.2.2	1.0.0	Molecule	Item				A group of atoms so united and combined by chemical affinity that they form a complete, integrated whole, being the smallest portion of any particular compound that can exist in a free state
+1.2.2	1.0.0	Moment	Item				Parameters determined by integration over a distribution function convolved with a power of velocity.
+1.2.2	1.0.0	MPEG	Item				A digital format for movies defined by the Motion Picture Experts Group
+1.2.2	1.2.1	Multispectral Imager	Item				An instrument which captures images at multiple spectral ranges.
+1.2.2	1.2.1	Na-D	Item				A spectrum with a wavelength range of centered at 589.3 nm. VSO nickname: Na-D image with a range of 588.8 nm to 589.8 nm.
+1.2.2	1.0.0	Name	Text				A language unit by which a person or thing is known.
+1.2.2	1.1.0	NCAR	Item				The National Center for Atmospheric Research (NCAR) format. A complete description of that standard is given in appendix C of the "Report on Establishment & Operation of the Incoherent- Scatter Data Base", dated August 23, 1984, obtainable from NCAR, P.O. Box 3000 Boulder, Colorado 80307-3000.
+1.2.2	1.1.0	Near Earth	Item				The heliospheric region near the Earth which extends to and includes the area near the L1 and L2 Lagrange point.
+1.2.2	1.0.0	Near Surface	Enumeration	Near Surface			The gaseous and possibly ionized environment of a body extending from the surface to some specified altitude.  For the Earth, this altitude is 2000 km.
+1.2.2	1.2.0	Neptune	Item				The seventh planet from the sun in our solar system.
+1.2.2	1.0.0	NetCDF	Item				Unidata Program Center's Network Common Data Form (NetCDF). A self-describing data portable data format for array-oriented data access. See <http://my.unidata.ucar.edu/content/software/netcdf>
+1.2.2	1.0.0	Neutral	Item				Either a particle, an object, or a system that has a net electric charge of zero
+1.2.2	1.2.1	Neutral Atom Imager	Item				An instrument which measures the quantity and properties of neutral particles over a range of angles. Measured properties can include mass and energy.
+1.2.2	1.0.0	Neutral Atom Images	Item				Measurements of neutral atom fluxes as a function of look direction; often related to remote energetic charged particles that lose their charge through charge-exchange and then reach the detector on a line.
+1.2.2	1.0.0	Neutral Gas	Item				Measurements of neutral atomic and molecular components of a gas.
+1.2.2	1.2.1	Neutral Particle Detector	Item				An instrument which measures the quantity and properties of neutral particles. Measured properties can include mass and plasma bulk densities.
+1.2.2	1.2.1	Ni-6768	Item				A spectrum with a wavelength range centered at 676.8 nm. VSO nickname: Ni-6768 dopplergram with a range of of 676.7 nm to 676.9 nm.
+1.2.2	1.0.0	None	Item				A lack or absence of anything.
+1.2.2	1.2.0	Note	Text				Information which is useful or important for the understanding of a value or parameter.
+1.2.2	1.0.0	Number Density	Item				The number of particles per unit volume.
+1.2.2	1.2.1	Number Flux	Item				The number of particles passing through a unit area in a unit time.
+1.2.2	1.0.0	Numerical Data	Container				Data stored as numerical values in a specified format.
+1.2.2	1.0.0	Observatory	Container				The host (spacecraft, network, facility) for instruments making observations.
+1.2.2	1.0.0	Observatory Group	Text				A set of programmatically related observatories. The value is taken from an approved list of observatory group names.
+1.2.2	1.0.0	Observatory ID	Text				The identifier of an Observatory resource.
+1.2.2	1.2.0	Observatory Region	Enumeration	Region			A spatial location distinguished by certain natural features or physical characteristics where an observatory is located.
+1.2.2	1.0.0	Observed Region	Enumeration	Region			The portion of space measured by the instrument at the time of an observation. A region is distinguished by certain natural features or physical characteristics. It is the location of the observatory for in situ data, the location or region sensed by remote sensing observatories and the location-of-relevance for parameters that are derived from observational data.
+1.2.2	1.0.0	Offline	Item				Not directly accessible electronically. This includes resources which may to be moved to an online status in response to a given request.
+1.2.2	1.0.0	Online	Item				Directly accessible electronically.
+1.2.2	1.0.0	Open	Item				Access is granted to everyone.
+1.2.2	1.0.0	Open List	Item				An enumeration list that is open so that any text string is a valid member of the list.  In context of the SPASE schema, ObservatoryGroup, ObservatoryName and RepositoryName are the only enumeration lists that are designated as open!!!
+1.2.2	1.0.0	Optical	Item				Photons with a wavelength range: 380 to 760 nm
+1.2.2	1.0.0	Organization Name	Text				A unit within a company or other entity (e.g., Government agency or branch of service) within which many projects are managed as a whole.
+1.2.2	1.0.0	Other	Item				Values, such as flags, that are not time tags, location data or measured or derived parameters.
+1.2.2	1.0.0	Outer	Item				The region of the heliosphere from, but not including, 1 AU to the farthest extent of the heliosphere (heliopause).
+1.2.2	1.0.0	Parallel	Item				Having the same direction as a given direction
+1.2.2	1.1.0	Parameter Key	Text				The name or identfier which can be used to access the parameter in the resource. The associated value is dependent on the service used to access the resource.
+1.2.2	1.1.0	Parent ID	Text				The resource identifier for a resource that a resource is a part of. The resource inherits the attributes of the referenced resource. Attributes defined in the resource override attributes of the parent in the manner perscribed by the containing resource.
+1.2.2	1.0.0	Particle	Container				A description of the types of particles observed in the measurement. This includes both direct observations and inferred observations.
+1.2.2	1.0.0	Particle Correlator	Item				An instrument which correlates particle flux to help identify wave/particle interactions.
+1.2.2	1.0.0	Particle Detector	Item				An instrument which detects particle flux!!!
+1.2.2	1.0.0	Particle Qualifier	Enumeration	Particle Qualifier			Characterizes the directional and statistical aspects of the particle observation.
+1.2.2	1.1.0	Particle Quantity	Enumeration	Particle Quantity			A characterization of the physical properties of the particle.
+1.2.2	1.0.0	Particle Type	Enumeration	Particle Type			A characterization of the kind of particle observed by the measurement.
+1.2.2	1.0.0	PDF	Item				A document expressed in the Portable Document Format (PDF) as defined by Adobe.
+1.2.2	1.0.0	Peak	Item				The maximum value for the quantity in question, over a period of time which is usually equal to the cadence.
+1.2.2	1.2.0	Per	Duration				The time interval over which a characterization applies. For example, the number of bytes generated each day.
+1.2.2	1.0.0	Perpendicular	Item				At right angles to a given direction.
+1.2.2	1.0.0	Person	Container				An individual human being.
+1.2.2	1.0.0	Person ID	Text				The identifier assigned to a Person description.
+1.2.2	1.0.0	Person Name	Text				The words used to address an individual.
+1.2.2	1.2.1	Phase Angle	Item				Phase difference between two or more waves, normally expressed in degrees.
+1.2.2	1.0.0	Phase-Space Density	Item				The number of particles per unit volume in the six-dimensional space of position and velocity.
+1.2.2	1.0.0	Phenomenon Type	Enumeration	Phenomenon Type			The characteristics or categorization of an event type.
+1.2.2	1.2.0	Phi	Item				The angle between the meridian of a vector and the zero meridian of the coordinate system in which the vector is expressed. Equivalently, the angle between the projection of a position or measured vector into the X-Y plane and X-axis in the coordinate system in which the vector is expressed. Also referred to as the azimuthal angle or "longitude". Mathematically: Phi = arctan(y/x)
+1.2.2	1.0.0	Phone Number	Text				The symbols and numerals required to contact an individual by telephone. The string may contain punctuation marks such as dash (-) or dot (.) to separate fields within the string.
+1.2.2	1.2.1	Photometer	Item				An instrument which measures the strength of electromagnetic radiation in the range from ultraviolet to infrared and including the visible spectrum.
+1.2.2	1.0.0	Photon	Container				Photon (radio through gamma-rays): the fundamental particle or quantum of electromagnetic radiation (radiant energy)
+1.2.2	1.0.0	Photon Qualifier	Enumeration	Photon Qualifier			Characterizes the directional and statistical aspects of the photon observation.
+1.2.2	1.1.0	Photon Quantity	Enumeration	Photon Quantity			A characterization of the physical properties of the photon.
+1.2.2	1.2.1	Photopolarimeter	Item				An instrument which measures the intensity and polarization or radiant energy. A photopolarimeter is a combination of a photometer and a polarimeter.
+1.2.2	1.0.0	Photosphere	Item				The atmospheric layer of the Sun or a star from which continuum radiation, especially optical, is emitted to space.  For the Sun, the photosphere is about 500 km thick.
+1.2.2	1.0.0	Physical Parameter	Container				A container of information regarding a parameter whose values are part of the product. Every product contains or can be related to one or more parameters.
+1.2.2	1.0.0	Plasma Beta	Item				The ratio of the plasma pressure to the magnetic pressure.
+1.2.2	1.2.1	Plasma Frequency	Item				The frequency with which a plasma oscillates.
+1.2.2	1.2.0	Plasmasphere	Item				A region of the magnetosphere consisting of low energy (cool) plasma. It is located above the ionosphere. The outer boundary of the plasmasphere is known as the plasmapause, which is defined by an order of magnitude drop in plasma density.
+1.2.2	1.2.0	Pluto	Item				The ninth (sub)planet from the sun in our solar system.
+1.2.2	1.0.0	PNG	Item				A digital format for still images. Portable Network Graphics (PNG)
+1.2.2	1.1.0	Polar	Item				The region near the pole of a body. For a magnetosphere the polar region is the area where magnetic field lines are open and includes the aural zone.
+1.2.2	1.1.0	Polar Angle Range	Container				The range of possible polar angles for a group of energy observations. Defaults units are degrees.
+1.2.2	1.2.0	Polar Cap	Item				The areas of the globe surrounding the poles and consisting of the region north of 60 degrees north latitude an the region south of 60 degrees south latitude.
+1.2.2	1.0.0	Polarization	Item				Direction of the electric vector of an electromagnetic wave. The wave can be linearly polarized in any direction perpendicular to the direction of travel, circularly polarized (clockwise or counterclockwise), unpolarized, or mixtures of the above.
+1.2.2	1.0.0	Positional	Item				The specification of the location of an object or measurement within a reference coordinate system. The position is usually expressed as a set of values corresponding to the location along a set of orthogonal axes together with the date/time of the observation.
+1.2.2	1.2.0	Postscript	Item				A page description programming language created by Adobe Systems Inc. that is a device-independent industry standard for representing text and graphics.
+1.2.2	1.0.0	Potential	Item				A field which obeys Laplace's Equation.
+1.2.2	1.0.0	Poynting Flux	Item				The rate of energy transport per unit area per steradian.
+1.2.2	1.1.0	Pressure	Item				The force per unit area exerted by a particle distribution or field.
+1.2.2	1.0.0	Principal Investigator	Item				An individual who is the administrative and scientific lead for an investigation.
+1.2.2	1.2.0	Prior ID	Text				The resource identifier for a resource that is superceeded or replaced by a resource.
+1.2.2	1.2.0	Processing Level	Enumeration	Processing Level			The standard classification of the processing performed on the product.
+1.2.2	1.0.0	Profile	Item				Measurements of a quantity as a function of height above an object such as the limb of a body.
+1.2.2	1.1.0	Project Scientist	Item				An individual who is an expert in the phenomenon and related physics explored by the project. A project scientist may also have a manageral role within the project.
+1.2.2	1.2.1	Proportional Counter	Item				An instrument which measures energy of ionization radiation based on interactions with a gas.
+1.2.2	1.0.0	Proton	Item				An elementary particle that is a constituent of all atomic nuclei, that carries a positive charge numerically equal to the charge of an electron, and that has a mass of 1.673 x 10**(-24) gram.
+1.2.2	1.0.0	Provider Processing Level	Text				The provider specific classification of the processing performed on the product.
+1.2.2	1.0.0	Provider Resource Name	Text				A short textual description of a resource used by the provider which may be used to identify a resource.
+1.2.2	1.0.0	Provider Version	Text				Describes the release or edition of the product used by the provider. The formation rule may vary between providers. It is intended to aid in queries to the provider regarding the product.
+1.2.2	1.3.0	Publisher	Item				An individual, organization, institution or government department responsible for the production and dissemination of a document.
+1.2.2	1.0.0	Quadrispherical Analyser	Item				An instrument used for the 3-D detection of plasma, energetic electrons and ions, and for positive-ion composition measurements.
+1.2.2	1.0.0	QuickTime	Item				A format for digital movies, as defined by Apple Computer. See <http://developer.apple.com/quicktime/>
+1.2.2	1.1.0	R	Item				The component of a vector in the radial direction from the center of the coordinate system.
+1.2.2	1.0.0	Radar	Item				An instrument that uses directional properties of returned power to infer spatial and/or other characteristics of a remote object.
+1.2.2	1.0.0	Radiance	Item				A radiometric measurement that describe the amount of electromagnetic radiation that passes through or is emitted from a particular area, and falls within a given solid angle in a specified direction. They are used to characterize both emission from diffuse sources and reflection from diffuse surfaces. The SI unit of radiance is watts per steradian per square meter (W·sr-1·m-2).
+1.2.2	1.1.0	Radiation Belt	Item				The region within a magnetosphere where high-energy particles could potentially be trapped in a magnetic field.
+1.2.2	1.0.0	Radio and Plasma Waves	Item				Measurements of electric and/or magnetic fields using electric or magnetic antennas at frequencies anywhere between the spacecraft spin frequency and the characteristic frequencies of the ambient plasma.  The output can be waveform, power spectral density, or other statistical parameters.
+1.2.2	1.3.0	Radio Burst	Item				Emissions of the sun in radio wavelengths from centimeters to dekameters, under both quiet and disturbed conditions. Radio Bursts can be "Type I" consisting of many short, narrow-band bursts in the metric range (300 - 50 MHz).; "Type II" consiting of narrow-band emission that begins in the meter range (300 MHz) and sweeps slowly (tens of minutes) toward dekameter wavelengths (10 MHz).; "Type III" consiting of narrow-band bursts that sweep rapidly (seconds) from decimeter to dekameter wavelengths (500 - 0.5 MHz); and "Type IV" consiting of a smooth continuum of broad-band bursts primarily in the meter range (300 - 30 MHz).
+1.2.2	1.0.0	Radio Frequency	Item				Photons with a wavelength range: 100,000 to 1.00x10^11 nm
+1.2.2	1.0.0	Radio Soundings	Item				Measurements of plasma density, magnetic field and possibly other parameters of the space environment by active probing of the plasma by radio waves.
+1.2.2	1.2.1	Radiometer	Item				An instrument for detecting or measuring radiant energy. Radiometers are commonly limited to infrared radiation.
+1.2.2	1.1.0	Ratio	Item				The relative magnitudes of two quantities.
+1.2.2	1.0.0	Raw	Item				Data in its original state with no processing to account for calibration!!!
+1.2.2	1.1.0	Registry	Container				A location or facility where resources are cataloged.
+1.2.2	1.1.0	Relative End Date	Duration				An indication of the nominal end date relative to the present.
+1.2.2	1.1.0	Release Date	DateTime				The date and time when a resource is made available. The availability of a resource coincides with the release of a resource description. If the Release Date is specified as a future date then it indicates that resource should not be made available until that time. However, this is only advisory and in practice the Release Date should be the actual date the resource description was published.
+1.2.2	1.1.0	Remote 1AU	Item				The heliospheric region near the Earth's orbit, but exclusive of the region near the Earth.
+1.2.2	1.1.0	Repository	Container				A location or facility where resources are stored.
+1.2.2	1.0.0	Repository ID	Text				The identifier of an Repository resource.
+1.2.2	1.0.0	Resonance Sounder	Item				A combination of a radio receiver and a pulsed transmitter used to study the plasma surrounding a spacecraft by identifying resonances or cut-offs (of the wave dispersion relation), whose frequencies are related to the ambient plasma density and magnetic field. When the transmitter is off it is essentially a high frequency-resolution spectral power receiver.
+1.2.2	1.0.0	Resource Header	Container				Attributes of a resource which pertain to the provider of the resource and descriptive information about the resource.
+1.2.2	1.0.0	Resource ID	Text				A Resource ID is a URI that has the form "scheme://authority/path" where "scheme" is "spase" for those resources administered through the SPASE framework, "authority" is the unique identifier for the resource provider registered within the SPASE framework and "path" is the unique identifier of the resource within the context of the "authority". The resource ID must be unique within the SPASE framework.
+1.2.2	1.0.0	Resource Name	Text				A short textual description of a resource which may be useful when read by a person.
+1.2.2	1.0.0	Restricted	Item				Access to the product is regulated and requires some form of identification.
+1.2.2	1.2.1	Retarding Potential Analyser	Item				An instrument which measures ion temperatures and ion concentrations using aplanr ion trap.
+1.2.2	1.2.1	Riometer	Item				An instrument which measure the signal strength in various directions of the galatic radio signals. Variations in these signals are influenced by solar flare activity and geomagnetic storm and substorm processes.
+1.2.2	1.0.0	Role	Enumeration	Role			The assigned or assumed function or position of an individual.
+1.2.2	1.0.0	RTN	Item				Radial Tangential Normal. Typically centered at a spacecraft. Used for IMF and plasma V vectors. R (radial) axis is radially away from the Sun, T (tangential) axis is normal to the plane formed by R and the Sun's spin vector, positive in the direction of planetary motion. N (normal) is R x T.
+1.2.2	1.2.0	Saturn	Item				The sixth planet from the sun in our solar system.
+1.2.2	1.0.0	SC	Item				Spacecraft - A coordinate system defined by the spacecraft geometry and/or spin. Often has Z axis parallel to spacecraft spin vector. X and Y axes may or may not corotate with the spacecraft. See SR and SR2 below.
+1.2.2	1.2.0	Scalar	Item				A quantity that is completely specified by its magnitude and has no direction.
+1.2.2	1.0.0	Scientist	Item				An individual who is an expert in the phenomenon and related physics represented by the resource.
+1.2.2	1.2.1	Scintillation Detector	Item				An instrument which detects flouresences of a material which is exceited by high energy (ionizing) electromagnetic or charged particle radiation.
+1.2.2	1.0.0	SE	Item				Solar Ecliptic - A heliocentric coordinate system where the Z axis is normal to the ecliptic plane, positive northward. X axis is positive towards the first point of Aries (from Earth to Sun at vernal equinox). Same as HAE above. See <http://nssdc.gsfc.nasa.gov/space/helios/coor_des.html>
+1.2.2	1.0.0	Search Coil	Item				An instrument which measures the time variation of the magnetic flux threading a loop by measurement of the electric potential difference induced between the ends of the wire.
+1.2.2	1.1.0	Service	Container				A location or facility that can perform a well defined task.
+1.2.2	1.2.0	SHA1	Item				Secure Hash Algorithm (SHA), a 160-bit message digest algorithm developed by the NSA and described in Federal Information Processing Standard (FIPS) publication 180-1.
+1.2.2	1.2.0	SHA256	Item				Secure Hash Algorithm (SHA), a 256-bit message digest algorithm developed by the NSA and described in Federal Information Processing Standard (FIPS) publication 180-1.
+1.2.2	1.0.0	Size	Sequence				The number of elements in each dimension of a multi-dimensional array. =1 for a scalar; = n for a vector, the number of vector elements; = (m, n, p ...).  Note that the number of elements in the size of an N-dimensional array conveys the array's dimensionality while the product of those numbers conveys the total number of elements in the array. When size is used to describe a tensor it is the number of elements in the tensor. As such it has a limited set of values. A tensor of rank 1 has a size of 3, rank 2 a size of 9, rank 3 a size of 27 and rank n a size of 3^n.
+1.2.2	1.0.0	SM	Item				Solar Magnetic - A geocentric coordinate system where the Z axis is northward along Earth's dipole axis, X axis is in plane of z axis and Earth-Sun line, positive sunward. See Russell, 1971.
+1.2.2	1.0.0	Solar Flare	Item				An explosive event in the Sun's atmosphere which produces electromagnetic radiation across the electromagnetic spectrum at multiple wavelengths from long-wave radio to the shortest wavelength gamma rays.
+1.2.2	1.0.0	Solar Wind Extreme	Item				Intervals of unusually large or small values of solar wind attributes such as flow speed and ion density.
+1.2.2	1.0.0	Sonic Mach Number	Item				The ratio of the bulk flow speed to the speed of sound in the medium.
+1.2.2	1.2.1	Sounder	Item				An instrument which measures the radiances from an object. A sounder may measure radiances at multile spectral ranges.
+1.2.2	1.2.0	South Atlantic Anomaly Region	Item				The region where Earth's inner van Allen radiation belt makes its closest approach to the planet's surface. The result is that, for a given altitude, the radiation intensity is higher over this region than elsewhere.
+1.2.2	1.2.1	Spacecraft Orbit Plane	Item				A coordinate system where X lies in the orbit plane normal to and in the direction of motion of the spacecraft, Z in normal to the orbit plane and Y completes the triad in a right-handed coordinate system.
+1.2.2	1.0.0	Spacecraft Potential Control	Item				An instrument to control the electric potential of a spacecraft with respect to the ambient plasma by emitting a variable current of positive ions.
+1.2.2	1.0.0	Spase	Container				Space Physics Archive Search and Extract (SPASE). The outermost container or envelope for SPASE metadata. This indicates the start of the SPASE metadata.
+1.2.2	1.0.0	Spectral Power Receiver	Item				A radio receiver which determines the power spectral density of the electric or magnetic field, or both, at one or more frequencies.
+1.2.2	1.1.0	Spectral Range	Enumeration	Spectral Range			The general term used to describe wavelengths or frequencies within a given span of values for those quantities.
+1.2.2	1.0.0	Spectrometer	Item				An instrument that measures the component wavelengths of light or other electromagnetic radiation into its component wavelengths.
+1.2.2	1.0.0	Spectrum	Item				Measurements of the intensity of radiation as a function of frequency or wavelength.
+1.2.2	1.0.0	Spherical	Item				A system of curvilinear coordinates characterized by an azimuthal angle (longitude), a polar angle (latitude), and a distance (radius) from a point to the origin.
+1.2.2	1.0.0	SR	Item				Spin Reference - A special case of a Spacecraft (SC) coordinate system for a spinning spacecraft. Z is parallel to the spacecraft spin vector. X and Y rotate with the spacecraft. See <http://cdpp.cnes.fr/00428.pdf>
+1.2.2	1.0.0	SR2	Item				Spin Reference 2 - A special case of a Spacecraft (SC) coordinate system for a spinning spacecraft. Z is parallel to the spacecraft spin vector. X is in the plane defined by Z and the spacecraft-Sun line, positive sunward. See <http://cdpp.cnes.fr/00428.pdf>
+1.2.2	1.0.0	SSE	Item				Spacecraft Solar Ecliptic - A coordinate system used for deep space spacecraft, for example Helios. - X axis from spacecraft to Sun. Z axis normal to ecliptic plane, positive northward. Note: Angle between normals to ecliptic and to Helios orbit plane ~ 0.25 deg.
+1.2.2	1.2.0	Standard Deviation	Item				The square root of the average of the squares of deviations about the mean of a set of data. Standard deviation is a statistical measure of spread or variability.
+1.2.2	1.0.0	Start Date	DateTime				The specification of a starting point in time.
+1.2.2	1.0.0	Stoke's Parameters	Item				The four coordinates (usually called I, Q, U, and V) relative to a particular basis for the representation of the polarization state of an electromagnetic wave propagating through space.
+1.2.2	1.0.0	Stop Date	DateTime				The specification of a stopping point in time.
+1.2.2	1.2.0	Stratosphere	Item				The layer of the atmosphere that extends from the troposphere to about 30 km, temperature increases with height. The stratosphere contains the ozone layer.
+1.2.2	1.2.0	Structure	Container				The organization and relationship of individual values within a quantity.
+1.2.2	1.2.0	Structure Type	Enumeration	Structure Type			The classification of the organization of a structure.
+1.2.2	1.2.0	Substorm	Item				A process by which plasma in the magnetotail becomes energized at a fast rate.
+1.2.2	1.0.0	Sun	Enumeration	Sun			The star upon which our solar system is centered.
+1.2.2	1.0.0	Support	Enumeration	Support			Information useful in understanding the context of an observation, typically observed or measured coincidentally with a physical observation.
+1.2.2	1.0.0	Surface	Item				The outermost area of a solid object.
+1.2.2	1.3.0	TAR	Item				A file format used to collate collections of files into one larger file, for distribution or archiving, while preserving file system information such as user and group permissions, dates, and directory structures. The format was standardized by POSIX.1-1988 and later POSIX.1-2001.
+1.2.2	1.0.0	Team Leader	Item				An individual who is the designated leader of an investigation!!!
+1.2.2	1.0.0	Team Member	Item				An individual who is a major participant in an investigation.
+1.2.2	1.0.0	Technical Contact	Item				An individual who can provide specific information with regard to the resource or supporting software
+1.2.2	1.0.0	Temperature	Item				A measure of the kinetic energy of random motion with respect to the average. Temperature is properly defined only for an equilibrium particle distribution (Maxwellian distribution).
+1.2.2	1.0.0	Temporal	Item				Pertaining to time.
+1.2.2	1.0.0	Temporal Description	Container				A characterization of the time over which the measurement was taken.
+1.2.2	1.2.0	Tensor	Item				A generalized linear "quantity" or "geometrical entity" that can be expressed as a multi-dimensional array relative to a choice of basis of the particular space on which it is defined.
+1.2.2	1.0.0	Text	Item				ASCII text
+1.2.2	1.0.0	Thermal Plasma	Item				Measurements of the plasma in the energy regime where the most of the plasma occurs.  May be the basic fluxes in the form of distribution functions or the derived bulk parameters (density, flow velocity, etc.).
+1.2.2	1.0.0	Thermal Speed	Item				For a Maxwellian distribution, the difference between the mean speed and the speed within which ~69% (one sigma) of all the members of the speed distribution occur.
+1.2.2	1.2.0	Thermosphere	Item				The layer of the atmosphere that extends from the Mesosphere to 640+ km, temperature increasing with height.
+1.2.2	1.2.0	Theta	Item				For spatial points, the angular distance from a meridian normal to the equator.  Also referred to as the zenith angle or "latitude". As a "latitude" angles range from +90 to -90 with zero at the equator and positive angles are in the direction designated as "North." An alternate range of values is often called "co-latitude" where values range from 0 to +180 as measured from the "north" pole. Mathematically: Theta = arctan(sqrt(x^2 + y^2)/z)
+1.2.2	1.0.0	TIFF	Item				A binary format for still pictures. Tagged Image Format File (TIFF). Originally developed by Aldus and now controlled by Adobe.
+1.2.2	1.1.0	Time Span	Container				The duration of an interval in time.
+1.2.2	1.2.1	Time-of-Flight	Item				An instrument which measures the time it takes for a particle to travel between two detectors.
+1.2.2	1.2.0	Topside	Item				The region at the upper most areas of the ionosphere.
+1.2.2	1.0.0	Transition Region	Item				A very narrow (<100 km) layer between the chromosphere and the corona where the temperature rises abruptly from about 8000 to about 500,000 K.
+1.2.2	1.2.0	Troposphere	Item				The lowest layer of the atmosphere which begins at the surface and extends to between 7 km (4.4 mi) at the poles and 17 km (10.6 mi) at the equator, with some variation due to weather factors.
+1.2.2	1.0.0	UDF	Item				Universal Data Format (UDF). The Optical Technology Storage Association's Universal Disk Format, based on ISO 13346. See <http://www.osta.org/specs/index.htm>
+1.2.2	1.0.0	Ultraviolet	Item				Photons with a wavelength range: 10 to 400 nm.
+1.2.2	1.0.0	Uncalibrated	Item				Duplicate data are removed from the data stream and data are time ordered. Values are not adjusted for any potential biases or external factors.
+1.2.2	1.2.0	Uncertainty	Item				A statistically defined discrepancy between a measured quantity and the true value of that quantity that cannot be corrected by calculation or calibration.
+1.2.2	1.0.0	Unicode	Item				Text in multi-byte Unicode format.
+1.2.2	1.0.0	Units	Text				A description of the standardized measurement increments in which a value is specified. The description is represented as a mathematical phrase. Units should be represented by widely accepted representation. For example, units should conform to the International System of Units (SI) which is maintained by BIPM (Bureau International des Poids et Mesures (see <http://www.bipm.fr/> ) when appropriate or use tokens like "Re" to represent units of the Radius of the Earth. Within a phrase the circumflex (^) is used to indicate a power, a star (*) is used to indicate multiplication and a slash (/) division. When symbols are not separated by a mathematical operator, multiplication is assumed. Symbols for base units can be found at: <http://www.bipm.fr/en/si/si_brochure/chapter2/2-1/#symbols> and those for common derived units can be found at: <http://www.bipm.fr/en/si/derived_units/2-2-2.html>
+1.2.2	1.0.0	Units Conversion	Text				The multiplicative factor for converting a unit into International System of Units (SI) units. The factor is expressed in the form "number > x", where "number" is a numerical value and "x" is the appropriate SI units. The basic SI units are Enumerated: m (meter), N (newton), kg (kilogram), Pa (pascal), s (second), Hz (hertz), A (ampere), V (volt), K (kelvin), W (watt), rad (radian), J (joule), sr (steradian), C (coulomb), T (tesla), ohm (ohm), mho (mho or seimens), H (henry), and F (farad). Two useful units which are not SI units are: degree (angle), and unitless (no units). An example is: "1.0E-5>T" which converts the units, presumable nT, to tesla. Another example is: "1.0e-1>km/s" which converts a velocity expressed in meters per second to kilometers per second.
+1.2.2	1.2.1	Unspecified	Item				A value which is not provided.
+1.2.2	1.2.0	Uranus	Item				The eigth planet from the sun in our solar system.
+1.2.2	1.0.0	URL	Text				Uniform Resource Locator (URL) is the global address of documents and other resources on the World Wide Web. The first part of the address indicates what protocol to use, and the second part specifies the IP address or the domain name where the resource is located followed by the pathname of the resource. A URL is specified in the form protocol://server.domain.name:port/pathname. Example protocols are HTTP or FTP, server domain name is the Internet name.
+1.2.2	1.2.0	Valid Max	Text				The largest legitmate value.
+1.2.2	1.2.0	Valid Min	Text				The smallest legitmate value.
+1.2.2	1.0.0	Variance	Item				A measure of dispersion of a set of data points around their mean value. The expectation value of the squared deviations from the mean.
+1.2.2	1.0.0	Vector	Item				A set of parameter values each along some independent variable (e.g., components of a field in three orthogonal spatial directions; atmospheric temperature values at several altitudes, or at a given latitude and longitude;).
+1.2.2	1.0.0	Velocity	Item				Rate of change of position. Also used for the average velocity of a collection of particles, also referred to as "bulk velocity".
+1.2.2	1.2.0	Venus	Item				The second planet from the sun in our solar system.
+1.2.2	1.0.0	Version	Text				Indicates the release identifier. When used to indicate the release of the SPASE data model, it is a in the form Major.Minor.Fix where Major: A significant change in the architecture of the model or rewrite of the implementation. This includes major changes in design or implementation language. This number starts at 0 (zero). Minor: An addition of terms or features that require changes in documentation/external API. This number starts at 0 (zero). Fix: Any change that doesn't require documentation/external API changes. This number starts at 0 (zero).
+1.2.2	1.1.0	VOTable	Item				A proposed XML standard designed as a flexible storage and exchange format for tabular data.
+1.2.2	1.0.0	Waveform Receiver	Item				A radio receiver which outputs the value of one or more components of the electric and/or magnetic field as a function of time.
+1.2.2	1.2.0	WGS84	Item				The World Geodetic System (WGS) defines a reference frame for the earth, for use in geodesy and navigation. The WGS84 uses the zero meridian as defined by the Bureau International de l'Heure.
+1.2.2	1.0.0	White-Light	Item				Photons with a wavelength in the visable range for humans!!!
+1.2.2	1.1.0	X	Item				The component of a vector along the X-axis in a cartessian coordinate system.
+1.2.2	1.0.0	X-Rays	Item				Photons with a wavelength range: 0.001 <= x < 10 nm
+1.2.2	1.0.0	XML	Item				eXtensible Mark-up Language (XML). A structured format for representing information. See <http://www.w3.org/XML/>
+1.2.2	1.1.0	Y	Item				The component of a vector along the Y-axis in a cartessian coordinate system.
+1.2.2	1.0.0	Z	Item				The component of a vector along the Z-axis in a cartessian coordinate system.
+1.2.2	1.0.0	ZIP	Item				An open standard for compression which is a variation of the LZW method and was originally used in the PKZIP utility.
