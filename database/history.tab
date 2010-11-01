@@ -211,4 +211,15 @@
 212	1.3.4	2009-02-05	T.King	Added "Psuedo" and "Column" to the dictionary and to "Qualifier" list.	Decided during the telecon on 2009-02-05
 213	1.3.4	2009-02-26	T.King	Added "Annotation" resource and "Annotation Type" and "Confidence Rating" enumerations. The terms "Anomaly", "Event", "Feature", "Probable", "Good", "High" were added to support the new enumerations.	Decided during the telecon on 2009-02-05
 214	1.3.4	2009-02-27	T.King	Change "Wave" to "Waves".	Editorial Change
+215	1.3.5	2009-03-25	T.King	Updated definitions for "Numeric" and "Text" data types.	Editorial Change.
+216	1.3.5	2009-03-26	T.King	Changed "Mixed" to a container with "Qualifier" and "Mixed Quantity" as attributes. Added "Mixed Quantity" enumeration with allowed values of "Alfven Mach Number", "Other", "Plasma Beta", "Thermal Pressure", "Alfven Velocity", "Magnetosonic Mach Number", "Plasma Beta", and "Plasma Frequency-To-Gyrofrequency Ratio".	Decided during the telecon on 2009-03-26
+217	1.3.5	2009-03-26	T.King	Added "Access URL" to "Repository" and "Registry".	Decided during the telecon on 2009-03-26
+218	1.3.5	2009-03-26	T.King	Added "Image URL" to "Annotation" and dictionary	Decided during the telecon on 2009-03-26
+219	1.3.5	2009-03-26	T.King	Various editorial updates to definitions, spelling and typos	Editorial change permitted during the telecon on 2009-03-26
+220	1.3.5	2009-03-26	T.King	Added "Plasmagram", "Spectrogram" and "Wave Form" to the dictionary and to the "Display Type" list.	Decided during the telecon on 2009-03-26
+221	1.3.5	2009-03-26	T.King	Changed the name of "Photon" to "Waves" and "PhotonQuantity" to "WaveQuantity". Added "Wave Type" with values of "Electromagnetic", "Electrostatic", "Photon", "Plasma Waves", "Hydrodynamic", and "MHD".	Decided during the telecon on 2009-03-26
+222	1.3.5	2009-03-26	T.King	Updated definitions of "Emissivity", "Equivalent Width", "Gyrofrequency", "Intensity", "Line Depth", "Plasma Frequency", "Poynting Flux". Added "Wave Type" with values of "Electromagnetic", "Electrostatic", "Photon", "Plasma Waves", "Hydrodynamic", and "MHD".	Decided during the telecon on 2009-03-26
+223	1.3.5	2009-03-26	T.King	Added "Absorption", "AC-Electric Field", "AC-Magnetic Field", "Doppler Frequency", "Frequency", "Propagation Time", and "Wavelength" to dictionary and "Wave Quantity". Added "Wave Type" with values of "Electromagnetic", "Electrostatic", "Photon", "Plasma Waves", "Hydrodynamic", and "MHD".	Decided during the telecon on 2009-03-26
+224	1.3.5	2009-03-26	T.King	Added "Far Ultraviolet", "HE-304", "LBH Band" and "Soft X-Rays" to dictionary and "Spectral Range".	Decided during the telecon on 2009-03-26
+225	1.3.5	2009-04-06	T.King	Removed "Spectral Range" from under "Energy Range".	Decided by e-mail 2009-04-06
 254					
