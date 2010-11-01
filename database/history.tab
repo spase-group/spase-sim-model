@@ -222,4 +222,12 @@
 223	1.3.5	2009-03-26	T.King	Added "Absorption", "AC-Electric Field", "AC-Magnetic Field", "Doppler Frequency", "Frequency", "Propagation Time", and "Wavelength" to dictionary and "Wave Quantity". Added "Wave Type" with values of "Electromagnetic", "Electrostatic", "Photon", "Plasma Waves", "Hydrodynamic", and "MHD".	Decided during the telecon on 2009-03-26
 224	1.3.5	2009-03-26	T.King	Added "Far Ultraviolet", "HE-304", "LBH Band" and "Soft X-Rays" to dictionary and "Spectral Range".	Decided during the telecon on 2009-03-26
 225	1.3.5	2009-04-06	T.King	Removed "Spectral Range" from under "Energy Range".	Decided by e-mail 2009-04-06
+226	1.3.6	2009-04-09	T.King	Added "Atom" and "Neutron" to "Particle Type".	Decided during the telecon on 2009-04-09
+227	1.3.6	2009-04-09	T.King	Added "Array" and "Total" to "Qualifier".	Decided during the telecon on 2009-04-09
+228	1.3.6	2009-04-09	T.King	Added "Particle Type" to "Mixed".	Decided during the telecon on 2009-04-09
+229	1.3.6	2009-04-09	T.King	Added "Unlikely" and "Weak" to the dictionary and modified "Confidence Rating" to have values "Unlikely", "Weak", "Probable", and "Strong".	Decided during the telecon on 2009-04-09
+230	1.3.6	2009-04-09	T.King	Added "Classification Method" as a enumeration with allowed values of "Automatic", "Inspection", and "Inferred". Added "Classification Method" to "Annotation".	Decided during the telecon on 2009-04-09
+231	1.3.6	2009-04-09	T.King	Added "Observation Extent" with attributes of "Observed Region", "Start Location", "Stop Location" and "Note".  Added "Observation Extent" to "Annotation".	Decided during the telecon on 2009-04-09
+232	1.3.6	2009-04-09	T.King	Added "Child Event Of" and "Observed By" to "Association Type".	Decided during the telecon on 2009-04-09
+233	1.3.6	2009-04-09	T.King	Added "Area", "Bandwidth" and "Solid Angle" to "Integral", added "Field-Aligned", "Group", "Perturbation", "Phase" and "Spectral" to "Qualifier".	Decided during the telecon on 2009-04-09
 254					

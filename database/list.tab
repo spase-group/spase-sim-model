@@ -1,40 +1,41 @@
-1.3.5	1.0.0	Access Rights	Closed		Identifiers for permissions granted or denied by the host of a product to allow other users to access and use the resource.
-1.3.5	1.3.4	Annotation Type	Closed		Identifiers for an classification of an annotation.
-1.3.5	1.3.3	Association Type	Closed		Identifiers for resource associations.
-1.3.5	1.0.0	Availability	Closed		Identifiers for indicating the method or service which may be used to access the resource.
-1.3.5	1.2.0	Component	Closed		Identifiers for the axis of coordinate systems.
-1.3.5	1.3.4	Confidence Rating	Closed		Identifiers for the classification of the certainty of an assertion.
-1.3.5	1.0.0	Coordinate Representation	Closed		Identifiers of the method or form for specifying a given point or vector in a given coordinate system.
-1.3.5	1.0.0	Coordinate System Name	Closed		Identifiers of the origin and orientation of a set of typically orthogonal axes.
-1.3.5	1.3.4	Direction Angle	Closed		Identifiers for the angle between a vector and a base axis.
-1.3.5	1.3.1	Display Type	Closed		Identifiers for types or classes of rendered data.
-1.3.5	1.3.0	Document Type	Closed		Identifiers for the characterization of the content or purpose of a document.
-1.3.5	1.1.0	Earth	Closed		Identifiers for the regions surrounding the Earth.
-1.3.5	1.0.0	Encoding	Closed		Identifiers for unambiguous rules that establishes the representation of information within a file.
-1.3.5	1.0.0	Field Quantity	Closed		Identifiers for the physical attribute of the field.
-1.3.5	1.0.0	Format	Closed		Identifiers for data organized according to preset specifications.
-1.3.5	1.2.0	Hash Function	Closed		Identifiers for functions or algorithms that convert a digital data object into a hash value.
-1.3.5	1.0.0	Heliosphere	Closed		Identifiers for regions of the solar atmosphere which extends roughly from the inner corona to the edge of the solar plasma at the heliopause separating primarily solar plasma from interstellar plasma.
-1.3.5	1.0.0	Instrument Type	Closed		Identifiers for the type of experiment the instrument performs. This is the technique of observation.
-1.3.5	1.3.0	Ionosphere	Closed		Identifiers for ionospheric regions.
-1.3.5	1.0.0	Magnetosphere	Closed		Identifiers for the region of space above the atmosphere or surface of the planet, and bounded by the magnetopause, that is under the direct influence of planet's magnetic field.
-1.3.5	1.0.0	Measurement Type	Closed		Identifiers for the method of making an estimated value of a quantity that forms the basis of an observation.
-1.3.5	1.3.5	Mixed Quantity	Closed		Identifiers for the combined attributes of a mixed parameter quantity.
-1.3.5	1.0.0	Near Surface	Closed		Identifiers for regions of the gaseous and possibly ionized environment of a body extending from the surface to some specified altitude.
-1.3.5	1.1.0	Particle Quantity	Closed		Identifiers for the characterization of the physical properties of the particle.
-1.3.5	1.0.0	Particle Type	Closed		Identifiers for the characterization of the kind of particle observed by the measurement.
-1.3.5	1.0.0	Phenomenon Type	Closed		Identifiers for the characteristics or categorization of an observation. Note: Joe King to provide.
-1.3.5	1.0.0	Processing Level	Closed		Identifiers to characterize the amount and type of manipulation which has been applied to the sampled data.
-1.3.5	1.3.4	Projection	Closed		Identifiers to projections into a coordinate system.
-1.3.5	1.3.1	Qualifier	Closed		Identifiers for terms which refine the type or attribute of a quantity.
-1.3.5	1.0.0	Region	Closed		Identifiers for areas of the physical world which may be occupied or observed.
-1.3.5	1.0.0	Role	Closed		Identifiers for the assigned or assumed function or position of an individual.
-1.3.5	1.3.1	Scale Type	Closed		Identifiers for scaling applied to a set of numbers.
-1.3.5	1.3.1	Source Type	Closed		Identifiers for the characterization of the function or purpose of a source.
-1.3.5	1.0.0	Spectral Range	Closed		Identifiers for names associated with wavelengths. Based on the ISO 21348 Solar Irradiance Standard. Additions have been made to extend the frequency ranges to include those used in space physics. Those additions are indicated in blue text. The "Total Solar Irradiance" category has not been included since it is a type of measurement and not a specific spectral range. See Appendix A - Comparison of Spectrum Domains for a comparison of the spectral ranges with other systems.
-1.3.5	1.0.0	Sun	Closed		Identifiers for regions of the star upon which our solar system is centered.
-1.3.5	1.0.0	Support Quantity	Closed		Identifiers for the information useful in understanding the context of an observation, typically observed or measured coincidentally with a physical observation.
-1.3.5	1.3.4	Text	Closed		Identifiers for the encoding of sequences of characters.
-1.3.5	1.1.0	Wave Quantity	Closed		Identifiers for the characterization of the physical properties of a wave.
-1.3.5	1.3.4	Wave Type	Closed		Identifiers for the carrier or phenomenum of wave information observed by the measurement.
-1.3.5	1.3.4	Waves	Closed		Identifiers for experimental and natural wave phenomena.
+1.3.6	1.0.0	Access Rights	Closed		Identifiers for permissions granted or denied by the host of a product to allow other users to access and use the resource.
+1.3.6	1.3.4	Annotation Type	Closed		Identifiers for an classification of an annotation.
+1.3.6	1.3.3	Association Type	Closed		Identifiers for resource associations.
+1.3.6	1.0.0	Availability	Closed		Identifiers for indicating the method or service which may be used to access the resource.
+1.3.6	1.3.6	Classification Method	Closed		Identifiers for the technique used to determine the characteristics of an object.
+1.3.6	1.2.0	Component	Closed		Identifiers for the axis of coordinate systems.
+1.3.6	1.3.4	Confidence Rating	Closed		Identifiers for the classification of the certainty of an assertion.
+1.3.6	1.0.0	Coordinate Representation	Closed		Identifiers of the method or form for specifying a given point or vector in a given coordinate system.
+1.3.6	1.0.0	Coordinate System Name	Closed		Identifiers of the origin and orientation of a set of typically orthogonal axes.
+1.3.6	1.3.4	Direction Angle	Closed		Identifiers for the angle between a vector and a base axis.
+1.3.6	1.3.1	Display Type	Closed		Identifiers for types or classes of rendered data.
+1.3.6	1.3.0	Document Type	Closed		Identifiers for the characterization of the content or purpose of a document.
+1.3.6	1.1.0	Earth	Closed		Identifiers for the regions surrounding the Earth.
+1.3.6	1.0.0	Encoding	Closed		Identifiers for unambiguous rules that establishes the representation of information within a file.
+1.3.6	1.0.0	Field Quantity	Closed		Identifiers for the physical attribute of the field.
+1.3.6	1.0.0	Format	Closed		Identifiers for data organized according to preset specifications.
+1.3.6	1.2.0	Hash Function	Closed		Identifiers for functions or algorithms that convert a digital data object into a hash value.
+1.3.6	1.0.0	Heliosphere	Closed		Identifiers for regions of the solar atmosphere which extends roughly from the inner corona to the edge of the solar plasma at the heliopause separating primarily solar plasma from interstellar plasma.
+1.3.6	1.0.0	Instrument Type	Closed		Identifiers for the type of experiment the instrument performs. This is the technique of observation.
+1.3.6	1.3.0	Ionosphere	Closed		Identifiers for ionospheric regions.
+1.3.6	1.0.0	Magnetosphere	Closed		Identifiers for the region of space above the atmosphere or surface of the planet, and bounded by the magnetopause, that is under the direct influence of planet's magnetic field.
+1.3.6	1.0.0	Measurement Type	Closed		Identifiers for the method of making an estimated value of a quantity that forms the basis of an observation.
+1.3.6	1.3.5	Mixed Quantity	Closed		Identifiers for the combined attributes of a mixed parameter quantity.
+1.3.6	1.0.0	Near Surface	Closed		Identifiers for regions of the gaseous and possibly ionized environment of a body extending from the surface to some specified altitude.
+1.3.6	1.1.0	Particle Quantity	Closed		Identifiers for the characterization of the physical properties of the particle.
+1.3.6	1.0.0	Particle Type	Closed		Identifiers for the characterization of the kind of particle observed by the measurement.
+1.3.6	1.0.0	Phenomenon Type	Closed		Identifiers for the characteristics or categorization of an observation. Note: Joe King to provide.
+1.3.6	1.0.0	Processing Level	Closed		Identifiers to characterize the amount and type of manipulation which has been applied to the sampled data.
+1.3.6	1.3.4	Projection	Closed		Identifiers to projections into a coordinate system.
+1.3.6	1.3.1	Qualifier	Closed		Identifiers for terms which refine the type or attribute of a quantity.
+1.3.6	1.0.0	Region	Closed		Identifiers for areas of the physical world which may be occupied or observed.
+1.3.6	1.0.0	Role	Closed		Identifiers for the assigned or assumed function or position of an individual.
+1.3.6	1.3.1	Scale Type	Closed		Identifiers for scaling applied to a set of numbers.
+1.3.6	1.3.1	Source Type	Closed		Identifiers for the characterization of the function or purpose of a source.
+1.3.6	1.0.0	Spectral Range	Closed		Identifiers for names associated with wavelengths. Based on the ISO 21348 Solar Irradiance Standard. Additions have been made to extend the frequency ranges to include those used in space physics. Those additions are indicated in blue text. The "Total Solar Irradiance" category has not been included since it is a type of measurement and not a specific spectral range. See Appendix A - Comparison of Spectrum Domains for a comparison of the spectral ranges with other systems.
+1.3.6	1.0.0	Sun	Closed		Identifiers for regions of the star upon which our solar system is centered.
+1.3.6	1.0.0	Support Quantity	Closed		Identifiers for the information useful in understanding the context of an observation, typically observed or measured coincidentally with a physical observation.
+1.3.6	1.3.4	Text	Closed		Identifiers for the encoding of sequences of characters.
+1.3.6	1.1.0	Wave Quantity	Closed		Identifiers for the characterization of the physical properties of a wave.
+1.3.6	1.3.4	Wave Type	Closed		Identifiers for the carrier or phenomenum of wave information observed by the measurement.
+1.3.6	1.3.4	Waves	Closed		Identifiers for experimental and natural wave phenomena.
