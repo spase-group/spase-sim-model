@@ -1,158 +1,188 @@
 <h1>Introduction</h1>
-The Space and Solar Physics community is now addressing fundamental 
-questions concerning the plasma and magnetic environment of the Sun, 
-Heliosphere, and planets. We seek to understand everything from 
-"microscopic" phenomena such as magnetic reconnection and turbulent 
-energy dissipation to global issues such as how solar events are related 
-to potentially damaging electric currents and energetic particles in the 
-vicinity of the Earth. Multispacecraft and ground observatory 
-investigations are becoming the norm, but there has been little 
-corresponding unification of data access, formats and tools, resulting 
-in a great deal of time being spent finding, retrieving and reformatting 
-data. The key to reducing this inefficiency is a uniform way to 
-describe adequately what exists. This is the purpose of the SPASE Data 
-Model, which is intended to do for Space and Solar Physics what the 
-Planetary Data System (PDS) is doing for Planetary Science, and what the 
-International Virtual Observatory Alliance (IVOA) is doing for Astronomy 
-and Astrophysics.
+The SPASE (Space Physics Archive Search and Extract) Data Model is a set 
+of terms and values along with the relationships between them that allow 
+describing all the resources in a heliophysics data environment.  It is 
+the result of many years of effort by an international collaboration 
+(see http://spase-group.org) to unify and improve on existing Space and 
+Solar Physics data models. The intent of this Data Model is to provide 
+the means to describe resources, most importantly scientifically useful 
+data products, in a uniform way so they may be easily registered, found, 
+accessed, and used.
 
-Astronomy, Planetary Science, and Space and Solar Physics have developed 
-their data models with different objectives and constraints. Astronomy 
-has objects defined by their direction, and makes much use of standard 
-formats; PDS was developed for long-term archiving; while SPASE is 
-oriented towards data searching and exploitation. PDS often does a 
-better job of describing technical information such as how the data were 
-processed, the form of the data etc., while SPASE includes a better 
-physical description, which facilitates rapid data retrieval and 
-exploitation. Over time, the Astronomy, PDS, and SPASE models may 
-converge. The increasing use of, for example, time series in Astronomy 
-and images in Space Physics may lead to stronger connections between the 
-efforts in these areas. There will also be a need for SPASE to 
-understand Earth Science data models, as Space Weather studies reveal 
-the coupling of the larger plasma environment to terrestrial effects. 
+The SPASE data model divides the heliophysics data environment into a 
+limited set of resources types.  A key resource type is Numerical Data. 
+This type of resource typically consists of a set of files containing 
+values of one or more physical variables and that differ from each other 
+only by the time span.   To full describe a Numerical Data resource 
+requires other types of Resources, namely Observatory, Instrument, 
+Person, and Repository, whose names are self-explanatory, and each of 
+which has its own set of attributes.   Often, numerical data are 
+presented in prepared images (gif or jpeg), and such presentations are 
+referred to as Display Data resources.  The other data related resource 
+types are Catalog which are lists of events; Annotation which enable 
+expert comments on data products; and Granule which describe individual 
+files within another resource (i.e., Numerical  Data, Display Data or 
+Catalog). Other types of resources include Document which  can 
+contain narratives or supporting information; Service that provide 
+software to use data resources; Repository for storage locations; and 
+Registry for metadata collections. Resource descriptions and the links 
+in them are intended to make the Resource useful to scientific users.
 
-<h2>What is a data model?</h2>
-A data model is a set of terms and their relationships that capture the 
-essential concepts of a given domain. The Data Model presented here can 
-be used to describe the scientific relevance of products resulting from 
-observation and modeling in the domain of solar and space physics. 
-These products typically consist of related collections of files that 
-will be accessed, in whole or in part, by science users. Types of 
-products include numerical datasets, display data plots, images, 
-software, documentation, and event lists ("catalogs"). Products are a 
-subset of a larger class of "Resources" that includes Spacecraft, 
-Instruments, Repositories, and even People, that can be described by 
-their own set of terms, and then referred to in product descriptions, 
-rather than being repeatedly described in each product. This data model 
-includes terms relevant to all "Sun-Earth Connection" domains, but it 
-does not try to systematically include Earth Science terms. We also 
-defer to later the question of a uniform description of "service 
-resources" such as web-based format translators or display tools. We 
-initially intend a level of description that will allow a scientist to 
-use the data retrieved, and will add later a set of terms to describe 
-specific access methods for direct data retrieval. At all stages, broad 
-community input and feedback is essential. 
+<h2>History of Development</h2>
+The data model presented here has grown from the efforts begun in 2002 
+that became formalized in regular teleconferences of a group of 
+interested data providers, including scientific and technical 
+representatives of some of the largest data holdings in the US, Europe, 
+and Japan. As the effort to provide seamless access to distributed data 
+proceeded, it became clear that the data model efforts were central. The 
+SPASE Data Model was developed with an iterative process where additions 
+were made when unaddressed needs were discovered. The original impetus 
+occurred at an ISTP meeting in 1998 where a resolution was passed 
+calling to make data more accessible. Interoperability test beds were 
+constructed in 2001 and in 2002 a grassroots effort was undertaken to 
+define the needs of community. In March of 2003 a meeting of many of the 
+people in the Contributors list at the beginning of this document was 
+convened to begin the data model construction in earnest. The initial 
+effort involved collecting terms from CDPP, SWRI, NSSDC, ISTP, and other 
+sets to form a starting point. Two years of teleconferences, e-mailed 
+revisions, and occasional face-to-face efforts, along with the 
+application of the terms to specific cases, led to the release of 
+version 1.0 of the data model in November 2005. Following the release of 
+version 1.0 many existing data products were described and lead to 
+further improvements of the data model. Version1.1 was released in 
+August 2006. At this time NASA established the Heliophysics VxOs and 
+after an extended period of use and improvements version 1.2.2 was 
+released in August of 2008. The version of the data model described in 
+this document is an extension of this earlier release.
 
-<h2>What is its use?</h2>
-The Data Model provides a set of terms that, ideally, can be mapped onto 
-the terms used for specific products, thus providing a uniform means of 
-access and description. The data model is intended to provide the 
-cornerstone of one or more "Virtual Observatories" that will link broad 
-ranges of solar and space physics in a natural way. More specifically, 
-the data model should:
+<h2>Intended Purpose</h2>
+The design of the SPASE data model is based on a core set of principles 
+related to the intended purpose of descriptive information (metadata), 
+the data environment, and the operational environment.  The overall goal 
+of the Data Model is to be able to describe resources using a taxonomy 
+of terms familiar to the heliophysics domain. This taxonomy should 
+provide sufficient scientific context and data content information for 
+an individual to assess the applicability of the resource (data and 
+metadata) to a research question. A data model is the cornerstone of an 
+information system and one purpose for the SPASE Data Model to enable 
+the creation of "Virtual Observatories" that will link the broad range 
+of heliophysics resources which may be available in a loosely coupled 
+distributed environment. Additional goals of the data model are to:
 
 <dd>
-(1) Provide a way of registering products using a standard set of terms 
-that allow the products to be found with simple searches and described 
-so that users can determine their utility for a specific purpose;
+(1) Provide a way of registering products using a standard set of 
+terms that allow the products to be found with simple searches and 
+described so that users can determine their utility for a specific 
+purpose;
 
 (2) Allow searching for products containing particular physical 
 quantities (e.g., magnetic field; spectral irradiance) that are 
 variously represented in a diverse array of data products; and
 
-(3) Create a means of mapping comparable variables from many products 
-onto a common set of terms so that visualization, analysis, and 
-higher-order query tools and services can be used on all of them 
-without regard to the origin of the data. 
+(3) Facilitate a means of mapping comparable variables from many 
+products onto a common set of terms so that visualization, analysis, and 
+higher-order query tools and services can be used on all of them without 
+regard to the origin of the data. 
 </dd>
 
-The accomplishment of these tasks requires "middleware" (either at the 
-provider or in a VxO) that understands product registries and performs 
-the translations needed to map the idiosyncratic product and parameter 
-names of each repository onto the standard terms. This intermediate 
-layer, which can take many forms for different purposes, will provide 
-the links necessary to connect user applications and search-and-retrieval 
-front ends to data repositories. Ultimately, the data 
-environment centered on the data model will involve a number of software 
-tools as well, linked together as internet-based services or other 
-means. Specific software tools and documentation associated with 
-products will be straightforwardly accessible. This "system" has the 
-potential to provide capabilities that can aid even expert users of a 
-particular dataset (e.g., on-the-fly coordinate transformations, the 
-ability to merge datasets from different instruments, easy reference to 
-related indices or other data), in addition to providing the broad 
-access needed to solve global problems in Sun-Earth connection physics. 
-Success will require a concerted cooperative effort across disciplines. 
-Existing efforts in Space and Solar Physics as well as in other areas 
-such as Earth and Planetary Sciences and Astronomy will guide the work.
+The content of a resource description based on the data model should 
+enable services (either at the provider or in a VxO) to discover and 
+access individual resources. The service layer can contain services for 
+a variety of purposes. The basic functionality of the service layer is 
+to provide the links necessary to connect user applications and search-
+and-retrieval front ends to data repositories. Ultimately, the data 
+environment based on the data model will involve a number of software 
+tools and services linked together as an internet-based environment. The 
+data along with software tools and documentation associated with 
+products will be directly accessible using standard web protocols (http, 
+ftp). This "system" has the potential to provide capabilities that can 
+aid even expert users of a particular dataset (e.g., on-the-fly 
+coordinate transformations, the ability to merge datasets from different 
+instruments, easy reference to related indices or other data), in 
+addition to providing the broad access needed to investigate emerging 
+questions in heliophysics.
 
-<h2>What process led to the current Data Model?</h2>
-The data model presented here has grown from the efforts begun in 2002
-that became formalized in regular teleconferences of a 
-group of interested data providers, including scientific and technical 
-representatives of some of the largest data holdings in the US, Europe, 
-and Japan. As the effort to provide seamless access to distributed data 
-proceeded, it became clear that the data model efforts were central. 
-Thus, in March of 2003 a meeting of many of the people in the 
-Contributors list at the beginning of this document was convened to 
-begin the data model construction in earnest. The initial effort 
-involved collecting terms from CDPP, SWRI, NSSDC, ISTP, and other sets 
-to form a starting point. Two years of teleconferences, e-mailed 
-revisions, and occasional face-to-face efforts, along with the 
-application of the terms to specific cases, led to the release of 
-version 1.0 of the data in November 2005. The version of the data
-model described in this document is an extension of this earlier release.
+<h2>Design Principles</h2>
+The design of the SPASE data model begins with a few basic principles. These 
+principles are:
 
-The general philosophy of the Data Model is to describe products using a 
-natural taxonomy of data sources and of the physical world as 
-represented in actual or potential datasets and models.
-The resulting Data Model has been put to many tests, but will have to evolve 
-as new products are considered. 
+<b>1. Data is self-documented.
+<dd>
+Data resources have internal schema or structures for storing values. 
+The physical structure is determined by the storage format. Each 
+retrievable entity on the format is assigned a key or tag which can be 
+used to retrieve the entity. 
 
-<h2>The Data Model in a Virtual Observatory context</h2>
-The current conceptual model is intended to serve as the basis for 
-interoperability between independent data systems. It is an attempt to 
-capture the various concepts that are used to represent the knowledge to 
-be shared in the Space and Solar Physics domains. These concepts are used 
-to convey queries and responses between the user and various remote data 
-systems. Many such systems, in diverse fields, are now functioning or 
-planned. The paradigm for this interoperability is the "Virtual 
-Observatory", originally coined by the astronomical community as a way 
-to allow any researcher, anywhere in the world, to access all known 
-observations of a chosen patch of the sky using the Internet to query 
-repositories of information distributed around the world at data centers 
-and observatories. 
+The SPASE Data Model does not attempt to describe the physical storage 
+of the parameters, for example, the byte offsets, record format or data 
+encoding in the data resource. Instead, the SPASE Data Model describes 
+the scientific attributes of the parameter and links this to the 
+parameter by a key or tag used by the storage format. Applications can 
+use the SPASE descriptions to locate a parameter and the appropriate 
+format-specific reader to extract parameters.
 
-The concepts presented in this document are independent of any 
-implementation, but we have in mind a likely map of the eventual data 
-environment. Figure 1 illustrates a possible architecture; the details 
-will depend on the outcome of a number of current efforts and their 
-coordination. The web site http://lwsde.gsfc.nasa.gov gives a guide to 
-many currently active projects and a great deal of background 
-information. Of particular interest there is the document entitled, "A 
-Framework for Space and Solar Physics Virtual Observatories." 
+Not all data in the Heliophysics data environment is stored in self-
+documented formats. For example, data stored as ASCII tables. The method 
+of assigning a key or tag name for each field in the ASCII table is 
+external to the SPASE data model. This method must be part of an 
+"format" specification which may be as simple as the first row of the 
+table containing the tag name of the field.
+</dd>
 
-Figure 1 is very schematic, but the "Access Points" could be discipline 
-specific "VxOs" that aggregate the repositories they serve, making them 
-all appear as one. This is now done by the VSO for solar data. The VSO 
-can then be treated as a repository by other services (VSPO and EGSO 
-currently do this). The "Gateways" in the figure would be places where 
-large numbers of products are registered with pointers to Access Points, 
-Repositories, and other services (not shown) as needed. With the right 
-connections and a common language, the data environment becomes very 
-rich and flexible. Note that more conventional access to any of the 
-Repositories could continue as before. 
+<b>2. Resources are distributed.
+<dd>
+There are many providers of resources and these providers can be located 
+anywhere in the world.
 
+Each provider operates independently and activities are not necessarily 
+coordinated. The SPASE data model assumes that providers have local 
+autonomy and may operate under local rules or jurisdictions.
+</dd>
+
+<b>3. Online Resources have Universal Resource Locators (URL)
+<dd>
+If a resource is on-line it can be accessed and retrieved using 
+Universal Resource Locators (URL).
+</dd>
+
+<b>4. The data environment is continuously evolving.
+<dd>
+New resources are actively generated either as part of an on-going 
+experiment or as a result of analysis and assessment.
+
+These new resources may be directly related to other resources. As new 
+resources are generated or new associations defined the network or 
+collections formed will expand over time.
+</dd>
+
+<h2>Conceptual System Environment</h2>
+The data model is intended to enable the sharing of knowledge through 
+structured metadata (SPASE Descriptions) which can be exchanged in 
+queries and responses between systems. The operational environment this 
+occurs in is the current Internet where systems and users are loosely 
+coupled and highly distributed. Special services or portals may harvest 
+(collect) the SPASE descriptions from multiple sources to create an 
+enriched capability for the user. For example, a search engine may 
+provide a comprehensive search for a particular scientific discipline. 
+The web site http:// hpde.gsfc.nasa.gov gives a guide to many currently 
+active projects and a great deal of background information. Of 
+particular interest there is the document entitled, "A Framework for 
+Space and Solar Physics Virtual Observatories." 
+
+Figure 1 illustrates a conceptual architecture in a distributed 
+environment. In this environment multiple communities have resources to 
+share. The storage location of a resource is called a repository. Some 
+of these repositories (boxes) have local SPASE descriptions which are 
+available through a local registry service (balls). The contents of 
+other repositories are described at external, possibly independent, 
+locations which make the descriptions available through remote 
+registries. Gateways (rings) can harvest and aggregate the resources 
+from multiple registries or perform federated searches which provide a 
+single access point to multiple registries. Applications access the 
+registries to discover resources, determine their location and retrieve 
+them from the repositories.
+
+<page>
 
 <img src=arch.png>
 
@@ -167,114 +197,143 @@ Repositories could continue as before.
 
 
 
-<page>
-A prototypical usage scenario is: 
 
-<dd>
-1.	The scientist uses an application (e.g., a browser or IDL) to define 
-his query in terms of the SPASE model. 
+<h1>Guide to the SPASE Data Model</h1>
+<h2>Resource Types</h2>
+The top level entity in the SPASE data model is a Resource. There are 12 
+different types of resources. Each resource type consists of a set of 
+attributes that characterize the resource. The resource types can be 
+divided into three categories: Data Resources, Origination Resources and 
+Infrastructure Resources.
 
-2.	The application contacts a relevant participating access 
-point or gateway that may generate a response (e.g. URLs of files or 
-services, or metadata about these), or may pass the query to other 
-access points or gateways to obtain further information before 
-responding to the query. 
+This section provides an overview of the 
+resource types. Complete details for each resource can be found in 
+Section 4.
 
-3.	The application uses the replies either to 
-present metadata to the user or to request the resource. A request may 
-go directly to a repository or an access point, or may be routed through 
-a gateway for additional services. 
-
-4.	The requested resources might be 
-processed in various ways at the repository, the access point, the 
-gateway, or by a separate service. For example, the system may assemble 
-a collection of resources, subset the data, generate a graphic, or 
-reformat the resource prior to delivering it to the application. 
-</dd>
-
-We envision that different control authorities will maintain different 
-aspects of the Data Model. For example, the list of observatory names is 
-maintained by NSSDC, the definition of prime meridian used in describing 
-local latitude and longitude is set by IAU, and the accepted format for 
-time representation is defined by ISO. There will need to be a 
-community-approved group to be the central authority on the Data Model; 
-SPASE is currently serving as a prototype for this role.
-
-It remains to be determined the extent to which registries of products 
-will be centralized such that one location will contain the latest list 
-obtained from registered data providers. There should be at least one
-common format for the exchange of product registries and metadata. 
-An XML schema based format will likely provide the preferred method. 
-
-<h1>Data Model overview and general concepts</h1>
-Special Note: In other data models what SPASE would call "granules" 
-are sometimes referred to as "files" or "products"; and what
-SPASE refers to as a "product" is sometimes called "datasets".
-
-As mentioned in the introduction, this Data Model focuses on describing 
-Data Products, which are a subset of Resources. In general, each Resource 
-Type consists of a similar collection of things that share a common 
-descriptive hierarchy. Numerical Data and Display Data 
-(pre-rendered Plots and Images based on data) are typically defined as 
-collections of files that differ only in the time of the observations to 
-which they refer. Note that what is delivered to the user may be 
-generated dynamically from underlying files, and thus can be more 
-variable: for a particular product, modes may change with time of 
-observation, and calibrations with time of processing. Thus, in 
-general, the delineation of a product is up to the providers. All of 
-the terms in the Model require a precise definition to be useful, and 
-these are provided in the Dictionary.
-
-The SPASE Data Model describes Data Products by stating what was 
-observed and where and when the data were obtained, as well as giving 
-the source of the observations, and the location (repository), format 
-and other technical aspects of the data. These descriptions are expressed 
-using the appropriate Resource Type from the Data Model.
-
-<page>
-<h2>Resources</h2>
-At the top level of the present Data Model is the Resource Type. These 
-consist of the Product Types:
+<h3>Data Resources</h3>
+Data Resources describe individual data products or data product sets. 
+Data products can be images (Display Data), sample or observation values 
+(Numerical Data), event lists (Catalog). Included in the Data Resource 
+category are the resources used to describe individual files (Granule) 
+which are part of data product sets and assessments of a resource 
+(Annotations). The complete list of Data Resources is:
 
 <dd>
 	Numerical Data, 
 <br>
-	Display Data, and
+	Display Data,
 <br>
-	Catalog 
+	Catalog,
+<br>
+Granule, and
+<br>
+Annotation
 </dd>
 
-and the Resource Types that support these: 
+<h3>Origination Resources</h3>
+Origination Resources describe the generators or sources of data. 
+Included in a Data Resource description is information about the 
+origination of the data. A Data Resource will refer to one or more 
+Origination Resource. The complete list of Origination Resources is:
 
 <dd>
 	Observatory,
 <br>
 	Instrument,
 <br>
-	Registry,
-<br>
-	Repository,
-<br>
-	Service,
-<br>
-	Granule, 
-<br>
 	Person, and
 <br>
-   Extension. 
+	Document
 </dd>
 
-Each of these types has its own set of terms. The present 
-version of the dictionary provides a core set of terms 
-that may be augmented by SPASE in the future. 
-One method of providing external augmentation is through
-a URL that will provide the user with more information 
-to supplement the metadata. 
+<h3>Infrastructure Resources</h3>
+Infrastructure Resources describe system components that are part of the 
+exchange and use of data. This includes storage locations for data 
+(Repository), metadata (Registry) and functions (Service). The complete 
+list of Infrastructure Resources is:
 
-A set of Elements (the general model term for what could roughly be 
-termed a keyword) is common to all Resource descriptions (with the 
-exception of Granule, Person and Extension); they are 
-grouped in a Resource Header, consisting primarily of:
+<dd>
+	Registry,
+<br>
+	Repository, and
+<br>
+	Service
+</dd>
+
+<h3>Ontology</h3>
+In the SPASE data model there can be associations between 
+pairs of resources. Some associations are specific and are required
+in order to fully describe a resource. For example, an Instrument
+resource is always associated with an Observatory resource.
+The specific associations form an ontology which is illustrated 
+in Figure 2. The SPASE data model also allows associations of
+resources which are not explicitly defined in the ontology. These
+associations are described and assigned a relationship type using
+generic association attributes.
+
+<page>
+
+<img src=ontology.png>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>Resource Identifiers</h2>
+Every resource has a unique identifier so that it can be tracked and 
+referenced within a system. This identifier is defined by the naming 
+authority for the resource. The entity which acts as the naming 
+authority is determined by the agency or group who provides the 
+resource. Each resource identifier is a URI that has the form 
+
+<dd>
+scheme://authority/path
+</dd>
+
+where "scheme" is "spase" for those resources administered through the 
+SPASE framework, "authority" is the unique identifier for the naming 
+authority within the data environment and "path" is the unique local 
+identifier of the resource within the context of the "authority". The 
+resource ID must be unique within the data environment.
+
+To illustrate the definition of a resource identifier consider that 
+there is a registered "authority" called "SMWG" which maintains 
+information for spacecraft (Observatory) resources. One such spacecraft 
+is GOES8. Now "SMWG" decides that the "path" to the GOES8 resource description
+should  include the Resource Type as part of the path and that the observatory "name"
+will be "GOES8". So, the resource identifier would be:
+
+<dd>
+spase://SMWG/Observatory/GOES8
+</dd>
+
+The Resource ID is used to formally or informally associate one resource 
+with another. For example an Instrument resource must be formally 
+associated with an Observatory. A Numerical Data resource may be 
+formally associated with an Instrument resource and informally 
+associated with other Numerical Data resources. The free association of 
+resources allows networks or collections to be formed from distributed 
+resources and allows for new associations to be formed as needed without 
+affecting existing associations.
+
+<h2>Core Attributes</h2>
+With the exception of Granule and Person, every resource has a common 
+set of core attributes.  The core attributes provide textual 
+descriptions of the resource and the capability to reference external 
+sources of information (Information URL). It also describes the context 
+of the resource in the larger data environment. This context consists of 
+associations with other resources (Association) and with previous 
+versions (Prior ID). These attributes are grouped in a Resource Header 
+and consists of:
 
 <dd>
 	Resource Name
@@ -282,6 +341,8 @@ grouped in a Resource Header, consisting primarily of:
 	Alternate Name
 <br>
 	Release Date
+<br>
+	Expiration Date
 <br>
 	Description
 <br>
@@ -291,253 +352,162 @@ grouped in a Resource Header, consisting primarily of:
 <br>
 	Information URL
 <br>
-   Association ID
+	Association
+<br>
+	Prior ID
 </dd>
 
-For Data Products, a similar set is grouped as Access Information, which can 
-be replicated with the appropriate changes to describe copies of the 
-product which may differ only in format, encoding or location. The Access 
-Information provides the: 
+<h2>Extensions</h2>
+The SPASE Data Model allows for additional metadata to be embedded 
+within a SPASE description. Every Resource Type has an "Extension" 
+element which can contain metadata compliant with other data models. The 
+"Extension" element has a SPASE data model type of "Text", but is not 
+limited to alphanumeric characters and may contain tagged information.
+
+<h2>Element Data Types</h2>
+Each element in the SPASE Data Model has a data type. One design feature 
+of the SPASE data model is that an element can contain either a value or 
+other elements. Mixed content (elements and values) are not allowed. 
+This allows the data model to be implemented in a wider range of 
+metadata languages. The following data types are supported:
+
+<b>Container
+<dd>
+A container of other elements.
+</dd>
+
+<b>Count
+<dd>
+A whole number.
+</dd>
+
+<b>DateTime
+<dd>
+A value is given in the ISO 8601 recommended primary standard notation: 
+YYYY-MM-DD. where YYYY is the year in the usual Gregorian calendar, MM 
+is the month of the year between 01 (January) and 12 (December), and DD 
+is the day of the month between 01 and 31. It may also have an optional 
+time portion given in the ISO 8601 recommended primary standard 
+notation: HH:MM:SS.sss where HH is the number of complete hours that 
+have passed since midnight (00-24), MM is the number of complete minutes 
+that have passed since the start of the hour (00-59), and SS is the 
+number of complete seconds since the start of the minute (00-60), and 
+sss are milliseconds that have passed since the start of the second 
+(000-999). Time zones are not allowed so all times are in Universal 
+Time. The time portion must follow the date portion with both portions 
+separated by a "T". For example, "2004-07-29" is July 29, 2004 and 
+"2004-07-29T12:30:00" is precisely 12:30 on July 29, 2004.
+</dd>
+
+<b>Duration
+<dd>
+A duration of time. A time value given in the ISO 8601 recommended 
+primary standard notation: PTHH:MM:SS.sss where PT are tokens to 
+indicate that the time value is a duration, HH is the number of complete 
+hours that have passed since midnight (00-24), MM is the number of 
+complete minutes that have passed since the start of the hour (00-59), 
+and SS is the number of complete seconds since the start of the minute 
+(00-60), and sss are milliseconds that have passed since the start of 
+the second (000-999).
+</dd>
+
+<b>Enumeration
+<dd>
+Value is selected from a list of allowed values. The name of list is an 
+additional attribute of the element. Lists may be externally controlled 
+in which case the location of the list is indicated in the textual 
+definition of the element.
+</dd>
+
+<b>Item
+<dd>
+An element which is a value for an enumerated list.
+</dd>
+
+<b>Numeric
+<dd>
+A fractional number which can be expressed in scientific notation. The 
+string "NaN" represents not-a-number (flag) values and the string "INF" 
+represents an infinitely large value. The value "-INF" represents an 
+infinitely small value.
+</dd>
+
+<b>Sequence
+<dd>
+A list of whole number values where the order of the values is fixed. A 
+space separates each value. For example, "1 2 3".
+</dd>
+
+<b>Text
+<dd>
+A string of alphanumeric characters. A text based "markup" is supported. 
+See Text Mark-up section (3.4.1) for details.
+</dd>
+
+<b>URL
+<dd>
+Universal Resource Locator
+</dd>
+
+<h3>Text Mark-up</h3>
+While descriptive text may be brief, some formatting of the text may be 
+necessary to convey the necessary information, for example, multiple 
+paragraphs or nested lists. To ensure system portability text values in 
+SPASE are sequences of alphanumeric one byte UTF-8 (US_ASCII) characters 
+with white space preserved. When text is displayed in some applications 
+(a web browser is the best example) a strict preservation of white space 
+may not result in a desirable presentation. Also, to make the metadata 
+more human readable (for example in XML) additional white space may be 
+introduced in the form of indentation. If strictly preserved, this could 
+result in an undesirable presentation. To allow an author to express a 
+preferred layout for the text, a special set of text "mark-up" rules are 
+defined. The layout can then be determined by normalizing the text and 
+applying a simple set of interpretation rules.
+
+<h4>Text Normalization Rules</h4>
+To aid in determining the layout or structural intent of the author the 
+following rules are to be applied to text to create a normalized form:
 
 <dd>
-	Repository ID
+1.	All lines are to end with a newline character.
 <br>
-	Availability
-<br>
-	Access Rights
-<br>
-	Access URL
-<br>
-	Caveats
-<br>
-	Format
-<br>
-	Encoding
-<br>
-	Acknowledgement
+2.	All text is left justified. No line has leading whitespace.
 </dd>
 
-These general elements are often free text, although Instrument Name, 
-Format, and various other terms are from well defined enumerated lists. 
-Having enumerated lists will allow searches to be more efficient, 
-so that, for example, a simple query will isolate all registered 
-products from a particular Region without worrying about many more-or-
-less equivalent terms. 
-
-<h2>Resource Identifiers</h2>
-Every resource has a unique identifier so that it can tracked and referenced
-within a system. This identfier is defined by the authority for the resource.
-The entity which acts as the authority is determined by agency or group who
-provides the resource. Each resource identifier is a URI that has the form 
+<h4>Text Interpretation Rules</h4>
+After normalization of text the following rules can be used to interpret 
+the layout intent of the author.
 
 <dd>
-scheme://authority/path
-</dd>
-
-where "scheme" is "spase" for those resources administered through the SPASE 
-framework, "authority" is the unique identifier for the name registry 
-within the SPASE framework and "path" is the unique local identifier 
-of the resource within the context of the "authority". 
-The resource ID must be unique within the SPASE framework.
-This is assured as long as each "authority" is unique and each
-authority insures that the "path" is unique within its context.
-
-To illustrate the definition of a resource identifier consider that
-there is a registered "authority" called "nssdc" which maintains 
-information for spacecraft resources. One such spacecraft is GOES-8.
-Now "nssdc" decides that the "path" to the GOES-8 resource will be "GOES-8".
-So, the resource identifier would be:
-
+1.	Blank lines indicate paragraph breaks.
+<br>
+2.	Lists 
+<br>
 <dd>
-spase://nssdc/GOES-8
-</dd>
-
-It should then be possible in an operating system to provide the resource 
-identifier to a service and that service would return the SPASE description
-of the resource.
-
-<h2>Numerical Data Resources</h2>
-Since Numerical Data resources are the key to most science 
-investigations, our focus has been on providing a Data Model that will 
-provide users with a means to exploit these data. It will be useful to 
-agree on a uniform means for accessing the data (standard conventions 
-for how to describe file naming and variable access methods), but 
-initially our focus is on the scientific content of the data. We have 
-initial sets of terms for the other Product Types, but these are less 
-detailed; in many cases we expect much less detail will be needed even 
-in the more final form. 
-
-The essential information for a Numerical Data resource description 
-consists of what measured it, where to get it, its basic Measurement 
-Type, whom to ask about it, and a few other simple descriptors. Of 
-course, the more detailed the description, the more likely it is that 
-users will understand what a product is and be more able 
-and likely to use it. 
-
-Numerical Data resources (called "Datasets" in some systems) 
-are described by the Headers plus other elements, including:
-
+a.	Must be preceded by a blank line.
+<br>
+b.	Items are indicated by a line beginning with a reserved character 
+followed by a space. Three levels of lists are supported. The reserved 
+characters are:
+<br>
 <dd>
-	Observatory ID (link to Resource description) 
+            * : First level list
 <br>
-	Instrument ID (also a link) 
+             - : Second level list (must appear within a first level context)
 <br>
-	Measurement Type (the general category, such as Thermal Plasma) 
-<br>
-	Temporal Description (time range available, resolution)
-<br>
-	Observed Region (the source of data)
-<br>
-	Physical Parameter (very useful)
+             . : Third level list (must appear within a second level context)
 </dd>
-
-Other elements are part of a Numerical Data resource and can be used to 
-provide additional details.
-
-Each Physical Parameter segment of a Product Descriptor is a 
-description of a physical quantity that the provider wishes to
-advertise in the product. The Product Descriptor could have just 
-one such segment describing image data as being a full-Sun image 
-in white light, or it could contain many segments for the various 
-parameters (density, temperature, velocity, variance in these, 
-error bars, and quality flags) for a thermal plasma product. 
-Each Physical Parameter would be described by a standard set of 
-elements including:
-
+c.	End with a blank line.
+</dd>
+3.	Tables 
+<br>
 <dd>
-	Name
+a.	Begin and end with a line that starts with "+--".
 <br>
-	Parameter Key
+b.	The first "row" of a table is the field headings.
 <br>
-	Description
+c.	Fields in a table are separated with a vertical bar ("|").
 <br>
-	Caveats
-<br>
-	Cadence
-<br>
-	Units
-<br>
-	Units Conversion
-<br>
-	Coordinate System
-<br>
-	Dimension
-<br>
-	Measured
-<br>
-	Support
+d.	Visual row separators are lines which begin with "|--".
 </dd>
-
-Measured parameters are organized into four categories: 
-
-<dd>
-   Photons: which are electromagnetic fields
-<br>
-   Fields: distinguished from Photons by being measured as time series
-<br>
-   Particles: which are forms of matter; and 
-<br>
-   Mixed: which are composite or derived quantities. 
 </dd>
-
-Support parameters are characterized by its intrinsic type though an enumeration which includes: 
-
-<dd>
-   Positional: the location of a observation
-<br>
-   Temporal: the time of a observation
-<br> 
-   Other: important, but unclassified parameters
-</dd>
-
-with details of the parameter provided though the Structure information.
-
-Each category has its own set of elements (and enumerated) lists
-based on the natural taxonomy of the physical world.
-
-<h2>Display Data Resources</h2>
-Display Data resources are very similar to Numerical Data resource, since they are 
-based on the data, but are preprocessed images in, for example, JPEG, 
-GIF or PNG format that show a picture of a graph or of an object or 
-region. Generally these products will be summaries or browse-level 
-images of data plots, so less detail will be needed in their 
-description. The convention chosen here is that, for example, the FITS 
-file containing the data for a solar H-alpha image is part of a 
-Numerical Data Product, whereas a GIF or JPEG produced from that file, 
-which is more difficult to use for quantitative purposes, is 
-part of a Display Data Product. The Display Data resource can be associated 
-(or coupled) to the Numerical Data resource by assigning the Resource ID
-of the Numerical Data resource to the Association ID in the Resource Header
-of Display Data resource.
-
-<h2>Catalog Resources</h2>
-Catalogs can include complete listings of files and the times they 
-cover, but this is not the main intent here. Rather, a Catalog will 
-typically consist of a set of start and stop times for "events" which 
-can be anything from Coronal Mass Ejection occurrences in SOHO images, to 
-intervals when data are available in a particular product, to 
-identifications of when a spacecraft is in a particular region such as 
-the Earth’s magnetosheath. These types of catalogs are already being 
-used for assistance in data searches by VSO and EGSO. 
-
-Another type of catalog is one that provides summary or statistical 
-information for a Numerical Data resource. In this case the catalog
-can be associated with the Numerical Data resource by using the 
-Association ID in the Resource Header.
-
-<h2>Granules</h2>
-Granules are a special type of resource which describes a piece of 
-another resource such as a Numerical Data resource or Display Data resource.
-A Granule must reference which resource it is assocated with through its 
-Parent ID element. The Granule inherits all the attributes of the parent
-resource. A Granule may be composed of one or more physical pieces (files) 
-which are considered inseperable. For example, a data storage format that
-maintains metadata and binary data in seperate, but tightly coupled files.
-Granules should not be used to group files that have simple relationships
-or which are associated through a parent resource. For example, each file
-containing a time interval data for a Numerical Data resource would each
-be considered a Granule.
-
-<h2>Extension</h2>
-An Extension resource contains other metadata which is not part of the SPASE
-data model. The contents of this element are defined by individual usage.
-The organization and content are constrained by the implementation. 
-For example, in an XML representation of the SPASE metadata the content 
-must conform to the XML specications. 
-
-<h2>Other Resource Types</h2>
-The "nonproduct" Resource types are generally self-explanatory. They are:
-
-<dd>
-   Instrument: A device which is used to sense and parameterize a physical phenomenon.
-<br>
-   Observatory: A spacecraft, a cluster of spacecraft, groundbased chains, etc.
-<br>
-   Person: An individual human being.
-<br>
-   Respository: A storage point for resources
-<br>
-   Registry: An inventory of available resources
-<br>
-   Service: A location or facility that can perform a well defined task.
-</dd>
-
-<h2>Future Direction</h2>
-Future versions of the SPASE Data Model will include terms for Software 
-(tools for use of data), Models (physics- and empirically-based 
-predictive schemes, often in the form of programs), Documents (focusing 
-on support documents for other resources rather than on scientific 
-papers) and other resources as the need arises.
-
-<h2>General Considerations</h2>
-The SPASE Entity-Relationship Tree of Section 3 has been produced from 
-information held in a data base. This database also holds all the 
-element definitions which are explained in Section 5 and tabulated in 
-Section 6. From this database it is also possible to generate an XSD 
-schema, which is the default encoding that has been developed for 
-evaluating the Data Model. Thus, Resources are most naturally described 
-by XML files, but this is not essential. The SPASE Data Model is implementation
-neutral and can be implemented using other grammars and technologies.
-
-A PDF version of this document can be downloaded from the SPASE site, 
-http://www.spase-group.org/

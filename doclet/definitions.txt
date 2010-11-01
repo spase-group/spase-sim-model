@@ -14,4 +14,3 @@ for each element are presented in the following form:
 
 
 
-The value associated with an element must be one of the following:

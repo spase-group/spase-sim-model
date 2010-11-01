@@ -95,6 +95,8 @@ Bob McGuire, <rmcguire@pop600.gsfc.nasa.gov>
 <br>
 Jan Merka, <jan.merka@gsfc.nasa.gov>
 <br>
+Thomas Narock, <thomas.w.narock@nasa.gov>
+<br>
 Lou Reich (CSC), <lreich@pop500.gsfc.nasa.gov>
 <br>
 Aaron Roberts, <roberts@vayu.gsfc.nasa.gov>
@@ -120,6 +122,8 @@ Vasili Rezapkin (Aquilent), <vasili.rezapkin@aquilent.com>
 <dd>
 <br>
 Joe Bredekamp, <jbredeka@mail.hq.nasa.gov>
+<br>
+Jeffrey Hayes, <jhayes@nasa.gov>
 <br>
 Chuck Holmes, <cholmes@mail.hq.nasa.gov>
 </dd>

@@ -1,4 +1,4 @@
-<h1>The Data Model presented hierarchically</h1>
+<h1>The Data Model Presented Hierarchically</h1>
 The taxonomy tree shows the inter-relationship of elements in the data model. 
 This provides a "big picture" view of the SPASE data model. This taxonomy is implementation
 neutral. Details for each element are contained in the data dictionary. 
