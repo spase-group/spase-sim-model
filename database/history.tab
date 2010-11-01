@@ -240,4 +240,6 @@
 241	2.0.2	2009-10-08	T.King	Added "Arrival Direction" to dictionary and to "Particle Quantity" enumeration. Added "Instrument Mode" to dictionary and "Support Quantity". Updated definitions of "Charge State" and "Atomic Number Detected".	
 242	2.0.2	2009-11-05	T.King	Added "Stream Interaction Region" to dictionary and to "Phenomenon Type" enumeration. Updated definition of "Coronal Mass Ejection".	
 243	2.0.2	2009-11-18	T.King	Modified definitions for "Observatory" and "Instrument".	
+244	2.0.3	2010-02-04	T.King	Added "Former-PI" to dictionary and to "Role" enumeration; Added "Note" to "Person".	Decided durinng the telecon on 2010-02-04
+245	2.0.3	2010-03-19	T.King	Updated definitions for "Number Flux", "Energy Flux", "Differential", and "Integral"; Added "Dust" to "Measurement Type" enumeration; 	Decided durinng the telecon on 2010-03-18
 254					
