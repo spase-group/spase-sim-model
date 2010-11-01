@@ -1,344 +1,335 @@
-1.2.2	1.1.0	Access Rights	Open
-1.2.2	1.1.0	Access Rights	Restricted
-1.2.2	1.1.0	Availability	Offline
-1.2.2	1.1.0	Availability	Online
-1.2.2	1.2.0	Component	Phi
-1.2.2	1.2.0	Component	R
-1.2.2	1.2.0	Component	Theta
-1.2.2	1.2.0	Component	X
-1.2.2	1.2.0	Component	Y
-1.2.2	1.2.0	Component	Z
-1.2.2	1.1.0	Coordinate Representation	Cartesian
-1.2.2	1.1.0	Coordinate Representation	Cylindrical
-1.2.2	1.1.0	Coordinate Representation	Spherical
-1.2.2	1.2.1	Coordinate System Name	Carrington
-1.2.2	1.1.0	Coordinate System Name	CGM
-1.2.2	1.1.0	Coordinate System Name	DM
-1.2.2	1.1.0	Coordinate System Name	GEI
-1.2.2	1.1.0	Coordinate System Name	GEO
-1.2.2	1.1.0	Coordinate System Name	GSE
-1.2.2	1.1.0	Coordinate System Name	GSEQ
-1.2.2	1.1.0	Coordinate System Name	GSM
-1.2.2	1.1.0	Coordinate System Name	HAE
-1.2.2	1.2.1	Coordinate System Name	HCI
-1.2.2	1.1.0	Coordinate System Name	HEE
-1.2.2	1.1.0	Coordinate System Name	HEEQ
-1.2.2	1.1.0	Coordinate System Name	HG
-1.2.2	1.1.0	Coordinate System Name	HGI
-1.2.2	1.1.0	Coordinate System Name	J2000
-1.2.2	1.1.0	Coordinate System Name	LGM
-1.2.2	1.1.0	Coordinate System Name	MAG
-1.2.2	1.1.0	Coordinate System Name	MFA
-1.2.2	1.1.0	Coordinate System Name	RTN
-1.2.2	1.1.0	Coordinate System Name	SC
-1.2.2	1.1.0	Coordinate System Name	SE
-1.2.2	1.1.0	Coordinate System Name	SM
-1.2.2	1.2.1	Coordinate System Name	Spacecraft Orbit Plane
-1.2.2	1.1.0	Coordinate System Name	SR
-1.2.2	1.1.0	Coordinate System Name	SR2
-1.2.2	1.1.0	Coordinate System Name	SSE
-1.2.2	1.2.0	Coordinate System Name	WGS84
-1.2.2	1.1.0	Earth	Magnetosheath
-1.2.2	1.1.0	Earth	Magnetosphere
-1.2.2	1.1.0	Earth	Near Surface
-1.2.2	1.1.0	Earth	Surface
-1.2.2	1.1.0	Encoding	ASCII
-1.2.2	1.1.0	Encoding	Base64
-1.2.2	1.1.0	Encoding	BZIP2
-1.2.2	1.1.0	Encoding	GZIP
-1.2.2	1.1.0	Encoding	None
-1.2.2	1.3.0	Encoding	TAR
-1.2.2	1.1.0	Encoding	Unicode
-1.2.2	1.1.0	Encoding	ZIP
-1.2.2	1.2.0	Field Qualifier	Array
-1.2.2	1.1.0	Field Qualifier	Average
-1.2.2	1.2.0	Field Qualifier	Component
-1.2.2	1.1.0	Field Qualifier	Deviation
-1.2.2	1.1.0	Field Qualifier	Magnitude
-1.2.2	1.2.1	Field Qualifier	Parallel
-1.2.2	1.1.0	Field Qualifier	Peak
-1.2.2	1.1.0	Field Qualifier	Perpendicular
-1.2.2	1.2.1	Field Qualifier	Phase Angle
-1.2.2	1.2.0	Field Qualifier	Scalar
-1.2.2	1.2.0	Field Qualifier	Standard Deviation
-1.2.2	1.2.0	Field Qualifier	Tensor
-1.2.2	1.2.0	Field Qualifier	Uncertainty
-1.2.2	1.1.0	Field Qualifier	Variance
-1.2.2	1.0.0	Field Qualifier	Vector
-1.2.2	1.1.0	Field Quantity	Cross Spectrum
-1.2.2	1.2.1	Field Quantity	Current
-1.2.2	1.1.0	Field Quantity	Electric
-1.2.2	1.3.0	Field Quantity	Electromagnetic
-1.2.2	1.2.1	Field Quantity	Gyrofrequency
-1.2.2	1.1.0	Field Quantity	Magnetic
-1.2.2	1.2.1	Field Quantity	Plasma Frequency
-1.2.2	1.1.0	Field Quantity	Potential
-1.2.2	1.1.0	Field Quantity	Poynting Flux
-1.2.2	1.1.0	Format	AVI
-1.2.2	1.1.0	Format	Binary
-1.2.2	1.1.0	Format	CDF
-1.2.2	1.1.0	Format	CEF
-1.2.2	1.1.0	Format	CEF 1
-1.2.2	1.1.0	Format	CEF 2
-1.2.2	1.1.0	Format	FITS
-1.2.2	1.1.0	Format	GIF
-1.2.2	1.1.0	Format	HDF
-1.2.2	1.1.0	Format	HDF 4
-1.2.2	1.1.0	Format	HDF 5
-1.2.2	1.1.0	Format	HTML
-1.2.2	1.1.0	Format	IDFS
-1.2.2	1.1.0	Format	IDL
-1.2.2	1.1.0	Format	JPEG
-1.2.2	1.1.0	Format	MATLAB_4
-1.2.2	1.1.0	Format	MATLAB_6
-1.2.2	1.1.0	Format	MATLAB_7
-1.2.2	1.1.0	Format	MPEG
-1.2.2	1.1.0	Format	NCAR
-1.2.2	1.1.0	Format	NetCDF
-1.2.2	1.1.0	Format	PDF
-1.2.2	1.1.0	Format	PNG
-1.2.2	1.2.0	Format	Postscript
-1.2.2	1.1.0	Format	QuickTime
-1.2.2	1.1.0	Format	Text
-1.2.2	1.1.0	Format	TIFF
-1.2.2	1.1.0	Format	UDF
-1.2.2	1.1.0	Format	VOTable
-1.2.2	1.1.0	Format	XML
-1.2.2	1.2.0	Hash Function	MD5
-1.2.2	1.2.0	Hash Function	SHA1
-1.2.2	1.2.0	Hash Function	SHA256
-1.2.2	1.1.0	Heliosphere	Inner
-1.2.2	1.1.0	Heliosphere	Near Earth
-1.2.2	1.1.0	Heliosphere	Outer
-1.2.2	1.1.0	Heliosphere	Remote 1AU
-1.2.2	1.1.0	Instrument Type	Antenna
-1.2.2	1.1.0	Instrument Type	Channeltron
-1.2.2	1.2.1	Instrument Type	Coronograph
-1.2.2	1.1.0	Instrument Type	Double Sphere
-1.2.2	1.1.0	Instrument Type	Electron Drift Instrument
-1.2.2	1.1.0	Instrument Type	Electrostatic Analyser
-1.2.2	1.1.0	Instrument Type	Energetic Particle Instrument
-1.2.2	1.2.0	Instrument Type	Ephemeris
-1.2.2	1.1.0	Instrument Type	Faraday Cup
-1.2.2	1.1.0	Instrument Type	Flux Feedback
-1.2.2	1.1.0	Instrument Type	Fourier Transform Spectrograph
-1.2.2	1.2.1	Instrument Type	Geiger-Mueller Tube
-1.2.2	1.1.0	Instrument Type	Imager
-1.2.2	1.2.1	Instrument Type	Imaging Spectrometer
-1.2.2	1.2.1	Instrument Type	Interferometer
-1.2.2	1.1.0	Instrument Type	Langmuir Probe
-1.2.2	1.1.0	Instrument Type	Long Wire
-1.2.2	1.1.0	Instrument Type	Magnetometer
-1.2.2	1.1.0	Instrument Type	Mass Spectrometer
-1.2.2	1.1.0	Instrument Type	Microchannel Plate
-1.2.2	1.2.1	Instrument Type	Multispectral Imager
-1.2.2	1.2.1	Instrument Type	Neutral Atom Imager
-1.2.2	1.2.1	Instrument Type	Neutral Particle Detector
-1.2.2	1.1.0	Instrument Type	Particle Correlator
-1.2.2	1.2.1	Instrument Type	Particle Detector
-1.2.2	1.2.1	Instrument Type	Photometer
-1.2.2	1.2.1	Instrument Type	Photopolarimeter
-1.2.2	1.2.1	Instrument Type	Proportional Counter
-1.2.2	1.1.0	Instrument Type	Quadrispherical Analyser
-1.2.2	1.1.0	Instrument Type	Radar
-1.2.2	1.2.1	Instrument Type	Radiometer
-1.2.2	1.1.0	Instrument Type	Resonance Sounder
-1.2.2	1.2.1	Instrument Type	Retarding Potential Analyser
-1.2.2	1.2.1	Instrument Type	Riometer
-1.2.2	1.2.1	Instrument Type	Scintillation Detector
-1.2.2	1.1.0	Instrument Type	Search Coil
-1.2.2	1.2.1	Instrument Type	Sounder
-1.2.2	1.1.0	Instrument Type	Spacecraft Potential Control
-1.2.2	1.1.0	Instrument Type	Spectral Power Receiver
-1.2.2	1.1.0	Instrument Type	Spectrometer
-1.2.2	1.2.1	Instrument Type	Time-of-Flight
-1.2.2	1.2.1	Instrument Type	Unspecified
-1.2.2	1.1.0	Instrument Type	Waveform Receiver
-1.2.2	1.2.0	Ionosphere	D-Region
-1.2.2	1.2.0	Ionosphere	E-Region
-1.2.2	1.2.0	Ionosphere	F-Region
-1.2.2	1.2.0	Ionosphere	Topside
-1.2.2	1.1.0	Magnetosphere	Magnetotail
-1.2.2	1.1.0	Magnetosphere	Main
-1.2.2	1.1.0	Magnetosphere	Polar
-1.2.2	1.1.0	Magnetosphere	Radiation Belt
-1.2.2	1.1.0	Measurement Type	Activity Index
-1.2.2	1.1.0	Measurement Type	Charged Particle Flux
-1.2.2	1.1.0	Measurement Type	Dopplergram
-1.2.2	1.1.0	Measurement Type	Electric Field
-1.2.2	1.1.0	Measurement Type	Energetic Particles
-1.2.2	1.2.0	Measurement Type	Ephemeris
-1.2.2	1.1.0	Measurement Type	Image Intensity
-1.2.2	1.2.0	Measurement Type	Instrument Status
-1.2.2	1.1.0	Measurement Type	Ion Composition
-1.2.2	1.1.0	Measurement Type	Irradiance
-1.2.2	1.1.0	Measurement Type	Magnetic Field
-1.2.2	1.1.0	Measurement Type	Magnetogram
-1.2.2	1.1.0	Measurement Type	Neutral Atom Images
-1.2.2	1.1.0	Measurement Type	Neutral Gas
-1.2.2	1.1.0	Measurement Type	Profile
-1.2.2	1.1.0	Measurement Type	Radiance
-1.2.2	1.1.0	Measurement Type	Radio and Plasma Waves
-1.2.2	1.1.0	Measurement Type	Radio Soundings
-1.2.2	1.2.0	Measurement Type	Spectrum
-1.2.2	1.1.0	Measurement Type	Thermal Plasma
-1.2.2	1.2.0	Near Surface	Atmosphere
-1.2.2	1.2.0	Near Surface	Auroral Region
-1.2.2	1.2.0	Near Surface	Equatorial Region
-1.2.2	1.2.0	Near Surface	Ionosphere
-1.2.2	1.2.0	Near Surface	Mesosphere
-1.2.2	1.2.0	Near Surface	Plasmasphere
-1.2.2	1.2.0	Near Surface	Polar Cap
-1.2.2	1.2.0	Near Surface	South Atlantic Anomaly Region
-1.2.2	1.2.0	Near Surface	Stratosphere
-1.2.2	1.2.0	Near Surface	Thermosphere
-1.2.2	1.2.0	Near Surface	Troposphere
-1.2.2	1.1.0	Observatory Group Name	Open List
-1.2.2	1.1.0	Observatory Name	Open List
-1.2.2	1.2.1	Particle Qualifier	Anisotropy
-1.2.2	1.2.0	Particle Qualifier	Array
-1.2.2	1.1.0	Particle Qualifier	Average
-1.2.2	1.2.1	Particle Qualifier	Characteristic
-1.2.2	1.2.0	Particle Qualifier	Component
-1.2.2	1.1.0	Particle Qualifier	Deviation
-1.2.2	1.1.0	Particle Qualifier	Differential
-1.2.2	1.1.0	Particle Qualifier	Fit
-1.2.2	1.1.0	Particle Qualifier	Integral
-1.2.2	1.1.0	Particle Qualifier	Magnitude
-1.2.2	1.1.0	Particle Qualifier	Moment
-1.2.2	1.1.0	Particle Qualifier	Parallel
-1.2.2	1.1.0	Particle Qualifier	Peak
-1.2.2	1.1.0	Particle Qualifier	Perpendicular
-1.2.2	1.1.0	Particle Qualifier	Ratio
-1.2.2	1.2.0	Particle Qualifier	Scalar
-1.2.2	1.2.0	Particle Qualifier	Standard Deviation
-1.2.2	1.2.0	Particle Qualifier	Tensor
-1.2.2	1.2.0	Particle Qualifier	Uncertainty
-1.2.2	1.1.0	Particle Qualifier	Variance
-1.2.2	1.0.0	Particle Qualifier	Vector
-1.2.2	1.1.0	Particle Quantity	Alfven Mach Number
-1.2.2	1.1.0	Particle Quantity	Average Charge State
-1.2.2	1.1.0	Particle Quantity	Counts
-1.2.2	1.2.1	Particle Quantity	Energy
-1.2.2	1.2.1	Particle Quantity	Energy Density
-1.2.2	1.2.1	Particle Quantity	Energy Flux
-1.2.2	1.2.1	Particle Quantity	Flow Speed
-1.2.2	1.2.1	Particle Quantity	Gyrofrequency
-1.2.2	1.1.0	Particle Quantity	Heat Flux
-1.2.2	1.1.0	Particle Quantity	Mass
-1.2.2	1.1.0	Particle Quantity	Mass Density
-1.2.2	1.1.0	Particle Quantity	Number Density
-1.2.2	1.1.0	Particle Quantity	Number Flux
-1.2.2	1.1.0	Particle Quantity	Phase-Space Density
-1.2.2	1.1.0	Particle Quantity	Plasma Beta
-1.2.2	1.2.1	Particle Quantity	Plasma Frequency
-1.2.2	1.1.0	Particle Quantity	Pressure
-1.2.2	1.1.0	Particle Quantity	Sonic Mach Number
-1.2.2	1.1.0	Particle Quantity	Temperature
-1.2.2	1.1.0	Particle Quantity	Thermal Speed
-1.2.2	1.1.0	Particle Quantity	Velocity
-1.2.2	1.1.0	Particle Type	Aerosol
-1.2.2	1.1.0	Particle Type	Alpha Particle
-1.2.2	1.1.0	Particle Type	Dust
-1.2.2	1.1.0	Particle Type	Electron
-1.2.2	1.1.0	Particle Type	Ion
-1.2.2	1.1.0	Particle Type	Molecule
-1.2.2	1.1.0	Particle Type	Neutral
-1.2.2	1.1.0	Particle Type	Proton
-1.2.2	1.3.0	Phenomenon Type	Active Region
-1.2.2	1.1.0	Phenomenon Type	Aurora
-1.2.2	1.1.0	Phenomenon Type	Bow Shock Crossing
-1.2.2	1.3.0	Phenomenon Type	Coronal Hole
-1.2.2	1.1.0	Phenomenon Type	Coronal Mass Ejection
-1.2.2	1.3.0	Phenomenon Type	EIT Wave
-1.2.2	1.1.0	Phenomenon Type	Energetic Solar Particle Event
-1.2.2	1.1.0	Phenomenon Type	Forbush Decrease
-1.2.2	1.1.0	Phenomenon Type	Geomagnetic Storm
-1.2.2	1.1.0	Phenomenon Type	Interplanetary Shock
-1.2.2	1.3.0	Phenomenon Type	Magnetic Cloud
-1.2.2	1.1.0	Phenomenon Type	Magnetopause Crossing
-1.2.2	1.3.0	Phenomenon Type	Radio Burst
-1.2.2	1.1.0	Phenomenon Type	Solar Flare
-1.2.2	1.1.0	Phenomenon Type	Solar Wind Extreme
-1.2.2	1.2.0	Phenomenon Type	Substorm
-1.2.2	1.2.0	Photon Qualifier	Array
-1.2.2	1.1.0	Photon Qualifier	Average
-1.2.2	1.1.0	Photon Qualifier	Circular
-1.2.2	1.1.0	Photon Qualifier	Line-of-Sight
-1.2.2	1.1.0	Photon Qualifier	Linear
-1.2.2	1.1.0	Photon Qualifier	Peak
-1.2.2	1.2.0	Photon Qualifier	Scalar
-1.2.2	1.2.0	Photon Qualifier	Standard Deviation
-1.2.2	1.1.0	Photon Qualifier	Stoke's Parameters
-1.2.2	1.2.0	Photon Qualifier	Uncertainty
-1.2.2	1.1.0	Photon Qualifier	Variance
-1.2.2	1.1.0	Photon Quantity	Emissivity
-1.2.2	1.2.1	Photon Quantity	Energy Flux
-1.2.2	1.1.0	Photon Quantity	Equivalent Width
-1.2.2	1.2.1	Photon Quantity	Gyrofrequency
-1.2.2	1.1.0	Photon Quantity	Line Depth
-1.2.2	1.1.0	Photon Quantity	Magnetic Field
-1.2.2	1.1.0	Photon Quantity	Mode Amplitude
-1.2.2	1.2.1	Photon Quantity	Plasma Frequency
-1.2.2	1.1.0	Photon Quantity	Polarization
-1.2.2	1.1.0	Photon Quantity	Stoke's Parameters
-1.2.2	1.1.0	Photon Quantity	Velocity
-1.2.2	1.1.0	Processing Level	Calibrated
-1.2.2	1.1.0	Processing Level	Raw
-1.2.2	1.1.0	Processing Level	Uncalibrated
-1.2.2	1.2.0	Region	Asteroid
-1.2.2	1.2.0	Region	Comet
-1.2.2	1.1.0	Region	Earth
-1.2.2	1.1.0	Region	Heliosphere
-1.2.2	1.2.0	Region	Jupiter
-1.2.2	1.2.0	Region	Mars
-1.2.2	1.2.0	Region	Mercury
-1.2.2	1.2.0	Region	Neptune
-1.2.2	1.2.0	Region	Pluto
-1.2.2	1.2.0	Region	Saturn
-1.2.2	1.1.0	Region	Sun
-1.2.2	1.2.0	Region	Uranus
-1.2.2	1.2.0	Region	Venus
-1.2.2	1.1.0	Repository Name	Open List
-1.2.2	1.2.1	Role	Archive Specialist
-1.2.2	1.1.0	Role	Co-Investigator
-1.2.2	1.3.0	Role	Contributor
-1.2.2	1.1.0	Role	Data Producer
-1.2.2	1.1.0	Role	Deputy-PI
-1.2.2	1.1.0	Role	General Contact
-1.2.2	1.2.0	Role	Metadata Contact
-1.2.2	1.1.0	Role	Principal Investigator
-1.2.2	1.1.0	Role	Project Scientist
-1.2.2	1.3.0	Role	Publisher
-1.2.2	1.1.0	Role	Scientist
-1.2.2	1.1.0	Role	Team Leader
-1.2.2	1.1.0	Role	Team Member
-1.2.2	1.1.0	Role	Technical Contact
-1.2.2	1.2.1	Spectral Range	Ca-K
-1.2.2	1.2.1	Spectral Range	Extreme Ultraviolet
-1.2.2	1.1.0	Spectral Range	Gamma Rays
-1.2.2	1.2.1	Spectral Range	H-alpha
-1.2.2	1.1.0	Spectral Range	Hard X-rays
-1.2.2	1.2.1	Spectral Range	He-10830
-1.2.2	1.1.0	Spectral Range	Infrared
-1.2.2	1.2.1	Spectral Range	K-7699
-1.2.2	1.1.0	Spectral Range	Microwave
-1.2.2	1.2.1	Spectral Range	Na-D
-1.2.2	1.2.1	Spectral Range	Ni-6768
-1.2.2	1.1.0	Spectral Range	Optical
-1.2.2	1.1.0	Spectral Range	Radio Frequency
-1.2.2	1.1.0	Spectral Range	Ultraviolet
-1.2.2	1.2.1	Spectral Range	White-Light
-1.2.2	1.1.0	Spectral Range	X-Rays
-1.2.2	1.2.0	Structure Type	Array
-1.2.2	1.2.0	Structure Type	Scalar
-1.2.2	1.2.0	Structure Type	Tensor
-1.2.2	1.2.0	Structure Type	Vector
-1.2.2	1.1.0	Sun	Chromosphere
-1.2.2	1.1.0	Sun	Corona
-1.2.2	1.1.0	Sun	Interior
-1.2.2	1.1.0	Sun	Photosphere
-1.2.2	1.1.0	Sun	Transition Region
-1.2.2	1.2.0	Support	Other
-1.2.2	1.2.0	Support	Positional
-1.2.2	1.2.0	Support	Temporal
+1.3.0	1.1.0	Access Rights	Open
+1.3.0	1.1.0	Access Rights	Restricted
+1.3.0	1.1.0	Availability	Offline
+1.3.0	1.1.0	Availability	Online
+1.3.0	1.2.0	Component	Phi
+1.3.0	1.2.0	Component	R
+1.3.0	1.2.0	Component	Theta
+1.3.0	1.2.0	Component	X
+1.3.0	1.2.0	Component	Y
+1.3.0	1.2.0	Component	Z
+1.3.0	1.1.0	Coordinate Representation	Cartesian
+1.3.0	1.1.0	Coordinate Representation	Cylindrical
+1.3.0	1.1.0	Coordinate Representation	Spherical
+1.3.0	1.2.1	Coordinate System Name	Carrington
+1.3.0	1.1.0	Coordinate System Name	CGM
+1.3.0	1.1.0	Coordinate System Name	DM
+1.3.0	1.1.0	Coordinate System Name	GEI
+1.3.0	1.1.0	Coordinate System Name	GEO
+1.3.0	1.1.0	Coordinate System Name	GSE
+1.3.0	1.1.0	Coordinate System Name	GSEQ
+1.3.0	1.1.0	Coordinate System Name	GSM
+1.3.0	1.1.0	Coordinate System Name	HAE
+1.3.0	1.2.1	Coordinate System Name	HCI
+1.3.0	1.1.0	Coordinate System Name	HEE
+1.3.0	1.1.0	Coordinate System Name	HEEQ
+1.3.0	1.1.0	Coordinate System Name	HG
+1.3.0	1.1.0	Coordinate System Name	HGI
+1.3.0	1.1.0	Coordinate System Name	J2000
+1.3.0	1.1.0	Coordinate System Name	LGM
+1.3.0	1.1.0	Coordinate System Name	MAG
+1.3.0	1.1.0	Coordinate System Name	MFA
+1.3.0	1.1.0	Coordinate System Name	RTN
+1.3.0	1.1.0	Coordinate System Name	SC
+1.3.0	1.1.0	Coordinate System Name	SE
+1.3.0	1.1.0	Coordinate System Name	SM
+1.3.0	1.2.1	Coordinate System Name	Spacecraft Orbit Plane
+1.3.0	1.1.0	Coordinate System Name	SR
+1.3.0	1.1.0	Coordinate System Name	SR2
+1.3.0	1.1.0	Coordinate System Name	SSE
+1.3.0	1.2.0	Coordinate System Name	WGS84
+1.3.0	1.3.0	Document Type	Paper
+1.3.0	1.1.0	Earth	Magnetosheath
+1.3.0	1.1.0	Earth	Magnetosphere
+1.3.0	1.1.0	Earth	Near Surface
+1.3.0	1.1.0	Earth	Surface
+1.3.0	1.1.0	Encoding	ASCII
+1.3.0	1.1.0	Encoding	Base64
+1.3.0	1.1.0	Encoding	BZIP2
+1.3.0	1.1.0	Encoding	GZIP
+1.3.0	1.1.0	Encoding	None
+1.3.0	1.3.0	Encoding	TAR
+1.3.0	1.1.0	Encoding	Unicode
+1.3.0	1.1.0	Encoding	ZIP
+1.3.0	1.1.0	Field Qualifier	Average
+1.3.0	1.2.0	Field Qualifier	Component
+1.3.0	1.3.0	Field Qualifier	Cross Spectrum
+1.3.0	1.1.0	Field Qualifier	Deviation
+1.3.0	1.1.0	Field Qualifier	Magnitude
+1.3.0	1.2.1	Field Qualifier	Parallel
+1.3.0	1.1.0	Field Qualifier	Peak
+1.3.0	1.1.0	Field Qualifier	Perpendicular
+1.3.0	1.2.1	Field Qualifier	Phase Angle
+1.3.0	1.2.0	Field Qualifier	Scalar
+1.3.0	1.2.0	Field Qualifier	Standard Deviation
+1.3.0	1.2.0	Field Qualifier	Tensor
+1.3.0	1.2.0	Field Qualifier	Uncertainty
+1.3.0	1.1.0	Field Qualifier	Variance
+1.3.0	1.0.0	Field Qualifier	Vector
+1.3.0	1.2.1	Field Quantity	Current
+1.3.0	1.1.0	Field Quantity	Electric
+1.3.0	1.3.0	Field Quantity	Electromagnetic
+1.3.0	1.2.1	Field Quantity	Gyrofrequency
+1.3.0	1.1.0	Field Quantity	Magnetic
+1.3.0	1.2.1	Field Quantity	Plasmafrequency
+1.3.0	1.1.0	Field Quantity	Potential
+1.3.0	1.1.0	Field Quantity	Poynting Flux
+1.3.0	1.1.0	Format	AVI
+1.3.0	1.1.0	Format	Binary
+1.3.0	1.1.0	Format	CDF
+1.3.0	1.1.0	Format	CEF
+1.3.0	1.1.0	Format	CEF 1
+1.3.0	1.1.0	Format	CEF 2
+1.3.0	1.1.0	Format	FITS
+1.3.0	1.1.0	Format	GIF
+1.3.0	1.1.0	Format	HDF
+1.3.0	1.1.0	Format	HDF 4
+1.3.0	1.1.0	Format	HDF 5
+1.3.0	1.1.0	Format	HTML
+1.3.0	1.1.0	Format	IDFS
+1.3.0	1.1.0	Format	IDL 
+1.3.0	1.1.0	Format	JPEG
+1.3.0	1.1.0	Format	MATLAB_4
+1.3.0	1.1.0	Format	MATLAB_6
+1.3.0	1.1.0	Format	MATLAB_7
+1.3.0	1.1.0	Format	MPEG
+1.3.0	1.1.0	Format	NCAR
+1.3.0	1.1.0	Format	NetCDF
+1.3.0	1.1.0	Format	PDF
+1.3.0	1.1.0	Format	PNG
+1.3.0	1.2.0	Format	Postscript
+1.3.0	1.1.0	Format	QuickTime
+1.3.0	1.1.0	Format	Text
+1.3.0	1.1.0	Format	TIFF
+1.3.0	1.1.0	Format	UDF
+1.3.0	1.1.0	Format	VOTable
+1.3.0	1.1.0	Format	XML
+1.3.0	1.2.0	Hash Function	MD5
+1.3.0	1.2.0	Hash Function	SHA1
+1.3.0	1.2.0	Hash Function	SHA256
+1.3.0	1.1.0	Heliosphere	Inner
+1.3.0	1.1.0	Heliosphere	Near Earth
+1.3.0	1.1.0	Heliosphere	Outer
+1.3.0	1.1.0	Heliosphere	Remote 1AU
+1.3.0	1.1.0	Instrument Type	Antenna
+1.3.0	1.1.0	Instrument Type	Channeltron
+1.3.0	1.2.1	Instrument Type	Coronograph
+1.3.0	1.1.0	Instrument Type	Double Sphere
+1.3.0	1.1.0	Instrument Type	Electron Drift Instrument
+1.3.0	1.1.0	Instrument Type	Electrostatic Analyser
+1.3.0	1.1.0	Instrument Type	Energetic Particle Instrument
+1.3.0	1.2.0	Instrument Type	Ephemeris
+1.3.0	1.1.0	Instrument Type	Faraday Cup
+1.3.0	1.1.0	Instrument Type	Flux Feedback
+1.3.0	1.1.0	Instrument Type	Fourier Transform Spectrograph
+1.3.0	1.2.1	Instrument Type	Geiger-Mueller Tube
+1.3.0	1.1.0	Instrument Type	Imager
+1.3.0	1.2.1	Instrument Type	Imaging Spectrometer
+1.3.0	1.2.1	Instrument Type	Interferometer
+1.3.0	1.1.0	Instrument Type	Langmuir Probe
+1.3.0	1.1.0	Instrument Type	Long Wire
+1.3.0	1.1.0	Instrument Type	Magnetometer
+1.3.0	1.1.0	Instrument Type	Mass Spectrometer 
+1.3.0	1.1.0	Instrument Type	Microchannel Plate
+1.3.0	1.2.1	Instrument Type	Multispectral Imager
+1.3.0	1.2.1	Instrument Type	Neutral Atom Imager
+1.3.0	1.1.0	Instrument Type	Particle Correlator
+1.3.0	1.2.1	Instrument Type	Particle Detector
+1.3.0	1.2.1	Instrument Type	Photometer
+1.3.0	1.2.1	Instrument Type	Photopolarimeter
+1.3.0	1.2.1	Instrument Type	Proportional Counter
+1.3.0	1.1.0	Instrument Type	Quadrispherical Analyser
+1.3.0	1.1.0	Instrument Type	Radar
+1.3.0	1.2.1	Instrument Type	Radiometer
+1.3.0	1.1.0	Instrument Type	Resonance Sounder
+1.3.0	1.2.1	Instrument Type	Retarding Potential Analyser
+1.3.0	1.2.1	Instrument Type	Riometer
+1.3.0	1.2.1	Instrument Type	Scintillation Detector
+1.3.0	1.1.0	Instrument Type	Search Coil
+1.3.0	1.2.1	Instrument Type	Sounder
+1.3.0	1.1.0	Instrument Type	Spacecraft Potential Control
+1.3.0	1.1.0	Instrument Type	Spectral Power Receiver
+1.3.0	1.1.0	Instrument Type	Spectrometer
+1.3.0	1.2.1	Instrument Type	Time-of-flight
+1.3.0	1.2.1	Instrument Type	Unspecified
+1.3.0	1.1.0	Instrument Type	Waveform Receiver
+1.3.0	1.2.0	Ionosphere	D-Region
+1.3.0	1.2.0	Ionosphere	E-Region
+1.3.0	1.2.0	Ionosphere	F-Region
+1.3.0	1.2.0	Ionosphere	Topside
+1.3.0	1.1.0	Magnetosphere	Magnetotail
+1.3.0	1.1.0	Magnetosphere	Main
+1.3.0	1.1.0	Magnetosphere	Polar
+1.3.0	1.1.0	Magnetosphere	Radiation Belt
+1.3.0	1.1.0	Measurement Type	Activity Index
+1.3.0	1.1.0	Measurement Type	Charged Particle Flux
+1.3.0	1.1.0	Measurement Type	Dopplergram
+1.3.0	1.1.0	Measurement Type	Electric Field
+1.3.0	1.1.0	Measurement Type	Energetic Particles
+1.3.0	1.2.0	Measurement Type	Ephemeris
+1.3.0	1.1.0	Measurement Type	Image Intensity
+1.3.0	1.2.0	Measurement Type	Instrument Status
+1.3.0	1.1.0	Measurement Type	Ion Composition
+1.3.0	1.1.0	Measurement Type	Irradiance
+1.3.0	1.1.0	Measurement Type	Magnetic Field
+1.3.0	1.1.0	Measurement Type	Magnetogram
+1.3.0	1.1.0	Measurement Type	Neutral Atom Images
+1.3.0	1.1.0	Measurement Type	Neutral Gas
+1.3.0	1.1.0	Measurement Type	Profile
+1.3.0	1.1.0	Measurement Type	Radiance
+1.3.0	1.1.0	Measurement Type	Radio and Plasma Waves
+1.3.0	1.1.0	Measurement Type	Radio Soundings
+1.3.0	1.2.0	Measurement Type	Spectrum
+1.3.0	1.1.0	Measurement Type	Thermal Plasma
+1.3.0	1.2.0	Near Surface	Atmosphere
+1.3.0	1.2.0	Near Surface	Auroral Region
+1.3.0	1.2.0	Near Surface	Equatorial Region
+1.3.0	1.2.0	Near Surface	Ionosphere
+1.3.0	1.2.0	Near Surface	Mesosphere
+1.3.0	1.2.0	Near Surface	Plasmasphere
+1.3.0	1.2.0	Near Surface	Polar Cap
+1.3.0	1.2.0	Near Surface	South Atlantic Anomaly Region
+1.3.0	1.2.0	Near Surface	Stratosphere
+1.3.0	1.2.0	Near Surface	Thermosphere
+1.3.0	1.2.0	Near Surface	Troposphere
+1.3.0	1.2.1	Particle Qualifier	Anisotropy
+1.3.0	1.1.0	Particle Qualifier	Average
+1.3.0	1.2.1	Particle Qualifier	Characteristic
+1.3.0	1.2.0	Particle Qualifier	Component
+1.3.0	1.1.0	Particle Qualifier	Deviation
+1.3.0	1.1.0	Particle Qualifier	Differential
+1.3.0	1.1.0	Particle Qualifier	Fit
+1.3.0	1.1.0	Particle Qualifier	Integral
+1.3.0	1.1.0	Particle Qualifier	Magnitude
+1.3.0	1.1.0	Particle Qualifier	Moment
+1.3.0	1.1.0	Particle Qualifier	Parallel
+1.3.0	1.1.0	Particle Qualifier	Peak
+1.3.0	1.1.0	Particle Qualifier	Perpendicular
+1.3.0	1.1.0	Particle Qualifier	Ratio
+1.3.0	1.2.0	Particle Qualifier	Scalar
+1.3.0	1.2.0	Particle Qualifier	Standard Deviation
+1.3.0	1.2.0	Particle Qualifier	Tensor
+1.3.0	1.2.0	Particle Qualifier	Uncertainty
+1.3.0	1.1.0	Particle Qualifier	Variance
+1.3.0	1.0.0	Particle Qualifier	Vector
+1.3.0	1.1.0	Particle Quantity	Alfven Mach Number
+1.3.0	1.1.0	Particle Quantity	Average Charge State
+1.3.0	1.1.0	Particle Quantity	Counts
+1.3.0	1.2.1	Particle Quantity	Energy
+1.3.0	1.2.1	Particle Quantity	Energy Density
+1.3.0	1.2.1	Particle Quantity	Energy Flux
+1.3.0	1.2.1	Particle Quantity	Flow Speed
+1.3.0	1.2.1	Particle Quantity	Gyrofrequency
+1.3.0	1.1.0	Particle Quantity	Heat Flux
+1.3.0	1.1.0	Particle Quantity	Mass
+1.3.0	1.1.0	Particle Quantity	Mass Density
+1.3.0	1.1.0	Particle Quantity	Number Density
+1.3.0	1.2.1	Particle Quantity	Number Flux
+1.3.0	1.1.0	Particle Quantity	Phase-Space Density
+1.3.0	1.1.0	Particle Quantity	Plasma Beta
+1.3.0	1.2.1	Particle Quantity	Plasmafrequency
+1.3.0	1.1.0	Particle Quantity	Pressure
+1.3.0	1.1.0	Particle Quantity	Sonic Mach Number
+1.3.0	1.1.0	Particle Quantity	Temperature
+1.3.0	1.1.0	Particle Quantity	Thermal Speed
+1.3.0	1.1.0	Particle Quantity	Velocity
+1.3.0	1.1.0	Particle Type	Aerosol
+1.3.0	1.1.0	Particle Type	Alpha Particle
+1.3.0	1.1.0	Particle Type	Dust
+1.3.0	1.1.0	Particle Type	Electron
+1.3.0	1.1.0	Particle Type	Ion
+1.3.0	1.1.0	Particle Type	Molecule
+1.3.0	1.1.0	Particle Type	Neutral
+1.3.0	1.1.0	Particle Type	Proton
+1.3.0	1.3.0	Phenomenon Type	Active Region
+1.3.0	1.1.0	Phenomenon Type	Aurora
+1.3.0	1.1.0	Phenomenon Type	Bow Shock Crossing
+1.3.0	1.3.0	Phenomenon Type	Coronal Hole
+1.3.0	1.1.0	Phenomenon Type	Coronal Mass Ejection
+1.3.0	1.3.0	Phenomenon Type	EIT Wave
+1.3.0	1.1.0	Phenomenon Type	Energetic Solar Particle Event
+1.3.0	1.1.0	Phenomenon Type	Forbush Decrease
+1.3.0	1.1.0	Phenomenon Type	Geomagnetic Storm
+1.3.0	1.1.0	Phenomenon Type	Interplanetary Shock
+1.3.0	1.3.0	Phenomenon Type	Magnetic Cloud
+1.3.0	1.1.0	Phenomenon Type	Magnetopause Crossing
+1.3.0	1.3.0	Phenomenon Type	Radio Burst
+1.3.0	1.1.0	Phenomenon Type	Solar Flare
+1.3.0	1.1.0	Phenomenon Type	Solar Wind Extreme
+1.3.0	1.2.0	Phenomenon Type	Substorm
+1.3.0	1.1.0	Photon Qualifier	Average
+1.3.0	1.1.0	Photon Qualifier	Circular
+1.3.0	1.1.0	Photon Qualifier	Line of Sight
+1.3.0	1.1.0	Photon Qualifier	Linear
+1.3.0	1.1.0	Photon Qualifier	Peak
+1.3.0	1.2.0	Photon Qualifier	Scalar
+1.3.0	1.2.0	Photon Qualifier	Standard Deviation
+1.3.0	1.1.0	Photon Qualifier	Stoke's Parameters
+1.3.0	1.2.0	Photon Qualifier	Uncertainty
+1.3.0	1.1.0	Photon Qualifier	Variance
+1.3.0	1.1.0	Photon Quantity	Emissivity
+1.3.0	1.2.1	Photon Quantity	Energy Flux
+1.3.0	1.1.0	Photon Quantity	Equivalent Width
+1.3.0	1.2.1	Photon Quantity	Gyrofrequency
+1.3.0	1.1.0	Photon Quantity	Line Depth
+1.3.0	1.1.0	Photon Quantity	Magnetic Field
+1.3.0	1.1.0	Photon Quantity	Mode Amplitude
+1.3.0	1.2.1	Photon Quantity	Plasma Frequency
+1.3.0	1.1.0	Photon Quantity	Polarization
+1.3.0	1.1.0	Photon Quantity	Stoke's Parameters
+1.3.0	1.1.0	Photon Quantity	Velocity
+1.3.0	1.1.0	Processing Level	Calibrated
+1.3.0	1.1.0	Processing Level	Raw
+1.3.0	1.1.0	Processing Level	Uncalibrated
+1.3.0	1.2.0	Region	Asteroid
+1.3.0	1.2.0	Region	Comet
+1.3.0	1.1.0	Region	Earth
+1.3.0	1.1.0	Region	Heliosphere
+1.3.0	1.2.0	Region	Jupiter
+1.3.0	1.2.0	Region	Mars
+1.3.0	1.2.0	Region	Mercury
+1.3.0	1.2.0	Region	Neptune
+1.3.0	1.2.0	Region	Pluto
+1.3.0	1.2.0	Region	Saturn
+1.3.0	1.1.0	Region	Sun
+1.3.0	1.2.0	Region	Uranus
+1.3.0	1.2.0	Region	Venus
+1.3.0	1.1.0	Repository Name	Open List
+1.3.0	1.2.1	Role	Archive Specialist
+1.3.0	1.1.0	Role	Co-Investigator
+1.3.0	1.3.0	Role	Contributor
+1.3.0	1.1.0	Role	Data Producer
+1.3.0	1.1.0	Role	Deputy-PI
+1.3.0	1.1.0	Role	General Contact
+1.3.0	1.2.0	Role	Metadata Contact
+1.3.0	1.1.0	Role	Principal Investigator
+1.3.0	1.1.0	Role	Project Scientist
+1.3.0	1.3.0	Role	Publisher
+1.3.0	1.1.0	Role	Scientist
+1.3.0	1.1.0	Role	Team Leader
+1.3.0	1.1.0	Role	Team Member
+1.3.0	1.1.0	Role	Technical Contact
+1.3.0	1.2.1	Spectral Range	Ca-K
+1.3.0	1.2.1	Spectral Range	Extreme Ultraviolet
+1.3.0	1.1.0	Spectral Range	Gamma Rays
+1.3.0	1.2.1	Spectral Range	H-alpha
+1.3.0	1.1.0	Spectral Range	Hard X-rays
+1.3.0	1.2.1	Spectral Range	He-10830
+1.3.0	1.1.0	Spectral Range	Infrared
+1.3.0	1.2.1	Spectral Range	K-7699
+1.3.0	1.1.0	Spectral Range	Microwave
+1.3.0	1.2.1	Spectral Range	Na-D
+1.3.0	1.2.1	Spectral Range	Ni-6768
+1.3.0	1.1.0	Spectral Range	Optical
+1.3.0	1.1.0	Spectral Range	Radio Frequency 
+1.3.0	1.1.0	Spectral Range	Ultraviolet
+1.3.0	1.2.1	Spectral Range	White-light
+1.3.0	1.1.0	Spectral Range	X-Rays
+1.3.0	1.1.0	Sun	Chromosphere
+1.3.0	1.1.0	Sun	Corona
+1.3.0	1.1.0	Sun	Interior
+1.3.0	1.1.0	Sun	Photosphere
+1.3.0	1.1.0	Sun	Transition Region
+1.3.0	1.2.0	Support Quantity	Other
+1.3.0	1.2.0	Support Quantity	Positional
+1.3.0	1.2.0	Support Quantity	Temporal

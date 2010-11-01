@@ -151,4 +151,33 @@
 151	1.2.2	2008-07-31	L.Bargatze	Added "Ionosphere" as a list.	Permitted during 2008 June 26 telecon.
 152	1.2.2	2008-07-31	L.Bargatze	Azimuthal Angle,Dayside,Electric Field Instrument,Frequency,High Latitude,Low Latitude,Nightside,Polar Angle,Provider ID,Provider Release Date,RTF,SGI,Soft X-rays,Spatial Range,TeX,Wavelength,Wavenumber,XDR	Permitted during 2008 June 26 telecon.
 153	1.2.2	2008-07-31	L.Bargatze	Added Repository ID and Stop Date	Permitted during 2008 June 26 telecon.
+155	1.3.0	2007	T.King	Add WavelengthRange to dictionary; Add BandName to Bin.	
+156	1.3.0	2007	T.King	Added SupportQuantity to Support.	
+157	1.3.0	2007	T.King	Moved Extension into each resource class.	
+158	1.3.0	2007	T.King	Add SpectralRange to EnergyRange, FrequencyRange and WavelengthRange.	
+159	1.3.0	2007	T.King	Added Units, UnitsConversion, ValidMin, ValidMax, FillValue to Element	
+160	1.3.0	2007	T.King	Added Fax Number to Person.	
+161	1.3.0	2007	T.King	Added Contributor and Publisher to dictionary and Role.	
+162	1.3.0	2007	T.King	Added Language to dictionary.	
+163	1.3.0	2008	T.King	Introduced Document resource.	
+164	1.3.0	2008	T.King	Added Document Type enumeration and Paper as an item.	
+165	1.3.0	2008	T.King	Added Number Flux to Particle Quantity.	
+166	1.3.0	2008	T.King	Moved CrossSpectrum from FieldQuantity to FieldQualifier.	
+167	1.3.0	2008	T.King	Added Electromagnetic to FieldQuantity.	
+168	1.3.0	2008	T.King	Added PhysicalParameter to Catalog and DisplayData.	
+169	1.3.0	2008-04-24	T.King	Removed "Structure Type" from dictionary and Structure.	Decided during telecon on 2008-04-24.
+170	1.3.0	2008-04-24	T.King	Removed "Observatory Group" from dictionary and Observatory.	Decided during telecon on 2008-04-24.
+171	1.3.0	2008-04-25	T.King	Removed "Provider Release Date" from dictionary.	Decided during telecon on 2008-04-24.
+172	1.3.0	2008-05-20	T.King	Added "Magnetic Cloud" to dictionary and "Phenomenon Type"	Decided by e-mail on 2008-05-20.
+173	1.3.0	2008-05-20	T.King	Changed cardinality of "Phenomenon Type" to + in Catalog.	Decided by e-mail on 2008-05-20.
+174	1.3.0	2008-04-24	T.King	Restored "Observatory Group" and made it multiple occurrence.	Decided during telecon on 2008-05-08.
+175	1.3.0	2008-05-22	T.King	Added "TAR" to the dictionary and to "Encoding Type".	Decided during telecon on 2008-05-22.
+176	1.3.0	2008-05-22	T.King	Made "Encoding Type" multiple occurrence (*) in "Access Information".	Decided during telecon on 2008-05-22.
+177	1.3.0	2008-05-22	T.King	Changed "End Date" to "Stop Date" and "Relative End Date" to "Relative Stop Date".	Decided during telecon on 2008-05-22.
+178	1.3.0	2008-05-22	T.King	Added "Active Region" to dictionary and "Phenomenon Type".	Decided during telecon on 2008-05-22.
+179	1.3.0	2008-05-22	T.King	Added "Coronal Hole" to dictionary and "Phenomenon Type".	Decided during telecon on 2008-05-22.
+180	1.3.0	2008-05-22	T.King	Added "Radio Burst" to dictionary and "Phenomenon Type".	Decided during telecon on 2008-05-22.
+181	1.3.0	2008-05-22	T.King	Added "EIT Waves" to dictionary and "Phenomenon Type".	Decided during telecon on 2008-05-22.
+182	1.3.0	2008-05-22	T.King	Fixed spelling of "Plasma Frequency" in the "Photon Qualifier" list.	
+183	1.3.0	2008-05-22	T.King	Removed "Array" from the Field, Photon and Particle qualifier lists.	Decided during telecon on 2008-05-22.
 254					
