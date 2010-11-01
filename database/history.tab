@@ -124,4 +124,19 @@
 124	1.2.0	2007-05-22	T.King	Added ITM regions under Near Surface.	
 125	1.2.0	2007-05-22	T.King	Remove Instrument Region from NumericalData.	
 126	1.2.0	2007-05-22	T.King	Added WGS84 as a Coordinate System Name.	
+128	1.2.1	2008-03-20	T.King	Added SpacecraftOrbitPlane to CoordinateSystemName.	
+129	1.2.1	2008-03-20	T.King	Added Parallel and PhaseAngle to FieldQualifier.	
+130	1.2.1	2008-03-20	T.King	Added Current, GyroFrequency, Energy, PlasmaFrequency to the appropriate ParticleQuantity, FieldQuantity, or PhotonQuantity.	
+131	1.2.1	2008-03-20	T.King	Added Characteristic to ParticleQualifier.	
+132	1.2.1	2008-03-20	T.King	Add EnergyRange and WavelengthRange to PhotonQuantity.	
+133	1.2.1	2008-03-20	T.King	Added White-light, H-alpha, He-10830, Ca-K, Na-D, Extreme Ultraviolet, Ni-6768, K-7699 to dictionary and to SpectralRange.	
+134	1.2.1	2008-03-20	T.King	Added Time Of Flight Interferometer, Photometer, Radiometer, Coronograph, ProportionalCounter, ScintillationDetector, Photopolarimeter, Geiger-MuellerTube, NeutralParticleDetector, Sounder, NeutralAtomImager, RetardingPotentialAnalyser, MultispectralImager, ImagingSpectrometer, Riometer, Unspecified to Instrument Type.	
+135	1.2.1	2008-03-20	T.King	Added Archive Specialist to Role.	
+136	1.2.1	2008-03-20	T.King	Added Flow Speed, Number Flux to Particle Quantity.	
+137	1.2.1	2008-03-20	T.King	Added Energy Flux to Particle Quantity and Photon Quantity.	
+138	1.2.1	2008-03-20	T.King	Added Anisotropy to Particle Qualifier.	
+139	1.2.1	2008-03-20	T.King	Added Carrington and HCI to Coordinate System.	
+140	1.2.1	2008-03-20	T.King	Updated definitions of Vector and Size.	
+141	1.2.1	2008-03-20	T.King	Removed Flux and Intensity.	
+142	1.2.1	2008-03-20	T.King	Released.	
 254					

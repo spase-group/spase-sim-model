@@ -55,11 +55,19 @@ Rose Daley, <rose.daley@jhuapl.edu>
 <br>
 Brand Fortner, <brand.fortner@jhuapl.edu>
 <br>
+Daniel Morrison, <daniel.morrison@jhuapl.edu>
+<br>
 Stu Nylund, <stu.nylund@jhuapl.edu>
 <br>
 Jon Vandergriff, <jon.vandergriff@jhuapl.edu>
 <br>
 Michele Weiss, <michele.weiss@jhuapl.edu>
+</dd>
+
+<b>George Mason University</b>
+<dd>
+<br>
+Robert Weigel, <rweigel@gmu.edu>
 </dd>
 
 <b>Goddard Space Flight Center (GSFC)</b>
