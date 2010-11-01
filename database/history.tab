@@ -198,4 +198,17 @@
 199	1.3.2	2008-10-07	T.King	Added "Interstellar" to dictionary and Region.	Decided during the telecon on 2008-09-18
 200	1.3.2	2008-10-15	T.King	Changed "Format" under "Rendering Hints" to "Value Format" to eliminate name conflict with "Format".	
 201	1.3.3	2008-10-16	T.King	Added the "Association" container and "Association Type" enumeration to the dictionary. Modified the ontology to replace "Association Type" with the new "Association" container.	Decided during the telecon on 2008-10-16
+202	1.3.4	2009-01-14	T.King	Added "Wave", "Passive" and "Active" to the dictionary. Added "Wave" as an enumeration. Remove "Radio and Plasma Waves" and "Radio Soundings" from the "Measurement Type" enumeration and added "Wave" to the enumeration.	Decided during the telecon on 2009-01-08
+203	1.3.4	2009-01-14	T.King	Added "Linear Scale" and "Log Scale" to the dictionary. Removed "Log" from the dictionary. Modified the definition of "Linear" to remove reference scaled related usage. Updated the "Scale" enumeration with the name changes.	Decided during the telecon on 2009-01-08
+204	1.3.4	2009-01-14	T.King	Added "Language" under "Information URL".	Editorial addition
+205	1.3.4	2009-01-14	T.King	Changed the definition of "Text" and converted "Text" to an enumeration with possible encoding types.	Decided during the telecon on 2009-01-08 and subsequent e-mails
+206	1.3.4	2009-01-14	T.King	Modified "Component" to consist of "I", "J", "K". Added "Direction Angle", and "Projection" to "Qualifier". Removed "R", "Theta", "Phi", "X", "Y", and "Z". Added "Direction Angle" as an enumeration with values of "Azimuth Angle", "Polar Angle" and "Elevation Angle". Added "Projection" as an enumeration with value of "IJ", "IK", and "JK".	Decided during the telecon on 2009-01-08
+207	1.3.4	2009-01-22	T.King	Modified definition of "Mixed"	Decided during the telecon on 2009-01-22
+208	1.3.4	2009-01-22	T.King	Changed occurrence of "Particle" to one or more.	Decided during the telecon on 2009-01-22
+209	1.3.4	2009-01-23	T.King	Added "Ion Chamber" to dictionary and "Instrument Type" list.	Decided during the telecon on 2009-01-22
+210	1.3.4	2009-02-05	T.King	Added (restored) "Intensity" to dictionary and "Photon Quantity" list.	Decided during the telecon on 2009-02-05
+211	1.3.4	2009-02-05	T.King	Changed "Line-of-sight" to "Line Of Sight".	Decided during the telecon on 2009-02-05
+212	1.3.4	2009-02-05	T.King	Added "Psuedo" and "Column" to the dictionary and to "Qualifier" list.	Decided during the telecon on 2009-02-05
+213	1.3.4	2009-02-26	T.King	Added "Annotation" resource and "Annotation Type" and "Confidence Rating" enumerations. The terms "Anomaly", "Event", "Feature", "Probable", "Good", "High" were added to support the new enumerations.	Decided during the telecon on 2009-02-05
+214	1.3.4	2009-02-27	T.King	Change "Wave" to "Waves".	Editorial Change
 254					
