@@ -137,9 +137,9 @@ Eric Kihn, <eric.a.kihn@noaa.gov>
 <b>Rutherford Appleton Laboratory (RAL)</b>
 <dd>
 <br>
-Chris Perry, <c.h.perry@rl.ac.uk>
+Chris Perry, <chris.perry@stfc.ac.uk>
 <br>
-Phil Richards, <P.J.Richards@rl.ac.uk> 
+Phil Richards, <philip.richards@stfc.ac.uk>
 </dd>
 
 <b>Stanford University</b>

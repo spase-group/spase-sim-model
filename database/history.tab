@@ -1,3 +1,4 @@
+#ID	Version	Updated	ChangedBy	Description	Note
 1	0.99.1	2005-06-23	T.King	Removed duplicate entries.	
 2	0.99.1	2005-06-23	T.King	Added Chris Harvey's definitions for Electron Drift.	
 3	0.99.1	2005-06-23	T.King	Particle Correlator and Spacecraft Potential Control.	
@@ -15,6 +16,13 @@
 15	0.99.5	2005-08-26	T.King	Included region descriptions from J. King with additions suggested by K. Reardon.	
 16	0.99.5	2005-08-26	T.King	Add parameters loosely based on a model proposed by A.Roberts.	
 17	0.99.5	2005-08-26	T.King	Released.	
+18	0.99.6	2005-09-07	T.King	Corrected the inclusion of Atmosphere-Ionosphere regions into the Magnetosphere.	
+18	0.99.6	2005-09-07	T.King	Changed Surface to Ground.	
+18	0.99.6	2005-09-07	T.King	Removed Body and references to it.	
+18	0.99.6	2005-09-07	T.King	Added Spherical and Cartesian under Position.	
+18	0.99.6	2005-09-07	T.King	Remove Ratio (Numerator and Denominator).	
+18	0.99.6	2005-09-07	T.King	Change Upper Latitude to High Latitude, Lower to Low.	
+18	0.99.6	2005-09-07	T.King	Introduced "Photon Context" and "Particle Context" as replacements for "Independent Variable".	
 18	0.99.6	2005-09-07	T.King	Removed "Provider" and "Manufacture" resources and replaced with ID pointers.	
 19	0.99.7	2005-09-08	T.King	Under Parameter add Description, Tensor Order.	
 20	0.99.7	2005-09-08	T.King	Change Photon Context and Particle Context to Independent Variable.	
@@ -30,6 +38,7 @@
 30	0.99.7	2005-09-08	T.King	Released.	
 31	0.99.8	2005-11-03	T.King	General clean-up and alignment with the schema agreed upon at the APL meeting (Nov 2-4, 2005)	
 32	0.99.8	2005-11-03	T.King	Released.	
+33	0.99.9	2005-11-18	T.King, A. Roberts	Incorporate comments from consortium members on the "final" draft before the release of version 1.0	
 33	0.99.9	2005-11-18	T.King	Released.	
 34	1.0.0	2005-11-22	T.King, and others	Incorporate comments from consortium members on the "final" draft before the release of version 1.0.	
 35	1.0.0	2005-11-22	T.King	Added Phenomenon Type list and defined terms in the list.	
@@ -124,7 +133,7 @@
 124	1.2.0	2007-05-22	T.King	Added ITM regions under Near Surface.	
 125	1.2.0	2007-05-22	T.King	Remove Instrument Region from NumericalData.	
 126	1.2.0	2007-05-22	T.King	Added WGS84 as a Coordinate System Name.	
-127	1.2.2	2008-08-14	T.King	Released.	
+127	1.2.0	2007-05-22	T.King	Released.	
 128	1.2.1	2008-03-20	T.King	Added SpacecraftOrbitPlane to CoordinateSystemName.	
 129	1.2.1	2008-03-20	T.King	Added Parallel and PhaseAngle to FieldQualifier.	
 130	1.2.1	2008-03-20	T.King	Added Current, GyroFrequency, Energy, PlasmaFrequency to the appropriate ParticleQuantity, FieldQuantity, or PhotonQuantity.	
@@ -151,6 +160,7 @@
 151	1.2.2	2008-07-31	L.Bargatze	Added "Ionosphere" as a list.	Permitted during 2008 June 26 telecon.
 152	1.2.2	2008-07-31	L.Bargatze	Azimuthal Angle,Dayside,Electric Field Instrument,Frequency,High Latitude,Low Latitude,Nightside,Polar Angle,Provider ID,Provider Release Date,RTF,SGI,Soft X-rays,Spatial Range,TeX,Wavelength,Wavenumber,XDR	Permitted during 2008 June 26 telecon.
 153	1.2.2	2008-07-31	L.Bargatze	Added Repository ID and Stop Date	Permitted during 2008 June 26 telecon.
+127	1.2.2	2008-08-14	T.King	Released.	
 155	1.3.0	2007	T.King	Add WavelengthRange to dictionary; Add BandName to Bin.	
 156	1.3.0	2007	T.King	Added SupportQuantity to Support.	
 157	1.3.0	2007	T.King	Moved Extension into each resource class.	
@@ -250,4 +260,4 @@
 251	2.2.0	2010-08-20	T.King	Updated definitions of "Outer", "Inner", "Heliosheath" and "Remote 1AU" 	Decided durinng the telecon on 2010-07-08 and refined through subsequent e-mail.
 252	2.2.0	2010-09-15	T.King	Added "Excel" to dictionary and to "Format" list; Added "Rendering Axis", and "Index" to dictionary and under "Rendering Hints"; Add "Vertical", "Horizontal", and "Color Bar" to dictionary and to the "Rendering Hints" enumeration; Changed cardinality of "Investigation Name" from 1 to +; Add "Median, " Maximum" and "Minimum" to dictionary and to "Qualifer" list.;	Decided durinng the telecon on 2010-08-26.
 253	2.2.0	2010-09-17	T.King	Added "SSE_L" to dictionary and to "Coordinate System Name" list;	Decided durinng the telecon on 2010-09-16.
-254					
+
