@@ -1,3 +1,4 @@
+Version	Since	Name	Type	Reference	Description
 2.2.0	1.0.0	Access Rights	Closed		Identifiers for permissions granted or denied by the host of a product to allow other users to access and use the resource.
 2.2.0	1.3.4	Annotation Type	Closed		Identifiers for an classification of an annotation.
 2.2.0	1.3.3	Association Type	Closed		Identifiers for resource associations.

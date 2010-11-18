@@ -1,3 +1,4 @@
+Version	Since	Term	Type	List	Elements	Attributes	Definition
 2.2.0	1.3.5	Absorption	Item				Decrease of radiant energy (relative to the background continuum spectrum).
 2.2.0	1.3.5	AC-Electric Field	Item				Alternating electric field component of a wave.
 2.2.0	1.3.5	AC-Magnetic Field	Item				Alternating magnetic field component of a wave.
