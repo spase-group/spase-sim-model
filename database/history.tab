@@ -261,4 +261,6 @@
 260	2.2.0	2010-09-15	T.King	Added "Excel" to dictionary and to "Format" list; Added "Rendering Axis", and "Index" to dictionary and under "Rendering Hints"; Add "Vertical", "Horizontal", and "Color Bar" to dictionary and to the "Rendering Hints" enumeration; Changed cardinality of "Investigation Name" from 1 to +; Add "Median, " Maximum" and "Minimum" to dictionary and to "Qualifer" list.;	Decided durinng the telecon on 2010-08-26.
 261	2.2.0	2010-09-17	T.King	Added "SSE_L" to dictionary and to "Coordinate System Name" list;	Decided durinng the telecon on 2010-09-16.
 262	2.2.0	2011-01-06	T.King	Updated definition for "irradence".
-263	2.2.0	2010-01-06	T.King	Released.	
+263	2.2.0	2011-01-06	T.King	Released.	
+264	2.2.1	2011-05-12	T.King	Strike "product" from the definition of "Numerical Data".;	Per e-mail from Joe King 4/21/2011
+265	2.2.1	2011-06-16	T.King	Added "core", "halo", "strahl" and "superhalo" to the dictionary and to "Qualifier";	As supplied by Aaron Roberts 4/21/2011, modifed by Todd King; Decided during the telecon on 2011-06-12.
