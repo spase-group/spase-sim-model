@@ -211,7 +211,12 @@ resource types. Complete details for each resource can be found in
 Section 4.
 
 <h3>Data Resources</h3>
-Data Resources describe individual data products or data product sets. 
+Data Resources describe one or more data products. 
+A "data product" is a set of data that is uniformly processed and formatted, 
+from one or more instruments, typically spanning the full duration of the 
+observations of the relevant instrument(s). A data product may consist of a 
+collection of granules of successive time spans, but may be high-level 
+entities such as event catalogs.
 Data products can be images (Display Data), sample or observation values 
 (Numerical Data), event lists (Catalog). Included in the Data Resource 
 category are the resources used to describe individual files (Granule) 

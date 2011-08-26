@@ -1,4 +1,4 @@
-Version	Since	Term	Type	List	Elements	Attributes	Definition
+#Version	Since	Term	Type	List	Elements	Attributes	Definition
 2.2.1	1.3.5	Absorption	Item				Decrease of radiant energy (relative to the background continuum spectrum).
 2.2.1	1.3.5	AC-Electric Field	Item				Alternating electric field component of a wave.
 2.2.1	1.3.5	AC-Magnetic Field	Item				Alternating magnetic field component of a wave.
@@ -58,7 +58,7 @@ Version	Since	Term	Type	List	Elements	Attributes	Definition
 2.2.1	1.0.0	Calibrated	Item				Data wherein sensor outputs have been convolved with instrument response function, often irreversibly, to yield data in physical units.
 2.2.1	1.2.1	Carrington	Item				A coordinate system which is centered at the Sun and is "fixed" with respect to the synodic rotation rate; the mean synodic value is about 27.2753 days. The Astronomical Almanac gives a value for Carrington longitude of 349.03 degrees at 0000 UT on 1 January 1995.
 2.2.1	1.0.0	Cartesian	Item				A representation in which a position vector or a measured vector (e.g., field or flow) is specified by its components along the base axes of the coordinate system.
-2.2.1	1.0.0	Catalog	Container				A tabular listing of events or observational notes, especially those that have utility in aiding a user in locating data. Catalogues include lists of events, files in a product, and data availability.
+2.2.1	1.0.0	Catalog	Container				A tabular listing of events or observational notes, especially those that have utility in aiding a user in locating data. Catalogues include lists of events, files in a product, and data availability. A Catalog resource is a type of "data product" which is a set of data that is uniformly processed and formatted, from one or more instruments, typically spanning the full duration of the observations of the relevant instrument(s). A data product may consist of a collection of granules of successive time spans, but may be a single high-level entity.
 2.2.1	1.0.0	Caveats	Text				Information which may be important in the avoidance of the misuse of the resource, for instance instrument maladies, corruption or contamination.
 2.2.1	1.0.0	CDF	Item				Common Data Format (CDF). A binary storage format developed at Goddard Space Flight Center (GSFC).
 2.2.1	1.0.0	CEF	Item				Cluster Exchange Format (CEF) is a self-documenting ASCII format designed for the exchange of data. There are two versions of CEF which are not totally compatible.
@@ -107,7 +107,7 @@ Version	Since	Term	Type	List	Elements	Attributes	Definition
 2.2.1	1.3.4	Direction Angle	Enumeration	Direction Angle			The angle between a position vector or measured vector (or one of its projections onto a plane) and one of the base axes of the coordinate system.
 2.2.1	2.2.0	Directional	Item				A measurement within a narrow range of solid angle.
 2.2.1	1.0.0	Display Cadence	Duration				The time interval between the successive display elements.
-2.2.1	1.0.0	Display Data	Container				A graphical representation of data wherein the underlying numeric values are not (readily) accessible for analysis.. Examples are line plots and spectrograms.
+2.2.1	1.0.0	Display Data	Container				A graphical representation of data wherein the underlying numeric values are not (readily) accessible for analysis.. Examples are line plots and spectrograms. A Display Data resource is a type of "data product" which is a set of data that is uniformly processed and formatted, from one or more instruments, typically spanning the full duration of the observations of the relevant instrument(s). A data product may consist of a collection of granules of successive time spans, but may be a single high-level entity.
 2.2.1	1.3.1	Display Type	Enumeration	Display Type			The general styling or type of plot that is suitable for the variable.
 2.2.1	1.0.0	DM	Item				Dipole Meridian - A coordinate system centered at the observation point. Z axis is parallel to the Earth's dipole axis, positive northward. X is in the plane defined by Z and the line linking the observation point with the Earth's center. Y is positive eastward. See <http://cdpp.cnes.fr/00428.pdf>
 2.2.1	1.3.0	Document	Container				A set of information designed and presented as an individual entity. A document may contain plain or formatted text, in-line graphics, sound, other multimedia data, or hypermedia references. Some examples of documents include a paper, letter, book, user guide, map, drawing, photograph, or image.
@@ -332,7 +332,7 @@ Version	Since	Term	Type	List	Elements	Attributes	Definition
 2.2.1	1.2.0	Note	Text				Information which is useful or important for the understanding of a value or parameter.
 2.2.1	1.0.0	Number Density	Item				The number of particles per unit volume.
 2.2.1	1.2.1	Number Flux	Item				The number of particles passing a unit area in unit time, possibly also per unit energy (or equivalent) and/or per unit look direction.
-2.2.1	1.0.0	Numerical Data	Container				Data stored as numerical values in a specified format.
+2.2.1	1.0.0	Numerical Data	Container				Data stored as numerical values in a specified format. A Numerical Data resource is a type of "data product" which is a set of data that is uniformly processed and formatted, from one or more instruments, typically spanning the full duration of the observations of the relevant instrument(s). A data product may consist of a collection of granules of successive time spans, but may be a single high-level entity.
 2.2.1	1.3.6	Observation Extent	Container				The spatial area encompassed by an observation.
 2.2.1	1.0.0	Observatory	Container				The host (spacecraft, network, facility) for instruments making observations, or a family of closely related hosts.
 2.2.1	2.2.0	Observatory Group ID	Text				The identifier of an Observatory resource which the referring resource is a member of.

@@ -1,0 +1,9 @@
+.separator "\t"
+.import dictionary.tab dictionary
+.import list.tab list
+.import member.tab member
+.import ontology.tab ontology
+.import type.tab type
+delete from history;
+.import history.tab history
+.quit
