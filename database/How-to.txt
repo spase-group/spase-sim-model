@@ -1,3 +1,41 @@
+-- SQLite method ---
+The metadata model is maintained in a database.
+This database is accessed by other tools to generate all
+the different forms of documentation and representation.
+
+From the folder with the "tab" files:
+
+%> cd ../sqlite
+%> bash ./clear-version.sh x.x.x
+%> bash ./load-tables.sh
+
+Then copy the "spase-model.db" file into the webapp for the root web site.
+
+%> copy spase-model.db  "..\..\..\webapp\root\data\"
+
+From the folder containig the "model-tools/bin":
+
+%> cd ..\..\..\java\model-tools\bin
+%> bash ./makeall.sh x.x.x
+
+and then run the shema generation script to use Oxygen to generate
+some of the documentation. Instructions on how to run the command
+are displayed when "makeall.sh" completes.
+
+Commit the website to the git repository
+
+%> cd ..\..\..\webapp\root
+%> git commit -a -m "Updated web site"
+%> git push
+
+Login to to web server and pull web site
+
+%> cd /var/www/spase/site/root
+%> git pull
+
+Do the same for the SPASE School.
+
+--- Old MYSQL method ---
 Managing the SPASE data model database.
 
 All database operations are performed with SQL commands.
