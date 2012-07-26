@@ -25,7 +25,8 @@ are displayed when "makeall.sh" completes.
 Commit the website to the git repository
 
 %> cd ..\..\..\webapp\root
-%> git commit -a -m "Updated web site"
+%> git add .
+%> git commit -a -m "Update web site with new version of metadata model."
 %> git push
 
 Login to to web server and pull web site

@@ -269,4 +269,7 @@
 268	2.2.2	2011-10-27	T.King	Update definition of "Document"; Add "MIME Type" to dictionary and "Document" structure; Add "Presentation", "Poster", "White Paper", "Technical Note", "Specification" and "Report" to dictionary and to "Document Type" enumeration; Remove "Paper" from dictionary.	Decided during the telecon on 2011-10-27.
 269	2.2.2	2012-02-02	T.King	Add "Sector Boundary Crossing" to the dictionary and the "Phenomenon Type" list.; Add "Product Key" to the dictionary and under "Access Information";	Decided during the telecon on 2012-02-02
 270	2.2.2	2012-02-27	T.King	Add "Albedo" to the dictionary and to "Wave Quantity" list.; Add "Partical Radius" to the dictionary and to the "Particle Quantity" list;	Decided during the HDMC face-to-face on 2012-02-21
-271	2.2.2	2011-02-27	T.King	Released.	
+271	2.2.2	2012-02-27	T.King	Released.	
+272	2.2.3	2012-03-15	T.King	Modified definition of "Numerical Data" as suggested by R. Weigel and D.A. Roberts; Modified definition of "Potential" as suggested by F. Mozer, D.A. Roberts and S. Fung; Add "Magnetograph" to dictionary and "Instrument Type" as suggested by J. King	Decided during the telecon on 2012-03-15
+273	2.2.3	2012-05-10	T.King	Modified definitions of "GEI", "Azimuth Angle", "Elevation Angle" and "Polar Angle" as suggested by J.Merka; Add definition for "ENP and add to "Coordinate System Name" enumeration as suggested by J. Merka; Add definitions of "Photomultiplier Tube" and "Solid State Detector" to dictionary and "Intrument Type" as suggested by B. Weigel.	Decided during the telecon on 2012-05-10
+274	2.2.3	2012-05-24	T.King	Add definition of "Moon" and add to "Earth" enumeration as suggested by T. Narock.	Decided during the telecon on 2012-05-24
