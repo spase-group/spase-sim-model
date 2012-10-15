@@ -577,3 +577,10 @@
 2.2.3	1.0.0	X-Rays	Item				Photons with a wavelength range: 0.001 <= x < 10 nm
 2.2.3	1.0.0	XML	Item				eXtensible Mark-up Language (XML). A structured format for representing information. See <http://www.w3.org/XML/>
 2.2.3	1.0.0	ZIP	Item				An open standard for compression which is a variation of the LZW method and was originally used in the PKZIP utility.
+2.2.3	2.2.3	Access Method	Container				Attributes that describe how to access parameters within a resource.
+2.2.3	2.2.3	Accessor	Container				Attributes that describe how to access a resource.
+2.2.3	2.2.3	Assigned ID	String				The identifier to associate with an item. An assigned ID should be unique within the local context. For example, when used with Parameter descriptions it is unique with the Numerical Data context.
+2.2.3	2.2.3	Parameter Map	Container				Attributes that describe how to connect parameter metadata to an instance of the parameter in a physical resource.
+2.2.3	2.2.3	Parameter ID	Text				A Resource ID assigned to a parameter. It is a unique identifier of the resource within the context of the resource description (i.e. Numerical Data).
+2.2.3	2.2.3	Service ID	Text				A Resource ID assigned to a service. It has the form "scheme://authority/path" where "scheme" is "spase" for those resources administered through the SPASE framework, "authority" is the unique identifier for the resource provider registered within the SPASE framework and "path" is the unique identifier of the resource within the context of the "authority". The resource ID must be unique within the SPASE framework.
+2.2.3	2.2.3	URL Pattern	Text				A parameterized string which can be transformed into a resolvable URL. The tokens for the parameters is described in the SPASE Parameter Codes document.
