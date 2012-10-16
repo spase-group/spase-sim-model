@@ -579,8 +579,92 @@
 2.2.3	1.0.0	ZIP	Item				An open standard for compression which is a variation of the LZW method and was originally used in the PKZIP utility.
 2.2.3	2.2.3	Access Method	Container				Attributes that describe how to access parameters within a resource.
 2.2.3	2.2.3	Accessor	Container				Attributes that describe how to access a resource.
-2.2.3	2.2.3	Assigned ID	String				The identifier to associate with an item. An assigned ID should be unique within the local context. For example, when used with Parameter descriptions it is unique with the Numerical Data context.
+2.2.3	2.2.3	Assigned ID	Text				The identifier to associate with an item. An assigned ID should be unique within the local context. For example, when used with Parameter descriptions it is unique with the Numerical Data context.
 2.2.3	2.2.3	Parameter Map	Container				Attributes that describe how to connect parameter metadata to an instance of the parameter in a physical resource.
 2.2.3	2.2.3	Parameter ID	Text				A Resource ID assigned to a parameter. It is a unique identifier of the resource within the context of the resource description (i.e. Numerical Data).
 2.2.3	2.2.3	Service ID	Text				A Resource ID assigned to a service. It has the form "scheme://authority/path" where "scheme" is "spase" for those resources administered through the SPASE framework, "authority" is the unique identifier for the resource provider registered within the SPASE framework and "path" is the unique identifier of the resource within the context of the "authority". The resource ID must be unique within the SPASE framework.
 2.2.3	2.2.3	URL Pattern	Text				A parameterized string which can be transformed into a resolvable URL. The tokens for the parameters is described in the SPASE Parameter Codes document.
+2.2.3	2.2.3	Simulation Run	Container				Description.
+2.2.3	2.2.3	Charge	Text				Specify the population charge.
+2.2.3	2.2.3	Model ID	Text				Unified Resource Name of the model.
+2.2.3	2.2.3	Simulation Type	Enumeration	Simulation Type			Defines the type of simulation code.
+2.2.3	2.2.3	Temporal Dependence	Enumeration	Yes No			Are the outputs time dependent ?
+2.2.3	2.2.3	Code Language	Text				Language in which the code is written.
+2.2.3	2.2.3	Likelihood Rating	Enumeration	Confidence Rating			Likelihood of the phenomenon simulated, with the actual input parameters. 
+2.2.3	2.2.3	Simulation Domain	Container				Definition of the spatial domain of the simulation
+2.2.3	2.2.3	Spatial Dimension	Count				Number of spatial dimensions.
+2.2.3	2.2.3	Velocity Dimension	Count				Number of velocity dimensions.
+2.2.3	2.2.3	Field Dimension	Count				Number of field dimensions.
+2.2.3	2.2.3	Dimension Name	List				Useful for > 1D simulation. Specifies the dimension names. Elements of a list are separated by a blank. Example: x y z.
+2.2.3	2.2.3	Box Size	Sequence				Size of the simulation box. See list format above.
+2.2.3	2.2.3	Grid Structure	Text				Structure of the grid.
+2.2.3	2.2.3	Grid Cell Size	Sequence				Size of a cell. See list format above. Recommended
+2.2.3	2.2.3	Symmetry	Enumeration	Symmetry			Either: Axial, Plane, Central, None
+2.2.3	2.2.3	Axial	Item				Description.
+2.2.3	2.2.3	Plane	Item				Description.
+2.2.3	2.2.3	Central	Item				Description.
+2.2.3	2.2.3	Boundary Conditions	Container				Description
+2.2.3	2.2.3	Particle Boundary	Container	BoundryConditions			Description.
+2.2.3	2.2.3	Field Boundary	Container	BoundaryConditions			Description.
+2.2.3	2.2.3	Front Wall	Text				Boundary conditions on the wall upstream if any, on the x=0 plane otherwise
+2.2.3	2.2.3	Back Wall	Text				Boundary conditions on the wall downstream if any, on the x=x_max plane otherwise
+2.2.3	2.2.3	Side Wall	Text				Boundary conditions of the other walls if any.
+2.2.3	2.2.3	Obstacle	Text				Boundary conditions of the obstacle(s) if any.
+2.2.3	2.2.3	Duration	Duration				Duration of the simulation.
+2.2.3	2.2.3	Time Start	Time				Start time
+2.2.3	2.2.3	Time Stop	Time				End time
+2.2.3	2.2.3	Time Step	Duration				Time step
+2.2.3	2.2.3	Diagnosis Time Step	Container	Diagnosis Time Step			Time step between diagnosis (for dynamic run purpose).
+2.2.3	2.2.3	Saved Quantity	Enumeration	Saved Quantity			Quantity that is saved at the end of this step.
+2.2.3	2.2.3	Parameter Quantity	Enumeration	Parameter Quantity			A keyword which defines the physical type of property.
+2.2.3	2.2.3	Property	Container	Property			Properties of the parameter. At least one is mandatory.
+2.2.3	2.2.3	Property Quantity	Enumeration	Property Quantity			A keyword which defines the physical type of property.
+2.2.3	2.2.3	Property Model	Text				Name or description of a model used as property.
+2.2.3	2.2.3	Property Label	List				If PropertyValue is a list, specifies labels Elements of a list are separated by a blank. Example: x y z
+2.2.3	2.2.3	Property Value	List				Value(s) of the property.
+2.2.3	2.2.3	Property Table URL	URL				URL of a VOTable file containing the value(s) of the field versus time.
+2.2.3	2.2.3	Input Field	Container				Definition of a input field of the simulation run.
+2.2.3	2.2.3	Input Label	List				If the field is a vector field, specifies component labels. Elements of a list are separated by a blank.
+2.2.3	2.2.3	Input Value	List				Value(s) of the field.
+2.2.3	2.2.3	Input Table URL	URL				URL of a VOTable file containing the value(s) of the field versus time.
+2.2.3	2.2.3	Field Model	Text				Name or description of a field model.
+2.2.3	2.2.3	Input Process	Container				Specifies a chemical process set as input of the simulation run.
+2.2.3	2.2.3	Input Parameter	Container				Describes specific inputs to the model of a simulation run.
+2.2.3	2.2.3	Process Type	Enumeration	Process Type			Type of Process to be chosen in a list.
+2.2.3	2.2.3	Process Coefficient	Text				Coefficient of the reaction
+2.2.3	2.2.3	Process Coeff Type	Enumeration	Process Coeff Type			Type of coefficient. Either: frequency, rate, CrossSection or Other
+2.2.3	2.2.3	Process Model	Text				Name of a model used
+2.2.3	2.2.3	Model URL	URL				URL of a reference for the reaction coefficient.
+2.2.3	2.2.3	Input Population	Container				Definition of a plasma populationas input of the simulation run.
+2.2.3	2.2.3	Density	Text				Specify the population density.
+2.2.3	2.2.3	Distribution	Text				Specify the population distribution.
+2.2.3	2.2.3	Production Rate	Text				Specify the production rate
+2.2.3	2.2.3	Total Production Rate	Text				Specify the production rate integrated over the simulation domain.
+2.2.3	2.2.3	Radius	Text				Radius of the body.
+2.2.3	2.2.3	Sublongitude	Text				Solar sublongitude of the celestial body. (At simulation time 0 if rotation).
+2.2.3	2.2.3	Period	Text				Rotational period, useful if the celestial body rotates.
+2.2.3	2.2.3	Dimension	Count				Number of Dimensions of the spatial domain.
+2.2.3	2.2.3	Start	Sequence				Start position of the series, 2D cut or 3D box.
+2.2.3	2.2.3	Stop	Sequence				Stop position of the series, 2D cut or 3D box.
+2.2.3	2.2.3	Step	Sequence				Spatial step between two values in the series.
+2.2.3	2.2.3	Plane Normal Vector	Sequence				For 2D Cuts, normal vector to the plane.
+2.2.3	2.2.3	Charge Exchange	Item				Description.
+2.2.3	2.2.3	Dissociative Recombination	Item				Description.
+2.2.3	2.2.3	Electron Impact	Item				Description.
+2.2.3	2.2.3	Photo Ionization	Item				Description.
+2.2.3	2.2.3	Cross Section	Item				Description.
+2.2.3	2.2.3	Rate	Item				Description.
+2.2.3	2.2.3	IMF Clock Angle	Item				Description.
+2.2.3	2.2.3	Solar UV Flux	Item				Description.
+2.2.3	2.2.3	3D Cubes	Item				Description.
+2.2.3	2.2.3	2D Cuts	Item				Description.
+2.2.3	2.2.3	Spatial Series	Item				Description.
+2.2.3	2.2.3	Spectra	Item				Description.
+2.2.3	2.2.3	Lines	Item				Description.
+2.2.3	2.2.3	Hybrid	Item				A thing made by combining two different elements; a mixture.
+2.2.3	2.2.3	Paraboloid	Item				An area generated by the rotation of a parabola around its axis of symmetry
+2.2.3	2.2.3	Region Parameters	Container				Parameters of the celestial bodies in the simulation. Note: This is an alernative to using named regions in "ObservedRegion".
+2.2.3	2.2.3	Simulation Time	Container				Parameters related to the definition of space and time in the simulation.
+2.2.3	2.2.3	Spatial Description	Container				Specify the spatial span of the data.
+2.2.3	2.2.3	Yes	Item				Indicator in the affirmative.
+2.2.3	2.2.3	No	Item				Indicator in the negative.

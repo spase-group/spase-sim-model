@@ -43,3 +43,13 @@
 2.2.3	1.1.0	Wave Quantity	Closed		Identifiers for the characterization of the physical properties of a wave.
 2.2.3	1.3.4	Wave Type	Closed		Identifiers for the carrier or phenomenum of wave information observed by the measurement.
 2.2.3	1.3.4	Waves	Closed		Identifiers for experimental and natural wave phenomena.
+2.2.3	2.2.3	Simulation Type	Closed		Identifiers for simulation types.
+2.2.3	2.2.3	Process Type	Closed		Identifiers for process types.
+2.2.3	2.2.3	Process Coeff Type	Closed		Identifiers for process coefficient types.
+2.2.3	2.2.3	Impex Quantity	Closed		Identifiers for IMPeX quantities.
+2.2.3	2.2.3	Simulation Product	Closed		Identifiers for simulation products.
+2.2.3	2.2.3	Saved Quantity	Closed		Identifiers for saved quanties from simulation runs.
+2.2.3	2.2.3	Property Quantity	Closed		Identifiers for quanty properties usef in a simulation runs.
+2.2.3	2.2.3	Symmetry	Closed		Identifiers for symmetry of a simulation run.
+2.2.3	2.2.3	Parameter Quantity	Closed		Identifiers for the physical type of property.
+2.2.3	2.2.3	Yes No	Closed		Identifiers for Yes or No values.

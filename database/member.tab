@@ -73,7 +73,7 @@
 2.2.3	1.3.0	Document Type	Technical Note
 2.2.3	1.3.0	Document Type	Specification
 2.2.3	1.3.0	Document Type	Report
-2.2.3	1.3.0	Document Type	Other 
+2.2.3	1.3.0	Document Type	Other
 2.2.3	1.1.0	Earth	Magnetosheath
 2.2.3	1.1.0	Earth	Magnetosphere
 2.2.3	1.1.0	Earth	Near Surface
@@ -450,3 +450,265 @@
 2.2.3	1.3.4	Wave Type	Plasma Waves
 2.2.3	1.3.4	Waves	Active
 2.2.3	1.3.4	Waves	Passive
+2.2.3	2.2.3	Yes No	Yes
+2.2.3	2.2.3	Yes No	No
+2.2.3	2.2.3	Symmetry	Axial
+2.2.3	2.2.3	Symmetry	Plane
+2.2.3	2.2.3	Symmetry	Central
+2.2.3	2.2.3	Symmetry	None
+2.2.3	2.2.3	Simulation Type	Paraboloid
+2.2.3	2.2.3	Simulation Type	Hybrid
+2.2.3	2.2.3	Process Type	Charge Exchange
+2.2.3	2.2.3	Process Type	Dissociative Recombination
+2.2.3	2.2.3	Process Type	Electron Impact
+2.2.3	2.2.3	Process Type	Photo Ionization
+2.2.3	2.2.3	Process Coeff Type	Frequency
+2.2.3	2.2.3	Process Coeff Type	Cross Section
+2.2.3	2.2.3	Process Coeff Type	Rate
+2.2.3	2.2.3	Process Coeff Type	Other
+2.2.3	2.2.3	Impex Quantity	IMF Clock Angle
+2.2.3	2.2.3	Impex Quantity	Solar UV Flux
+2.2.3	2.2.3	Simulation Product	3D Cubes
+2.2.3	2.2.3	Simulation Product	2D Cuts
+2.2.3	2.2.3	Simulation Product	Spatial Series
+2.2.3	2.2.3	Simulation Product	Time Series
+2.2.3	2.2.3	Simulation Product	Spectra
+2.2.3	2.2.3	Simulation Product	Lines
+2.2.3	2.2.3	Saved Quantity	Current
+2.2.3	2.2.3	Saved Quantity	Electric
+2.2.3	2.2.3	Saved Quantity	Electromagnetic
+2.2.3	2.2.3	Saved Quantity	Gyrofrequency
+2.2.3	2.2.3	Saved Quantity	Magnetic
+2.2.3	2.2.3	Saved Quantity	Plasma Frequency
+2.2.3	2.2.3	Saved Quantity	Potential
+2.2.3	2.2.3	Saved Quantity	Poynting Flux
+2.2.3	2.2.3	Saved Quantity	Akasofu Epsilon
+2.2.3	2.2.3	Saved Quantity	Alfven Mach Number
+2.2.3	2.2.3	Saved Quantity	Alfven Velocity
+2.2.3	2.2.3	Saved Quantity	Frequency-To-Gyrofrequency Ratio
+2.2.3	2.2.3	Saved Quantity	Magnetosonic Mach Number
+2.2.3	2.2.3	Saved Quantity	Other
+2.2.3	2.2.3	Saved Quantity	Plasma Beta
+2.2.3	2.2.3	Saved Quantity	Total Pressure
+2.2.3	2.2.3	Saved Quantity	V Cross B
+2.2.3	2.2.3	Saved Quantity	Arrival Direction
+2.2.3	2.2.3	Saved Quantity	Atomic Number Detected
+2.2.3	2.2.3	Saved Quantity	Average Charge State
+2.2.3	2.2.3	Saved Quantity	Charge State
+2.2.3	2.2.3	Saved Quantity	Count Rate
+2.2.3	2.2.3	Saved Quantity	Counts
+2.2.3	2.2.3	Saved Quantity	Energy
+2.2.3	2.2.3	Saved Quantity	Energy Density
+2.2.3	2.2.3	Saved Quantity	Energy Flux
+2.2.3	2.2.3	Saved Quantity	Flow Speed
+2.2.3	2.2.3	Saved Quantity	Flow Velocity
+2.2.3	2.2.3	Saved Quantity	Fluence
+2.2.3	2.2.3	Saved Quantity	Heat Flux
+2.2.3	2.2.3	Saved Quantity	Mass
+2.2.3	2.2.3	Saved Quantity	Mass Density
+2.2.3	2.2.3	Saved Quantity	Mass Number
+2.2.3	2.2.3	Saved Quantity	Number Density
+2.2.3	2.2.3	Saved Quantity	Number Flux
+2.2.3	2.2.3	Saved Quantity	Phase-Space Density
+2.2.3	2.2.3	Saved Quantity	Pressure
+2.2.3	2.2.3	Saved Quantity	Particle Radius
+2.2.3	2.2.3	Saved Quantity	Sonic Mach Number
+2.2.3	2.2.3	Saved Quantity	Sound Speed
+2.2.3	2.2.3	Saved Quantity	Temperature
+2.2.3	2.2.3	Saved Quantity	Thermal Speed
+2.2.3	2.2.3	Saved Quantity	Velocity
+2.2.3	2.2.3	Saved Quantity	AC-Electric Field
+2.2.3	2.2.3	Saved Quantity	AC-Magnetic Field
+2.2.3	2.2.3	Saved Quantity	Doppler Frequency
+2.2.3	2.2.3	Saved Quantity	Emissivity
+2.2.3	2.2.3	Saved Quantity	Equivalent Width
+2.2.3	2.2.3	Saved Quantity	Frequency
+2.2.3	2.2.3	Saved Quantity	Intensity
+2.2.3	2.2.3	Saved Quantity	Line Depth
+2.2.3	2.2.3	Saved Quantity	Magnetic Field
+2.2.3	2.2.3	Saved Quantity	Mode Amplitude
+2.2.3	2.2.3	Saved Quantity	Polarization
+2.2.3	2.2.3	Saved Quantity	Propagation Time
+2.2.3	2.2.3	Saved Quantity	Stoke's Parameters
+2.2.3	2.2.3	Saved Quantity	Wavelength
+2.2.3	2.2.3	Saved Quantity	Electrostatic
+2.2.3	2.2.3	Saved Quantity	Hydrodynamic
+2.2.3	2.2.3	Saved Quantity	MHD
+2.2.3	2.2.3	Saved Quantity	Photon
+2.2.3	2.2.3	Saved Quantity	Plasma Waves
+2.2.3	2.2.3	Property Quantity	Azimuth Angle
+2.2.3	2.2.3	Property Quantity	Elevation Angle
+2.2.3	2.2.3	Property Quantity	Polar Angle
+2.2.3	2.2.3	Property Quantity	Current
+2.2.3	2.2.3	Property Quantity	Electric
+2.2.3	2.2.3	Property Quantity	Electromagnetic
+2.2.3	2.2.3	Property Quantity	Gyrofrequency
+2.2.3	2.2.3	Property Quantity	Magnetic
+2.2.3	2.2.3	Property Quantity	Plasma Frequency
+2.2.3	2.2.3	Property Quantity	Potential
+2.2.3	2.2.3	Property Quantity	Poynting Flux
+2.2.3	2.2.3	Property Quantity	Antenna
+2.2.3	2.2.3	Property Quantity	Channeltron
+2.2.3	2.2.3	Property Quantity	Coronograph
+2.2.3	2.2.3	Property Quantity	Double Sphere
+2.2.3	2.2.3	Property Quantity	Dust Detector
+2.2.3	2.2.3	Property Quantity	Electron Drift Instrument
+2.2.3	2.2.3	Property Quantity	Electrostatic Analyser
+2.2.3	2.2.3	Property Quantity	Energetic Particle Instrument
+2.2.3	2.2.3	Property Quantity	Faraday Cup
+2.2.3	2.2.3	Property Quantity	Flux Feedback
+2.2.3	2.2.3	Property Quantity	Fourier Transform Spectrograph
+2.2.3	2.2.3	Property Quantity	Geiger-Mueller Tube
+2.2.3	2.2.3	Property Quantity	Imager
+2.2.3	2.2.3	Property Quantity	Imaging Spectrometer
+2.2.3	2.2.3	Property Quantity	Interferometer
+2.2.3	2.2.3	Property Quantity	Ion Chamber
+2.2.3	2.2.3	Property Quantity	Ion Drift
+2.2.3	2.2.3	Property Quantity	Langmuir Probe
+2.2.3	2.2.3	Property Quantity	Long Wire
+2.2.3	2.2.3	Property Quantity	Magnetograph
+2.2.3	2.2.3	Property Quantity	Magnetometer
+2.2.3	2.2.3	Property Quantity	Mass Spectrometer
+2.2.3	2.2.3	Property Quantity	Microchannel Plate
+2.2.3	2.2.3	Property Quantity	Multispectral Imager
+2.2.3	2.2.3	Property Quantity	Neutral Atom Imager
+2.2.3	2.2.3	Property Quantity	Neutral Particle Detector
+2.2.3	2.2.3	Property Quantity	Particle Correlator
+2.2.3	2.2.3	Property Quantity	Particle Detector
+2.2.3	2.2.3	Property Quantity	Photometer
+2.2.3	2.2.3	Property Quantity	Photopolarimeter
+2.2.3	2.2.3	Property Quantity	Photomultiplier Tube
+2.2.3	2.2.3	Property Quantity	Platform
+2.2.3	2.2.3	Property Quantity	Proportional Counter
+2.2.3	2.2.3	Property Quantity	Quadrispherical Analyser
+2.2.3	2.2.3	Property Quantity	Radar
+2.2.3	2.2.3	Property Quantity	Radiometer
+2.2.3	2.2.3	Property Quantity	Resonance Sounder
+2.2.3	2.2.3	Property Quantity	Retarding Potential Analyser
+2.2.3	2.2.3	Property Quantity	Riometer
+2.2.3	2.2.3	Property Quantity	Scintillation Detector
+2.2.3	2.2.3	Property Quantity	Search Coil
+2.2.3	2.2.3	Property Quantity	Solid State Detector
+2.2.3	2.2.3	Property Quantity	Sounder
+2.2.3	2.2.3	Property Quantity	Spacecraft Potential Control
+2.2.3	2.2.3	Property Quantity	Spectral Power Receiver
+2.2.3	2.2.3	Property Quantity	Spectrometer
+2.2.3	2.2.3	Property Quantity	Time Of Flight
+2.2.3	2.2.3	Property Quantity	Unspecified
+2.2.3	2.2.3	Property Quantity	Waveform Receiver
+2.2.3	2.2.3	Property Quantity	Activity Index
+2.2.3	2.2.3	Property Quantity	Dopplergram
+2.2.3	2.2.3	Property Quantity	Dust
+2.2.3	2.2.3	Property Quantity	Electric Field
+2.2.3	2.2.3	Property Quantity	Energetic Particles
+2.2.3	2.2.3	Property Quantity	Ephemeris
+2.2.3	2.2.3	Property Quantity	Image Intensity
+2.2.3	2.2.3	Property Quantity	Instrument Status
+2.2.3	2.2.3	Property Quantity	Ion Composition
+2.2.3	2.2.3	Property Quantity	Irradiance
+2.2.3	2.2.3	Property Quantity	Magnetic Field
+2.2.3	2.2.3	Property Quantity	Magnetogram
+2.2.3	2.2.3	Property Quantity	Neutral Atom Images
+2.2.3	2.2.3	Property Quantity	Neutral Gas
+2.2.3	2.2.3	Property Quantity	Profile
+2.2.3	2.2.3	Property Quantity	Radiance
+2.2.3	2.2.3	Property Quantity	Spectrum
+2.2.3	2.2.3	Property Quantity	Thermal Plasma
+2.2.3	2.2.3	Property Quantity	Waves
+2.2.3	2.2.3	Property Quantity	Akasofu Epsilon
+2.2.3	2.2.3	Property Quantity	Alfven Mach Number
+2.2.3	2.2.3	Property Quantity	Alfven Velocity
+2.2.3	2.2.3	Property Quantity	Frequency-To-Gyrofrequency Ratio
+2.2.3	2.2.3	Property Quantity	Magnetosonic Mach Number
+2.2.3	2.2.3	Property Quantity	Other
+2.2.3	2.2.3	Property Quantity	Plasma Beta
+2.2.3	2.2.3	Property Quantity	Total Pressure
+2.2.3	2.2.3	Property Quantity	V Cross B
+2.2.3	2.2.3	Property Quantity	Arrival Direction
+2.2.3	2.2.3	Property Quantity	Atomic Number Detected
+2.2.3	2.2.3	Property Quantity	Average Charge State
+2.2.3	2.2.3	Property Quantity	Charge State
+2.2.3	2.2.3	Property Quantity	Count Rate
+2.2.3	2.2.3	Property Quantity	Counts
+2.2.3	2.2.3	Property Quantity	Energy
+2.2.3	2.2.3	Property Quantity	Energy Density
+2.2.3	2.2.3	Property Quantity	Energy Flux
+2.2.3	2.2.3	Property Quantity	Flow Speed
+2.2.3	2.2.3	Property Quantity	Flow Velocity
+2.2.3	2.2.3	Property Quantity	Fluence
+2.2.3	2.2.3	Property Quantity	Heat Flux
+2.2.3	2.2.3	Property Quantity	Mass
+2.2.3	2.2.3	Property Quantity	Mass Density
+2.2.3	2.2.3	Property Quantity	Mass Number
+2.2.3	2.2.3	Property Quantity	Number Density
+2.2.3	2.2.3	Property Quantity	Number Flux
+2.2.3	2.2.3	Property Quantity	Phase-Space Density
+2.2.3	2.2.3	Property Quantity	Pressure
+2.2.3	2.2.3	Property Quantity	Particle Radius
+2.2.3	2.2.3	Property Quantity	Sonic Mach Number
+2.2.3	2.2.3	Property Quantity	Sound Speed
+2.2.3	2.2.3	Property Quantity	Temperature
+2.2.3	2.2.3	Property Quantity	Thermal Speed
+2.2.3	2.2.3	Property Quantity	Velocity
+2.2.3	2.2.3	Property Quantity	Aerosol
+2.2.3	2.2.3	Property Quantity	Alpha Particle
+2.2.3	2.2.3	Property Quantity	Atom
+2.2.3	2.2.3	Property Quantity	Electron
+2.2.3	2.2.3	Property Quantity	Ion
+2.2.3	2.2.3	Property Quantity	Molecule
+2.2.3	2.2.3	Property Quantity	Neutron
+2.2.3	2.2.3	Property Quantity	Proton
+2.2.3	2.2.3	Property Quantity	Ca-K
+2.2.3	2.2.3	Property Quantity	Extreme Ultraviolet
+2.2.3	2.2.3	Property Quantity	Far Ultraviolet
+2.2.3	2.2.3	Property Quantity	Gamma Rays
+2.2.3	2.2.3	Property Quantity	H-alpha
+2.2.3	2.2.3	Property Quantity	Hard X-rays
+2.2.3	2.2.3	Property Quantity	He-10830
+2.2.3	2.2.3	Property Quantity	He-304
+2.2.3	2.2.3	Property Quantity	Infrared
+2.2.3	2.2.3	Property Quantity	K-7699
+2.2.3	2.2.3	Property Quantity	LBH Band
+2.2.3	2.2.3	Property Quantity	Microwave
+2.2.3	2.2.3	Property Quantity	Na-D
+2.2.3	2.2.3	Property Quantity	Ni-6768
+2.2.3	2.2.3	Property Quantity	Optical
+2.2.3	2.2.3	Property Quantity	Radio Frequency
+2.2.3	2.2.3	Property Quantity	Soft X-Rays
+2.2.3	2.2.3	Property Quantity	Ultraviolet
+2.2.3	2.2.3	Property Quantity	White-Light
+2.2.3	2.2.3	Property Quantity	X-Rays
+2.2.3	2.2.3	Property Quantity	Absorption
+2.2.3	2.2.3	Property Quantity	Albedo
+2.2.3	2.2.3	Property Quantity	AC-Electric Field
+2.2.3	2.2.3	Property Quantity	AC-Magnetic Field
+2.2.3	2.2.3	Property Quantity	Doppler Frequency
+2.2.3	2.2.3	Property Quantity	Emissivity
+2.2.3	2.2.3	Property Quantity	Equivalent Width
+2.2.3	2.2.3	Property Quantity	Frequency
+2.2.3	2.2.3	Property Quantity	Intensity
+2.2.3	2.2.3	Property Quantity	Line Depth
+2.2.3	2.2.3	Property Quantity	Mode Amplitude
+2.2.3	2.2.3	Property Quantity	Polarization
+2.2.3	2.2.3	Property Quantity	Propagation Time
+2.2.3	2.2.3	Property Quantity	Stoke's Parameters
+2.2.3	2.2.3	Property Quantity	Wavelength
+2.2.3	2.2.3	Property Quantity	Electrostatic
+2.2.3	2.2.3	Property Quantity	Hydrodynamic
+2.2.3	2.2.3	Property Quantity	MHD
+2.2.3	2.2.3	Property Quantity	Photon
+2.2.3	2.2.3	Property Quantity	Plasma Waves
+2.2.3	2.2.3	Property Quantity	Charge Exchange
+2.2.3	2.2.3	Property Quantity	Dissociative Recombination
+2.2.3	2.2.3	Property Quantity	Electron Impact
+2.2.3	2.2.3	Property Quantity	Photo Ionization
+2.2.3	2.2.3	Property Quantity	Cross Section
+2.2.3	2.2.3	Property Quantity	Rate
+2.2.3	2.2.3	Property Quantity	IMF Clock Angle
+2.2.3	2.2.3	Property Quantity	Solar UV Flux
+2.2.3	2.2.3	Property Quantity	3D Cubes
+2.2.3	2.2.3	Property Quantity	2D Cuts
+2.2.3	2.2.3	Property Quantity	Spatial Series
+2.2.3	2.2.3	Property Quantity	Time Series
+2.2.3	2.2.3	Property Quantity	Spectra
+2.2.3	2.2.3	Property Quantity	Lines
