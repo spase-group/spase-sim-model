@@ -577,3 +577,4 @@
 2.2.3	1.0.0	X-Rays	Item				Photons with a wavelength range: 0.001 <= x < 10 nm
 2.2.3	1.0.0	XML	Item				eXtensible Mark-up Language (XML). A structured format for representing information. See <http://www.w3.org/XML/>
 2.2.3	1.0.0	ZIP	Item				An open standard for compression which is a variation of the LZW method and was originally used in the PKZIP utility.
+2.2.3	2.2.3	ECEF	Item				The Earth-Centered, Earth-Fixed (ECEF) coordinate system has point (0,0,0) defined as the center of mass of the Earth. Its axes are aligned with the International Reference Pole (IRP) and International Reference Meridian (IRM). The x-axis intersects the sphere of the Earth at 0 degree latitude (Equator) and 0 degree longitude (Greenwich). The z-axis points north. The y-axis completes the right handed coordinate system.
