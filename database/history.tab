@@ -1,0 +1,282 @@
+#ID	Version	Updated	ChangedBy	Description	Note
+1	0.99.1	2005-06-23	T.King	Removed duplicate entries.	
+2	0.99.1	2005-06-23	T.King	Added Chris Harvey's definitions for Electron Drift.	
+3	0.99.1	2005-06-23	T.King	Particle Correlator and Spacecraft Potential Control.	
+4	0.99.1	2005-06-23	T.King	Released.	
+5	0.99.2	2005-07-07	T.King	Corrected "Numerical Data" entry under Product	
+6	0.99.2	2005-07-07	T.King	Released.	
+7	0.99.3	2005-08-03	T.King	Added definitions supplied by J. Thieman, C. Harvey and T.King; Significant revision of document as suggested by Joe Hourcle	
+8	0.99.4	2005-08-08	T.King	Restructured the taxonomy of elements to match the one suggested by A. Roberts.	
+9	0.99.4	2005-08-08	T.King	Added definitions for new elements introduced in the new taxonomy.	
+10	0.99.4	2005-08-08	T.King	Released.	
+11	0.99.5	2005-08-26	T.King	Clarified some definitions and corrected typographical errors based on comments from J. Thieman and J. Hourcle.	
+12	0.99.5	2005-08-26	T.King	Changed data types of "Integer" to "Count" and "Double" to "Numeric".	
+13	0.99.5	2005-08-26	T.King	Added document elements to product resources.	
+14	0.99.5	2005-08-26	T.King	Added catalog, display data to top list.	
+15	0.99.5	2005-08-26	T.King	Included region descriptions from J. King with additions suggested by K. Reardon.	
+16	0.99.5	2005-08-26	T.King	Add parameters loosely based on a model proposed by A.Roberts.	
+17	0.99.5	2005-08-26	T.King	Released.	
+18	0.99.6	2005-09-07	T.King	Corrected the inclusion of Atmosphere-Ionosphere regions into the Magnetosphere.	
+19	0.99.6	2005-09-07	T.King	Changed Surface to Ground.	
+20	0.99.6	2005-09-07	T.King	Removed Body and references to it.	
+21	0.99.6	2005-09-07	T.King	Added Spherical and Cartesian under Position.	
+22	0.99.6	2005-09-07	T.King	Remove Ratio (Numerator and Denominator).	
+23	0.99.6	2005-09-07	T.King	Change Upper Latitude to High Latitude, Lower to Low.	
+24	0.99.6	2005-09-07	T.King	Introduced "Photon Context" and "Particle Context" as replacements for "Independent Variable".	
+25	0.99.6	2005-09-07	T.King	Removed "Provider" and "Manufacture" resources and replaced with ID pointers.	
+26	0.99.7	2005-09-08	T.King	Under Parameter add Description, Tensor Order.	
+27	0.99.7	2005-09-08	T.King	Change Photon Context and Particle Context to Independent Variable.	
+28	0.99.7	2005-09-08	T.King	Move Wavelength and Wave Number under Photon Independent Variable.	
+29	0.99.7	2005-09-08	T.King	Drop Speed from Particle Independent Variable.	
+30	0.99.7	2005-09-08	T.King	Move Polar Angle under Particle Independent Variable.	
+31	0.99.7	2005-09-08	T.King	Add Analysis Method under Field/Electric and Field/Magnetic.	
+32	0.99.7	2005-09-08	T.King	Add Wave Form, Spectra etc. under Analysis Method.	
+33	0.99.7	2005-09-08	T.King	Add Near 1AU under Heliosphere; Add Body under Atmosphere-Ionosphere, Magnetosphere and Ground.	
+34	0.99.7	2005-09-08	T.King	Add all planets + Moon under Body.	
+35	0.99.7	2005-09-08	T.King	Update definition of Magnetotail, etc. to be generic, add Earth examples.	
+36	0.99.7	2005-09-08	T.King	Change "Acceptable abbreviation" to "Conventional abbreviation" since abbreviations are not supported in the model.	
+37	0.99.7	2005-09-08	T.King	Released.	
+38	0.99.8	2005-11-03	T.King	General clean-up and alignment with the schema agreed upon at the APL meeting (Nov 2-4, 2005)	
+39	0.99.8	2005-11-03	T.King	Released.	
+40	0.99.9	2005-11-18	T.King, A. Roberts	Incorporate comments from consortium members on the "final" draft before the release of version 1.0	
+41	0.99.9	2005-11-18	T.King	Released.	
+42	1.0.0	2005-11-22	T.King, and others	Incorporate comments from consortium members on the "final" draft before the release of version 1.0.	
+43	1.0.0	2005-11-22	T.King	Added Phenomenon Type list and defined terms in the list.	
+44	1.0.0	2005-11-22	T.King	Released.	
+45	1.0.1	2006-01-03	T.King	Changes in value type for elements: Exposure, InputResourceID, RepositoryName, Size.	
+46	1.0.1	2006-01-03	T.King	Added elements: Pressure.	
+47	1.0.1	2006-01-03	T.King	Released.	
+48	1.0.2	2006-03-07	T.King	Added "Project Scientist" to dictionary and "Role".	
+49	1.0.2	2006-03-07	T.King	Added "Caveats" under "Instrument".	
+50	1.0.2	2006-03-07	T.King	Added "Repository" resource class.	
+51	1.0.2	2006-03-07	T.King	Added "Registry" resource class.	
+52	1.0.2	2006-03-07	T.King	Released.	
+53	1.0.3	2006-04-27	T.King	Added "Earth" as a enumeration with "Magnetosphere" as a member.	
+54	1.0.3	2006-04-27	T.King	Changed "Observed Region" and "Instrument Region" to enumerations.	
+55	1.0.3	2006-04-27	T.King	Changed definition of "Item" to indicate it is a value of an enumeration.	
+56	1.0.3	2006-04-27	T.King	Move "Access Rights" under "Access Information".	
+57	1.0.3	2006-04-27	T.King	Made "Acknowledgement optional.	
+58	1.0.3	2006-04-27	T.King	Change "HF Radar" to "Radar".	
+59	1.0.3	2006-04-27	T.King	Added "NCAR" as a "Format".	
+60	1.0.3	2006-04-27	T.King	Dropped N, Z, Q from dictionary.	
+61	1.0.3	2006-04-27	T.King	Moved Mass and Size under "Particle Physical Quantity" and changed to type item.	
+62	1.0.3	2006-04-27	T.King	Added "Near Earth" under "Heliosphere" and added "Outside Bowshock" and "Orbital" under "Near Earth".	
+63	1.0.3	2006-04-27	T.King	Changed "Spectral Range Name" to "Spectral Range" for consistency.	
+64	1.0.3	2006-04-27	T.King	Correct links to "Stoke's Parameters".	
+65	1.0.3	2006-04-27	T.King	Released.	
+66	1.1.0	2006-08-31	T.King	Removed "Orbital".	
+67	1.1.0	2006-08-31	T.King	Modified definition of "Near Earth".	
+68	1.1.0	2006-08-31	T.King	Changed "Instrument type" to allow multiple occurrences.	
+69	1.1.0	2006-08-31	T.King	Made data type of "Mixed" text.	
+70	1.1.0	2006-08-31	T.King	Added "Service" resource class.	
+71	1.1.0	2006-08-31	T.King	Updated description of "Resource ID".	
+72	1.1.0	2006-08-31	T.King	Added MAT_4, MAT_6, MAT_7 and VOTable as a Format.	
+73	1.1.0	2006-08-31	T.King	Added J2000 as a coordinate system.	
+74	1.1.0	2006-08-31	T.King	Added Base64 as an Encoding.	
+75	1.1.0	2006-08-31	T.King	Added Parent ID, Energy Range, Frequency Range, Azimuthal Angle Range, Polar Angle Range, Atomic Number Range, Integral, Differential, Low and High.	
+76	1.1.0	2006-08-31	T.King	Remove Coordinate System from Particle Physical Parameter.	
+77	1.1.0	2006-08-31	T.King	Updated Pressure definition.	
+78	1.1.0	2006-08-31	T.King	Add ObservatoryID under Instrument.	
+79	1.1.0	2006-08-31	T.King	Remove Observatory ID from Numerical Data and Display Data.	
+80	1.1.0	2006-08-31	T.King	Changed definition of Investigation Name.	
+81	1.1.0	2006-08-31	T.King	Remove Access Right from Display Data.	
+82	1.1.0	2006-08-31	T.King	Change Repository Name to Repository ID under Access Information.	
+83	1.1.0	2006-08-31	T.King	Added Granule.	
+84	1.1.0	2006-08-31	T.King	Added Parameter Key under Physical Parameter.	
+85	1.1.0	2006-08-31	T.King	Add Release Date to Resource Header, Person, and Granule.	
+86	1.1.0	2006-08-31	T.King	Changed "alias" to "alternate name".	
+87	1.1.0	2006-08-31	T.King	Removed "Instrument Name" and "Observatory Name".	
+88	1.1.0	2006-08-31	T.King	Added ChargeState to Particle Quantity.	
+89	1.1.0	2006-08-31	T.King	Add Field Component container.	
+90	1.1.0	2006-08-31	T.King	Add Statistics to Phenomenon Type.	
+91	1.1.0	2006-08-31	T.King	Released.	
+92	1.1.1		T.King	Changed InstrumentID and Bin to multiple occurrence.	
+93	1.1.1		T.King	Removed enumeration of Component.	
+94	1.1.1		T.King	Modified definition of Units.	
+95	1.1.1		T.King	Changed AccessURL to type container.	
+96	1.2.0	2007-05-22	T.King	Added Aurora and Substorm under Phenomenon Type.	
+97	1.2.0	2007-05-22	T.King	Added Checksum, Hash Value, Hash Function, MD5 and SHA1, SHA256.	
+98	1.2.0	2007-05-22	T.King	Added Note as a term and added Note under Timespan.	
+99	1.2.0	2007-05-22	T.King	Added all planets, Comet and Asteroid as regions.	
+100	1.2.0	2007-05-22	T.King	Added Data Extent, Bytes and Per to describe the size of a resource.	
+101	1.2.0	2007-05-22	T.King	Added Data Extent to Access URL and Granule.	
+102	1.2.0	2007-05-22	T.King	Added the ValidMin, ValidMax and FillValue to Physical Parameter.	
+103	1.2.0	2007-05-22	T.King	Added Uncertainty and Standard Deviation to qualifiers.	
+104	1.2.0	2007-05-22	T.King	Added Expiration Date to Resource Header and Granule.	
+105	1.2.0	2007-05-22	T.King	Added Longitude and Latitude to Orientation.	
+106	1.2.0	2007-05-22	T.King	Updated Phi and Theta definitions.	
+107	1.2.0	2007-05-22	T.King	Added Ephemeris as an Instrument Type.	
+108	1.2.0	2007-05-22	T.King	Added Sequence as a element type and changes Size to a Sequence.	
+109	1.2.0	2007-05-22	T.King	Defined PriorID and added PriorID to ResourceHeader and Granule.	
+110	1.2.0	2007-05-22	T.King	Changed InstrumentID in DisplayData and NumericalData to one or more occurrences.	
+111	1.2.0	2007-05-22	T.King	Added Metadata Contact to Role.	
+112	1.2.0	2007-05-22	T.King	Modified definitions of H, Flux, Integral and Differential.	
+113	1.2.0	2007-05-22	T.King	Cardinality of Access Information changed from 1 to + (1 or more).	
+114	1.2.0	2007-05-22	T.King	Added Deputy-PI to Roles;Changed cardinality of Caveats under Instrument to optional.	
+115	1.2.0	2007-05-22	T.King	Added Element with members of Name, Index, ParameterKey and Component.	
+116	1.2.0	2007-05-22	T.King	Added Element under Dimension.	
+117	1.2.0	2007-05-22	T.King	Removed Orientation.	
+118	1.2.0	2007-05-22	T.King	Made Component and enumeration with the values from Orientation.	
+119	1.2.0	2007-05-22	T.King	Added InstrumentStatus to MeasurementType.	
+120	1.2.0	2007-05-22	T.King	Converted Support to an enumeration with Other, Positional and Temporal as members.	
+121	1.2.0	2007-05-22	T.King	Added ProcessingLevel, Removed Theta and Phi.	
+122	1.2.0	2007-05-22	T.King	Added Postscript as a Format.	
+123	1.2.0	2007-05-22	T.King	Added "Extension" as a container.	
+124	1.2.0	2007-05-22	T.King	Made "URL" in "Granule" multi-valued.	
+125	1.2.0	2007-05-22	T.King	Changed name of "Date" data type to "DateTime" and "Time" data type to "Duration" to be consistent with conventional terminology.	
+126	1.2.0	2007-05-22	T.King	Under "Physical Parameter" made "Parameter Key" optional and "Name" required.	
+127	1.2.0	2007-05-22	T.King	Removed "Dynamic Spectra" from "Measurement Type".	
+128	1.2.0	2007-05-22	T.King	Added "Spectrum" to "Measurement Type".	
+129	1.2.0	2007-05-22	T.King	Removed D, H, T, N, Latitude, Longitude from the dictionary.	
+130	1.2.0	2007-05-22	T.King	Added "Theta" and "Phi" to "Component".	
+131	1.2.0	2007-05-22	T.King	Added Location container under Observatory and added the elements Latitude, Longitude, Elevation, ObservatoryGroup.	
+132	1.2.0	2007-05-22	T.King	Added ITM regions under Near Surface.	
+133	1.2.0	2007-05-22	T.King	Remove Instrument Region from NumericalData.	
+134	1.2.0	2007-05-22	T.King	Added WGS84 as a Coordinate System Name.	
+135	1.2.0	2007-05-22	T.King	Released.	
+136	1.2.1	2008-03-20	T.King	Added SpacecraftOrbitPlane to CoordinateSystemName.	
+137	1.2.1	2008-03-20	T.King	Added Parallel and PhaseAngle to FieldQualifier.	
+138	1.2.1	2008-03-20	T.King	Added Current, GyroFrequency, Energy, PlasmaFrequency to the appropriate ParticleQuantity, FieldQuantity, or PhotonQuantity.	
+139	1.2.1	2008-03-20	T.King	Added Characteristic to ParticleQualifier.	
+140	1.2.1	2008-03-20	T.King	Add EnergyRange and WavelengthRange to PhotonQuantity.	
+141	1.2.1	2008-03-20	T.King	Added White-light, H-alpha, He-10830, Ca-K, Na-D, Extreme Ultraviolet, Ni-6768, K-7699 to dictionary and to SpectralRange.	
+142	1.2.1	2008-03-20	T.King	Added Time Of Flight Interferometer, Photometer, Radiometer, Coronograph, ProportionalCounter, ScintillationDetector, Photopolarimeter, Geiger-MuellerTube, NeutralParticleDetector, Sounder, NeutralAtomImager, RetardingPotentialAnalyser, MultispectralImager, ImagingSpectrometer, Riometer, Unspecified to Instrument Type.	
+143	1.2.1	2008-03-20	T.King	Added Archive Specialist to Role.	
+144	1.2.1	2008-03-20	T.King	Added Flow Speed, Number Flux to Particle Quantity.	
+145	1.2.1	2008-03-20	T.King	Added Energy Flux to Particle Quantity and Photon Quantity.	
+146	1.2.1	2008-03-20	T.King	Added Anisotropy to Particle Qualifier.	
+147	1.2.1	2008-03-20	T.King	Added Carrington and HCI to Coordinate System.	
+148	1.2.1	2008-03-20	T.King	Updated definitions of Vector and Size.	
+149	1.2.1	2008-03-20	T.King	Removed Flux and Intensity.	
+150	1.2.1	2008-03-20	T.King	Released.	
+151	1.2.2	2008-07-31	L.Bargatze	Change "Plasmafrequency" to "Plasma Frequency".	Permitted during 2008 June 26 telecon.
+152	1.2.2	2008-07-31	L.Bargatze	Change "Plasmafrequency" to "Plasma Frequency".	Permitted during 2008 June 26 telecon.
+153	1.2.2	2008-07-31	L.Bargatze	Change "Retarding Potential Analyser" to "Retarding Potential Analyzer"	Permitted during 2008 June 26 telecon.
+154	1.2.2	2008-07-31	L.Bargatze	Change "Time-of-flight" to "Time of flight".	Permitted during 2008 June 26 telecon.
+155	1.2.2	2008-07-31	L.Bargatze	Change "Observatory Group" to "Observatory Name".	Permitted during 2008 June 26 telecon.
+156	1.2.2	2008-07-31	L.Bargatze	Removed "Offline" from "Medium".	Permitted during 2008 June 26 telecon.
+157	1.2.2	2008-07-31	L.Bargatze	Remove "Field Component" from lists.	Permitted during 2008 June 26 telecon.
+158	1.2.2	2008-07-31	L.Bargatze	Remove "Near Earth" as a list.	Permitted during 2008 June 26 telecon.
+159	1.2.2	2008-07-31	L.Bargatze	Added "Ionosphere" as a list.	Permitted during 2008 June 26 telecon.
+160	1.2.2	2008-07-31	L.Bargatze	Azimuthal Angle,Dayside,Electric Field Instrument,Frequency,High Latitude,Low Latitude,Nightside,Polar Angle,Provider ID,Provider Release Date,RTF,SGI,Soft X-rays,Spatial Range,TeX,Wavelength,Wavenumber,XDR	Permitted during 2008 June 26 telecon.
+161	1.2.2	2008-07-31	L.Bargatze	Added Repository ID and Stop Date	Permitted during 2008 June 26 telecon.
+162	1.2.2	2008-08-14	T.King	Released.	
+163	1.3.0	2007	T.King	Add WavelengthRange to dictionary; Add BandName to Bin.	
+164	1.3.0	2007	T.King	Added SupportQuantity to Support.	
+165	1.3.0	2007	T.King	Moved Extension into each resource class.	
+166	1.3.0	2007	T.King	Add SpectralRange to EnergyRange, FrequencyRange and WavelengthRange.	
+167	1.3.0	2007	T.King	Added Units, UnitsConversion, ValidMin, ValidMax, FillValue to Element	
+168	1.3.0	2007	T.King	Added Fax Number to Person.	
+169	1.3.0	2007	T.King	Added Contributor and Publisher to dictionary and Role.	
+170	1.3.0	2007	T.King	Added Language to dictionary.	
+171	1.3.0	2008	T.King	Introduced Document resource.	
+172	1.3.0	2008	T.King	Added Document Type enumeration and Paper as an item.	
+173	1.3.0	2008	T.King	Added Number Flux to Particle Quantity.	
+174	1.3.0	2008	T.King	Moved CrossSpectrum from FieldQuantity to FieldQualifier.	
+175	1.3.0	2008	T.King	Added Electromagnetic to FieldQuantity.	
+176	1.3.0	2008	T.King	Added PhysicalParameter to Catalog and DisplayData.	
+177	1.3.0	2008-04-24	T.King	Removed "Structure Type" from dictionary and Structure.	Decided during telecon on 2008-04-24.
+178	1.3.0	2008-04-24	T.King	Removed "Observatory Group" from dictionary and Observatory.	Decided during telecon on 2008-04-24.
+179	1.3.0	2008-04-25	T.King	Removed "Provider Release Date" from dictionary.	Decided during telecon on 2008-04-24.
+180	1.3.0	2008-05-20	T.King	Added "Magnetic Cloud" to dictionary and "Phenomenon Type"	Decided by e-mail on 2008-05-20.
+181	1.3.0	2008-05-20	T.King	Changed cardinality of "Phenomenon Type" to + in Catalog.	Decided by e-mail on 2008-05-20.
+182	1.3.0	2008-04-24	T.King	Restored "Observatory Group" and made it multiple occurrence.	Decided during telecon on 2008-05-08.
+183	1.3.0	2008-05-22	T.King	Added "TAR" to the dictionary and to "Encoding Type".	Decided during telecon on 2008-05-22.
+184	1.3.0	2008-05-22	T.King	Made "Encoding Type" multiple occurrence (*) in "Access Information".	Decided during telecon on 2008-05-22.
+185	1.3.0	2008-05-22	T.King	Changed "End Date" to "Stop Date" and "Relative End Date" to "Relative Stop Date".	Decided during telecon on 2008-05-22.
+186	1.3.0	2008-05-22	T.King	Added "Active Region" to dictionary and "Phenomenon Type".	Decided during telecon on 2008-05-22.
+187	1.3.0	2008-05-22	T.King	Added "Coronal Hole" to dictionary and "Phenomenon Type".	Decided during telecon on 2008-05-22.
+188	1.3.0	2008-05-22	T.King	Added "Radio Burst" to dictionary and "Phenomenon Type".	Decided during telecon on 2008-05-22.
+189	1.3.0	2008-05-22	T.King	Added "EIT Waves" to dictionary and "Phenomenon Type".	Decided during telecon on 2008-05-22.
+190	1.3.0	2008-05-22	T.King	Fixed spelling of "Plasma Frequency" in the "Photon Qualifier" list.	
+191	1.3.0	2008-05-22	T.King	Removed "Array" from the Field, Photon and Particle qualifier lists.	Decided during telecon on 2008-05-22.
+192	1.3.1	2008-07-21	T.King	Updated description of duration type.	Editorial correction
+193	1.3.1	2008-07-31	T.King	Added "Set" to "Physical Parameter"	Decided during the telecon on 2008-06-26
+194	1.3.1	2008-07-31	T.King	Added "Source" dictionary and to "Granule", Removed URL, Checksum and Data Extent from Granule (now in Source)	Decided during the telecon on 2008-06-26
+195	1.3.1	2008-07-31	T.King	Added "Source Type" as a list with possible values of Data, Layout, Ancillary, Browse and Thumbnail.	Decided during the telecon on 2008-06-26
+196	1.3.1	2008-07-31	T.King	Added "Qualifier" as a unified list of all qualifiers. Removed "Field Qualifier", "Photon Qualifier" and "Particle Qualifier" from the dictionary. Replaced each with "Qualifier" in the ontology. Added "Qualifier" to "Support"	Decided during the telecon on 2008-07-231
+197	1.3.1	2008-07-31	T.King	Added "Trace" to the dictionary and to the "Qualifier" list.	Decided during the telecon on 2008-07-31
+198	1.3.1	2008-07-31	T.King	Added "Ion Drift" and "Dust Detector" to the dictionary and to the "Instrument Type" list.	Decided during the telecon on 2008-07-31
+199	1.3.1	2008-07-31	T.King	Added "Platform" to the dictionary and to the "Instrument Type" list, remove "Ephemeris" from the "Instrument Type" list.	Decided during the telecon on 2008-07-31
+200	1.3.1	2008-09-04	T.King	Added "Rendering Hints" with elements Format, AxisLabel, DisplayType, ScaleMin, ScaleMax, ScaleType and related enumerated values.	Decided during the telecon on 2008-08-21
+201	1.3.1	2008-09-04	T.King	Added "Symmetric" to the dictionary and to Qualifier.	Decided during the telecon on 2008-08-21
+202	1.3.1	2008-09-04	T.King	Changed "Physical Parameter" to "Parameter".	Decided during the telecon on 2008-09-04
+203	1.3.1	2008-09-04	T.King	Removed "Measured" and shifted containers under "Measured" up one level.	Decided during the telecon on 2008-09-04
+204	1.3.1	2008-09-04	T.King	Added "Velocity" to "Support Quantity".	Decided during the telecon on 2008-09-04
+205	1.3.1	2008-09-04	T.King	Added "Count Rate" to the dictionary and to "Particle Quantity".	Decided during the telecon on 2008-09-04
+206	1.3.2	2008-10-07	T.King	Removed "Charged Particle Flux" from Measurement Type and the dictionary.	Decided during the telecon on 2008-09-18
+207	1.3.2	2008-10-07	T.King	Added "Interstellar" to dictionary and Region.	Decided during the telecon on 2008-09-18
+208	1.3.2	2008-10-15	T.King	Changed "Format" under "Rendering Hints" to "Value Format" to eliminate name conflict with "Format".	
+209	1.3.3	2008-10-16	T.King	Added the "Association" container and "Association Type" enumeration to the dictionary. Modified the ontology to replace "Association Type" with the new "Association" container.	Decided during the telecon on 2008-10-16
+210	1.3.4	2009-01-14	T.King	Added "Wave", "Passive" and "Active" to the dictionary. Added "Wave" as an enumeration. Remove "Radio and Plasma Waves" and "Radio Soundings" from the "Measurement Type" enumeration and added "Wave" to the enumeration.	Decided during the telecon on 2009-01-08
+211	1.3.4	2009-01-14	T.King	Added "Linear Scale" and "Log Scale" to the dictionary. Removed "Log" from the dictionary. Modified the definition of "Linear" to remove reference scaled related usage. Updated the "Scale" enumeration with the name changes.	Decided during the telecon on 2009-01-08
+212	1.3.4	2009-01-14	T.King	Added "Language" under "Information URL".	Editorial addition
+213	1.3.4	2009-01-14	T.King	Changed the definition of "Text" and converted "Text" to an enumeration with possible encoding types.	Decided during the telecon on 2009-01-08 and subsequent e-mails
+214	1.3.4	2009-01-14	T.King	Modified "Component" to consist of "I", "J", "K". Added "Direction Angle", and "Projection" to "Qualifier". Removed "R", "Theta", "Phi", "X", "Y", and "Z". Added "Direction Angle" as an enumeration with values of "Azimuth Angle", "Polar Angle" and "Elevation Angle". Added "Projection" as an enumeration with value of "IJ", "IK", and "JK".	Decided during the telecon on 2009-01-08
+215	1.3.4	2009-01-22	T.King	Modified definition of "Mixed"	Decided during the telecon on 2009-01-22
+216	1.3.4	2009-01-22	T.King	Changed occurrence of "Particle" to one or more.	Decided during the telecon on 2009-01-22
+217	1.3.4	2009-01-23	T.King	Added "Ion Chamber" to dictionary and "Instrument Type" list.	Decided during the telecon on 2009-01-22
+218	1.3.4	2009-02-05	T.King	Added (restored) "Intensity" to dictionary and "Photon Quantity" list.	Decided during the telecon on 2009-02-05
+219	1.3.4	2009-02-05	T.King	Changed "Line-of-sight" to "Line Of Sight".	Decided during the telecon on 2009-02-05
+220	1.3.4	2009-02-05	T.King	Added "Psuedo" and "Column" to the dictionary and to "Qualifier" list.	Decided during the telecon on 2009-02-05
+221	1.3.4	2009-02-26	T.King	Added "Annotation" resource and "Annotation Type" and "Confidence Rating" enumerations. The terms "Anomaly", "Event", "Feature", "Probable", "Good", "High" were added to support the new enumerations.	Decided during the telecon on 2009-02-05
+222	1.3.4	2009-02-27	T.King	Change "Wave" to "Waves".	Editorial Change
+223	1.3.5	2009-03-25	T.King	Updated definitions for "Numeric" and "Text" data types.	Editorial Change.
+224	1.3.5	2009-03-26	T.King	Changed "Mixed" to a container with "Qualifier" and "Mixed Quantity" as attributes. Added "Mixed Quantity" enumeration with allowed values of "Alfven Mach Number", "Other", "Plasma Beta", "Thermal Pressure", "Alfven Velocity", "Magnetosonic Mach Number", "Plasma Beta", and "Plasma Frequency-To-Gyrofrequency Ratio".	Decided during the telecon on 2009-03-26
+225	1.3.5	2009-03-26	T.King	Added "Access URL" to "Repository" and "Registry".	Decided during the telecon on 2009-03-26
+226	1.3.5	2009-03-26	T.King	Added "Image URL" to "Annotation" and dictionary	Decided during the telecon on 2009-03-26
+227	1.3.5	2009-03-26	T.King	Various editorial updates to definitions, spelling and typos	Editorial change permitted during the telecon on 2009-03-26
+228	1.3.5	2009-03-26	T.King	Added "Plasmagram", "Spectrogram" and "Wave Form" to the dictionary and to the "Display Type" list.	Decided during the telecon on 2009-03-26
+229	1.3.5	2009-03-26	T.King	Changed the name of "Photon" to "Waves" and "PhotonQuantity" to "WaveQuantity". Added "Wave Type" with values of "Electromagnetic", "Electrostatic", "Photon", "Plasma Waves", "Hydrodynamic", and "MHD".	Decided during the telecon on 2009-03-26
+230	1.3.5	2009-03-26	T.King	Updated definitions of "Emissivity", "Equivalent Width", "Gyrofrequency", "Intensity", "Line Depth", "Plasma Frequency", "Poynting Flux". Added "Wave Type" with values of "Electromagnetic", "Electrostatic", "Photon", "Plasma Waves", "Hydrodynamic", and "MHD".	Decided during the telecon on 2009-03-26
+231	1.3.5	2009-03-26	T.King	Added "Absorption", "AC-Electric Field", "AC-Magnetic Field", "Doppler Frequency", "Frequency", "Propagation Time", and "Wavelength" to dictionary and "Wave Quantity". Added "Wave Type" with values of "Electromagnetic", "Electrostatic", "Photon", "Plasma Waves", "Hydrodynamic", and "MHD".	Decided during the telecon on 2009-03-26
+232	1.3.5	2009-03-26	T.King	Added "Far Ultraviolet", "HE-304", "LBH Band" and "Soft X-Rays" to dictionary and "Spectral Range".	Decided during the telecon on 2009-03-26
+233	1.3.5	2009-04-06	T.King	Removed "Spectral Range" from under "Energy Range".	Decided by e-mail 2009-04-06
+234	1.3.6	2009-04-09	T.King	Added "Atom" and "Neutron" to "Particle Type".	Decided during the telecon on 2009-04-09
+235	1.3.6	2009-04-09	T.King	Added "Array" and "Total" to "Qualifier".	Decided during the telecon on 2009-04-09
+236	1.3.6	2009-04-09	T.King	Added "Particle Type" to "Mixed".	Decided during the telecon on 2009-04-09
+237	1.3.6	2009-04-09	T.King	Added "Unlikely" and "Weak" to the dictionary and modified "Confidence Rating" to have values "Unlikely", "Weak", "Probable", and "Strong".	Decided during the telecon on 2009-04-09
+238	1.3.6	2009-04-09	T.King	Added "Classification Method" as a enumeration with allowed values of "Automatic", "Inspection", and "Inferred". Added "Classification Method" to "Annotation".	Decided during the telecon on 2009-04-09
+239	1.3.6	2009-04-09	T.King	Added "Observation Extent" with attributes of "Observed Region", "Start Location", "Stop Location" and "Note".  Added "Observation Extent" to "Annotation".	Decided during the telecon on 2009-04-09
+240	1.3.6	2009-04-09	T.King	Added "Child Event Of" and "Observed By" to "Association Type".	Decided during the telecon on 2009-04-09
+241	1.3.6	2009-04-09	T.King	Added "Area", "Bandwidth" and "Solid Angle" to "Integral", added "Field-Aligned", "Group", "Perturbation", "Phase" and "Spectral" to "Qualifier".	Decided during the telecon on 2009-04-09
+242	2.0.0	2009-04-15	T.King	Released.	
+243	2.0.1	2009-07-12	T.King	Changed "Rendering Hints" to 0-to-many occurrence.	Decided during the telecon on 2009-07-02
+244	2.0.1	2009-07-12	T.King	Under "Element" replaced "Component" with "Qualifier" and allow multiple occurrences.	Decided during the telecon on 2009-07-02
+245	2.0.1	2009-07-12	T.King	Update the description of "Index" data type to explain wild cards.	Circulated in e-mail after the telecon on 2009-07-02
+246	2.0.1	2009-07-12	T.King	Added "Sound Speed" to dictionary and to "Particle Quantity".	Decided in e-mail in June 2009
+247	2.0.1	2009-07-12	T.King	Updates to the definition "Access URL", "Data Extent", "Polar" and "Sonic Mach Number".	
+248	2.0.2	2009-09-24	T.King	Added "Atomic Number Detected", "Mass Number" and "Charge State" to dictionary and to "Particle Quantity" enumeration. Also added "Direction Angle" to "Particle Quantity".	
+249	2.0.2	2009-10-08	T.King	Added "Arrival Direction" to dictionary and to "Particle Quantity" enumeration. Added "Instrument Mode" to dictionary and "Support Quantity". Updated definitions of "Charge State" and "Atomic Number Detected".	
+250	2.0.2	2009-11-05	T.King	Added "Stream Interaction Region" to dictionary and to "Phenomenon Type" enumeration. Updated definition of "Coronal Mass Ejection".	
+251	2.0.2	2009-11-18	T.King	Modified definitions for "Observatory" and "Instrument".	
+252	2.0.3	2010-02-04	T.King	Added "Former-PI" to dictionary and to "Role" enumeration; Added "Note" to "Person".	Decided durinng the telecon on 2010-02-04
+253	2.0.3	2010-03-19	T.King	Updated definitions for "Number Flux", "Energy Flux", "Differential", and "Integral"; Added "Dust" to "Measurement Type" enumeration; 	Decided durinng the telecon on 2010-03-18
+254	2.1.0	2010-03-19	T.King	Released.	Decided durinng the telecon on 2010-03-18
+255	2.2.0	2010-04-15	T.King	Added "Hardcopy" as an enumeration to dictionary and to "Format"; Added "Film", "Photographic Plate", "Photograph", "Microfiche", "Microfilm", "Print" to dictionary and to "Hardcopy" enumeration; Changed "Observatory Group" to "Observatory Group ID"; Updated definition of "Observatory" to make it more suitable for creation of conceptual Observatories.; Added "Operating Span" to dictionary with elements "Start Date", "Stop Date" and "Note"; Added "Operating Span" to "Instrument" and "Observatory".;	Decided durinng the telecon on 2010-04-15
+256	2.2.0	2010-05-21	T.King	Added "Heliosheath" to dictionary and to "Heliosphere" enumeration;	Decided durinng the telecon on 2010-05-13
+257	2.2.0	2010-06-25	T.King	Added "Fluence" to dictionary and "Particle Quantity"; Updated definitions for "Number Flux", "Coordinate System" and "Counts"; Added "HCC" (Heliocentric Cartesian), "HCR" (Heliocentric Radial), HPC (Helioprojective Cartesian) and "HPR" (Helioprojective Radial) to dictionary and "Coordinate System Name"	Decided durinng the telecon on 2010-06-10
+258	2.2.0	2010-08-17	T.King	Added "S3_BUCKET" to dictionary and "Encoding"; Add "Directional" to dictionary and to "Qualifier"; updated definition for "Energy Flux" and "Differential" 	Decided durinng the telecon on 2010-07-08.
+259	2.2.0	2010-08-20	T.King	Updated definitions of "Outer", "Inner", "Heliosheath" and "Remote 1AU" 	Decided durinng the telecon on 2010-07-08 and refined through subsequent e-mail.
+260	2.2.0	2010-09-15	T.King	Added "Excel" to dictionary and to "Format" list; Added "Rendering Axis", and "Index" to dictionary and under "Rendering Hints"; Add "Vertical", "Horizontal", and "Color Bar" to dictionary and to the "Rendering Hints" enumeration; Changed cardinality of "Investigation Name" from 1 to +; Add "Median, " Maximum" and "Minimum" to dictionary and to "Qualifer" list.;	Decided durinng the telecon on 2010-08-26.
+261	2.2.0	2010-09-17	T.King	Added "SSE_L" to dictionary and to "Coordinate System Name" list;	Decided durinng the telecon on 2010-09-16.
+262	2.2.0	2011-01-06	T.King	Updated definition for "irradence".	
+263	2.2.0	2011-01-06	T.King	Released.	
+264	2.2.1	2011-05-12	T.King	Strike "product" from the definition of "Numerical Data".;	Per e-mail from Joe King 4/21/2011
+265	2.2.1	2011-06-16	T.King	Added "core", "halo", "strahl" and "superhalo" to the dictionary and to "Qualifier";	As supplied by Aaron Roberts 4/21/2011, modified by Todd King; Decided during the telecon on 2011-06-12.
+266	2.2.1	2011-08-18	T.King	Released.	
+267	2.2.2	2011-09-26	T.King	Add "Rendering Hints" under "Element"; Set occurrence for "Coordinate Representation" and "Coordinate System Name" under "Coordinate Sytem" to required (1); Set "Size" under "Structure" to required (1); Set "Association ID" and "Association Type" under "Association" to required (1).	Decided during the telecon on 2011-09-15.
+268	2.2.2	2011-10-27	T.King	Update definition of "Document"; Add "MIME Type" to dictionary and "Document" structure; Add "Presentation", "Poster", "White Paper", "Technical Note", "Specification" and "Report" to dictionary and to "Document Type" enumeration; Remove "Paper" from dictionary.	Decided during the telecon on 2011-10-27.
+269	2.2.2	2012-02-02	T.King	Add "Sector Boundary Crossing" to the dictionary and the "Phenomenon Type" list.; Add "Product Key" to the dictionary and under "Access Information";	Decided during the telecon on 2012-02-02
+270	2.2.2	2012-02-27	T.King	Add "Albedo" to the dictionary and to "Wave Quantity" list.; Add "Partical Radius" to the dictionary and to the "Particle Quantity" list;	Decided during the HDMC face-to-face on 2012-02-21
+271	2.2.2	2012-02-27	T.King	Released.	
+272	2.2.3	2012-03-15	T.King	Modified definition of "Numerical Data" as suggested by R. Weigel and D.A. Roberts; Modified definition of "Potential" as suggested by F. Mozer, D.A. Roberts and S. Fung; Add "Magnetograph" to dictionary and "Instrument Type" as suggested by J. King	Decided during the telecon on 2012-03-15
+273	2.2.3	2012-05-10	T.King	Modified definitions of "GEI", "Azimuth Angle", "Elevation Angle" and "Polar Angle" as suggested by J.Merka; Add definition for "ENP and add to "Coordinate System Name" enumeration as suggested by J. Merka; Add definitions of "Photomultiplier Tube" and "Solid State Detector" to dictionary and "Intrument Type" as suggested by B. Weigel.	Decided during the telecon on 2012-05-10
+274	2.2.3	2012-05-24	T.King	Add definition of "Moon" and add to "Earth" enumeration as suggested by T. Narock.	Decided during the telecon on 2012-05-24
+<<<<<<< HEAD
+276	2.2.3	2012-11-02	T.King	Add definition of "ECEF" coordinate system and add to coordinate system enumeration.	Approved through e-mail exchange.
+277	2.3.0	2014-05-08	T.King	Add NumericlaOutput, DisplayOutput, SimulationRun and SimulationModel resources based on the IMPEx simulation informaiton model; Correct misspelled words in definitions; Add ID, StringSequence and FloatSequence as data types.	Queued for inclusion
+=======
+275	2.2.3	2012-10-08	T.King	Add definition of "Accessor", "Access Method", "URL Pattern", "Assigned ID" and "Parameter Map" to dictionary and ontology	Under consideration.
+276	2.2.3	2012-10-15	T.King	Add definition of "Simulation Run" and 83 additional terms to the dictionary with appropriate changes to the ontology, enumerations and data types.	Under consideration.
+>>>>>>> f10f3fbf17124f2adaeb96c030a2bfd744218e64

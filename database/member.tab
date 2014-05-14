@@ -1,0 +1,1198 @@
+<<<<<<< HEAD
+#Version	Since	List	Item
+2.3.0	1.1.0	AccessRights	Open
+2.3.0	1.1.0	AccessRights	Restricted
+2.3.0	1.3.4	AnnotationType	Anomaly
+2.3.0	1.3.4	AnnotationType	Event
+2.3.0	1.3.4	AnnotationType	Feature
+2.3.0	1.3.6	AssociationType	ChildEventOf
+2.3.0	1.3.3	AssociationType	DerivedFrom
+2.3.0	1.3.6	AssociationType	ObservedBy
+2.3.0	1.3.3	AssociationType	Other
+2.3.0	1.3.3	AssociationType	PartOf
+2.3.0	1.3.3	AssociationType	RevisionOf
+2.3.0	1.1.0	Availability	Offline
+2.3.0	1.1.0	Availability	Online
+2.3.0	1.3.6	ClassificationMethod	Automatic
+2.3.0	1.3.6	ClassificationMethod	Inferred
+2.3.0	1.3.6	ClassificationMethod	Inspection
+2.3.0	1.3.4	Component	I
+2.3.0	1.3.4	Component	J
+2.3.0	1.3.4	Component	K
+2.3.0	1.3.4	ConfidenceRating	Probable
+2.3.0	1.3.4	ConfidenceRating	Strong
+2.3.0	1.3.6	ConfidenceRating	Unlikely
+2.3.0	1.3.6	ConfidenceRating	Weak
+2.3.0	1.1.0	CoordinateRepresentation	Cartesian
+2.3.0	1.1.0	CoordinateRepresentation	Cylindrical
+2.3.0	1.1.0	CoordinateRepresentation	Spherical
+2.3.0	1.1.0	CoordinateSystemName	CGM
+2.3.0	1.2.1	CoordinateSystemName	Carrington
+2.3.0	1.1.0	CoordinateSystemName	DM
+2.3.0	2.2.3	CoordinateSystemName	ECEF
+2.3.0	2.2.3	CoordinateSystemName	ENP
+2.3.0	1.1.0	CoordinateSystemName	GEI
+2.3.0	1.1.0	CoordinateSystemName	GEO
+2.3.0	1.1.0	CoordinateSystemName	GSE
+2.3.0	1.1.0	CoordinateSystemName	GSEQ
+2.3.0	1.1.0	CoordinateSystemName	GSM
+2.3.0	1.1.0	CoordinateSystemName	HAE
+2.3.0	2.2.0	CoordinateSystemName	HCC
+2.3.0	1.2.1	CoordinateSystemName	HCI
+2.3.0	2.2.0	CoordinateSystemName	HCR
+2.3.0	1.1.0	CoordinateSystemName	HEE
+2.3.0	1.1.0	CoordinateSystemName	HEEQ
+2.3.0	1.1.0	CoordinateSystemName	HG
+2.3.0	1.1.0	CoordinateSystemName	HGI
+2.3.0	2.2.0	CoordinateSystemName	HPC
+2.3.0	2.2.0	CoordinateSystemName	HPR
+2.3.0	1.1.0	CoordinateSystemName	J2000
+2.3.0	1.1.0	CoordinateSystemName	LGM
+2.3.0	1.1.0	CoordinateSystemName	MAG
+2.3.0	1.1.0	CoordinateSystemName	MFA
+2.3.0	1.1.0	CoordinateSystemName	RTN
+2.3.0	1.1.0	CoordinateSystemName	SC
+2.3.0	1.1.0	CoordinateSystemName	SE
+2.3.0	1.1.0	CoordinateSystemName	SM
+2.3.0	1.1.0	CoordinateSystemName	SR
+2.3.0	1.1.0	CoordinateSystemName	SR2
+2.3.0	1.1.0	CoordinateSystemName	SSE
+2.3.0	2.2.0	CoordinateSystemName	SSE_L
+2.3.0	1.2.1	CoordinateSystemName	SpacecraftOrbitPlane
+2.3.0	1.2.0	CoordinateSystemName	WGS84
+2.3.0	1.3.4	DirectionAngle	AzimuthAngle
+2.3.0	1.3.4	DirectionAngle	ElevationAngle
+2.3.0	1.3.4	DirectionAngle	PolarAngle
+2.3.0	1.3.1	DisplayType	Image
+2.3.0	1.3.5	DisplayType	Plasmagram
+2.3.0	1.3.1	DisplayType	Spectrogram
+2.3.0	1.3.1	DisplayType	StackPlot
+2.3.0	1.3.1	DisplayType	TimeSeries
+2.3.0	1.3.5	DisplayType	WaveForm
+2.3.0	1.3.0	DocumentType	Other 
+2.3.0	1.3.0	DocumentType	Poster
+2.3.0	1.3.0	DocumentType	Presentation
+2.3.0	1.3.0	DocumentType	Report
+2.3.0	1.3.0	DocumentType	Specification
+2.3.0	1.3.0	DocumentType	TechnicalNote
+2.3.0	1.3.0	DocumentType	WhitePaper
+2.3.0	1.1.0	Earth	Magnetosheath
+2.3.0	1.1.0	Earth	Magnetosphere
+2.3.0	2.2.3	Earth	Moon
+2.3.0	1.1.0	Earth	NearSurface
+2.3.0	1.1.0	Earth	Surface
+2.3.0	1.1.0	Encoding	ASCII
+2.3.0	1.1.0	Encoding	BZIP2
+2.3.0	1.1.0	Encoding	Base64
+2.3.0	1.1.0	Encoding	GZIP
+2.3.0	1.1.0	Encoding	None
+2.3.0	1.3.0	Encoding	S3_BUCKET
+2.3.0	2.2.0	Encoding	TAR
+2.3.0	1.1.0	Encoding	Unicode
+2.3.0	1.1.0	Encoding	ZIP
+2.3.0	1.2.1	FieldQuantity	Current
+2.3.0	1.1.0	FieldQuantity	Electric
+2.3.0	1.3.0	FieldQuantity	Electromagnetic
+2.3.0	1.2.1	FieldQuantity	Gyrofrequency
+2.3.0	1.1.0	FieldQuantity	Magnetic
+2.3.0	1.2.1	FieldQuantity	PlasmaFrequency
+2.3.0	1.1.0	FieldQuantity	Potential
+2.3.0	1.1.0	FieldQuantity	PoyntingFlux
+2.3.0	1.1.0	Format	AVI
+2.3.0	1.1.0	Format	Binary
+2.3.0	1.1.0	Format	CDF
+2.3.0	1.1.0	Format	CEF 1
+2.3.0	1.1.0	Format	CEF 2
+2.3.0	1.1.0	Format	CEF
+2.3.0	2.2.0	Format	Excel
+2.3.0	1.1.0	Format	FITS
+2.3.0	1.1.0	Format	GIF
+2.3.0	1.1.0	Format	HDF 4
+2.3.0	1.1.0	Format	HDF 5
+2.3.0	1.1.0	Format	HDF
+2.3.0	1.1.0	Format	HTML
+2.3.0	2.2.0	Format	Hardcopy
+2.3.0	1.1.0	Format	IDFS
+2.3.0	1.1.0	Format	IDL
+2.3.0	1.1.0	Format	JPEG
+2.3.0	1.1.0	Format	MATLAB_4
+2.3.0	1.1.0	Format	MATLAB_6
+2.3.0	1.1.0	Format	MATLAB_7
+2.3.0	1.1.0	Format	MPEG
+2.3.0	1.1.0	Format	NCAR
+2.3.0	1.1.0	Format	NetCDF
+2.3.0	1.1.0	Format	PDF
+2.3.0	1.1.0	Format	PNG
+2.3.0	1.2.0	Format	Postscript
+2.3.0	1.1.0	Format	QuickTime
+2.3.0	1.1.0	Format	TIFF
+2.3.0	1.1.0	Format	Text
+2.3.0	1.1.0	Format	UDF
+2.3.0	1.1.0	Format	VOTable
+2.3.0	1.1.0	Format	XML
+2.3.0	2.2.0	Hardcopy	Film
+2.3.0	2.2.0	Hardcopy	Microfiche
+2.3.0	2.2.0	Hardcopy	Microfilm
+2.3.0	2.2.0	Hardcopy	Photograph
+2.3.0	2.2.0	Hardcopy	PhotographicPlate
+2.3.0	2.2.0	Hardcopy	Print
+2.3.0	1.2.0	HashFunction	MD5
+2.3.0	1.2.0	HashFunction	SHA1
+2.3.0	1.2.0	HashFunction	SHA256
+2.3.0	2.2.0	Heliosphere	Heliosheath
+2.3.0	1.1.0	Heliosphere	Inner
+2.3.0	1.1.0	Heliosphere	NearEarth
+2.3.0	1.1.0	Heliosphere	Outer
+2.3.0	1.1.0	Heliosphere	Remote 1AU
+2.3.0	1.1.0	InstrumentType	Antenna
+2.3.0	1.1.0	InstrumentType	Channeltron
+2.3.0	1.2.1	InstrumentType	Coronograph
+2.3.0	1.1.0	InstrumentType	DoubleSphere
+2.3.0	1.3.0	InstrumentType	DustDetector
+2.3.0	1.1.0	InstrumentType	ElectronDriftInstrument
+2.3.0	1.1.0	InstrumentType	ElectrostaticAnalyser
+2.3.0	1.1.0	InstrumentType	EnergeticParticleInstrument
+2.3.0	1.1.0	InstrumentType	FaradayCup
+2.3.0	1.1.0	InstrumentType	FluxFeedback
+2.3.0	1.1.0	InstrumentType	FourierTransformSpectrograph
+2.3.0	1.2.1	InstrumentType	GeigerMuellerTube
+2.3.0	1.1.0	InstrumentType	Imager
+2.3.0	1.2.1	InstrumentType	ImagingSpectrometer
+2.3.0	1.2.1	InstrumentType	Interferometer
+2.3.0	1.3.4	InstrumentType	IonChamber
+2.3.0	1.3.0	InstrumentType	IonDrift
+2.3.0	1.1.0	InstrumentType	LangmuirProbe
+2.3.0	1.1.0	InstrumentType	LongWire
+2.3.0	2.2.3	InstrumentType	Magnetograph
+2.3.0	1.1.0	InstrumentType	Magnetometer
+2.3.0	1.1.0	InstrumentType	MassSpectrometer
+2.3.0	1.1.0	InstrumentType	MicrochannelPlate
+2.3.0	1.2.1	InstrumentType	MultispectralImager
+2.3.0	1.2.1	InstrumentType	NeutralAtomImager
+2.3.0	1.2.1	InstrumentType	NeutralParticleDetector
+2.3.0	1.1.0	InstrumentType	ParticleCorrelator
+2.3.0	1.2.1	InstrumentType	ParticleDetector
+2.3.0	1.2.1	InstrumentType	Photometer
+2.3.0	2.2.3	InstrumentType	PhotomultiplierTube
+2.3.0	1.2.1	InstrumentType	Photopolarimeter
+2.3.0	1.3.0	InstrumentType	Platform
+2.3.0	1.2.1	InstrumentType	ProportionalCounter
+2.3.0	1.1.0	InstrumentType	QuadrisphericalAnalyser
+2.3.0	1.1.0	InstrumentType	Radar
+2.3.0	1.2.1	InstrumentType	Radiometer
+2.3.0	1.1.0	InstrumentType	ResonanceSounder
+2.3.0	1.2.1	InstrumentType	RetardingPotentialAnalyser
+2.3.0	1.2.1	InstrumentType	Riometer
+2.3.0	1.2.1	InstrumentType	ScintillationDetector
+2.3.0	1.1.0	InstrumentType	SearchCoil
+2.3.0	2.2.3	InstrumentType	SolidStateDetector
+2.3.0	1.2.1	InstrumentType	Sounder
+2.3.0	1.1.0	InstrumentType	SpacecraftPotentialControl
+2.3.0	1.1.0	InstrumentType	SpectralPowerReceiver
+2.3.0	1.1.0	InstrumentType	Spectrometer
+2.3.0	1.2.1	InstrumentType	TimeOfFlight
+2.3.0	1.2.1	InstrumentType	Unspecified
+2.3.0	1.1.0	InstrumentType	WaveformReceiver
+2.3.0	1.3.6	Integral	Area
+2.3.0	1.3.6	Integral	Bandwidth
+2.3.0	1.3.6	Integral	SolidAngle
+2.3.0	1.2.0	Ionosphere	DRegion
+2.3.0	1.2.0	Ionosphere	ERegion
+2.3.0	1.2.0	Ionosphere	FRegion
+2.3.0	1.2.0	Ionosphere	Topside
+2.3.0	1.1.0	Magnetosphere	Magnetotail
+2.3.0	1.1.0	Magnetosphere	Main
+2.3.0	1.1.0	Magnetosphere	Polar
+2.3.0	1.1.0	Magnetosphere	RadiationBelt
+2.3.0	1.1.0	MeasurementType	ActivityIndex
+2.3.0	1.1.0	MeasurementType	Dopplergram
+2.3.0	2.0.3	MeasurementType	Dust
+2.3.0	1.1.0	MeasurementType	ElectricField
+2.3.0	1.1.0	MeasurementType	EnergeticParticles
+2.3.0	1.2.0	MeasurementType	Ephemeris
+2.3.0	1.1.0	MeasurementType	ImageIntensity
+2.3.0	1.2.0	MeasurementType	InstrumentStatus
+2.3.0	1.1.0	MeasurementType	IonComposition
+2.3.0	1.1.0	MeasurementType	Irradiance
+2.3.0	1.1.0	MeasurementType	MagneticField
+2.3.0	1.1.0	MeasurementType	Magnetogram
+2.3.0	1.1.0	MeasurementType	NeutralAtomImages
+2.3.0	1.1.0	MeasurementType	NeutralGas
+2.3.0	1.1.0	MeasurementType	Profile
+2.3.0	1.1.0	MeasurementType	Radiance
+2.3.0	1.2.0	MeasurementType	Spectrum
+2.3.0	1.1.0	MeasurementType	ThermalPlasma
+2.3.0	1.3.4	MeasurementType	Waves
+2.3.0	1.3.5	MixedQuantity	AkasofuEpsilon
+2.3.0	1.3.5	MixedQuantity	AlfvenMachNumber
+2.3.0	1.3.5	MixedQuantity	AlfvenVelocity
+2.3.0	1.3.6	MixedQuantity	FrequencyToGyrofrequencyRatio
+2.3.0	2.3.0	MixedQuantity	IMFClockAngle
+2.3.0	1.3.5	MixedQuantity	MagnetosonicMachNumber
+2.3.0	1.3.5	MixedQuantity	Other
+2.3.0	1.3.5	MixedQuantity	PlasmaBeta
+2.3.0	2.3.0	MixedQuantity	SolarUVFlux
+2.3.0	1.3.5	MixedQuantity	TotalPressure
+2.3.0	1.3.6	MixedQuantity	VCrossB
+2.3.0	1.2.0	NearSurface	Atmosphere
+2.3.0	1.2.0	NearSurface	AuroralRegion
+2.3.0	1.2.0	NearSurface	EquatorialRegion
+2.3.0	1.2.0	NearSurface	Ionosphere
+2.3.0	1.2.0	NearSurface	Mesosphere
+2.3.0	1.2.0	NearSurface	Plasmasphere
+2.3.0	1.2.0	NearSurface	PolarCap
+2.3.0	1.2.0	NearSurface	SouthAtlanticAnomalyRegion
+2.3.0	1.2.0	NearSurface	Stratosphere
+2.3.0	1.2.0	NearSurface	Thermosphere
+2.3.0	1.2.0	NearSurface	Troposphere
+2.3.0	2.0.2	ParticleQuantity	ArrivalDirection
+2.3.0	2.0.2	ParticleQuantity	AtomicNumberDetected
+2.3.0	1.1.0	ParticleQuantity	AverageChargeState
+2.3.0	2.0.2	ParticleQuantity	ChargeState
+2.3.0	1.1.0	ParticleQuantity	CountRate
+2.3.0	1.1.0	ParticleQuantity	Counts
+2.3.0	1.2.1	ParticleQuantity	Energy
+2.3.0	1.2.1	ParticleQuantity	EnergyDensity
+2.3.0	1.2.1	ParticleQuantity	EnergyFlux
+2.3.0	1.2.1	ParticleQuantity	FlowSpeed
+2.3.0	1.3.0	ParticleQuantity	FlowVelocity
+2.3.0	2.2.0	ParticleQuantity	Fluence
+2.3.0	1.2.1	ParticleQuantity	Gyrofrequency
+2.3.0	1.1.0	ParticleQuantity	HeatFlux
+2.3.0	1.1.0	ParticleQuantity	Mass
+2.3.0	1.1.0	ParticleQuantity	MassDensity
+2.3.0	2.0.2	ParticleQuantity	MassNumber
+2.3.0	1.1.0	ParticleQuantity	NumberDensity
+2.3.0	1.1.0	ParticleQuantity	NumberFlux
+2.3.0	2.2.2	ParticleQuantity	ParticleRadius
+2.3.0	1.1.0	ParticleQuantity	PhaseSpaceDensity
+2.3.0	1.2.1	ParticleQuantity	PlasmaFrequency
+2.3.0	1.1.0	ParticleQuantity	Pressure
+2.3.0	1.1.0	ParticleQuantity	SonicMachNumber
+2.3.0	2.0.1	ParticleQuantity	SoundSpeed
+2.3.0	1.1.0	ParticleQuantity	Temperature
+2.3.0	1.1.0	ParticleQuantity	ThermalSpeed
+2.3.0	1.1.0	ParticleQuantity	Velocity
+2.3.0	1.1.0	ParticleType	Aerosol
+2.3.0	1.1.0	ParticleType	AlphaParticle
+2.3.0	1.3.6	ParticleType	Atom
+2.3.0	1.1.0	ParticleType	Dust
+2.3.0	1.1.0	ParticleType	Electron
+2.3.0	1.1.0	ParticleType	Ion
+2.3.0	1.1.0	ParticleType	Molecule
+2.3.0	1.3.6	ParticleType	Neutron
+2.3.0	1.1.0	ParticleType	Proton
+2.3.0	1.3.0	PhenomenonType	ActiveRegion
+2.3.0	1.1.0	PhenomenonType	Aurora
+2.3.0	1.1.0	PhenomenonType	BowShockCrossing
+2.3.0	1.3.0	PhenomenonType	CoronalHole
+2.3.0	1.1.0	PhenomenonType	CoronalMassEjection
+2.3.0	1.3.0	PhenomenonType	EITWave
+2.3.0	1.1.0	PhenomenonType	Energetic Solar Particle Event
+2.3.0	1.1.0	PhenomenonType	ForbushDecrease
+2.3.0	1.1.0	PhenomenonType	GeomagneticStorm
+2.3.0	1.1.0	PhenomenonType	InterplanetaryShock
+2.3.0	1.3.0	PhenomenonType	MagneticCloud
+2.3.0	1.1.0	PhenomenonType	MagnetopauseCrossing
+2.3.0	1.3.0	PhenomenonType	RadioBurst
+2.3.0	2.2.2	PhenomenonType	SectorBoundaryCrossing
+2.3.0	1.1.0	PhenomenonType	SolarFlare
+2.3.0	1.1.0	PhenomenonType	SolarWindExtreme
+2.3.0	2.0.2	PhenomenonType	StreamInteractionRegion
+2.3.0	1.2.0	PhenomenonType	Substorm
+2.3.0	2.3.0	ProcCoefType	CrossSection
+2.3.0	2.3.0	ProcCoefType	Frequency
+2.3.0	2.3.0	ProcCoefType	Other
+2.3.0	2.3.0	ProcCoefType	Rate
+2.3.0	2.3.0	ProcessType	ChargeExchange
+2.3.0	2.3.0	ProcessType	DissociativeRecombination
+2.3.0	2.3.0	ProcessType	ElectronImpact
+2.3.0	2.3.0	ProcessType	PhotoIonization
+2.3.0	1.1.0	ProcessingLevel	Calibrated
+2.3.0	1.1.0	ProcessingLevel	Raw
+2.3.0	1.1.0	ProcessingLevel	Uncalibrated
+2.3.0	2.3.0	Product	2DCuts
+2.3.0	2.3.0	Product	3DCubes
+2.3.0	2.3.0	Product	Lines
+2.3.0	2.3.0	Product	SpatialSeries
+2.3.0	2.3.0	Product	Spectra
+2.3.0	2.3.0	Product	TimeSeries
+2.3.0	1.3.4	Projection	IJ
+2.3.0	1.3.4	Projection	IK
+2.3.0	1.3.4	Projection	JK
+2.3.0	1.2.1	Qualifier	Anisotropy
+2.3.0	1.3.6	Qualifier	Array
+2.3.0	1.1.0	Qualifier	Average
+2.3.0	1.2.1	Qualifier	Characteristic
+2.3.0	1.1.0	Qualifier	Circular
+2.3.0	1.3.4	Qualifier	Column
+2.3.0	1.2.0	Qualifier	Component
+2.3.0	2.2.1	Qualifier	Core
+2.3.0	1.3.0	Qualifier	CrossSpectrum
+2.3.0	1.1.0	Qualifier	Deviation
+2.3.0	1.1.0	Qualifier	Differential
+2.3.0	1.3.5	Qualifier	Direction
+2.3.0	1.3.4	Qualifier	DirectionAngle
+2.3.0	1.3.0	Qualifier	Directional
+2.3.0	1.1.0	Qualifier	FieldAligned
+2.3.0	1.1.0	Qualifier	Fit
+2.3.0	1.1.0	Qualifier	Group
+2.3.0	2.2.1	Qualifier	Halo
+2.3.0	2.3.0	Qualifier	Incident
+2.3.0	1.1.0	Qualifier	Integral
+2.3.0	1.1.0	Qualifier	LineOfSight
+2.3.0	1.1.0	Qualifier	Linear
+2.3.0	1.1.0	Qualifier	Magnitude
+2.3.0	2.2.0	Qualifier	Maximum
+2.3.0	2.2.0	Qualifier	Median
+2.3.0	2.2.0	Qualifier	Minimum
+2.3.0	1.1.0	Qualifier	Moment
+2.3.0	1.1.0	Qualifier	Parallel
+2.3.0	1.1.0	Qualifier	Peak
+2.3.0	1.1.0	Qualifier	Perpendicular
+2.3.0	1.2.1	Qualifier	Perturbation
+2.3.0	1.2.1	Qualifier	Phase
+2.3.0	1.2.1	Qualifier	PhaseAngle
+2.3.0	1.3.4	Qualifier	Projection
+2.3.0	1.3.4	Qualifier	Pseudo
+2.3.0	1.1.0	Qualifier	Ratio
+2.3.0	1.2.0	Qualifier	Scalar
+2.3.0	1.2.0	Qualifier	Spectral
+2.3.0	1.2.0	Qualifier	StandardDeviation
+2.3.0	1.1.0	Qualifier	Stoke's Parameters
+2.3.0	2.2.1	Qualifier	Strahl
+2.3.0	2.2.1	Qualifier	Superhalo
+2.3.0	1.2.0	Qualifier	Symmetric
+2.3.0	1.2.0	Qualifier	Tensor
+2.3.0	1.3.6	Qualifier	Total
+2.3.0	1.3.0	Qualifier	Trace
+2.3.0	1.2.0	Qualifier	Uncertainty
+2.3.0	1.1.0	Qualifier	Variance
+2.3.0	1.0.0	Qualifier	Vector
+2.3.0	1.2.0	Region	Asteroid
+2.3.0	1.2.0	Region	Comet
+2.3.0	1.1.0	Region	Earth
+2.3.0	1.1.0	Region	Heliosphere
+2.3.0	1.3.2	Region	Interstellar
+2.3.0	1.2.0	Region	Jupiter
+2.3.0	1.2.0	Region	Mars
+2.3.0	1.2.0	Region	Mercury
+2.3.0	1.2.0	Region	Neptune
+2.3.0	1.2.0	Region	Pluto
+2.3.0	1.2.0	Region	Saturn
+2.3.0	1.1.0	Region	Sun
+2.3.0	1.2.0	Region	Uranus
+2.3.0	1.2.0	Region	Venus
+2.3.0	2.2.0	RenderingAxis	ColorBar
+2.3.0	2.2.0	RenderingAxis	Horizontal
+2.3.0	2.2.0	RenderingAxis	Vertical
+2.3.0	1.2.1	Role	ArchiveSpecialist
+2.3.0	1.1.0	Role	CoInvestigator
+2.3.0	1.3.0	Role	Contributor
+2.3.0	1.1.0	Role	DataProducer
+2.3.0	1.1.0	Role	DeputyPI
+2.3.0	2.0.3	Role	FormerPI
+2.3.0	1.1.0	Role	GeneralContact
+2.3.0	1.2.0	Role	MetadataContact
+2.3.0	1.1.0	Role	PrincipalInvestigator
+2.3.0	1.1.0	Role	ProjectScientist
+2.3.0	1.3.0	Role	Publisher
+2.3.0	1.1.0	Role	Scientist
+2.3.0	1.1.0	Role	TeamLeader
+2.3.0	1.1.0	Role	TeamMember
+2.3.0	1.1.0	Role	TechnicalContact
+2.3.0	1.3.1	ScaleType	LinearScale
+2.3.0	1.3.1	ScaleType	LogScale
+2.3.0	2.3.0	SimulationType	Hybrid
+2.3.0	2.3.0	SimulationType	MHD
+2.3.0	2.3.0	SimulationType	PIC
+2.3.0	2.3.0	SimulationType	Paraboloid
+2.3.0	2.3.0	SimulationType	Test_Particle
+2.3.0	1.3.0	SourceType	Ancillary
+2.3.0	1.3.0	SourceType	Browse
+2.3.0	1.3.0	SourceType	Data
+2.3.0	1.3.0	SourceType	Layout
+2.3.0	1.3.0	SourceType	Thumbnail
+2.3.0	1.2.1	SpectralRange	CaK
+2.3.0	1.2.1	SpectralRange	ExtremeUltraviolet
+2.3.0	1.1.0	SpectralRange	FarUltraviolet
+2.3.0	1.1.0	SpectralRange	GammaRays
+2.3.0	1.2.1	SpectralRange	HAlpha
+2.3.0	1.1.0	SpectralRange	HardXRays
+2.3.0	1.2.1	SpectralRange	He10830
+2.3.0	1.1.0	SpectralRange	He304
+2.3.0	1.1.0	SpectralRange	Infrared
+2.3.0	1.2.1	SpectralRange	K7699
+2.3.0	1.1.0	SpectralRange	LBHBand
+2.3.0	1.1.0	SpectralRange	Microwave
+2.3.0	1.2.1	SpectralRange	NaD
+2.3.0	1.2.1	SpectralRange	Ni6768
+2.3.0	1.1.0	SpectralRange	Optical
+2.3.0	1.1.0	SpectralRange	RadioFrequency
+2.3.0	1.1.0	SpectralRange	SoftXRays
+2.3.0	1.1.0	SpectralRange	Ultraviolet
+2.3.0	1.2.1	SpectralRange	WhiteLight
+2.3.0	1.1.0	SpectralRange	XRays
+2.3.0	1.1.0	Sun	Chromosphere
+2.3.0	1.1.0	Sun	Corona
+2.3.0	1.1.0	Sun	Interior
+2.3.0	1.1.0	Sun	Photosphere
+2.3.0	1.1.0	Sun	TransitionRegion
+2.3.0	2.0.2	SupportQuantity	InstrumentMode
+2.3.0	1.2.0	SupportQuantity	Other
+2.3.0	1.2.0	SupportQuantity	Positional
+2.3.0	1.2.0	SupportQuantity	Temporal
+2.3.0	1.3.1	SupportQuantity	Velocity
+2.3.0	2.3.0	Symmetry	Axial
+2.3.0	2.3.0	Symmetry	Central
+2.3.0	2.3.0	Symmetry	None
+2.3.0	2.3.0	Symmetry	Plane
+2.3.0	1.3.4	Text	ASCII
+2.3.0	1.3.4	Text	Unicode
+2.3.0	1.3.5	WaveQuantity	ACElectricField
+2.3.0	1.3.5	WaveQuantity	ACMagneticField
+2.3.0	1.3.5	WaveQuantity	Absorption
+2.3.0	2.2.2	WaveQuantity	Albedo
+2.3.0	1.3.5	WaveQuantity	DopplerFrequency
+2.3.0	1.1.0	WaveQuantity	Emissivity
+2.3.0	1.2.1	WaveQuantity	EnergyFlux
+2.3.0	1.1.0	WaveQuantity	EquivalentWidth
+2.3.0	1.3.5	WaveQuantity	Frequency
+2.3.0	1.2.1	WaveQuantity	Gyrofrequency
+2.3.0	1.1.0	WaveQuantity	Intensity
+2.3.0	1.1.0	WaveQuantity	LineDepth
+2.3.0	1.1.0	WaveQuantity	MagneticField
+2.3.0	1.1.0	WaveQuantity	ModeAmplitude
+2.3.0	1.2.1	WaveQuantity	PlasmaFrequency
+2.3.0	1.1.0	WaveQuantity	Polarization
+2.3.0	1.3.5	WaveQuantity	PoyntingFlux
+2.3.0	1.3.5	WaveQuantity	PropagationTime
+2.3.0	1.1.0	WaveQuantity	Stoke's Parameters
+2.3.0	1.1.0	WaveQuantity	Velocity
+2.3.0	1.3.5	WaveQuantity	Wavelength
+2.3.0	1.3.4	WaveType	Electromagnetic
+2.3.0	1.3.4	WaveType	Electrostatic
+2.3.0	1.3.4	WaveType	Hydrodynamic
+2.3.0	1.3.4	WaveType	MHD
+2.3.0	1.3.4	WaveType	Photon
+2.3.0	1.3.4	WaveType	PlasmaWaves
+2.3.0	1.3.4	Waves	Active
+2.3.0	1.3.4	Waves	Passive
+2.3.0	2.3.0	YN	No
+2.3.0	2.3.0	YN	Yes
+=======
+#Version	Since	List	Item
+2.2.3	1.1.0	Access Rights	Open
+2.2.3	1.1.0	Access Rights	Restricted
+2.2.3	1.3.4	Annotation Type	Anomaly
+2.2.3	1.3.4	Annotation Type	Event
+2.2.3	1.3.4	Annotation Type	Feature
+2.2.3	1.3.6	Association Type	Child Event Of
+2.2.3	1.3.3	Association Type	Derived From
+2.2.3	1.3.6	Association Type	Observed By
+2.2.3	1.3.3	Association Type	Other
+2.2.3	1.3.3	Association Type	Part Of
+2.2.3	1.3.3	Association Type	Revision Of
+2.2.3	1.1.0	Availability	Offline
+2.2.3	1.1.0	Availability	Online
+2.2.3	1.3.6	Classification Method	Automatic
+2.2.3	1.3.6	Classification Method	Inferred
+2.2.3	1.3.6	Classification Method	Inspection
+2.2.3	1.3.4	Component	I
+2.2.3	1.3.4	Component	J
+2.2.3	1.3.4	Component	K
+2.2.3	1.3.4	Confidence Rating	Probable
+2.2.3	1.3.4	Confidence Rating	Strong
+2.2.3	1.3.6	Confidence Rating	Unlikely
+2.2.3	1.3.6	Confidence Rating	Weak
+2.2.3	1.1.0	Coordinate Representation	Cartesian
+2.2.3	1.1.0	Coordinate Representation	Cylindrical
+2.2.3	1.1.0	Coordinate Representation	Spherical
+2.2.3	1.2.1	Coordinate System Name	Carrington
+2.2.3	1.1.0	Coordinate System Name	CGM
+2.2.3	1.1.0	Coordinate System Name	DM
+2.2.3	2.2.3	Coordinate System Name	ENP
+2.2.3	1.1.0	Coordinate System Name	GEI
+2.2.3	1.1.0	Coordinate System Name	GEO
+2.2.3	1.1.0	Coordinate System Name	GSE
+2.2.3	1.1.0	Coordinate System Name	GSEQ
+2.2.3	1.1.0	Coordinate System Name	GSM
+2.2.3	1.1.0	Coordinate System Name	HAE
+2.2.3	2.2.0	Coordinate System Name	HCC
+2.2.3	1.2.1	Coordinate System Name	HCI
+2.2.3	2.2.0	Coordinate System Name	HCR
+2.2.3	1.1.0	Coordinate System Name	HEE
+2.2.3	1.1.0	Coordinate System Name	HEEQ
+2.2.3	1.1.0	Coordinate System Name	HG
+2.2.3	1.1.0	Coordinate System Name	HGI
+2.2.3	2.2.0	Coordinate System Name	HPC
+2.2.3	2.2.0	Coordinate System Name	HPR
+2.2.3	1.1.0	Coordinate System Name	J2000
+2.2.3	1.1.0	Coordinate System Name	LGM
+2.2.3	1.1.0	Coordinate System Name	MAG
+2.2.3	1.1.0	Coordinate System Name	MFA
+2.2.3	1.1.0	Coordinate System Name	RTN
+2.2.3	1.1.0	Coordinate System Name	SC
+2.2.3	1.1.0	Coordinate System Name	SE
+2.2.3	1.1.0	Coordinate System Name	SM
+2.2.3	1.2.1	Coordinate System Name	Spacecraft Orbit Plane
+2.2.3	1.1.0	Coordinate System Name	SR
+2.2.3	1.1.0	Coordinate System Name	SR2
+2.2.3	1.1.0	Coordinate System Name	SSE
+2.2.3	2.2.0	Coordinate System Name	SSE_L
+2.2.3	1.2.0	Coordinate System Name	WGS84
+2.2.3	1.3.4	Direction Angle	Azimuth Angle
+2.2.3	1.3.4	Direction Angle	Elevation Angle
+2.2.3	1.3.4	Direction Angle	Polar Angle
+2.2.3	1.3.1	Display Type	Image
+2.2.3	1.3.5	Display Type	Plasmagram
+2.2.3	1.3.1	Display Type	Spectrogram
+2.2.3	1.3.1	Display Type	Stack Plot
+2.2.3	1.3.1	Display Type	Time Series
+2.2.3	1.3.5	Display Type	Wave Form
+2.2.3	1.3.0	Document Type	Presentation
+2.2.3	1.3.0	Document Type	Poster
+2.2.3	1.3.0	Document Type	White Paper
+2.2.3	1.3.0	Document Type	Technical Note
+2.2.3	1.3.0	Document Type	Specification
+2.2.3	1.3.0	Document Type	Report
+2.2.3	1.3.0	Document Type	Other
+2.2.3	1.1.0	Earth	Magnetosheath
+2.2.3	1.1.0	Earth	Magnetosphere
+2.2.3	1.1.0	Earth	Near Surface
+2.2.3	2.2.3	Earth	Moon
+2.2.3	1.1.0	Earth	Surface
+2.2.3	1.1.0	Encoding	ASCII
+2.2.3	1.1.0	Encoding	Base64
+2.2.3	1.1.0	Encoding	BZIP2
+2.2.3	1.1.0	Encoding	GZIP
+2.2.3	1.1.0	Encoding	None
+2.2.3	1.3.0	Encoding	S3_BUCKET
+2.2.3	2.2.0	Encoding	TAR
+2.2.3	1.1.0	Encoding	Unicode
+2.2.3	1.1.0	Encoding	ZIP
+2.2.3	1.2.1	Field Quantity	Current
+2.2.3	1.1.0	Field Quantity	Electric
+2.2.3	1.3.0	Field Quantity	Electromagnetic
+2.2.3	1.2.1	Field Quantity	Gyrofrequency
+2.2.3	1.1.0	Field Quantity	Magnetic
+2.2.3	1.2.1	Field Quantity	Plasma Frequency
+2.2.3	1.1.0	Field Quantity	Potential
+2.2.3	1.1.0	Field Quantity	Poynting Flux
+2.2.3	1.1.0	Format	AVI
+2.2.3	1.1.0	Format	Binary
+2.2.3	1.1.0	Format	CDF
+2.2.3	1.1.0	Format	CEF
+2.2.3	1.1.0	Format	CEF 1
+2.2.3	1.1.0	Format	CEF 2
+2.2.3	2.2.0	Format	Excel
+2.2.3	1.1.0	Format	FITS
+2.2.3	1.1.0	Format	GIF
+2.2.3	2.2.0	Format	Hardcopy
+2.2.3	1.1.0	Format	HDF
+2.2.3	1.1.0	Format	HDF 4
+2.2.3	1.1.0	Format	HDF 5
+2.2.3	1.1.0	Format	HTML
+2.2.3	1.1.0	Format	IDFS
+2.2.3	1.1.0	Format	IDL
+2.2.3	1.1.0	Format	JPEG
+2.2.3	1.1.0	Format	MATLAB_4
+2.2.3	1.1.0	Format	MATLAB_6
+2.2.3	1.1.0	Format	MATLAB_7
+2.2.3	1.1.0	Format	MPEG
+2.2.3	1.1.0	Format	NCAR
+2.2.3	1.1.0	Format	NetCDF
+2.2.3	1.1.0	Format	PDF
+2.2.3	1.1.0	Format	PNG
+2.2.3	1.2.0	Format	Postscript
+2.2.3	1.1.0	Format	QuickTime
+2.2.3	1.1.0	Format	Text
+2.2.3	1.1.0	Format	TIFF
+2.2.3	1.1.0	Format	UDF
+2.2.3	1.1.0	Format	VOTable
+2.2.3	1.1.0	Format	XML
+2.2.3	2.2.0	Hardcopy	Film
+2.2.3	2.2.0	Hardcopy	Microfiche
+2.2.3	2.2.0	Hardcopy	Microfilm
+2.2.3	2.2.0	Hardcopy	Photograph
+2.2.3	2.2.0	Hardcopy	Photographic Plate
+2.2.3	2.2.0	Hardcopy	Print
+2.2.3	1.2.0	Hash Function	MD5
+2.2.3	1.2.0	Hash Function	SHA1
+2.2.3	1.2.0	Hash Function	SHA256
+2.2.3	2.2.0	Heliosphere	Heliosheath
+2.2.3	1.1.0	Heliosphere	Inner
+2.2.3	1.1.0	Heliosphere	Near Earth
+2.2.3	1.1.0	Heliosphere	Outer
+2.2.3	1.1.0	Heliosphere	Remote 1AU
+2.2.3	1.1.0	Instrument Type	Antenna
+2.2.3	1.1.0	Instrument Type	Channeltron
+2.2.3	1.2.1	Instrument Type	Coronograph
+2.2.3	1.1.0	Instrument Type	Double Sphere
+2.2.3	1.3.0	Instrument Type	Dust Detector
+2.2.3	1.1.0	Instrument Type	Electron Drift Instrument
+2.2.3	1.1.0	Instrument Type	Electrostatic Analyser
+2.2.3	1.1.0	Instrument Type	Energetic Particle Instrument
+2.2.3	1.1.0	Instrument Type	Faraday Cup
+2.2.3	1.1.0	Instrument Type	Flux Feedback
+2.2.3	1.1.0	Instrument Type	Fourier Transform Spectrograph
+2.2.3	1.2.1	Instrument Type	Geiger-Mueller Tube
+2.2.3	1.1.0	Instrument Type	Imager
+2.2.3	1.2.1	Instrument Type	Imaging Spectrometer
+2.2.3	1.2.1	Instrument Type	Interferometer
+2.2.3	1.3.4	Instrument Type	Ion Chamber
+2.2.3	1.3.0	Instrument Type	Ion Drift
+2.2.3	1.1.0	Instrument Type	Langmuir Probe
+2.2.3	1.1.0	Instrument Type	Long Wire
+2.2.3	2.2.3	Instrument Type	Magnetograph
+2.2.3	1.1.0	Instrument Type	Magnetometer
+2.2.3	1.1.0	Instrument Type	Mass Spectrometer
+2.2.3	1.1.0	Instrument Type	Microchannel Plate
+2.2.3	1.2.1	Instrument Type	Multispectral Imager
+2.2.3	1.2.1	Instrument Type	Neutral Atom Imager
+2.2.3	1.2.1	Instrument Type	Neutral Particle Detector
+2.2.3	1.1.0	Instrument Type	Particle Correlator
+2.2.3	1.2.1	Instrument Type	Particle Detector
+2.2.3	1.2.1	Instrument Type	Photometer
+2.2.3	1.2.1	Instrument Type	Photopolarimeter
+2.2.3	2.2.3	Instrument Type	Photomultiplier Tube
+2.2.3	1.3.0	Instrument Type	Platform
+2.2.3	1.2.1	Instrument Type	Proportional Counter
+2.2.3	1.1.0	Instrument Type	Quadrispherical Analyser
+2.2.3	1.1.0	Instrument Type	Radar
+2.2.3	1.2.1	Instrument Type	Radiometer
+2.2.3	1.1.0	Instrument Type	Resonance Sounder
+2.2.3	1.2.1	Instrument Type	Retarding Potential Analyser
+2.2.3	1.2.1	Instrument Type	Riometer
+2.2.3	1.2.1	Instrument Type	Scintillation Detector
+2.2.3	1.1.0	Instrument Type	Search Coil
+2.2.3	2.2.3	Instrument Type	Solid State Detector
+2.2.3	1.2.1	Instrument Type	Sounder
+2.2.3	1.1.0	Instrument Type	Spacecraft Potential Control
+2.2.3	1.1.0	Instrument Type	Spectral Power Receiver
+2.2.3	1.1.0	Instrument Type	Spectrometer
+2.2.3	1.2.1	Instrument Type	Time Of Flight
+2.2.3	1.2.1	Instrument Type	Unspecified
+2.2.3	1.1.0	Instrument Type	Waveform Receiver
+2.2.3	1.3.6	Integral	Area
+2.2.3	1.3.6	Integral	Bandwidth
+2.2.3	1.3.6	Integral	Solid Angle
+2.2.3	1.2.0	Ionosphere	D-Region
+2.2.3	1.2.0	Ionosphere	E-Region
+2.2.3	1.2.0	Ionosphere	F-Region
+2.2.3	1.2.0	Ionosphere	Topside
+2.2.3	1.1.0	Magnetosphere	Magnetotail
+2.2.3	1.1.0	Magnetosphere	Main
+2.2.3	1.1.0	Magnetosphere	Polar
+2.2.3	1.1.0	Magnetosphere	Radiation Belt
+2.2.3	1.1.0	Measurement Type	Activity Index
+2.2.3	1.1.0	Measurement Type	Dopplergram
+2.2.3	2.0.3	Measurement Type	Dust
+2.2.3	1.1.0	Measurement Type	Electric Field
+2.2.3	1.1.0	Measurement Type	Energetic Particles
+2.2.3	1.2.0	Measurement Type	Ephemeris
+2.2.3	1.1.0	Measurement Type	Image Intensity
+2.2.3	1.2.0	Measurement Type	Instrument Status
+2.2.3	1.1.0	Measurement Type	Ion Composition
+2.2.3	1.1.0	Measurement Type	Irradiance
+2.2.3	1.1.0	Measurement Type	Magnetic Field
+2.2.3	1.1.0	Measurement Type	Magnetogram
+2.2.3	1.1.0	Measurement Type	Neutral Atom Images
+2.2.3	1.1.0	Measurement Type	Neutral Gas
+2.2.3	1.1.0	Measurement Type	Profile
+2.2.3	1.1.0	Measurement Type	Radiance
+2.2.3	1.2.0	Measurement Type	Spectrum
+2.2.3	1.1.0	Measurement Type	Thermal Plasma
+2.2.3	1.3.4	Measurement Type	Waves
+2.2.3	1.3.5	Mixed Quantity	Akasofu Epsilon
+2.2.3	1.3.5	Mixed Quantity	Alfven Mach Number
+2.2.3	1.3.5	Mixed Quantity	Alfven Velocity
+2.2.3	1.3.6	Mixed Quantity	Frequency-To-Gyrofrequency Ratio
+2.2.3	1.3.5	Mixed Quantity	Magnetosonic Mach Number
+2.2.3	1.3.5	Mixed Quantity	Other
+2.2.3	1.3.5	Mixed Quantity	Plasma Beta
+2.2.3	1.3.5	Mixed Quantity	Total Pressure
+2.2.3	1.3.6	Mixed Quantity	V Cross B
+2.2.3	1.2.0	Near Surface	Atmosphere
+2.2.3	1.2.0	Near Surface	Auroral Region
+2.2.3	1.2.0	Near Surface	Equatorial Region
+2.2.3	1.2.0	Near Surface	Ionosphere
+2.2.3	1.2.0	Near Surface	Mesosphere
+2.2.3	1.2.0	Near Surface	Plasmasphere
+2.2.3	1.2.0	Near Surface	Polar Cap
+2.2.3	1.2.0	Near Surface	South Atlantic Anomaly Region
+2.2.3	1.2.0	Near Surface	Stratosphere
+2.2.3	1.2.0	Near Surface	Thermosphere
+2.2.3	1.2.0	Near Surface	Troposphere
+2.2.3	2.0.2	Particle Quantity	Arrival Direction
+2.2.3	2.0.2	Particle Quantity	Atomic Number Detected
+2.2.3	1.1.0	Particle Quantity	Average Charge State
+2.2.3	2.0.2	Particle Quantity	Charge State
+2.2.3	1.1.0	Particle Quantity	Count Rate
+2.2.3	1.1.0	Particle Quantity	Counts
+2.2.3	1.2.1	Particle Quantity	Energy
+2.2.3	1.2.1	Particle Quantity	Energy Density
+2.2.3	1.2.1	Particle Quantity	Energy Flux
+2.2.3	1.2.1	Particle Quantity	Flow Speed
+2.2.3	1.3.0	Particle Quantity	Flow Velocity
+2.2.3	2.2.0	Particle Quantity	Fluence
+2.2.3	1.2.1	Particle Quantity	Gyrofrequency
+2.2.3	1.1.0	Particle Quantity	Heat Flux
+2.2.3	1.1.0	Particle Quantity	Mass
+2.2.3	1.1.0	Particle Quantity	Mass Density
+2.2.3	2.0.2	Particle Quantity	Mass Number
+2.2.3	1.1.0	Particle Quantity	Number Density
+2.2.3	1.1.0	Particle Quantity	Number Flux
+2.2.3	1.1.0	Particle Quantity	Phase-Space Density
+2.2.3	1.2.1	Particle Quantity	Plasma Frequency
+2.2.3	1.1.0	Particle Quantity	Pressure
+2.2.3	2.2.2	Particle Quantity	Particle Radius
+2.2.3	1.1.0	Particle Quantity	Sonic Mach Number
+2.2.3	2.0.1	Particle Quantity	Sound Speed
+2.2.3	1.1.0	Particle Quantity	Temperature
+2.2.3	1.1.0	Particle Quantity	Thermal Speed
+2.2.3	1.1.0	Particle Quantity	Velocity
+2.2.3	1.1.0	Particle Type	Aerosol
+2.2.3	1.1.0	Particle Type	Alpha Particle
+2.2.3	1.3.6	Particle Type	Atom
+2.2.3	1.1.0	Particle Type	Dust
+2.2.3	1.1.0	Particle Type	Electron
+2.2.3	1.1.0	Particle Type	Ion
+2.2.3	1.1.0	Particle Type	Molecule
+2.2.3	1.3.6	Particle Type	Neutron
+2.2.3	1.1.0	Particle Type	Proton
+2.2.3	1.3.0	Phenomenon Type	Active Region
+2.2.3	1.1.0	Phenomenon Type	Aurora
+2.2.3	1.1.0	Phenomenon Type	Bow Shock Crossing
+2.2.3	1.3.0	Phenomenon Type	Coronal Hole
+2.2.3	1.1.0	Phenomenon Type	Coronal Mass Ejection
+2.2.3	1.3.0	Phenomenon Type	EIT Wave
+2.2.3	1.1.0	Phenomenon Type	Energetic Solar Particle Event
+2.2.3	1.1.0	Phenomenon Type	Forbush Decrease
+2.2.3	1.1.0	Phenomenon Type	Geomagnetic Storm
+2.2.3	1.1.0	Phenomenon Type	Interplanetary Shock
+2.2.3	1.3.0	Phenomenon Type	Magnetic Cloud
+2.2.3	1.1.0	Phenomenon Type	Magnetopause Crossing
+2.2.3	1.3.0	Phenomenon Type	Radio Burst
+2.2.3	2.2.2	Phenomenon Type	Sector Boundary Crossing
+2.2.3	1.1.0	Phenomenon Type	Solar Flare
+2.2.3	1.1.0	Phenomenon Type	Solar Wind Extreme
+2.2.3	2.0.2	Phenomenon Type	Stream Interaction Region
+2.2.3	1.2.0	Phenomenon Type	Substorm
+2.2.3	1.1.0	Processing Level	Calibrated
+2.2.3	1.1.0	Processing Level	Raw
+2.2.3	1.1.0	Processing Level	Uncalibrated
+2.2.3	1.3.4	Projection	IJ
+2.2.3	1.3.4	Projection	IK
+2.2.3	1.3.4	Projection	JK
+2.2.3	1.2.1	Qualifier	Anisotropy
+2.2.3	1.3.6	Qualifier	Array
+2.2.3	1.1.0	Qualifier	Average
+2.2.3	1.2.1	Qualifier	Characteristic
+2.2.3	1.1.0	Qualifier	Circular
+2.2.3	1.3.4	Qualifier	Column
+2.2.3	1.2.0	Qualifier	Component
+2.2.3	2.2.1	Qualifier	Core
+2.2.3	1.3.0	Qualifier	Cross Spectrum
+2.2.3	1.1.0	Qualifier	Deviation
+2.2.3	1.1.0	Qualifier	Differential
+2.2.3	1.3.5	Qualifier	Direction
+2.2.3	1.3.4	Qualifier	Direction Angle
+2.2.3	1.3.0	Qualifier	Directional
+2.2.3	1.1.0	Qualifier	Field-Aligned
+2.2.3	1.1.0	Qualifier	Fit
+2.2.3	1.1.0	Qualifier	Group
+2.2.3	2.2.1	Qualifier	Halo
+2.2.3	1.1.0	Qualifier	Integral
+2.2.3	1.1.0	Qualifier	Line Of Sight
+2.2.3	1.1.0	Qualifier	Linear
+2.2.3	1.1.0	Qualifier	Magnitude
+2.2.3	2.2.0	Qualifier	Maximum
+2.2.3	2.2.0	Qualifier	Median
+2.2.3	2.2.0	Qualifier	Minimum
+2.2.3	1.1.0	Qualifier	Moment
+2.2.3	1.1.0	Qualifier	Parallel
+2.2.3	1.1.0	Qualifier	Peak
+2.2.3	1.1.0	Qualifier	Perpendicular
+2.2.3	1.2.1	Qualifier	Perturbation
+2.2.3	1.2.1	Qualifier	Phase
+2.2.3	1.2.1	Qualifier	Phase Angle
+2.2.3	1.3.4	Qualifier	Projection
+2.2.3	1.3.4	Qualifier	Pseudo
+2.2.3	1.1.0	Qualifier	Ratio
+2.2.3	1.2.0	Qualifier	Scalar
+2.2.3	1.2.0	Qualifier	Spectral
+2.2.3	2.2.1	Qualifier	Strahl
+2.2.3	1.2.0	Qualifier	Standard Deviation
+2.2.3	1.1.0	Qualifier	Stoke's Parameters
+2.2.3	2.2.1	Qualifier	Superhalo
+2.2.3	1.2.0	Qualifier	Symmetric
+2.2.3	1.2.0	Qualifier	Tensor
+2.2.3	1.3.6	Qualifier	Total
+2.2.3	1.3.0	Qualifier	Trace
+2.2.3	1.2.0	Qualifier	Uncertainty
+2.2.3	1.1.0	Qualifier	Variance
+2.2.3	1.0.0	Qualifier	Vector
+2.2.3	1.2.0	Region	Asteroid
+2.2.3	1.2.0	Region	Comet
+2.2.3	1.1.0	Region	Earth
+2.2.3	1.1.0	Region	Heliosphere
+2.2.3	1.3.2	Region	Interstellar
+2.2.3	1.2.0	Region	Jupiter
+2.2.3	1.2.0	Region	Mars
+2.2.3	1.2.0	Region	Mercury
+2.2.3	1.2.0	Region	Neptune
+2.2.3	1.2.0	Region	Pluto
+2.2.3	1.2.0	Region	Saturn
+2.2.3	1.1.0	Region	Sun
+2.2.3	1.2.0	Region	Uranus
+2.2.3	1.2.0	Region	Venus
+2.2.3	2.2.0	Rendering Axis	Color Bar
+2.2.3	2.2.0	Rendering Axis	Horizontal
+2.2.3	2.2.0	Rendering Axis	Vertical
+2.2.3	1.2.1	Role	Archive Specialist
+2.2.3	1.1.0	Role	Co-Investigator
+2.2.3	1.3.0	Role	Contributor
+2.2.3	1.1.0	Role	Data Producer
+2.2.3	1.1.0	Role	Deputy-PI
+2.2.3	2.0.3	Role	Former-PI
+2.2.3	1.1.0	Role	General Contact
+2.2.3	1.2.0	Role	Metadata Contact
+2.2.3	1.1.0	Role	Principal Investigator
+2.2.3	1.1.0	Role	Project Scientist
+2.2.3	1.3.0	Role	Publisher
+2.2.3	1.1.0	Role	Scientist
+2.2.3	1.1.0	Role	Team Leader
+2.2.3	1.1.0	Role	Team Member
+2.2.3	1.1.0	Role	Technical Contact
+2.2.3	1.3.1	Scale Type	Linear Scale
+2.2.3	1.3.1	Scale Type	Log Scale
+2.2.3	1.3.0	Source Type	Ancillary
+2.2.3	1.3.0	Source Type	Browse
+2.2.3	1.3.0	Source Type	Data
+2.2.3	1.3.0	Source Type	Layout
+2.2.3	1.3.0	Source Type	Thumbnail
+2.2.3	1.2.1	Spectral Range	Ca-K
+2.2.3	1.2.1	Spectral Range	Extreme Ultraviolet
+2.2.3	1.1.0	Spectral Range	Far Ultraviolet
+2.2.3	1.1.0	Spectral Range	Gamma Rays
+2.2.3	1.2.1	Spectral Range	H-alpha
+2.2.3	1.1.0	Spectral Range	Hard X-rays
+2.2.3	1.2.1	Spectral Range	He-10830
+2.2.3	1.1.0	Spectral Range	He-304
+2.2.3	1.1.0	Spectral Range	Infrared
+2.2.3	1.2.1	Spectral Range	K-7699
+2.2.3	1.1.0	Spectral Range	LBH Band
+2.2.3	1.1.0	Spectral Range	Microwave
+2.2.3	1.2.1	Spectral Range	Na-D
+2.2.3	1.2.1	Spectral Range	Ni-6768
+2.2.3	1.1.0	Spectral Range	Optical
+2.2.3	1.1.0	Spectral Range	Radio Frequency
+2.2.3	1.1.0	Spectral Range	Soft X-Rays
+2.2.3	1.1.0	Spectral Range	Ultraviolet
+2.2.3	1.2.1	Spectral Range	White-Light
+2.2.3	1.1.0	Spectral Range	X-Rays
+2.2.3	1.1.0	Sun	Chromosphere
+2.2.3	1.1.0	Sun	Corona
+2.2.3	1.1.0	Sun	Interior
+2.2.3	1.1.0	Sun	Photosphere
+2.2.3	1.1.0	Sun	Transition Region
+2.2.3	2.0.2	Support Quantity	Instrument Mode
+2.2.3	1.2.0	Support Quantity	Other
+2.2.3	1.2.0	Support Quantity	Positional
+2.2.3	1.2.0	Support Quantity	Temporal
+2.2.3	1.3.1	Support Quantity	Velocity
+2.2.3	1.3.4	Text	ASCII
+2.2.3	1.3.4	Text	Unicode
+2.2.3	1.3.5	Wave Quantity	Absorption
+2.2.3	2.2.2	Wave Quantity	Albedo
+2.2.3	1.3.5	Wave Quantity	AC-Electric Field
+2.2.3	1.3.5	Wave Quantity	AC-Magnetic Field
+2.2.3	1.3.5	Wave Quantity	Doppler Frequency
+2.2.3	1.1.0	Wave Quantity	Emissivity
+2.2.3	1.2.1	Wave Quantity	Energy Flux
+2.2.3	1.1.0	Wave Quantity	Equivalent Width
+2.2.3	1.3.5	Wave Quantity	Frequency
+2.2.3	1.2.1	Wave Quantity	Gyrofrequency
+2.2.3	1.1.0	Wave Quantity	Intensity
+2.2.3	1.1.0	Wave Quantity	Line Depth
+2.2.3	1.1.0	Wave Quantity	Magnetic Field
+2.2.3	1.1.0	Wave Quantity	Mode Amplitude
+2.2.3	1.2.1	Wave Quantity	Plasma Frequency
+2.2.3	1.1.0	Wave Quantity	Polarization
+2.2.3	1.3.5	Wave Quantity	Poynting Flux
+2.2.3	1.3.5	Wave Quantity	Propagation Time
+2.2.3	1.1.0	Wave Quantity	Stoke's Parameters
+2.2.3	1.1.0	Wave Quantity	Velocity
+2.2.3	1.3.5	Wave Quantity	Wavelength
+2.2.3	1.3.4	Wave Type	Electromagnetic
+2.2.3	1.3.4	Wave Type	Electrostatic
+2.2.3	1.3.4	Wave Type	Hydrodynamic
+2.2.3	1.3.4	Wave Type	MHD
+2.2.3	1.3.4	Wave Type	Photon
+2.2.3	1.3.4	Wave Type	Plasma Waves
+2.2.3	1.3.4	Waves	Active
+2.2.3	1.3.4	Waves	Passive
+2.2.3	2.2.3	Yes No	Yes
+2.2.3	2.2.3	Yes No	No
+2.2.3	2.2.3	Symmetry	Axial
+2.2.3	2.2.3	Symmetry	Plane
+2.2.3	2.2.3	Symmetry	Central
+2.2.3	2.2.3	Symmetry	None
+2.2.3	2.2.3	Simulation Type	Paraboloid
+2.2.3	2.2.3	Simulation Type	Hybrid
+2.2.3	2.2.3	Process Type	Charge Exchange
+2.2.3	2.2.3	Process Type	Dissociative Recombination
+2.2.3	2.2.3	Process Type	Electron Impact
+2.2.3	2.2.3	Process Type	Photo Ionization
+2.2.3	2.2.3	Process Coeff Type	Frequency
+2.2.3	2.2.3	Process Coeff Type	Cross Section
+2.2.3	2.2.3	Process Coeff Type	Rate
+2.2.3	2.2.3	Process Coeff Type	Other
+2.2.3	2.2.3	Impex Quantity	IMF Clock Angle
+2.2.3	2.2.3	Impex Quantity	Solar UV Flux
+2.2.3	2.2.3	Simulation Product	3D Cubes
+2.2.3	2.2.3	Simulation Product	2D Cuts
+2.2.3	2.2.3	Simulation Product	Spatial Series
+2.2.3	2.2.3	Simulation Product	Time Series
+2.2.3	2.2.3	Simulation Product	Spectra
+2.2.3	2.2.3	Simulation Product	Lines
+2.2.3	2.2.3	Saved Quantity	Current
+2.2.3	2.2.3	Saved Quantity	Electric
+2.2.3	2.2.3	Saved Quantity	Electromagnetic
+2.2.3	2.2.3	Saved Quantity	Gyrofrequency
+2.2.3	2.2.3	Saved Quantity	Magnetic
+2.2.3	2.2.3	Saved Quantity	Plasma Frequency
+2.2.3	2.2.3	Saved Quantity	Potential
+2.2.3	2.2.3	Saved Quantity	Poynting Flux
+2.2.3	2.2.3	Saved Quantity	Akasofu Epsilon
+2.2.3	2.2.3	Saved Quantity	Alfven Mach Number
+2.2.3	2.2.3	Saved Quantity	Alfven Velocity
+2.2.3	2.2.3	Saved Quantity	Frequency-To-Gyrofrequency Ratio
+2.2.3	2.2.3	Saved Quantity	Magnetosonic Mach Number
+2.2.3	2.2.3	Saved Quantity	Other
+2.2.3	2.2.3	Saved Quantity	Plasma Beta
+2.2.3	2.2.3	Saved Quantity	Total Pressure
+2.2.3	2.2.3	Saved Quantity	V Cross B
+2.2.3	2.2.3	Saved Quantity	Arrival Direction
+2.2.3	2.2.3	Saved Quantity	Atomic Number Detected
+2.2.3	2.2.3	Saved Quantity	Average Charge State
+2.2.3	2.2.3	Saved Quantity	Charge State
+2.2.3	2.2.3	Saved Quantity	Count Rate
+2.2.3	2.2.3	Saved Quantity	Counts
+2.2.3	2.2.3	Saved Quantity	Energy
+2.2.3	2.2.3	Saved Quantity	Energy Density
+2.2.3	2.2.3	Saved Quantity	Energy Flux
+2.2.3	2.2.3	Saved Quantity	Flow Speed
+2.2.3	2.2.3	Saved Quantity	Flow Velocity
+2.2.3	2.2.3	Saved Quantity	Fluence
+2.2.3	2.2.3	Saved Quantity	Heat Flux
+2.2.3	2.2.3	Saved Quantity	Mass
+2.2.3	2.2.3	Saved Quantity	Mass Density
+2.2.3	2.2.3	Saved Quantity	Mass Number
+2.2.3	2.2.3	Saved Quantity	Number Density
+2.2.3	2.2.3	Saved Quantity	Number Flux
+2.2.3	2.2.3	Saved Quantity	Phase-Space Density
+2.2.3	2.2.3	Saved Quantity	Pressure
+2.2.3	2.2.3	Saved Quantity	Particle Radius
+2.2.3	2.2.3	Saved Quantity	Sonic Mach Number
+2.2.3	2.2.3	Saved Quantity	Sound Speed
+2.2.3	2.2.3	Saved Quantity	Temperature
+2.2.3	2.2.3	Saved Quantity	Thermal Speed
+2.2.3	2.2.3	Saved Quantity	Velocity
+2.2.3	2.2.3	Saved Quantity	AC-Electric Field
+2.2.3	2.2.3	Saved Quantity	AC-Magnetic Field
+2.2.3	2.2.3	Saved Quantity	Doppler Frequency
+2.2.3	2.2.3	Saved Quantity	Emissivity
+2.2.3	2.2.3	Saved Quantity	Equivalent Width
+2.2.3	2.2.3	Saved Quantity	Frequency
+2.2.3	2.2.3	Saved Quantity	Intensity
+2.2.3	2.2.3	Saved Quantity	Line Depth
+2.2.3	2.2.3	Saved Quantity	Magnetic Field
+2.2.3	2.2.3	Saved Quantity	Mode Amplitude
+2.2.3	2.2.3	Saved Quantity	Polarization
+2.2.3	2.2.3	Saved Quantity	Propagation Time
+2.2.3	2.2.3	Saved Quantity	Stoke's Parameters
+2.2.3	2.2.3	Saved Quantity	Wavelength
+2.2.3	2.2.3	Saved Quantity	Electrostatic
+2.2.3	2.2.3	Saved Quantity	Hydrodynamic
+2.2.3	2.2.3	Saved Quantity	MHD
+2.2.3	2.2.3	Saved Quantity	Photon
+2.2.3	2.2.3	Saved Quantity	Plasma Waves
+2.2.3	2.2.3	Property Quantity	Azimuth Angle
+2.2.3	2.2.3	Property Quantity	Elevation Angle
+2.2.3	2.2.3	Property Quantity	Polar Angle
+2.2.3	2.2.3	Property Quantity	Current
+2.2.3	2.2.3	Property Quantity	Electric
+2.2.3	2.2.3	Property Quantity	Electromagnetic
+2.2.3	2.2.3	Property Quantity	Gyrofrequency
+2.2.3	2.2.3	Property Quantity	Magnetic
+2.2.3	2.2.3	Property Quantity	Plasma Frequency
+2.2.3	2.2.3	Property Quantity	Potential
+2.2.3	2.2.3	Property Quantity	Poynting Flux
+2.2.3	2.2.3	Property Quantity	Antenna
+2.2.3	2.2.3	Property Quantity	Channeltron
+2.2.3	2.2.3	Property Quantity	Coronograph
+2.2.3	2.2.3	Property Quantity	Double Sphere
+2.2.3	2.2.3	Property Quantity	Dust Detector
+2.2.3	2.2.3	Property Quantity	Electron Drift Instrument
+2.2.3	2.2.3	Property Quantity	Electrostatic Analyser
+2.2.3	2.2.3	Property Quantity	Energetic Particle Instrument
+2.2.3	2.2.3	Property Quantity	Faraday Cup
+2.2.3	2.2.3	Property Quantity	Flux Feedback
+2.2.3	2.2.3	Property Quantity	Fourier Transform Spectrograph
+2.2.3	2.2.3	Property Quantity	Geiger-Mueller Tube
+2.2.3	2.2.3	Property Quantity	Imager
+2.2.3	2.2.3	Property Quantity	Imaging Spectrometer
+2.2.3	2.2.3	Property Quantity	Interferometer
+2.2.3	2.2.3	Property Quantity	Ion Chamber
+2.2.3	2.2.3	Property Quantity	Ion Drift
+2.2.3	2.2.3	Property Quantity	Langmuir Probe
+2.2.3	2.2.3	Property Quantity	Long Wire
+2.2.3	2.2.3	Property Quantity	Magnetograph
+2.2.3	2.2.3	Property Quantity	Magnetometer
+2.2.3	2.2.3	Property Quantity	Mass Spectrometer
+2.2.3	2.2.3	Property Quantity	Microchannel Plate
+2.2.3	2.2.3	Property Quantity	Multispectral Imager
+2.2.3	2.2.3	Property Quantity	Neutral Atom Imager
+2.2.3	2.2.3	Property Quantity	Neutral Particle Detector
+2.2.3	2.2.3	Property Quantity	Particle Correlator
+2.2.3	2.2.3	Property Quantity	Particle Detector
+2.2.3	2.2.3	Property Quantity	Photometer
+2.2.3	2.2.3	Property Quantity	Photopolarimeter
+2.2.3	2.2.3	Property Quantity	Photomultiplier Tube
+2.2.3	2.2.3	Property Quantity	Platform
+2.2.3	2.2.3	Property Quantity	Proportional Counter
+2.2.3	2.2.3	Property Quantity	Quadrispherical Analyser
+2.2.3	2.2.3	Property Quantity	Radar
+2.2.3	2.2.3	Property Quantity	Radiometer
+2.2.3	2.2.3	Property Quantity	Resonance Sounder
+2.2.3	2.2.3	Property Quantity	Retarding Potential Analyser
+2.2.3	2.2.3	Property Quantity	Riometer
+2.2.3	2.2.3	Property Quantity	Scintillation Detector
+2.2.3	2.2.3	Property Quantity	Search Coil
+2.2.3	2.2.3	Property Quantity	Solid State Detector
+2.2.3	2.2.3	Property Quantity	Sounder
+2.2.3	2.2.3	Property Quantity	Spacecraft Potential Control
+2.2.3	2.2.3	Property Quantity	Spectral Power Receiver
+2.2.3	2.2.3	Property Quantity	Spectrometer
+2.2.3	2.2.3	Property Quantity	Time Of Flight
+2.2.3	2.2.3	Property Quantity	Unspecified
+2.2.3	2.2.3	Property Quantity	Waveform Receiver
+2.2.3	2.2.3	Property Quantity	Activity Index
+2.2.3	2.2.3	Property Quantity	Dopplergram
+2.2.3	2.2.3	Property Quantity	Dust
+2.2.3	2.2.3	Property Quantity	Electric Field
+2.2.3	2.2.3	Property Quantity	Energetic Particles
+2.2.3	2.2.3	Property Quantity	Ephemeris
+2.2.3	2.2.3	Property Quantity	Image Intensity
+2.2.3	2.2.3	Property Quantity	Instrument Status
+2.2.3	2.2.3	Property Quantity	Ion Composition
+2.2.3	2.2.3	Property Quantity	Irradiance
+2.2.3	2.2.3	Property Quantity	Magnetic Field
+2.2.3	2.2.3	Property Quantity	Magnetogram
+2.2.3	2.2.3	Property Quantity	Neutral Atom Images
+2.2.3	2.2.3	Property Quantity	Neutral Gas
+2.2.3	2.2.3	Property Quantity	Profile
+2.2.3	2.2.3	Property Quantity	Radiance
+2.2.3	2.2.3	Property Quantity	Spectrum
+2.2.3	2.2.3	Property Quantity	Thermal Plasma
+2.2.3	2.2.3	Property Quantity	Waves
+2.2.3	2.2.3	Property Quantity	Akasofu Epsilon
+2.2.3	2.2.3	Property Quantity	Alfven Mach Number
+2.2.3	2.2.3	Property Quantity	Alfven Velocity
+2.2.3	2.2.3	Property Quantity	Frequency-To-Gyrofrequency Ratio
+2.2.3	2.2.3	Property Quantity	Magnetosonic Mach Number
+2.2.3	2.2.3	Property Quantity	Other
+2.2.3	2.2.3	Property Quantity	Plasma Beta
+2.2.3	2.2.3	Property Quantity	Total Pressure
+2.2.3	2.2.3	Property Quantity	V Cross B
+2.2.3	2.2.3	Property Quantity	Arrival Direction
+2.2.3	2.2.3	Property Quantity	Atomic Number Detected
+2.2.3	2.2.3	Property Quantity	Average Charge State
+2.2.3	2.2.3	Property Quantity	Charge State
+2.2.3	2.2.3	Property Quantity	Count Rate
+2.2.3	2.2.3	Property Quantity	Counts
+2.2.3	2.2.3	Property Quantity	Energy
+2.2.3	2.2.3	Property Quantity	Energy Density
+2.2.3	2.2.3	Property Quantity	Energy Flux
+2.2.3	2.2.3	Property Quantity	Flow Speed
+2.2.3	2.2.3	Property Quantity	Flow Velocity
+2.2.3	2.2.3	Property Quantity	Fluence
+2.2.3	2.2.3	Property Quantity	Heat Flux
+2.2.3	2.2.3	Property Quantity	Mass
+2.2.3	2.2.3	Property Quantity	Mass Density
+2.2.3	2.2.3	Property Quantity	Mass Number
+2.2.3	2.2.3	Property Quantity	Number Density
+2.2.3	2.2.3	Property Quantity	Number Flux
+2.2.3	2.2.3	Property Quantity	Phase-Space Density
+2.2.3	2.2.3	Property Quantity	Pressure
+2.2.3	2.2.3	Property Quantity	Particle Radius
+2.2.3	2.2.3	Property Quantity	Sonic Mach Number
+2.2.3	2.2.3	Property Quantity	Sound Speed
+2.2.3	2.2.3	Property Quantity	Temperature
+2.2.3	2.2.3	Property Quantity	Thermal Speed
+2.2.3	2.2.3	Property Quantity	Velocity
+2.2.3	2.2.3	Property Quantity	Aerosol
+2.2.3	2.2.3	Property Quantity	Alpha Particle
+2.2.3	2.2.3	Property Quantity	Atom
+2.2.3	2.2.3	Property Quantity	Electron
+2.2.3	2.2.3	Property Quantity	Ion
+2.2.3	2.2.3	Property Quantity	Molecule
+2.2.3	2.2.3	Property Quantity	Neutron
+2.2.3	2.2.3	Property Quantity	Proton
+2.2.3	2.2.3	Property Quantity	Ca-K
+2.2.3	2.2.3	Property Quantity	Extreme Ultraviolet
+2.2.3	2.2.3	Property Quantity	Far Ultraviolet
+2.2.3	2.2.3	Property Quantity	Gamma Rays
+2.2.3	2.2.3	Property Quantity	H-alpha
+2.2.3	2.2.3	Property Quantity	Hard X-rays
+2.2.3	2.2.3	Property Quantity	He-10830
+2.2.3	2.2.3	Property Quantity	He-304
+2.2.3	2.2.3	Property Quantity	Infrared
+2.2.3	2.2.3	Property Quantity	K-7699
+2.2.3	2.2.3	Property Quantity	LBH Band
+2.2.3	2.2.3	Property Quantity	Microwave
+2.2.3	2.2.3	Property Quantity	Na-D
+2.2.3	2.2.3	Property Quantity	Ni-6768
+2.2.3	2.2.3	Property Quantity	Optical
+2.2.3	2.2.3	Property Quantity	Radio Frequency
+2.2.3	2.2.3	Property Quantity	Soft X-Rays
+2.2.3	2.2.3	Property Quantity	Ultraviolet
+2.2.3	2.2.3	Property Quantity	White-Light
+2.2.3	2.2.3	Property Quantity	X-Rays
+2.2.3	2.2.3	Property Quantity	Absorption
+2.2.3	2.2.3	Property Quantity	Albedo
+2.2.3	2.2.3	Property Quantity	AC-Electric Field
+2.2.3	2.2.3	Property Quantity	AC-Magnetic Field
+2.2.3	2.2.3	Property Quantity	Doppler Frequency
+2.2.3	2.2.3	Property Quantity	Emissivity
+2.2.3	2.2.3	Property Quantity	Equivalent Width
+2.2.3	2.2.3	Property Quantity	Frequency
+2.2.3	2.2.3	Property Quantity	Intensity
+2.2.3	2.2.3	Property Quantity	Line Depth
+2.2.3	2.2.3	Property Quantity	Mode Amplitude
+2.2.3	2.2.3	Property Quantity	Polarization
+2.2.3	2.2.3	Property Quantity	Propagation Time
+2.2.3	2.2.3	Property Quantity	Stoke's Parameters
+2.2.3	2.2.3	Property Quantity	Wavelength
+2.2.3	2.2.3	Property Quantity	Electrostatic
+2.2.3	2.2.3	Property Quantity	Hydrodynamic
+2.2.3	2.2.3	Property Quantity	MHD
+2.2.3	2.2.3	Property Quantity	Photon
+2.2.3	2.2.3	Property Quantity	Plasma Waves
+2.2.3	2.2.3	Property Quantity	Charge Exchange
+2.2.3	2.2.3	Property Quantity	Dissociative Recombination
+2.2.3	2.2.3	Property Quantity	Electron Impact
+2.2.3	2.2.3	Property Quantity	Photo Ionization
+2.2.3	2.2.3	Property Quantity	Cross Section
+2.2.3	2.2.3	Property Quantity	Rate
+2.2.3	2.2.3	Property Quantity	IMF Clock Angle
+2.2.3	2.2.3	Property Quantity	Solar UV Flux
+2.2.3	2.2.3	Property Quantity	3D Cubes
+2.2.3	2.2.3	Property Quantity	2D Cuts
+2.2.3	2.2.3	Property Quantity	Spatial Series
+2.2.3	2.2.3	Property Quantity	Time Series
+2.2.3	2.2.3	Property Quantity	Spectra
+2.2.3	2.2.3	Property Quantity	Lines
+>>>>>>> f10f3fbf17124f2adaeb96c030a2bfd744218e64
