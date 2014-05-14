@@ -22,6 +22,9 @@ and then run the shema generation script to use Oxygen to generate
 some of the documentation. Instructions on how to run the command
 are displayed when "makeall.sh" completes.
 
+If a draft version run
+%> bash ./makedraft.sh x.x.x
+
 Commit the website to the git repository
 
 %> cd ..\..\..\webapp\root

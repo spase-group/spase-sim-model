@@ -1,3 +1,4 @@
+.echo ON
 .separator "\t"
 .import dictionary.tab dictionary
 .import list.tab list
