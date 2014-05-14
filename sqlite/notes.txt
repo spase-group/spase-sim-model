@@ -1,0 +1,7 @@
+Creating SQLite table containing SPASE Information Model specification.
+
+Place Information Model files in the folder ../database
+run 
+   bash ./load-tables.sh
+   
+copy spase-model.db into webapp\root\data
