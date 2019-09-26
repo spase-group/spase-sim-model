@@ -36,6 +36,7 @@ CREATE TABLE IF NOT EXISTS `ontology` (
   `Pointer` varchar(4) NOT NULL,
   `Occurence` varchar(4) NOT NULL,
   `Group` varchar(40) NOT NULL,
+  `Type` varchar(40) NOT NULL,
   UNIQUE (`Version`,`Object`,`Element`)
 );
 

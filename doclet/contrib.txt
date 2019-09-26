@@ -14,16 +14,26 @@ Noel Petit, <petit@augsburg.edu>
 Andrew Davis, <ad@srl.caltech.edu>
 </dd>
 
-<b>Centre de Données de la Physique des Plasmas (CDPP)</b>
+<b>Integrated Medium for Planetary Exploration (IMPEx) Project</b>
 <dd>
 <br>
-Michel Gangloff, <gangloff@cesr.fr>
+Tarek Al-Ubaidi
 <br>
-Christopher Harvey, <christopher.harvey@cesr.fr>
+Igor Alexeev
 <br>
-Claude Huc, <claude.huc@cnes.fr>
+Michel Gangloff
 <br>
-Thierry Levoir, <thierry.levoir@cnes.fr>
+Vincent Génot
+<br>
+Lasse Hakkinen
+<br>
+Sebastien Hess
+<br>
+Esa Kallio
+<br>
+Maxim Khodachenko
+<br>
+Ronan Modolo
 </dd>
 
 <b>Istituto Nazionale di Astrofisica (INAF)</b>

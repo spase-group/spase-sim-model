@@ -1,21 +1,19 @@
 <h1>Guidelines for Metadata Descriptions of Products</h1>
-The following sections describe the details of the SPASE Data Model, 
-especially the metadata used to describe data. There is a richness in 
+The following sections describe the details of the SPASE Simulation
+Extensions to the Base Data Model. There is a richness in 
 the available metadata that allows very detailed descriptions of 
-products. Many of the types of metadata may not apply in your case or 
-you may not need much detail to adequately describe your data holdings. 
-But it must be remembered that the better data are described, the easier 
-they will be to use.
+products. While there are optional elements, please remember 
+that the better data are described, the easier they will be to use.
 
-To determine what level of detail is needed, we recommend considering 
-not only what the user needs to find the correct data, but also what is 
+To determine what level of detail that is needed, we recommend considering 
+not only what the user needs to find the data, but also what is 
 necessary to know if the data will be useful for the requestor’s purpose. 
 The user might get this information by contacting you, but if the data 
 were moved somewhere else and only the data description were available 
 to determine the utility of the data, consider if the user would have sufficient 
 information to know if this is the right data set and what problems 
 might be associated with the use of these data. Also consider if 
-additional documentation is neccesary and if so create an Document
+additional documentation is necessary and if so create an Document
 resource and associate it with the data resource.
 An "Information URL" may also be used to provide links to more 
 detailed information. 

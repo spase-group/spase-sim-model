@@ -3,4 +3,4 @@ The taxonomy tree shows the inter-relationship of elements in the data model.
 This provides a "big picture" view of the SPASE data model. This taxonomy is implementation
 neutral. Details for each element are contained in the data dictionary. 
 
-Notes: Occurence specifications are enclosed in parenthesis: 0 = optional, 1 = required, * = zero or more, + = 1 or more
+Notes: Occurrence specifications are enclosed in parenthesis: 0 = optional, 1 = required, * = zero or more, + = 1 or more

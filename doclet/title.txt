@@ -1,6 +1,9 @@
 
 
 
-<center>A Space and Solar Physics Data Model</center>
+<center>SPASE Simulation Extensions</center>
+<center>for the</center>
+<center>Space Physics Archive Search and Extract (SPASE) Data Model</center>
 
 <center>from the SPASE Consortium</center>
+<center>Based on work done the EU FP7 IMPEx project</center>

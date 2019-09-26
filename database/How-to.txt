@@ -6,25 +6,42 @@ the different forms of documentation and representation.
 From the folder with the "tab" files:
 
 %> cd ../sqlite
-%> bash ./clear-version.sh x.x.x
-%> bash ./load-tables.sh
+%> bash ./clear-version.sh x.x.x spase-sim
+%> bash ./load-tables.sh spase-sim
 
-Then copy the "spase-model.db" file into the webapp for the root web site.
+where "x.x.x" is the version number to update.
 
-%> copy spase-model.db  "..\..\..\webapp\root\data\"
+Then copy the "spase-sim.db" file into the webapp for the root web site.
 
-From the folder containig the "model-tools/bin":
+%> copy spase-sim.db  "..\..\..\webapp\root\data\"
 
-%> cd ..\..\..\java\model-tools\bin
-%> bash ./makeall.sh x.x.x
+The copy doclet files used in the generation of references and guides.
 
-and then run the shema generation script to use Oxygen to generate
+%> cd ../doclet
+%> copy /Y * "..\..\..\webapp\root\data\doclet\spase-sim\Version_x_x_x"
+
+From the folder containing the "model-tools/build/bin":
+Note: The Simulation Extensions override Spase, Granule and Particle classes.
+
+%> cd ..\..\..\java\model-tools\build\bin
+%> bash ./makeall.sh x.x.x spase-sim http://www.spase-group.org/data/schema/spase-n_n_n.xsd Spase,Granule,Particle
+
+** Note: Use "spase-n_n_n-draft.xsd" if connecting to a draft version of the base schema **
+
+and then run the schema generation script to use Oxygen to generate
 some of the documentation. Instructions on how to run the command
 are displayed when "makeall.sh" completes.
 
+If a draft version run
+%> bash ./makedraft.sh x.x.x spase-sim
+
+If a previous draft exists and this is a release, clear the old draft versions
+
+%> bash ./cleardraft.sh x.x.x spase-sim
+
 Commit the website to the git repository
 
-%> cd ..\..\..\webapp\root
+%> cd ..\..\..\..\webapp\root
 %> git add .
 %> git commit -a -m "Update web site with new version of metadata model."
 %> git push

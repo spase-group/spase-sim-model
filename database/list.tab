@@ -1,45 +1,11 @@
 #Version	Since	Name	Type	Reference	Description
-2.2.3	1.0.0	AccessRights	Closed		Identifiers for permissions granted or denied by the host of a product to allow other users to access and use the resource.
-2.2.3	1.3.4	AnnotationType	Closed		Identifiers for an classification of an annotation.
-2.2.3	1.3.3	AssociationType	Closed		Identifiers for resource associations.
-2.2.3	1.0.0	Availability	Closed		Identifiers for indicating the method or service which may be used to access the resource.
-2.2.3	1.3.6	ClassificationMethod	Closed		Identifiers for the technique used to determine the characteristics of an object.
-2.2.3	1.2.0	Component	Closed		Identifiers for the axis of coordinate systems.
-2.2.3	1.3.4	ConfidenceRating	Closed		Identifiers for the classification of the certainty of an assertion.
-2.2.3	1.0.0	CoordinateRepresentation	Closed		Identifiers of the method or form for specifying a given point or vector in a given coordinate system.
-2.2.3	1.0.0	CoordinateSystemName	Closed		Identifiers of the origin and orientation of a set of typically orthogonal axes.
-2.2.3	1.3.4	DirectionAngle	Closed		Identifiers for the angle between a vector and a base axis.
-2.2.3	1.3.1	DisplayType	Closed		Identifiers for types or classes of rendered data.
-2.2.3	1.3.0	DocumentType	Closed		Identifiers for the characterization of the content or purpose of a document.
-2.2.3	1.1.0	Earth	Closed		Identifiers for the regions surrounding the Earth.
-2.2.3	1.0.0	Encoding	Closed		Identifiers for unambiguous rules that establishes the representation of information within a file.
-2.2.3	1.0.0	FieldQuantity	Closed		Identifiers for the physical attribute of the field.
-2.2.3	1.0.0	Format	Closed		Identifiers for data organized according to preset specifications.
-2.2.3	2.2.0	Hardcopy	Closed		Identifiers for permanent reproductions, or copy in the form of a physical object, of any media suitable for direct use by a person.
-2.2.3	1.2.0	HashFunction	Closed		Identifiers for functions or algorithms that convert a digital data object into a hash value.
-2.2.3	1.0.0	Heliosphere	Closed		Identifiers for regions of the solar atmosphere which extends roughly from the inner corona to the edge of the solar plasma at the heliopause separating primarily solar plasma from interstellar plasma.
-2.2.3	1.0.0	InstrumentType	Closed		Identifiers for the type of experiment the instrument performs. This is the technique of observation.
-2.2.3	1.3.6	Integral	Closed		Identifiers for values above a given threshold and over area or solid-angle range.
-2.2.3	1.3.0	Ionosphere	Closed		Identifiers for ionospheric regions.
-2.2.3	1.0.0	Magnetosphere	Closed		Identifiers for the region of space above the atmosphere or surface of the planet, and bounded by the magnetopause, that is under the direct influence of planet's magnetic field.
-2.2.3	1.0.0	MeasurementType	Closed		Identifiers for the method of making an estimated value of a quantity that forms the basis of an observation.
-2.2.3	1.3.5	MixedQuantity	Closed		Identifiers for the combined attributes of a mixed parameter quantity.
-2.2.3	1.0.0	NearSurface	Closed		Identifiers for regions of the gaseous and possibly ionized environment of a body extending from the surface to some specified altitude.
-2.2.3	1.1.0	ParticleQuantity	Closed		Identifiers for the characterization of the physical properties of the particle.
-2.2.3	1.0.0	ParticleType	Closed		Identifiers for the characterization of the kind of particle observed by the measurement.
-2.2.3	1.0.0	PhenomenonType	Closed		Identifiers for the characteristics or categorization of an observation. Note: Joe King to provide.
-2.2.3	1.0.0	ProcessingLevel	Closed		Identifiers to characterize the amount and type of manipulation which has been applied to the sampled data.
-2.2.3	1.3.4	Projection	Closed		Identifiers to projections into a coordinate system.
-2.2.3	1.3.1	Qualifier	Closed		Identifiers for terms which refine the type or attribute of a quantity.
-2.2.3	1.0.0	Region	Closed		Identifiers for areas of the physical world which may be occupied or observed.
-2.2.3	2.2.0	RenderingAxis	Closed		Identifiers for the reference component of a plot or rendering of data.
-2.2.3	1.0.0	Role	Closed		Identifiers for the assigned or assumed function or position of an individual.
-2.2.3	1.3.1	ScaleType	Closed		Identifiers for scaling applied to a set of numbers.
-2.2.3	1.3.1	SourceType	Closed		Identifiers for the characterization of the function or purpose of a source.
-2.2.3	1.0.0	SpectralRange	Closed		Identifiers for names associated with wavelengths. Based on the ISO 21348 Solar Irradiance Standard. Additions have been made to extend the frequency ranges to include those used in space physics. Those additions are indicated in blue text. The "Total Solar Irradiance" category has not been included since it is a type of measurement and not a specific spectral range. See Appendix A - Comparison of Spectrum Domains for a comparison of the spectral ranges with other systems.
-2.2.3	1.0.0	Sun	Closed		Identifiers for regions of the star upon which our solar system is centered.
-2.2.3	1.0.0	SupportQuantity	Closed		Identifiers for the information useful in understanding the context of an observation, typically observed or measured coincidentally with a physical observation.
-2.2.3	1.3.4	Text	Closed		Identifiers for the encoding of sequences of characters.
-2.2.3	1.1.0	WaveQuantity	Closed		Identifiers for the characterization of the physical properties of a wave.
-2.2.3	1.3.4	WaveType	Closed		Identifiers for the carrier or phenomenum of wave information observed by the measurement.
-2.2.3	1.3.4	Waves	Closed		Identifiers for experimental and natural wave phenomena.
+1.0.0	1.0.0	ParameterQuantity	Union	spase:FieldQuantity,spase:ParticleQuantity,spase:MeasurementType,spase:ParticleType,spase:DirectionAngle,spase:MixedQuantity,spase:SpectralRange,spase:WaveQuantity,spase:WaveType,spase:InstrumentType,ProcCoefType,ProcessType,Product,spase:SupportQuantity	
+1.0.0	1.0.0	ProcCoefType	Closed		Whether the simulation results are obtained from a stationary solution or are dynamically computed.
+1.0.0	1.0.0	ProcessType	Closed		Type of chemical process.
+1.0.0	1.0.0	Product	Closed		
+1.0.0	1.0.0	SavedQuantity	Union	spase:FieldQuantity,spase:ParticleQuantity,spase:MixedQuantity,spase:WaveQuantity,Product	Quantities that are saved during a given diagnosis.
+1.0.0	1.0.0	SimulatedRegion	Union	spase:Region,spase:SpecificSimulatedRegion	Identifiers for areas of the physical world which may be occupied or observed.
+1.0.0	1.0.0	SpecificSimulatedRegion	Closed		Identifiers for areas of the physical world which may be occupied or observed.
+1.0.0	1.0.0	SimulationType	Closed		A characterization of the numerical scheme used in the simulation.
+1.0.0	1.0.0	Symmetry	Closed		Symmetry of the simulation domain.
+1.0.0	1.0.0	YN	Closed		Yes or No
