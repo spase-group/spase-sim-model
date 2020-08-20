@@ -2,7 +2,7 @@
 1.0.0	1.0.0	ParameterQuantity	Union	spase:FieldQuantity,spase:ParticleQuantity,spase:MeasurementType,spase:ParticleType,spase:DirectionAngle,spase:MixedQuantity,spase:SpectralRange,spase:WaveQuantity,spase:WaveType,spase:InstrumentType,ProcCoefType,ProcessType,Product,spase:SupportQuantity	
 1.0.0	1.0.0	ProcCoefType	Closed		Whether the simulation results are obtained from a stationary solution or are dynamically computed.
 1.0.0	1.0.0	ProcessType	Closed		Type of chemical process.
-1.0.0	1.0.0	Product	Closed		
+1.0.0	1.0.0	Product	Closed		Type of article or asset.
 1.0.0	1.0.0	SavedQuantity	Union	spase:FieldQuantity,spase:ParticleQuantity,spase:MixedQuantity,spase:WaveQuantity,Product	Quantities that are saved during a given diagnosis.
 1.0.0	1.0.0	SimulatedRegion	Union	spase:Region,spase:SpecificSimulatedRegion	Identifiers for areas of the physical world which may be occupied or observed.
 1.0.0	1.0.0	SpecificSimulatedRegion	Closed		Identifiers for areas of the physical world which may be occupied or observed.

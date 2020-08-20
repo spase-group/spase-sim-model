@@ -1,0 +1,7 @@
+{
+   "name": "SPASE Simulation Extensions",
+   "release": "",
+   "description": "SPASE Simulation Extensions",
+   "namespace": "spase",
+   "schemaurl": "https://spase-group.org/data/schema"
+}

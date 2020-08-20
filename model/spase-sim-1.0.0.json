@@ -1,0 +1,4710 @@
+{
+   "name": "SPASE Simulation Extensions",
+   "release": "1.0.0",
+   "description": "SPASE Simulation Extensions",
+   "namespace": "spase",
+   "schemaurl": "https://spase-group.org/data/schema",
+   "history": [
+      {
+         "id": "1",
+         "version": "1.0.0",
+         "updated": "2014-05-19",
+         "changedBy": "T.King",
+         "description": "Released.",
+         "node": ""
+      }
+   ],
+   "type": {
+      "StringSequence": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "type": "StringSequence",
+         "definition": "A list of strings where the order of the values is fixed. A space separates each value. For example, \"one two three\"."
+      },
+      "FloatSequence": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "type": "FloatSequence",
+         "definition": "A list of floating point numbers where the order of the values is fixed. A space separates each value. For example, \"1.2 3.4 5.6\"."
+      },
+      "Value": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "type": "Value",
+         "definition": "A description of the standardized measurement increments in which a value is specified. The description is represented as a mathematical phrase. Units should be represented by widely accepted representation. For example, units should conform to the International System of Units (SI) which is maintained by BIPM (Bureau International des Poids et Mesures (see http://www.bipm.fr/ ) when appropriate or use tokens like \"Re\" to represent units of the Radius of the Earth. Within a phrase the circumflex (^) is used to indicate a power, a star (*) is used to indicate multiplication and a slash (/) division. When symbols are not separated by a mathematical operator, multiplication is assumed. Symbols for base units can be found at: http://www.bipm.fr/en/si/si_brochure/chapter2/2-1/#symbols and those for common derived units can be found at: http://www.bipm.fr/en/si/derived_units/2-2-2.html"
+      },
+      "Boundary": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "type": "Boundary",
+         "definition": "Parameters that define a region in space."
+      }
+   },
+   "dictionary": {
+      "Axial": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Axial",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Axial symmetry.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "BackWall": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "BackWall",
+         "type": "Text",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Back wall of the simulation domain by which the plasma flow may exit the simulation.",
+         "usedBy": [
+            "ElementBoundary"
+         ],
+         "allowedValues": []
+      },
+      "BoundaryConditions": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "BoundaryConditions",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Parameters associated to the simulation boundaries.",
+         "usedBy": [
+            "SimulationDomain"
+         ],
+         "subElements": [
+            "ParticleBoundary",
+            "FieldBoundary"
+         ],
+         "allowedValues": []
+      },
+      "CEF1": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "CEF1",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Cluster Exchange Format (CEF), version 1, is a self-documenting ASCII format designed for the exchange of data. The metadata contains information compatible with the ISTP recommendations for CDF.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "CEF2": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "CEF2",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Cluster Exchange Format (CEF), version 2, is a self-documenting ASCII format designed for the exchange of data and introduced for Cluster Active Archive. Compared to version 1, the metadata description of vectors and tensors is different.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "Central": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Central",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Central Symmetry.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "ChargeExchange": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "ChargeExchange",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Chemical process involving a charge transfer from an ion (which becomes neutral) to a neutral (which becomes ionized).",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "ChemicalFormula": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "ChemicalFormula",
+         "type": "Text",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Chemical formula representing a population of particle.",
+         "usedBy": [
+            "InputPopulation",
+            "Particle"
+         ],
+         "allowedValues": []
+      },
+      "CodeLanguage": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "CodeLanguage",
+         "type": "Text",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Language in which a numerical code is written.",
+         "usedBy": [
+            "SimulationModel"
+         ],
+         "allowedValues": []
+      },
+      "CoordinatesLabel": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "CoordinatesLabel",
+         "type": "StringSequence",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A string list of the labels of each dimension of the spatial domain.",
+         "usedBy": [
+            "SimulationDomain",
+            "SpatialDescription"
+         ],
+         "allowedValues": []
+      },
+      "CrossSection": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "CrossSection",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Cross section of the reaction, when the reaction implies the collision of two particles.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "DensityProfile": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "DensityProfile",
+         "type": "Text",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Density profile of the particles in a population.",
+         "usedBy": [
+            "InputPopulation"
+         ],
+         "allowedValues": []
+      },
+      "DiagnosisTimeStep": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "DiagnosisTimeStep",
+         "type": "Container",
+         "list": "",
+         "element": "TimeStart,Duration",
+         "attributes": "",
+         "definition": "Time at which a diagnosis is performed and quantity saved.",
+         "usedBy": [
+            "SimulationTime"
+         ],
+         "subElements": [
+            "TimeStart",
+            "Duration",
+            "SavedQuantity"
+         ],
+         "allowedValues": []
+      },
+      "Dimension": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Dimension",
+         "type": "Count",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "The nnu8mber of items along one axis.",
+         "usedBy": [
+            "SpatialDescription"
+         ],
+         "allowedValues": []
+      },
+      "DisplayOutput": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "DisplayOutput",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A graphical representation of data wherein the underlying numeric values are not (readily) accessible for analysis.. Examples are line plots and spectrograms. A Display Data resource is a type of \"data product\" which is a set of data that is uniformly processed and formatted, from one or more instruments, typically spanning the full duration of the observations of the relevant instrument(s). A data product may consist of a collection of granules of successive time spans, but may be a single high-level entity.",
+         "usedBy": [
+            "Spase"
+         ],
+         "subElements": [
+            "ResourceID",
+            "ResourceHeader",
+            "AccessInformation",
+            "ProcessingLevel",
+            "ProviderResourceName",
+            "ProviderProcessingLevel",
+            "ProviderVersion",
+            "SimulatedInstrumentID",
+            "MeasurementType",
+            "TemporalDescription",
+            "SpatialDescription",
+            "SpectralRange",
+            "DisplayCadence",
+            "SimulatedRegion",
+            "Caveats",
+            "Keyword",
+            "InputResourceID",
+            "Parameter",
+            "SimulationProduct",
+            "Property",
+            "Extension"
+         ],
+         "allowedValues": []
+      },
+      "DissociativeRecombination": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "DissociativeRecombination",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Chemical process by which an ion is neutralized by capturing an electron, and splits in two new neutral species.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "Distribution": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Distribution",
+         "type": "Text",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Velocity distribution of the particles in a population.",
+         "usedBy": [
+            "InputPopulation"
+         ],
+         "allowedValues": []
+      },
+      "Duration": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Duration",
+         "type": "Duration",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Duration of the simulation.",
+         "usedBy": [
+            "DiagnosisTimeStep",
+            "SimulationTime"
+         ],
+         "allowedValues": []
+      },
+      "ElectronImpact": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "ElectronImpact",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Chemical process by which a neutral is ionized thanks to the energy from the impact of an electron.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "ElementBoundary": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "ElementBoundary",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Parameters associated to the simulation boundaries.",
+         "usedBy": [],
+         "subElements": [
+            "Caveats",
+            "FrontWall",
+            "BackWall",
+            "SideWall",
+            "Obstacle"
+         ],
+         "allowedValues": []
+      },
+      "FieldBoundary": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "FieldBoundary",
+         "type": "+ElementBoundary",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Parameters associated with the field boundaries of the simulation.",
+         "usedBy": [
+            "BoundaryConditions"
+         ],
+         "allowedValues": []
+      },
+      "FieldDimension": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "FieldDimension",
+         "type": "Count",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Number of field dimensions in the simulation domain.",
+         "usedBy": [
+            "SimulationDomain"
+         ],
+         "allowedValues": []
+      },
+      "FieldModel": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "FieldModel",
+         "type": "Text",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Field model imposed in the simulation run.",
+         "usedBy": [
+            "InputField"
+         ],
+         "allowedValues": []
+      },
+      "FieldValue": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "FieldValue",
+         "type": "StringSequence",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A string list of the values of the input parameter.",
+         "usedBy": [
+            "InputField"
+         ],
+         "allowedValues": []
+      },
+      "FrequencyToGyrofrequencyRatio": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "FrequencyToGyrofrequencyRatio",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "The ratio of the characteristic frequency of a medium to gyrofrequency of a particle.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "FrontWall": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "FrontWall",
+         "type": "Text",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Front wall of the simulation domain by which the plasma flow may be injected.",
+         "usedBy": [
+            "ElementBoundary"
+         ],
+         "allowedValues": []
+      },
+      "Ganymede": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Ganymede",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "The biggest moon of Jupiter planet in our solar system.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "Granule": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Granule",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Overrides Granule in base schema. An accessible portion of another resource. A Granule may be composed of one or more physical pieces (files) which are considered inseparable. For example, a data storage format that maintains metadata and binary data in separate, but tightly coupled files. Granules should not be used to group files that have simple relationships or which are associated through a parent resource. For example, each file containing a time interval data for a Numerical Data resource would each be considered a Granule. The ParentID of a Granule resource must be a NumericalData resource. The attributes of a Granule supersede the corresponding attributes in the NumericalData resource.",
+         "usedBy": [
+            "Spase"
+         ],
+         "subElements": [
+            "ResourceID",
+            "ReleaseDate",
+            "ExpirationDate",
+            "ParentID",
+            "PriorID",
+            "StartDate",
+            "RegionBegin",
+            "StopDate",
+            "RegionEnd",
+            "Source"
+         ],
+         "allowedValues": []
+      },
+      "GridCellSize": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "GridCellSize",
+         "type": "FloatSequence",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A string list of the cell sizes in each dimension.",
+         "usedBy": [
+            "SimulationDomain"
+         ],
+         "allowedValues": []
+      },
+      "GridStructure": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "GridStructure",
+         "type": "Text",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Structure of the simulation grid.",
+         "usedBy": [
+            "SimulationDomain"
+         ],
+         "allowedValues": []
+      },
+      "HDF4": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "HDF4",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Hierarchical Data Format, Version 4",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "HDF5": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "HDF5",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Hierarchical Data Format, Version 5",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "Hybrid": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Hybrid",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A numerical scheme simulating ions as particles and electrons as a fluid.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "Incident": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Incident",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Direction-dependent property.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "InputField": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "InputField",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Parameters associated to a field imposed in the simulation",
+         "usedBy": [
+            "SimulationRun"
+         ],
+         "subElements": [
+            "Name",
+            "Set",
+            "ParameterKey",
+            "Description",
+            "Caveats",
+            "SimulatedRegion",
+            "CoordinateSystem",
+            "Qualifier",
+            "FieldQuantity",
+            "Units",
+            "UnitsConversion",
+            "InputLabel",
+            "FieldValue",
+            "InputTableURL",
+            "ValidMin",
+            "ValidMax",
+            "FieldModel",
+            "ModelURL"
+         ],
+         "allowedValues": []
+      },
+      "InputLabel": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "InputLabel",
+         "type": "StringSequence",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A string list of the labels of each dimension of the input parameter.",
+         "usedBy": [
+            "InputField"
+         ],
+         "allowedValues": []
+      },
+      "InputParameter": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "InputParameter",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A container of information regarding an input parameter of the simulation run.",
+         "usedBy": [
+            "SimulationRun"
+         ],
+         "subElements": [
+            "Name",
+            "Description",
+            "Caveats",
+            "SimulatedRegion",
+            "Qualifier",
+            "InputTableURL",
+            "ParameterQuantity",
+            "Property"
+         ],
+         "allowedValues": []
+      },
+      "InputProcess": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "InputProcess",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Parameters associated to a chemical process happening in the simulation",
+         "usedBy": [
+            "SimulationRun"
+         ],
+         "subElements": [
+            "Name",
+            "Set",
+            "ParameterKey",
+            "Description",
+            "Caveats",
+            "SimulatedRegion",
+            "ProcessType",
+            "Units",
+            "UnitsConversion",
+            "ProcessCoefficient",
+            "ProcessCoeffType",
+            "ProcessModel",
+            "ModelURL"
+         ],
+         "allowedValues": []
+      },
+      "InputProperties": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "InputProperties",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Properties ",
+         "usedBy": [
+            "SimulationModel"
+         ],
+         "subElements": [
+            "Property"
+         ],
+         "allowedValues": []
+      },
+      "InputTableURL": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "InputTableURL",
+         "type": "URL",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A URL to a table containing input parameters.",
+         "usedBy": [
+            "InputField",
+            "InputParameter",
+            "InputPopulation",
+            "RegionParameter"
+         ],
+         "allowedValues": []
+      },
+      "LikelihoodRating": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "LikelihoodRating",
+         "type": "Enumeration",
+         "list": "ConfidenceRating",
+         "element": "",
+         "attributes": "",
+         "definition": "The probability that something is true or possible.",
+         "usedBy": [
+            "SimulationRun"
+         ],
+         "allowedValues": []
+      },
+      "Model": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Model",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Attributes of a model.",
+         "usedBy": [
+            "SimulationRun"
+         ],
+         "subElements": [
+            "ModelID",
+            "VersionTag"
+         ],
+         "allowedValues": []
+      },
+      "ModelID": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "ModelID",
+         "type": "ID",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A string defining the ID of the model.",
+         "usedBy": [
+            "Model"
+         ],
+         "allowedValues": []
+      },
+      "ModelURL": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "ModelURL",
+         "type": "URL",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "URL pointing toward the description of a model used in the definition of a property or an input.",
+         "usedBy": [
+            "InputField",
+            "InputPopulation",
+            "InputProcess",
+            "Property",
+            "SimulationModel"
+         ],
+         "allowedValues": []
+      },
+      "ModelVersion": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "ModelVersion",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "The version number of the model.",
+         "usedBy": [
+            "Versions"
+         ],
+         "subElements": [
+            "VersionTag",
+            "ReleaseDate",
+            "Description",
+            "Caveats"
+         ],
+         "allowedValues": []
+      },
+      "NumericalOutput": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "NumericalOutput",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Data stored as numerical values in a specified format. A Numerical Data resource is a type of \"data product\" which is a set of data that is uniformly processed and formatted, from one or more instruments, typically spanning the full duration of the observations of the relevant instrument(s). A data product may consist of a collection of granules of successive time spans, but may be a single high-level entity.",
+         "usedBy": [
+            "Spase"
+         ],
+         "subElements": [
+            "ResourceID",
+            "ResourceHeader",
+            "AccessInformation",
+            "ProcessingLevel",
+            "ProviderResourceName",
+            "ProviderProcessingLevel",
+            "ProviderVersion",
+            "SimulatedInstrumentID",
+            "MeasurementType",
+            "TemporalDescription",
+            "SpatialDescription",
+            "SpectralRange",
+            "SimulatedRegion",
+            "Caveats",
+            "Keyword",
+            "InputResourceID",
+            "Parameter",
+            "SimulationProduct",
+            "Property",
+            "Extension"
+         ],
+         "allowedValues": []
+      },
+      "ObjectMass": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "ObjectMass",
+         "type": "Value",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Mass of an object referenced as a simulated region.",
+         "usedBy": [
+            "RegionParameter"
+         ],
+         "allowedValues": []
+      },
+      "Obstacle": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Obstacle",
+         "type": "Text",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Obstacle in the simulation domain.",
+         "usedBy": [
+            "ElementBoundary"
+         ],
+         "allowedValues": []
+      },
+      "OutputParameters": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "OutputParameters",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A container of information regarding the output parameters of the simulation run.",
+         "usedBy": [
+            "SimulationModel"
+         ],
+         "subElements": [
+            "Parameter"
+         ],
+         "allowedValues": []
+      },
+      "PIC": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "PIC",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A numerical scheme simulating ions and electrons as macroparticles.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "Paraboloid": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Paraboloid",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A shape generated by the rotation of a parabola around its axis of symmetry.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "ParameterQuantity": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "ParameterQuantity",
+         "type": "Enumeration",
+         "list": "ParameterQuantity",
+         "element": "",
+         "attributes": "",
+         "definition": "The value associated with a parameter.",
+         "usedBy": [
+            "InputParameter"
+         ],
+         "allowedValues": []
+      },
+      "Particle": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Particle",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Overrides Particle in base schema. A description of the types of particles observed in the measurement. This includes both direct observations and inferred observations.",
+         "usedBy": [],
+         "subElements": [
+            "Population",
+            "ParticleType",
+            "Qualifier",
+            "ParticleQuantity",
+            "ChemicalFormula",
+            "AtomicNumber",
+            "PopulationMassNumber",
+            "PopulationChargeState",
+            "EnergyRange",
+            "AzimuthalAngleRange",
+            "PolarAngleRange"
+         ],
+         "allowedValues": []
+      },
+      "ParticleBoundary": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "ParticleBoundary",
+         "type": "+ElementBoundary",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Parameters associated with the particles at the boundaries of the simulation.",
+         "usedBy": [
+            "BoundaryConditions"
+         ],
+         "allowedValues": []
+      },
+      "Period": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Period",
+         "type": "Value",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A length or era of time. ",
+         "usedBy": [
+            "RegionParameter"
+         ],
+         "allowedValues": []
+      },
+      "PhotoIonization": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "PhotoIonization",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Chemical process by which a neutral is ionized thanks to the energy from a photon.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "Plane": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Plane",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Symmetry across a plane.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "PlaneNormalVector": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "PlaneNormalVector",
+         "type": "FloatSequence",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A list of the component in each dimension of the vector normal to a plane.",
+         "usedBy": [
+            "SpatialDescription"
+         ],
+         "allowedValues": []
+      },
+      "PlanePoint": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "PlanePoint",
+         "type": "FloatSequence",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A list of the component in each dimension of a point in plane.",
+         "usedBy": [
+            "SpatialDescription"
+         ],
+         "allowedValues": []
+      },
+      "PopulationChargeState": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "PopulationChargeState",
+         "type": "Numeric",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Charge of a particle in a population, in units of the charge of a proton. Charge state of a bare proton = 1.",
+         "usedBy": [
+            "InputPopulation",
+            "Particle"
+         ],
+         "allowedValues": []
+      },
+      "PopulationDensity": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "PopulationDensity",
+         "type": "Value",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "The number of particles per unit volume.",
+         "usedBy": [
+            "InputPopulation"
+         ],
+         "allowedValues": []
+      },
+      "PopulationFlowSpeed": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "PopulationFlowSpeed",
+         "type": "Value",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "The rate at which particles or energy is passing through a unit area in a unit time.",
+         "usedBy": [
+            "InputPopulation"
+         ],
+         "allowedValues": []
+      },
+      "Population": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Population",
+         "type": "String",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A concise description of a particle population, for references.",
+         "usedBy": [
+            "Particle"
+         ],
+         "allowedValues": []
+      },
+      "PopulationMassNumber": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "PopulationMassNumber",
+         "type": "Value",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "The total number of protons and neutrons (together known as nucleons) in an atomic nucleus.",
+         "usedBy": [
+            "InputPopulation",
+            "Particle"
+         ],
+         "allowedValues": []
+      },
+      "PopulationTemperature": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "PopulationTemperature",
+         "type": "Value",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A measure of the kinetic energy of random motion with respect to the average. Temperature is properly defined only for an equilibrium particle distribution (Maxwellian distribution).",
+         "usedBy": [
+            "InputPopulation"
+         ],
+         "allowedValues": []
+      },
+      "ProcessCoeffType": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "ProcessCoeffType",
+         "type": "Enumeration",
+         "list": "ProcCoefType",
+         "element": "",
+         "attributes": "",
+         "definition": "Whether the simulation results are obtained from a stationary solution or are dynamically computed.",
+         "usedBy": [
+            "InputProcess"
+         ],
+         "allowedValues": [
+            "CrossSection",
+            "Frequency",
+            "Other",
+            "Rate"
+         ]
+      },
+      "ProcessCoefficient": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "ProcessCoefficient",
+         "type": "Text",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Coefficient associated to a chemical process.",
+         "usedBy": [
+            "InputProcess"
+         ],
+         "allowedValues": []
+      },
+      "ProcessModel": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "ProcessModel",
+         "type": "Text",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Model used to describe a chemical process.",
+         "usedBy": [
+            "InputProcess"
+         ],
+         "allowedValues": []
+      },
+      "ProcessType": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "ProcessType",
+         "type": "Enumeration",
+         "list": "ProcessType",
+         "element": "",
+         "attributes": "",
+         "definition": "Type of chemical process.",
+         "usedBy": [
+            "InputProcess"
+         ],
+         "allowedValues": [
+            "ChargeExchange",
+            "DissociativeRecombination",
+            "ElectronImpact",
+            "PhotoIonization"
+         ]
+      },
+      "ProductionRate": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "ProductionRate",
+         "type": "Value",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": " The number of items that can be produced during a given period of time.",
+         "usedBy": [
+            "InputPopulation"
+         ],
+         "allowedValues": []
+      },
+      "Property": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Property",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A container of information regarding a property of an input parameter.",
+         "usedBy": [
+            "DisplayOutput",
+            "InputParameter",
+            "InputProperties",
+            "NumericalOutput",
+            "RegionParameter"
+         ],
+         "subElements": [
+            "Name",
+            "Description",
+            "Caveats",
+            "PropertyQuantity",
+            "Qualifier",
+            "Units",
+            "UnitsConversion",
+            "PropertyLabel",
+            "PropertyValue",
+            "PropertyTableURL",
+            "ValidMin",
+            "ValidMax",
+            "PropertyModel",
+            "ModelURL"
+         ],
+         "allowedValues": []
+      },
+      "PropertyLabel": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "PropertyLabel",
+         "type": "StringSequence",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A string list of the labels of each dimension of the property.",
+         "usedBy": [
+            "Property"
+         ],
+         "allowedValues": []
+      },
+      "PropertyModel": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "PropertyModel",
+         "type": "Text",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Model used to define a property.",
+         "usedBy": [
+            "Property"
+         ],
+         "allowedValues": []
+      },
+      "PropertyQuantity": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "PropertyQuantity",
+         "type": "Enumeration",
+         "list": "ParameterQuantity",
+         "element": "",
+         "attributes": "",
+         "definition": "The value associated with a property.",
+         "usedBy": [
+            "Property"
+         ],
+         "allowedValues": []
+      },
+      "PropertyTableURL": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "PropertyTableURL",
+         "type": "URL",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A URL to a table containing  property values.",
+         "usedBy": [
+            "Property"
+         ],
+         "allowedValues": []
+      },
+      "PropertyValue": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "PropertyValue",
+         "type": "StringSequence",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A string list of the values of the property.",
+         "usedBy": [
+            "Property"
+         ],
+         "allowedValues": []
+      },
+      "Radius": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Radius",
+         "type": "Value",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "The length of a line segment from a center point to the perimeter.",
+         "usedBy": [
+            "RegionParameter"
+         ],
+         "allowedValues": []
+      },
+      "Rate": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Rate",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Reaction rate: reaction production per unit of time.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "RegionBegin": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "RegionBegin",
+         "type": "FloatSequence",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "The values that define the start point of a region.",
+         "usedBy": [
+            "Granule",
+            "SpatialDescription"
+         ],
+         "allowedValues": []
+      },
+      "RegionEnd": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "RegionEnd",
+         "type": "FloatSequence",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "The values that define the ending point of a region.",
+         "usedBy": [
+            "Granule",
+            "SpatialDescription"
+         ],
+         "allowedValues": []
+      },
+      "RegionParameter": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "RegionParameter",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Radius of the Region in the simulation.",
+         "usedBy": [
+            "SimulationRun"
+         ],
+         "subElements": [
+            "SimulatedRegion",
+            "Description",
+            "Caveats",
+            "Radius",
+            "SubLongitude",
+            "Period",
+            "ObjectMass",
+            "InputTableURL",
+            "Property"
+         ],
+         "allowedValues": []
+      },
+      "Remote1AU": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Remote1AU",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A roughly toroidal region that includes the Earth's orbit, but exclusive of the region near the Earth.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "SavedQuantity": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "SavedQuantity",
+         "type": "Enumeration",
+         "list": "SavedQuantity",
+         "element": "",
+         "attributes": "",
+         "definition": "Quantities that are saved during a given diagnosis.",
+         "usedBy": [
+            "DiagnosisTimeStep"
+         ],
+         "allowedValues": []
+      },
+      "SideWall": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "SideWall",
+         "type": "Text",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Side walls of the simulation domain.",
+         "usedBy": [
+            "ElementBoundary"
+         ],
+         "allowedValues": []
+      },
+      "SimulatedInstrumentID": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "SimulatedInstrumentID",
+         "type": "ID",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "The identifier of the a simulated instrument description.",
+         "usedBy": [
+            "DisplayOutput",
+            "NumericalOutput"
+         ],
+         "allowedValues": []
+      },
+      "SimulatedRegion": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "SimulatedRegion",
+         "type": "Enumeration",
+         "list": "SimulatedRegion",
+         "element": "",
+         "attributes": "",
+         "definition": "The portion of space simulated by the code at the time of a diagnosis. A region is distinguished by certain natural features or physical characteristics. It is the location of the observatory for in situ data, the location or region sensed by remote sensing observatories and the location-of-relevance for parameters that are derived from observational data.",
+         "usedBy": [
+            "DisplayOutput",
+            "InputField",
+            "InputParameter",
+            "InputPopulation",
+            "InputProcess",
+            "NumericalOutput",
+            "RegionParameter",
+            "SimulationModel",
+            "SimulationRun"
+         ],
+         "allowedValues": []
+      },
+      "SimulationDomain": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "SimulationDomain",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Parameters associated to the simulation spatial domain.",
+         "usedBy": [
+            "SimulationRun"
+         ],
+         "subElements": [
+            "CoordinateSystem",
+            "Description",
+            "Caveats",
+            "SpatialDimension",
+            "VelocityDimension",
+            "FieldDimension",
+            "Units",
+            "UnitsConversion",
+            "CoordinatesLabel",
+            "ValidMin",
+            "ValidMax",
+            "GridStructure",
+            "GridCellSize",
+            "Symmetry",
+            "BoundaryConditions"
+         ],
+         "allowedValues": []
+      },
+      "SimulationModel": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "SimulationModel",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Descriptor of a simulation model: type of numerical scheme, versions,...",
+         "usedBy": [
+            "Spase"
+         ],
+         "subElements": [
+            "ResourceID",
+            "ResourceHeader",
+            "Versions",
+            "SimulationType",
+            "CodeLanguage",
+            "TemporalDependence",
+            "SpatialDescription",
+            "SimulatedRegion",
+            "InputProperties",
+            "OutputParameters",
+            "ModelURL"
+         ],
+         "allowedValues": []
+      },
+      "SimulationProduct": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "SimulationProduct",
+         "type": "Enumeration",
+         "list": "Product",
+         "element": "",
+         "attributes": "",
+         "definition": "The type of product produced from the simulation.",
+         "usedBy": [
+            "DisplayOutput",
+            "NumericalOutput"
+         ],
+         "allowedValues": [
+            "2DCuts",
+            "3DCubes",
+            "Lines",
+            "SpatialSeries",
+            "Spectra",
+            "TimeSeries"
+         ]
+      },
+      "SimulationRun": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "SimulationRun",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Description of a simulation run, including the code ID, the run spatial and temporal description, and all the relevant inputs.",
+         "usedBy": [
+            "Spase"
+         ],
+         "subElements": [
+            "ResourceID",
+            "ResourceHeader",
+            "AccessInformation",
+            "ProviderResourceName",
+            "ProviderProcessingLevel",
+            "ProviderVersion",
+            "Model",
+            "TemporalDependence",
+            "SimulatedRegion",
+            "LikelihoodRating",
+            "Caveats",
+            "Keyword",
+            "InputResourceID",
+            "SimulationTime",
+            "SimulationDomain",
+            "RegionParameter",
+            "InputParameter",
+            "InputPopulation",
+            "InputField",
+            "InputProcess",
+            "Extension"
+         ],
+         "allowedValues": []
+      },
+      "SimulationTime": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "SimulationTime",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Parameters associated to the simulation time.",
+         "usedBy": [
+            "SimulationRun"
+         ],
+         "subElements": [
+            "Description",
+            "Caveats",
+            "Duration",
+            "TimeStart",
+            "TimeStop",
+            "TimeStep",
+            "DiagnosisTimeStep"
+         ],
+         "allowedValues": []
+      },
+      "SimulationType": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "SimulationType",
+         "type": "Enumeration",
+         "list": "SimulationType",
+         "element": "",
+         "attributes": "",
+         "definition": "A characterization of the numerical scheme used in the simulation",
+         "usedBy": [
+            "SimulationModel"
+         ],
+         "allowedValues": [
+            "Hybrid",
+            "MHD",
+            "PIC",
+            "Paraboloid",
+            "Test_Particle"
+         ]
+      },
+      "Spase": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Spase",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Overrides Spase in the base schema. Space Physics Archive Search and Extract (SPASE). The outermost container or envelope for SPASE metadata. This indicates the start of the SPASE metadata.",
+         "usedBy": [],
+         "subElements": [
+            "Version",
+            "Catalog",
+            "DisplayData",
+            "NumericalData",
+            "Document",
+            "Granule",
+            "Instrument",
+            "Observatory",
+            "Person",
+            "Registry",
+            "Repository",
+            "Service",
+            "Annotation",
+            "SimulationModel",
+            "SimulationRun",
+            "NumericalOutput",
+            "DisplayOutput"
+         ],
+         "allowedValues": []
+      },
+      "SpatialDescription": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "SpatialDescription",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A characterization of the spatial extent over which the measurement was taken.",
+         "usedBy": [
+            "DisplayOutput",
+            "NumericalOutput",
+            "SimulationModel"
+         ],
+         "subElements": [
+            "Dimension",
+            "CoordinateSystem",
+            "Units",
+            "UnitsConversion",
+            "CoordinatesLabel",
+            "CutsDescription",
+            "PlaneNormalVector",
+            "PlanePoint",
+            "CubesDescription",
+            "RegionBegin",
+            "RegionEnd",
+            "Step"
+         ],
+         "allowedValues": []
+      },
+      "SpatialDimension": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "SpatialDimension",
+         "type": "Count",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Number of spatial dimensions in the simulation domain.",
+         "usedBy": [
+            "SimulationDomain"
+         ],
+         "allowedValues": []
+      },
+      "SpecificSimulatedRegion": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "SpecificSimulatedRegion",
+         "type": "Enumeration",
+         "list": "SpecificSimulatedRegion",
+         "element": "",
+         "attributes": "",
+         "definition": "Identifiers for areas of the physical world which may be occupied or observed.",
+         "usedBy": [],
+         "allowedValues": [
+            "Callisto",
+            "Enceladus",
+            "Europa",
+            "Ganymede",
+            "Io",
+            "Planet",
+            "Rhea",
+            "Titan",
+            "Incident",
+            "Title"
+         ]
+      },
+      "Step": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Step",
+         "type": "Text",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Spatial step between two elements of the diagnosis.",
+         "usedBy": [
+            "SpatialDescription"
+         ],
+         "allowedValues": []
+      },
+      "StokesParameters": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "StokesParameters",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A set of four parameters (usually called I,Q, U and V) which describe the polarization state of an electromagnetic wave propagating through space.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "SubLongitude": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "SubLongitude",
+         "type": "Value",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "The longitude on the surface of an object which is directly below another object.",
+         "usedBy": [
+            "RegionParameter"
+         ],
+         "allowedValues": []
+      },
+      "Symmetry": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Symmetry",
+         "type": "Enumeration",
+         "list": "Symmetry",
+         "element": "",
+         "attributes": "",
+         "definition": "Symmetry of the simulation domain.",
+         "usedBy": [
+            "SimulationDomain"
+         ],
+         "allowedValues": [
+            "Axial",
+            "Central",
+            "None",
+            "Plane"
+         ]
+      },
+      "TemporalDependence": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "TemporalDependence",
+         "type": "Enumeration",
+         "list": "YN",
+         "element": "",
+         "attributes": "",
+         "definition": "Whether the simulation results are obtained from a stationary solution or are dynamically computed.",
+         "usedBy": [
+            "SimulationModel",
+            "SimulationRun"
+         ],
+         "allowedValues": [
+            "No",
+            "Yes"
+         ]
+      },
+      "TestParticle": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "TestParticle",
+         "type": "Item",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A numerical scheme simulating the motion of charged particles in a prescribed field.",
+         "usedBy": [],
+         "allowedValues": []
+      },
+      "TimeStart": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "TimeStart",
+         "type": "Time",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Time at which the coverage by the element start.",
+         "usedBy": [
+            "DiagnosisTimeStep",
+            "SimulationTime"
+         ],
+         "allowedValues": []
+      },
+      "TimeStep": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "TimeStep",
+         "type": "Duration",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Time Step.",
+         "usedBy": [
+            "SimulationTime"
+         ],
+         "allowedValues": []
+      },
+      "TimeStop": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "TimeStop",
+         "type": "Time",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Time at which the coverage by the element stop.",
+         "usedBy": [
+            "SimulationTime"
+         ],
+         "allowedValues": []
+      },
+      "TotalProductionRate": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "TotalProductionRate",
+         "type": "Value",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "The total number of items that can be produced during a given period of time.",
+         "usedBy": [
+            "InputPopulation"
+         ],
+         "allowedValues": []
+      },
+      "VelocityDimension": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "VelocityDimension",
+         "type": "Count",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "Number of velocity dimensions in the simulation domain.",
+         "usedBy": [
+            "SimulationDomain"
+         ],
+         "allowedValues": []
+      },
+      "VersionTag": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "VersionTag",
+         "type": "Text",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "The text string for a version indicator.",
+         "usedBy": [
+            "Model",
+            "ModelVersion"
+         ],
+         "allowedValues": []
+      },
+      "Versions": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "term": "Versions",
+         "type": "Container",
+         "list": "",
+         "element": "",
+         "attributes": "",
+         "definition": "A container of one or more sets of version information.",
+         "usedBy": [
+            "SimulationModel"
+         ],
+         "subElements": [
+            "ModelVersion"
+         ],
+         "allowedValues": []
+      }
+   },
+   "list": {
+      "ParameterQuantity": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "name": "ParameterQuantity",
+         "type": "Union",
+         "reference": "spase:FieldQuantity,spase:ParticleQuantity,spase:MeasurementType,spase:ParticleType,spase:DirectionAngle,spase:MixedQuantity,spase:SpectralRange,spase:WaveQuantity,spase:WaveType,spase:InstrumentType,ProcCoefType,ProcessType,Product,spase:SupportQuantity",
+         "definition": ""
+      },
+      "ProcCoefType": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "name": "ProcCoefType",
+         "type": "Closed",
+         "reference": "",
+         "definition": "Whether the simulation results are obtained from a stationary solution or are dynamically computed."
+      },
+      "ProcessType": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "name": "ProcessType",
+         "type": "Closed",
+         "reference": "",
+         "definition": "Type of chemical process."
+      },
+      "Product": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "name": "Product",
+         "type": "Closed",
+         "reference": "",
+         "definition": "Type of article or asset."
+      },
+      "SavedQuantity": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "name": "SavedQuantity",
+         "type": "Union",
+         "reference": "spase:FieldQuantity,spase:ParticleQuantity,spase:MixedQuantity,spase:WaveQuantity,Product",
+         "definition": "Quantities that are saved during a given diagnosis."
+      },
+      "SimulatedRegion": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "name": "SimulatedRegion",
+         "type": "Union",
+         "reference": "spase:Region,spase:SpecificSimulatedRegion",
+         "definition": "Identifiers for areas of the physical world which may be occupied or observed."
+      },
+      "SpecificSimulatedRegion": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "name": "SpecificSimulatedRegion",
+         "type": "Closed",
+         "reference": "",
+         "definition": "Identifiers for areas of the physical world which may be occupied or observed."
+      },
+      "SimulationType": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "name": "SimulationType",
+         "type": "Closed",
+         "reference": "",
+         "definition": "A characterization of the numerical scheme used in the simulation."
+      },
+      "Symmetry": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "name": "Symmetry",
+         "type": "Closed",
+         "reference": "",
+         "definition": "Symmetry of the simulation domain."
+      },
+      "YN": {
+         "version": "1.0.0",
+         "since": "1.0.0",
+         "name": "YN",
+         "type": "Closed",
+         "reference": "",
+         "definition": "Yes or No"
+      }
+   },
+   "member": {
+      "ProcCoefType": {
+         "CrossSection": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "ProcCoefType",
+            "item": "CrossSection"
+         },
+         "Frequency": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "ProcCoefType",
+            "item": "Frequency"
+         },
+         "Other": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "ProcCoefType",
+            "item": "Other"
+         },
+         "Rate": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "ProcCoefType",
+            "item": "Rate"
+         }
+      },
+      "ProcessType": {
+         "ChargeExchange": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "ProcessType",
+            "item": "ChargeExchange"
+         },
+         "DissociativeRecombination": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "ProcessType",
+            "item": "DissociativeRecombination"
+         },
+         "ElectronImpact": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "ProcessType",
+            "item": "ElectronImpact"
+         },
+         "PhotoIonization": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "ProcessType",
+            "item": "PhotoIonization"
+         }
+      },
+      "Product": {
+         "2DCuts": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "Product",
+            "item": "2DCuts"
+         },
+         "3DCubes": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "Product",
+            "item": "3DCubes"
+         },
+         "Lines": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "Product",
+            "item": "Lines"
+         },
+         "SpatialSeries": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "Product",
+            "item": "SpatialSeries"
+         },
+         "Spectra": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "Product",
+            "item": "Spectra"
+         },
+         "TimeSeries": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "Product",
+            "item": "TimeSeries"
+         }
+      },
+      "Qualifier": {
+         "Incident": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "Qualifier",
+            "item": "Incident"
+         }
+      },
+      "SimulationType": {
+         "Hybrid": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "SimulationType",
+            "item": "Hybrid"
+         },
+         "MHD": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "SimulationType",
+            "item": "MHD"
+         },
+         "PIC": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "SimulationType",
+            "item": "PIC"
+         },
+         "Paraboloid": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "SimulationType",
+            "item": "Paraboloid"
+         },
+         "Test_Particle": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "SimulationType",
+            "item": "Test_Particle"
+         }
+      },
+      "Symmetry": {
+         "Axial": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "Symmetry",
+            "item": "Axial"
+         },
+         "Central": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "Symmetry",
+            "item": "Central"
+         },
+         "None": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "Symmetry",
+            "item": "None"
+         },
+         "Plane": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "Symmetry",
+            "item": "Plane"
+         }
+      },
+      "YN": {
+         "No": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "YN",
+            "item": "No"
+         },
+         "Yes": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "YN",
+            "item": "Yes"
+         }
+      },
+      "Planet": {
+         "Magnetosphere": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "Planet",
+            "item": "Magnetosphere"
+         }
+      },
+      "SpecificSimulatedRegion": {
+         "Callisto": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "SpecificSimulatedRegion",
+            "item": "Callisto"
+         },
+         "Enceladus": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "SpecificSimulatedRegion",
+            "item": "Enceladus"
+         },
+         "Europa": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "SpecificSimulatedRegion",
+            "item": "Europa"
+         },
+         "Ganymede": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "SpecificSimulatedRegion",
+            "item": "Ganymede"
+         },
+         "Io": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "SpecificSimulatedRegion",
+            "item": "Io"
+         },
+         "Planet": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "SpecificSimulatedRegion",
+            "item": "Planet"
+         },
+         "Rhea": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "SpecificSimulatedRegion",
+            "item": "Rhea"
+         },
+         "Titan": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "SpecificSimulatedRegion",
+            "item": "Titan"
+         },
+         "Incident": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "SpecificSimulatedRegion",
+            "item": "Incident"
+         },
+         "Title": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "list": "SpecificSimulatedRegion",
+            "item": "Title"
+         }
+      }
+   },
+   "ontology": {
+      "BoundaryConditions": {
+         "ParticleBoundary": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "BoundaryConditions",
+            "element": "ParticleBoundary",
+            "reference": 1,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "FieldBoundary": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "BoundaryConditions",
+            "element": "FieldBoundary",
+            "reference": 2,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         }
+      },
+      "DiagnosisTimeStep": {
+         "TimeStart": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DiagnosisTimeStep",
+            "element": "TimeStart",
+            "reference": 1,
+            "occurrence": "1",
+            "group": "",
+            "type": ""
+         },
+         "Duration": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DiagnosisTimeStep",
+            "element": "Duration",
+            "reference": 2,
+            "occurrence": "1",
+            "group": "",
+            "type": ""
+         },
+         "SavedQuantity": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DiagnosisTimeStep",
+            "element": "SavedQuantity",
+            "reference": 3,
+            "occurrence": "*",
+            "group": "",
+            "type": ""
+         }
+      },
+      "DisplayOutput": {
+         "ResourceID": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "ResourceID",
+            "reference": 1,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:ResourceID"
+         },
+         "ResourceHeader": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "ResourceHeader",
+            "reference": 2,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:ResourceHeader"
+         },
+         "AccessInformation": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "AccessInformation",
+            "reference": 3,
+            "occurrence": "+",
+            "group": "",
+            "type": "base:AccessInformation"
+         },
+         "ProcessingLevel": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "ProcessingLevel",
+            "reference": 4,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ProcessingLevel"
+         },
+         "ProviderResourceName": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "ProviderResourceName",
+            "reference": 5,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ProviderResourceName"
+         },
+         "ProviderProcessingLevel": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "ProviderProcessingLevel",
+            "reference": 6,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ProviderProcessingLevel"
+         },
+         "ProviderVersion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "ProviderVersion",
+            "reference": 7,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ProviderVersion"
+         },
+         "SimulatedInstrumentID": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "SimulatedInstrumentID",
+            "reference": 8,
+            "occurrence": "*",
+            "group": "",
+            "type": ""
+         },
+         "MeasurementType": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "MeasurementType",
+            "reference": 9,
+            "occurrence": "+",
+            "group": "",
+            "type": "base:MeasurementType"
+         },
+         "TemporalDescription": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "TemporalDescription",
+            "reference": 10,
+            "occurrence": "0",
+            "group": "Choice",
+            "type": "base:TemporalDescription"
+         },
+         "SpatialDescription": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "SpatialDescription",
+            "reference": 11,
+            "occurrence": "0",
+            "group": "Choice",
+            "type": ""
+         },
+         "SpectralRange": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "SpectralRange",
+            "reference": 12,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:SpectralRange"
+         },
+         "DisplayCadence": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "DisplayCadence",
+            "reference": 13,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:DisplayCadence"
+         },
+         "SimulatedRegion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "SimulatedRegion",
+            "reference": 14,
+            "occurrence": "*",
+            "group": "",
+            "type": ""
+         },
+         "Caveats": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "Caveats",
+            "reference": 15,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Caveats"
+         },
+         "Keyword": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "Keyword",
+            "reference": 16,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:Keyword"
+         },
+         "InputResourceID": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "InputResourceID",
+            "reference": 17,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:InputResourceID"
+         },
+         "Parameter": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "Parameter",
+            "reference": 18,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:Parameter"
+         },
+         "SimulationProduct": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "SimulationProduct",
+            "reference": 19,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "Property": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "Property",
+            "reference": 20,
+            "occurrence": "*",
+            "group": "",
+            "type": ""
+         },
+         "Extension": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "DisplayOutput",
+            "element": "Extension",
+            "reference": 21,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Extension"
+         }
+      },
+      "ElementBoundary": {
+         "Caveats": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "ElementBoundary",
+            "element": "Caveats",
+            "reference": 1,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Caveats"
+         },
+         "FrontWall": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "ElementBoundary",
+            "element": "FrontWall",
+            "reference": 2,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "BackWall": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "ElementBoundary",
+            "element": "BackWall",
+            "reference": 3,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "SideWall": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "ElementBoundary",
+            "element": "SideWall",
+            "reference": 4,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "Obstacle": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "ElementBoundary",
+            "element": "Obstacle",
+            "reference": 5,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         }
+      },
+      "Granule": {
+         "ResourceID": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Granule",
+            "element": "ResourceID",
+            "reference": 1,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:ResourceID"
+         },
+         "ReleaseDate": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Granule",
+            "element": "ReleaseDate",
+            "reference": 2,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:ReleaseDate"
+         },
+         "ExpirationDate": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Granule",
+            "element": "ExpirationDate",
+            "reference": 3,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ExpirationDate"
+         },
+         "ParentID": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Granule",
+            "element": "ParentID",
+            "reference": 4,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:ParentID"
+         },
+         "PriorID": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Granule",
+            "element": "PriorID",
+            "reference": 5,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:PriorID"
+         },
+         "StartDate": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Granule",
+            "element": "StartDate",
+            "reference": 6,
+            "occurrence": "1",
+            "group": "StartEntity",
+            "type": "base:StartDate"
+         },
+         "RegionBegin": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Granule",
+            "element": "RegionBegin",
+            "reference": 7,
+            "occurrence": "1",
+            "group": "StartEntity",
+            "type": ""
+         },
+         "StopDate": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Granule",
+            "element": "StopDate",
+            "reference": 8,
+            "occurrence": "1",
+            "group": "StopEntity",
+            "type": "base:StopDate"
+         },
+         "RegionEnd": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Granule",
+            "element": "RegionEnd",
+            "reference": 9,
+            "occurrence": "1",
+            "group": "StopEntity",
+            "type": ""
+         },
+         "Source": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Granule",
+            "element": "Source",
+            "reference": 10,
+            "occurrence": "+",
+            "group": "",
+            "type": "base:Source"
+         }
+      },
+      "InputField": {
+         "Name": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "Name",
+            "reference": 1,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:Name"
+         },
+         "Set": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "Set",
+            "reference": 2,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:Set"
+         },
+         "ParameterKey": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "ParameterKey",
+            "reference": 3,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ParameterKey"
+         },
+         "Description": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "Description",
+            "reference": 4,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Description"
+         },
+         "Caveats": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "Caveats",
+            "reference": 5,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Caveats"
+         },
+         "SimulatedRegion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "SimulatedRegion",
+            "reference": 6,
+            "occurrence": "*",
+            "group": "",
+            "type": ""
+         },
+         "CoordinateSystem": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "CoordinateSystem",
+            "reference": 7,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:CoordinateSystem"
+         },
+         "Qualifier": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "Qualifier",
+            "reference": 8,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:Qualifier"
+         },
+         "FieldQuantity": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "FieldQuantity",
+            "reference": 9,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:FieldQuantity"
+         },
+         "Units": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "Units",
+            "reference": 10,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Units"
+         },
+         "UnitsConversion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "UnitsConversion",
+            "reference": 11,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:UnitsConversion"
+         },
+         "InputLabel": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "InputLabel",
+            "reference": 12,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "FieldValue": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "FieldValue",
+            "reference": 13,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "InputTableURL": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "InputTableURL",
+            "reference": 14,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "ValidMin": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "ValidMin",
+            "reference": 15,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ValidMin"
+         },
+         "ValidMax": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "ValidMax",
+            "reference": 16,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ValidMax"
+         },
+         "FieldModel": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "FieldModel",
+            "reference": 17,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "ModelURL": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputField",
+            "element": "ModelURL",
+            "reference": 18,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         }
+      },
+      "InputParameter": {
+         "Name": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputParameter",
+            "element": "Name",
+            "reference": 1,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:Name"
+         },
+         "Description": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputParameter",
+            "element": "Description",
+            "reference": 2,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Description"
+         },
+         "Caveats": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputParameter",
+            "element": "Caveats",
+            "reference": 3,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Caveats"
+         },
+         "SimulatedRegion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputParameter",
+            "element": "SimulatedRegion",
+            "reference": 4,
+            "occurrence": "*",
+            "group": "",
+            "type": ">SpecificSimulatedRegion"
+         },
+         "Qualifier": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputParameter",
+            "element": "Qualifier",
+            "reference": 5,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:Qualifier"
+         },
+         "InputTableURL": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputParameter",
+            "element": "InputTableURL",
+            "reference": 5,
+            "occurrence": "*",
+            "group": "",
+            "type": ""
+         },
+         "ParameterQuantity": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputParameter",
+            "element": "ParameterQuantity",
+            "reference": 7,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "Property": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputParameter",
+            "element": "Property",
+            "reference": 8,
+            "occurrence": "+",
+            "group": "",
+            "type": ""
+         }
+      },
+      "InputPopulation": {
+         "Name": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "Name",
+            "reference": 1,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:Name"
+         },
+         "Set": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "Set",
+            "reference": 2,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:Set"
+         },
+         "ParameterKey": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "ParameterKey",
+            "reference": 3,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ParameterKey"
+         },
+         "Description": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "Description",
+            "reference": 4,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Description"
+         },
+         "Caveats": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "Caveats",
+            "reference": 5,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Caveats"
+         },
+         "SimulatedRegion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "SimulatedRegion",
+            "reference": 6,
+            "occurrence": "*",
+            "group": "",
+            "type": ""
+         },
+         "Qualifier": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "Qualifier",
+            "reference": 7,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:Qualifier"
+         },
+         "ParticleType": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "ParticleType",
+            "reference": 8,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ParticleType"
+         },
+         "ChemicalFormula": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "ChemicalFormula",
+            "reference": 9,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "AtomicNumber": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "AtomicNumber",
+            "reference": 10,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:AtomicNumber"
+         },
+         "PopulationMassNumber": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "PopulationMassNumber",
+            "reference": 11,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "PopulationChargeState": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "PopulationChargeState",
+            "reference": 12,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "PopulationDensity": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "PopulationDensity",
+            "reference": 13,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "PopulationTemperature": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "PopulationTemperature",
+            "reference": 14,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "PopulationFlowSpeed": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "PopulationFlowSpeed",
+            "reference": 15,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "Distribution": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "Distribution",
+            "reference": 16,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "ProductionRate": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "ProductionRate",
+            "reference": 17,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "TotalProductionRate": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "TotalProductionRate",
+            "reference": 18,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "InputTableURL": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "InputTableURL",
+            "reference": 19,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "DensityProfile": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "DensityProfile",
+            "reference": 20,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "ModelURL": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputPopulation",
+            "element": "ModelURL",
+            "reference": 21,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         }
+      },
+      "InputProcess": {
+         "Name": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputProcess",
+            "element": "Name",
+            "reference": 1,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:Name"
+         },
+         "Set": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputProcess",
+            "element": "Set",
+            "reference": 2,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:Set"
+         },
+         "ParameterKey": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputProcess",
+            "element": "ParameterKey",
+            "reference": 3,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ParameterKey"
+         },
+         "Description": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputProcess",
+            "element": "Description",
+            "reference": 4,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Description"
+         },
+         "Caveats": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputProcess",
+            "element": "Caveats",
+            "reference": 5,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Caveats"
+         },
+         "SimulatedRegion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputProcess",
+            "element": "SimulatedRegion",
+            "reference": 6,
+            "occurrence": "*",
+            "group": "",
+            "type": ""
+         },
+         "ProcessType": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputProcess",
+            "element": "ProcessType",
+            "reference": 7,
+            "occurrence": "1",
+            "group": "",
+            "type": ""
+         },
+         "Units": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputProcess",
+            "element": "Units",
+            "reference": 8,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Units"
+         },
+         "UnitsConversion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputProcess",
+            "element": "UnitsConversion",
+            "reference": 9,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:UnitsConversion"
+         },
+         "ProcessCoefficient": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputProcess",
+            "element": "ProcessCoefficient",
+            "reference": 10,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "ProcessCoeffType": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputProcess",
+            "element": "ProcessCoeffType",
+            "reference": 11,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "ProcessModel": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputProcess",
+            "element": "ProcessModel",
+            "reference": 12,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "ModelURL": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputProcess",
+            "element": "ModelURL",
+            "reference": 13,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         }
+      },
+      "InputProperties": {
+         "Property": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "InputProperties",
+            "element": "Property",
+            "reference": 1,
+            "occurrence": "*",
+            "group": "",
+            "type": ""
+         }
+      },
+      "Model": {
+         "ModelID": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Model",
+            "element": "ModelID",
+            "reference": 1,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "VersionTag": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Model",
+            "element": "VersionTag",
+            "reference": 2,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         }
+      },
+      "ModelVersion": {
+         "VersionTag": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "ModelVersion",
+            "element": "VersionTag",
+            "reference": 1,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "ReleaseDate": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "ModelVersion",
+            "element": "ReleaseDate",
+            "reference": 2,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:ReleaseDate"
+         },
+         "Description": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "ModelVersion",
+            "element": "Description",
+            "reference": 3,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Description"
+         },
+         "Caveats": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "ModelVersion",
+            "element": "Caveats",
+            "reference": 4,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Caveats"
+         }
+      },
+      "NumericalOutput": {
+         "ResourceID": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "ResourceID",
+            "reference": 1,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:ResourceID"
+         },
+         "ResourceHeader": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "ResourceHeader",
+            "reference": 2,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:ResourceHeader"
+         },
+         "AccessInformation": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "AccessInformation",
+            "reference": 3,
+            "occurrence": "+",
+            "group": "",
+            "type": "base:AccessInformation"
+         },
+         "ProcessingLevel": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "ProcessingLevel",
+            "reference": 4,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ProcessingLevel"
+         },
+         "ProviderResourceName": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "ProviderResourceName",
+            "reference": 5,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ProviderResourceName"
+         },
+         "ProviderProcessingLevel": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "ProviderProcessingLevel",
+            "reference": 6,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ProviderProcessingLevel"
+         },
+         "ProviderVersion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "ProviderVersion",
+            "reference": 7,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ProviderVersion"
+         },
+         "SimulatedInstrumentID": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "SimulatedInstrumentID",
+            "reference": 8,
+            "occurrence": "*",
+            "group": "",
+            "type": ""
+         },
+         "MeasurementType": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "MeasurementType",
+            "reference": 9,
+            "occurrence": "+",
+            "group": "",
+            "type": "base:MeasurementType"
+         },
+         "TemporalDescription": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "TemporalDescription",
+            "reference": 10,
+            "occurrence": "0",
+            "group": "Choice",
+            "type": "base:TemporalDescription"
+         },
+         "SpatialDescription": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "SpatialDescription",
+            "reference": 11,
+            "occurrence": "0",
+            "group": "Choice",
+            "type": ""
+         },
+         "SpectralRange": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "SpectralRange",
+            "reference": 12,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:SpectralRange"
+         },
+         "SimulatedRegion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "SimulatedRegion",
+            "reference": 13,
+            "occurrence": "*",
+            "group": "",
+            "type": ""
+         },
+         "Caveats": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "Caveats",
+            "reference": 14,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Caveats"
+         },
+         "Keyword": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "Keyword",
+            "reference": 15,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:Keyword"
+         },
+         "InputResourceID": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "InputResourceID",
+            "reference": 16,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:InputResourceID"
+         },
+         "Parameter": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "Parameter",
+            "reference": 17,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:Parameter"
+         },
+         "SimulationProduct": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "SimulationProduct",
+            "reference": 18,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "Property": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "Property",
+            "reference": 19,
+            "occurrence": "*",
+            "group": "",
+            "type": ""
+         },
+         "Extension": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "NumericalOutput",
+            "element": "Extension",
+            "reference": 20,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Extension"
+         }
+      },
+      "OutputParameters": {
+         "Parameter": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "OutputParameters",
+            "element": "Parameter",
+            "reference": 1,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:Parameter"
+         }
+      },
+      "Particle": {
+         "Population": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Particle",
+            "element": "Population",
+            "reference": 1,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "ParticleType": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Particle",
+            "element": "ParticleType",
+            "reference": 2,
+            "occurrence": "+",
+            "group": "",
+            "type": "base:ParticleType"
+         },
+         "Qualifier": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Particle",
+            "element": "Qualifier",
+            "reference": 3,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:Qualifier"
+         },
+         "ParticleQuantity": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Particle",
+            "element": "ParticleQuantity",
+            "reference": 4,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:ParticleQuantity"
+         },
+         "ChemicalFormula": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Particle",
+            "element": "ChemicalFormula",
+            "reference": 5,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "AtomicNumber": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Particle",
+            "element": "AtomicNumber",
+            "reference": 6,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:AtomicNumber"
+         },
+         "PopulationMassNumber": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Particle",
+            "element": "PopulationMassNumber",
+            "reference": 7,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "PopulationChargeState": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Particle",
+            "element": "PopulationChargeState",
+            "reference": 8,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "EnergyRange": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Particle",
+            "element": "EnergyRange",
+            "reference": 9,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:EnergyRange"
+         },
+         "AzimuthalAngleRange": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Particle",
+            "element": "AzimuthalAngleRange",
+            "reference": 10,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:AzimuthalAngleRange"
+         },
+         "PolarAngleRange": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Particle",
+            "element": "PolarAngleRange",
+            "reference": 11,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:PolarAngleRange"
+         }
+      },
+      "Property": {
+         "Name": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Property",
+            "element": "Name",
+            "reference": 1,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Name"
+         },
+         "Description": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Property",
+            "element": "Description",
+            "reference": 2,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Description"
+         },
+         "Caveats": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Property",
+            "element": "Caveats",
+            "reference": 3,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Caveats"
+         },
+         "PropertyQuantity": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Property",
+            "element": "PropertyQuantity",
+            "reference": 4,
+            "occurrence": "1",
+            "group": "",
+            "type": ""
+         },
+         "Qualifier": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Property",
+            "element": "Qualifier",
+            "reference": 5,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:Qualifier"
+         },
+         "Units": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Property",
+            "element": "Units",
+            "reference": 6,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Units"
+         },
+         "UnitsConversion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Property",
+            "element": "UnitsConversion",
+            "reference": 7,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:UnitsConversion"
+         },
+         "PropertyLabel": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Property",
+            "element": "PropertyLabel",
+            "reference": 8,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "PropertyValue": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Property",
+            "element": "PropertyValue",
+            "reference": 9,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "PropertyTableURL": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Property",
+            "element": "PropertyTableURL",
+            "reference": 10,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "ValidMin": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Property",
+            "element": "ValidMin",
+            "reference": 11,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ValidMin"
+         },
+         "ValidMax": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Property",
+            "element": "ValidMax",
+            "reference": 12,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ValidMax"
+         },
+         "PropertyModel": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Property",
+            "element": "PropertyModel",
+            "reference": 13,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "ModelURL": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Property",
+            "element": "ModelURL",
+            "reference": 14,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         }
+      },
+      "RegionParameter": {
+         "SimulatedRegion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "RegionParameter",
+            "element": "SimulatedRegion",
+            "reference": 1,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "Description": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "RegionParameter",
+            "element": "Description",
+            "reference": 2,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Description"
+         },
+         "Caveats": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "RegionParameter",
+            "element": "Caveats",
+            "reference": 3,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Caveats"
+         },
+         "Radius": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "RegionParameter",
+            "element": "Radius",
+            "reference": 4,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "SubLongitude": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "RegionParameter",
+            "element": "SubLongitude",
+            "reference": 5,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "Period": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "RegionParameter",
+            "element": "Period",
+            "reference": 6,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "ObjectMass": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "RegionParameter",
+            "element": "ObjectMass",
+            "reference": 7,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "InputTableURL": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "RegionParameter",
+            "element": "InputTableURL",
+            "reference": 8,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "Property": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "RegionParameter",
+            "element": "Property",
+            "reference": 9,
+            "occurrence": "*",
+            "group": "",
+            "type": ""
+         }
+      },
+      "SimulationDomain": {
+         "CoordinateSystem": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationDomain",
+            "element": "CoordinateSystem",
+            "reference": 1,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:CoordinateSystem"
+         },
+         "Description": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationDomain",
+            "element": "Description",
+            "reference": 2,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Description"
+         },
+         "Caveats": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationDomain",
+            "element": "Caveats",
+            "reference": 3,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Caveats"
+         },
+         "SpatialDimension": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationDomain",
+            "element": "SpatialDimension",
+            "reference": 4,
+            "occurrence": "1",
+            "group": "",
+            "type": ""
+         },
+         "VelocityDimension": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationDomain",
+            "element": "VelocityDimension",
+            "reference": 5,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "FieldDimension": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationDomain",
+            "element": "FieldDimension",
+            "reference": 6,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "Units": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationDomain",
+            "element": "Units",
+            "reference": 7,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:Units"
+         },
+         "UnitsConversion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationDomain",
+            "element": "UnitsConversion",
+            "reference": 8,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:UnitsConversion"
+         },
+         "CoordinatesLabel": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationDomain",
+            "element": "CoordinatesLabel",
+            "reference": 9,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "ValidMin": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationDomain",
+            "element": "ValidMin",
+            "reference": 10,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ValidMin"
+         },
+         "ValidMax": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationDomain",
+            "element": "ValidMax",
+            "reference": 11,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ValidMax"
+         },
+         "GridStructure": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationDomain",
+            "element": "GridStructure",
+            "reference": 12,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "GridCellSize": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationDomain",
+            "element": "GridCellSize",
+            "reference": 13,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "Symmetry": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationDomain",
+            "element": "Symmetry",
+            "reference": 14,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "BoundaryConditions": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationDomain",
+            "element": "BoundaryConditions",
+            "reference": 15,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         }
+      },
+      "SimulationModel": {
+         "ResourceID": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationModel",
+            "element": "ResourceID",
+            "reference": 1,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:ResourceID"
+         },
+         "ResourceHeader": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationModel",
+            "element": "ResourceHeader",
+            "reference": 2,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:ResourceHeader"
+         },
+         "Versions": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationModel",
+            "element": "Versions",
+            "reference": 3,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "SimulationType": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationModel",
+            "element": "SimulationType",
+            "reference": 4,
+            "occurrence": "1",
+            "group": "",
+            "type": ""
+         },
+         "CodeLanguage": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationModel",
+            "element": "CodeLanguage",
+            "reference": 5,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "TemporalDependence": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationModel",
+            "element": "TemporalDependence",
+            "reference": 6,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "SpatialDescription": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationModel",
+            "element": "SpatialDescription",
+            "reference": 7,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "SimulatedRegion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationModel",
+            "element": "SimulatedRegion",
+            "reference": 8,
+            "occurrence": "*",
+            "group": "",
+            "type": ""
+         },
+         "InputProperties": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationModel",
+            "element": "InputProperties",
+            "reference": 9,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "OutputParameters": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationModel",
+            "element": "OutputParameters",
+            "reference": 10,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "ModelURL": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationModel",
+            "element": "ModelURL",
+            "reference": 11,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         }
+      },
+      "SimulationRun": {
+         "ResourceID": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "ResourceID",
+            "reference": 1,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:ResourceID"
+         },
+         "ResourceHeader": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "ResourceHeader",
+            "reference": 2,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:ResourceHeader"
+         },
+         "AccessInformation": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "AccessInformation",
+            "reference": 3,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:AccessInformation"
+         },
+         "ProviderResourceName": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "ProviderResourceName",
+            "reference": 4,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ProviderResourceName"
+         },
+         "ProviderProcessingLevel": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "ProviderProcessingLevel",
+            "reference": 5,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ProviderProcessingLevel"
+         },
+         "ProviderVersion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "ProviderVersion",
+            "reference": 6,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:ProviderVersion"
+         },
+         "Model": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "Model",
+            "reference": 7,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "TemporalDependence": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "TemporalDependence",
+            "reference": 8,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "SimulatedRegion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "SimulatedRegion",
+            "reference": 9,
+            "occurrence": "+",
+            "group": "",
+            "type": ""
+         },
+         "LikelihoodRating": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "LikelihoodRating",
+            "reference": 10,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "Caveats": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "Caveats",
+            "reference": 11,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Caveats"
+         },
+         "Keyword": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "Keyword",
+            "reference": 12,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:Keyword"
+         },
+         "InputResourceID": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "InputResourceID",
+            "reference": 13,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:InputResourceID"
+         },
+         "SimulationTime": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "SimulationTime",
+            "reference": 14,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "SimulationDomain": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "SimulationDomain",
+            "reference": 15,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "RegionParameter": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "RegionParameter",
+            "reference": 16,
+            "occurrence": "+",
+            "group": "InputEntity",
+            "type": ""
+         },
+         "InputParameter": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "InputParameter",
+            "reference": 17,
+            "occurrence": "+",
+            "group": "InputEntity",
+            "type": ""
+         },
+         "InputPopulation": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "InputPopulation",
+            "reference": 18,
+            "occurrence": "+",
+            "group": "InputEntity",
+            "type": ""
+         },
+         "InputField": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "InputField",
+            "reference": 19,
+            "occurrence": "+",
+            "group": "InputEntity",
+            "type": ""
+         },
+         "InputProcess": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "InputProcess",
+            "reference": 20,
+            "occurrence": "+",
+            "group": "InputEntity",
+            "type": ""
+         },
+         "Extension": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationRun",
+            "element": "Extension",
+            "reference": 21,
+            "occurrence": "*",
+            "group": "",
+            "type": "base:Extension"
+         }
+      },
+      "SimulationTime": {
+         "Description": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationTime",
+            "element": "Description",
+            "reference": 1,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Description"
+         },
+         "Caveats": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationTime",
+            "element": "Caveats",
+            "reference": 2,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:Caveats"
+         },
+         "Duration": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationTime",
+            "element": "Duration",
+            "reference": 3,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "TimeStart": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationTime",
+            "element": "TimeStart",
+            "reference": 4,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "TimeStop": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationTime",
+            "element": "TimeStop",
+            "reference": 5,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "TimeStep": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationTime",
+            "element": "TimeStep",
+            "reference": 6,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "DiagnosisTimeStep": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SimulationTime",
+            "element": "DiagnosisTimeStep",
+            "reference": 7,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         }
+      },
+      "Spase": {
+         "Version": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Spase",
+            "element": "Version",
+            "reference": 1,
+            "occurrence": "1",
+            "group": "",
+            "type": ""
+         },
+         "Catalog": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Spase",
+            "element": "Catalog",
+            "reference": 2,
+            "occurrence": "+",
+            "group": "ResourceEntity",
+            "type": "base:Catalog"
+         },
+         "DisplayData": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Spase",
+            "element": "DisplayData",
+            "reference": 3,
+            "occurrence": "+",
+            "group": "ResourceEntity",
+            "type": "base:DisplayData"
+         },
+         "NumericalData": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Spase",
+            "element": "NumericalData",
+            "reference": 4,
+            "occurrence": "+",
+            "group": "ResourceEntity",
+            "type": "base:NumericalData"
+         },
+         "Document": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Spase",
+            "element": "Document",
+            "reference": 5,
+            "occurrence": "+",
+            "group": "ResourceEntity",
+            "type": "base:Document"
+         },
+         "Granule": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Spase",
+            "element": "Granule",
+            "reference": 6,
+            "occurrence": "+",
+            "group": "ResourceEntity",
+            "type": ""
+         },
+         "Instrument": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Spase",
+            "element": "Instrument",
+            "reference": 7,
+            "occurrence": "+",
+            "group": "ResourceEntity",
+            "type": "base:Instrument"
+         },
+         "Observatory": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Spase",
+            "element": "Observatory",
+            "reference": 8,
+            "occurrence": "+",
+            "group": "ResourceEntity",
+            "type": "base:Observatory"
+         },
+         "Person": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Spase",
+            "element": "Person",
+            "reference": 9,
+            "occurrence": "+",
+            "group": "ResourceEntity",
+            "type": "base:Person"
+         },
+         "Registry": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Spase",
+            "element": "Registry",
+            "reference": 10,
+            "occurrence": "+",
+            "group": "ResourceEntity",
+            "type": "base:Registry"
+         },
+         "Repository": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Spase",
+            "element": "Repository",
+            "reference": 11,
+            "occurrence": "+",
+            "group": "ResourceEntity",
+            "type": "base:Repository"
+         },
+         "Service": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Spase",
+            "element": "Service",
+            "reference": 12,
+            "occurrence": "+",
+            "group": "ResourceEntity",
+            "type": "base:Service"
+         },
+         "Annotation": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Spase",
+            "element": "Annotation",
+            "reference": 13,
+            "occurrence": "+",
+            "group": "ResourceEntity",
+            "type": "base:Annotation"
+         },
+         "SimulationModel": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Spase",
+            "element": "SimulationModel",
+            "reference": 14,
+            "occurrence": "+",
+            "group": "ResourceEntity",
+            "type": ""
+         },
+         "SimulationRun": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Spase",
+            "element": "SimulationRun",
+            "reference": 15,
+            "occurrence": "+",
+            "group": "ResourceEntity",
+            "type": ""
+         },
+         "NumericalOutput": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Spase",
+            "element": "NumericalOutput",
+            "reference": 16,
+            "occurrence": "+",
+            "group": "ResourceEntity",
+            "type": ""
+         },
+         "DisplayOutput": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Spase",
+            "element": "DisplayOutput",
+            "reference": 17,
+            "occurrence": "+",
+            "group": "ResourceEntity",
+            "type": ""
+         }
+      },
+      "SpatialDescription": {
+         "Dimension": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SpatialDescription",
+            "element": "Dimension",
+            "reference": 1,
+            "occurrence": "1",
+            "group": "",
+            "type": ""
+         },
+         "CoordinateSystem": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SpatialDescription",
+            "element": "CoordinateSystem",
+            "reference": 2,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:CoordinateSystem"
+         },
+         "Units": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SpatialDescription",
+            "element": "Units",
+            "reference": 3,
+            "occurrence": "1",
+            "group": "",
+            "type": "base:Units"
+         },
+         "UnitsConversion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SpatialDescription",
+            "element": "UnitsConversion",
+            "reference": 4,
+            "occurrence": "0",
+            "group": "",
+            "type": "base:UnitsConversion"
+         },
+         "CoordinatesLabel": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SpatialDescription",
+            "element": "CoordinatesLabel",
+            "reference": 5,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         },
+         "CutsDescription": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SpatialDescription",
+            "element": "CutsDescription",
+            "reference": 6,
+            "occurrence": "1",
+            "group": "[Group]",
+            "type": ""
+         },
+         "PlaneNormalVector": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SpatialDescription",
+            "element": "PlaneNormalVector",
+            "reference": 7,
+            "occurrence": "1",
+            "group": ">CutsDescription",
+            "type": ""
+         },
+         "PlanePoint": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SpatialDescription",
+            "element": "PlanePoint",
+            "reference": 8,
+            "occurrence": "1",
+            "group": ">CutsDescription",
+            "type": ""
+         },
+         "CubesDescription": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SpatialDescription",
+            "element": "CubesDescription",
+            "reference": 9,
+            "occurrence": "1",
+            "group": "[Group]",
+            "type": ""
+         },
+         "RegionBegin": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SpatialDescription",
+            "element": "RegionBegin",
+            "reference": 10,
+            "occurrence": "1",
+            "group": ">CubesDescription",
+            "type": ""
+         },
+         "RegionEnd": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SpatialDescription",
+            "element": "RegionEnd",
+            "reference": 11,
+            "occurrence": "1",
+            "group": ">CubesDescription",
+            "type": ""
+         },
+         "Step": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "SpatialDescription",
+            "element": "Step",
+            "reference": 12,
+            "occurrence": "0",
+            "group": "",
+            "type": ""
+         }
+      },
+      "Versions": {
+         "ModelVersion": {
+            "version": "1.0.0",
+            "since": "1.0.0",
+            "object": "Versions",
+            "element": "ModelVersion",
+            "reference": 1,
+            "occurrence": "*",
+            "group": "",
+            "type": ""
+         }
+      }
+   }
+}
